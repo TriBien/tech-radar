@@ -1,0 +1,39 @@
+{
+  "lastRun": "2026-11-07T15:05:58.900Z",
+  "lastRunMs": 16300,
+  "llmUsed": false,
+  "newArticles": 3,
+  "totalArticles": 254,
+  "sources": [
+    {
+      "name": "RSS / Atom feeds",
+      "kind": "rss",
+      "fetched": 109,
+      "kept": 110
+    },
+    {
+      "name": "Hacker News",
+      "kind": "hackernews",
+      "fetched": 70,
+      "kept": 68
+    },
+    {
+      "name": "DEV Community",
+      "kind": "devto",
+      "fetched": 60,
+      "kept": 61
+    },
+    {
+      "name": "Reddit",
+      "kind": "reddit",
+      "fetched": 0,
+      "kept": 0
+    },
+    {
+      "name": "GitHub Trending",
+      "kind": "github",
+      "fetched": 15,
+      "kept": 15
+    }
+  ]
+}

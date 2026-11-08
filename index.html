@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f4f7fb" />
+    <script>
+      try {
+        if (localStorage.getItem("tech-radar:theme") === "dark") {
+          document.documentElement.dataset.theme = "dark";
+          var meta = document.querySelector('meta[name="theme-color"]');
+          if (meta) meta.setAttribute("content", "#070b16");
+        }
+      } catch (error) {}
+    </script>
+    <meta
+      name="description"
+      content="A technology radar for discovering how engineering teams use technology to solve real problems."
+    />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <title>Tech Radar — how teams solve real problems</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
