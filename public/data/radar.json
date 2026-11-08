@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T15:05:58.897Z",
+  "generatedAt": "2026-11-08T11:58:07.664Z",
   "periodDays": 60,
   "items": [
     {
@@ -7,93 +7,124 @@
       "name": "AI agents",
       "quadrant": "Techniques",
       "ring": "Assess",
-      "description": "See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment.",
-      "articleCount": 27,
-      "recentCount": 27,
+      "description": "Entire is a Git forge designed specifically for collaboration between human developers and AI coding agents. Its premise is that traditional software development infrastructure, particularly the pull…",
+      "articleCount": 29,
+      "recentCount": 29,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2026-11-02T21:03:27.000Z",
-      "lastSeen": "2026-11-07T14:06:27.123Z",
+      "lastSeen": "2026-11-08T11:00:00.000Z",
       "articleIds": [
+        "97f172440b49ad74",
+        "036cbdf195122538",
         "1ceb56a3b3745da8",
         "5cecc12e376b047e",
         "06335ba861afc353",
         "649ad2b494211d8d",
         "e69ace39708c9465",
-        "71aaa2946db119b3",
-        "3a35a01b31fba168",
-        "f078af089da327c5"
+        "71aaa2946db119b3"
       ],
       "tags": [
-        "cloud",
-        "devtools",
         "ai",
-        "cloud-native",
-        "ai agents"
-      ],
-      "score": 418.6
-    },
-    {
-      "id": "google-cloud-6e9b50",
-      "name": "Google Cloud",
-      "quadrant": "Platforms",
-      "ring": "Adopt",
-      "description": "Author: Robina Mirbahar AI/ML Google Developer Expert (GDE) | Google Cloud Champion Innovator GitHub...",
-      "articleCount": 13,
-      "recentCount": 13,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2026-11-02T20:40:43.000Z",
-      "lastSeen": "2026-11-07T07:35:33.000Z",
-      "articleIds": [
-        "f558c37291cb9195",
-        "6d7526357c232246",
-        "8701fa3f5588adb9",
-        "f1280b003fab5afa",
-        "3090d38083de5252",
-        "bd5d29a32a5f70b7",
-        "ab71bd52bed52998",
-        "3b6af3c9f587ffba"
-      ],
-      "tags": [
         "cloud",
-        "ai & machine learning",
-        "opensource",
-        "devto",
-        "google cloud"
+        "cloud-native",
+        "ai agents",
+        "devtools"
       ],
-      "score": 214.8
+      "score": 448.6
     },
     {
       "id": "anthropic-claude-ba718d",
       "name": "Anthropic Claude",
       "quadrant": "Tools",
       "ring": "Trial",
-      "description": "My project, worklore, is a small app that grew in all directions: a Python backend on AWS Lambda, a...",
-      "articleCount": 13,
-      "recentCount": 13,
+      "description": "Hacker News discussion with 219 comments.",
+      "articleCount": 16,
+      "recentCount": 16,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2026-11-01T10:03:30.000Z",
-      "lastSeen": "2026-11-06T22:49:50.000Z",
+      "lastSeen": "2026-11-08T03:11:48.000Z",
       "articleIds": [
+        "e66f4eeac8f3ba07",
+        "5186d80b7eef5626",
         "4b49624e6a055732",
         "649ad2b494211d8d",
+        "a16bf7a4548ebe09",
         "2bf6c7572a76eb11",
         "64f2fa9c3abbf06b",
-        "3b58ffb304e7b124",
-        "d9f18f2dba442644",
-        "675e2cebb0bbe2e0",
-        "486685b8723d52a3"
+        "3b58ffb304e7b124"
       ],
       "tags": [
         "security",
+        "hackernews",
         "ai",
         "cloud-native",
-        "devto",
-        "ai agents"
+        "devto"
       ],
-      "score": 213.8
+      "score": 258.8
+    },
+    {
+      "id": "google-cloud-6e9b50",
+      "name": "Google Cloud",
+      "quadrant": "Platforms",
+      "ring": "Adopt",
+      "description": "Google Cloud has made a self-managed VMware solution generally available, running VMware Cloud Foundation 9.x on dedicated Z3 bare metal with root access across ESXi, vCenter and NSX in 22 regions.…",
+      "articleCount": 14,
+      "recentCount": 14,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2026-11-02T20:40:43.000Z",
+      "lastSeen": "2026-11-08T07:16:00.000Z",
+      "articleIds": [
+        "d7b08361a2a2e259",
+        "f558c37291cb9195",
+        "6d7526357c232246",
+        "8701fa3f5588adb9",
+        "f1280b003fab5afa",
+        "3090d38083de5252",
+        "bd5d29a32a5f70b7",
+        "ab71bd52bed52998"
+      ],
+      "tags": [
+        "cloud",
+        "google cloud",
+        "ai & machine learning",
+        "architecture",
+        "opensource"
+      ],
+      "score": 229.8
+    },
+    {
+      "id": "aws-553579",
+      "name": "AWS",
+      "quadrant": "Platforms",
+      "ring": "Adopt",
+      "description": "Google Cloud has made a self-managed VMware solution generally available, running VMware Cloud Foundation 9.x on dedicated Z3 bare metal with root access across ESXi, vCenter and NSX in 22 regions.…",
+      "articleCount": 9,
+      "recentCount": 9,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2026-11-02T20:40:43.000Z",
+      "lastSeen": "2026-11-08T07:16:00.000Z",
+      "articleIds": [
+        "d7b08361a2a2e259",
+        "036cbdf195122538",
+        "44bb29128756399d",
+        "4b49624e6a055732",
+        "dc28a8fc7631eece",
+        "a82a54d12c29c90a",
+        "302de1794f3160fa",
+        "47148f7991009005"
+      ],
+      "tags": [
+        "ai",
+        "devto",
+        "architecture",
+        "cloud-native",
+        "cloud"
+      ],
+      "score": 155.6
     },
     {
       "id": "kubernetes-adc1f5",
@@ -184,50 +215,52 @@
         "data analytics",
         "devto"
       ],
-      "score": 122.8
+      "score": 122.9
     },
     {
-      "id": "aws-553579",
-      "name": "AWS",
-      "quadrant": "Platforms",
-      "ring": "Adopt",
-      "description": "My project, worklore, is a small app that grew in all directions: a Python backend on AWS Lambda, a...",
-      "articleCount": 6,
-      "recentCount": 6,
+      "id": "rust-7b41f8",
+      "name": "Rust",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Trial",
+      "description": "An extremely fast Python linter and code formatter, written in Rust.",
+      "articleCount": 7,
+      "recentCount": 7,
       "previousCount": 0,
       "trend": "up",
-      "firstSeen": "2026-11-02T20:40:43.000Z",
-      "lastSeen": "2026-11-06T22:49:50.000Z",
+      "firstSeen": "2026-11-02T21:32:30.000Z",
+      "lastSeen": "2026-11-08T08:53:43.000Z",
       "articleIds": [
-        "4b49624e6a055732",
-        "dc28a8fc7631eece",
-        "a82a54d12c29c90a",
-        "302de1794f3160fa",
-        "47148f7991009005",
-        "02ab276b39463efa"
+        "9476d12cec2fd106",
+        "4fe6bf290bd6b928",
+        "e9e37faea4d91eef",
+        "2e0a96f111eac47e",
+        "fa2bcec685c6f26d",
+        "17914d9e38109ff4",
+        "fbde3297ff711335"
       ],
       "tags": [
+        "rust",
+        "hackernews",
         "devto",
-        "architecture",
-        "ai",
-        "cloud",
-        "claudecode"
+        "tpu",
+        "github-trending"
       ],
-      "score": 110.5
+      "score": 122.1
     },
     {
       "id": "claude-code-7cb022",
       "name": "Claude Code",
       "quadrant": "Tools",
       "ring": "Assess",
-      "description": "My project, worklore, is a small app that grew in all directions: a Python backend on AWS Lambda, a...",
-      "articleCount": 5,
-      "recentCount": 5,
+      "description": "Hacker News discussion with 287 comments.",
+      "articleCount": 6,
+      "recentCount": 6,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2026-11-03T19:18:34.000Z",
-      "lastSeen": "2026-11-06T22:49:50.000Z",
+      "lastSeen": "2026-11-07T20:45:32.000Z",
       "articleIds": [
+        "5186d80b7eef5626",
         "4b49624e6a055732",
         "64f2fa9c3abbf06b",
         "3b58ffb304e7b124",
@@ -236,12 +269,12 @@
       ],
       "tags": [
         "security",
+        "hackernews",
         "ai",
         "devto",
-        "cloud-native",
-        "ai agents"
+        "cloud-native"
       ],
-      "score": 88.8
+      "score": 103.8
     },
     {
       "id": "python-423522",
@@ -249,14 +282,15 @@
       "quadrant": "Languages & Frameworks",
       "ring": "Adopt",
       "description": "An extremely fast Python linter and code formatter, written in Rust.",
-      "articleCount": 4,
-      "recentCount": 4,
+      "articleCount": 5,
+      "recentCount": 5,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2026-11-01T02:22:52.000Z",
       "lastSeen": "2026-11-07T14:06:27.125Z",
       "articleIds": [
         "e9e37faea4d91eef",
+        "06a77c64d36936cb",
         "4b49624e6a055732",
         "2e0a96f111eac47e",
         "e7fd3918b86e77e8"
@@ -268,7 +302,7 @@
         "github-trending",
         "open-source"
       ],
-      "score": 81.1
+      "score": 96.1
     },
     {
       "id": "typescript-fb9da8",
@@ -295,7 +329,7 @@
         "devto",
         "development"
       ],
-      "score": 80.6
+      "score": 80.7
     },
     {
       "id": "observability-34a102",
@@ -346,33 +380,6 @@
         "observability"
       ],
       "score": 78
-    },
-    {
-      "id": "rust-7b41f8",
-      "name": "Rust",
-      "quadrant": "Languages & Frameworks",
-      "ring": "Trial",
-      "description": "An extremely fast Python linter and code formatter, written in Rust.",
-      "articleCount": 4,
-      "recentCount": 4,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2026-11-02T21:32:30.000Z",
-      "lastSeen": "2026-11-07T14:06:27.125Z",
-      "articleIds": [
-        "e9e37faea4d91eef",
-        "2e0a96f111eac47e",
-        "17914d9e38109ff4",
-        "fbde3297ff711335"
-      ],
-      "tags": [
-        "rust",
-        "devto",
-        "tpu",
-        "github-trending",
-        "open-source"
-      ],
-      "score": 77.1
     },
     {
       "id": "openai-api-afe7d8",
@@ -455,30 +462,30 @@
       "score": 66.8
     },
     {
-      "id": "docker-e982f1",
-      "name": "Docker",
+      "id": "cloudflare-f036f5",
+      "name": "Cloudflare",
       "quadrant": "Platforms",
-      "ring": "Adopt",
-      "description": "A container shares the host kernel. Docker Sandboxes are microVMs with their own kernel and private Docker Engine. See how they differ and when to use each.",
+      "ring": "Trial",
+      "description": "In a recent article, Cloudflare shared the redesign of the control plane of its D1 serverless SQL database to support millions of databases, avoiding centralized bottlenecks, implementing retries and…",
       "articleCount": 3,
       "recentCount": 3,
       "previousCount": 0,
       "trend": "up",
-      "firstSeen": "2026-11-05T14:00:00.000Z",
-      "lastSeen": "2026-11-06T03:17:04.000Z",
+      "firstSeen": "2026-11-04T14:00:00.000Z",
+      "lastSeen": "2026-11-08T06:34:00.000Z",
       "articleIds": [
-        "3a35a01b31fba168",
-        "8ef031c71685a374",
-        "dbb0af5604c5dd43"
+        "ffae9ae80732c0e4",
+        "6426decba2ef7b96",
+        "19361844fc329f21"
       ],
       "tags": [
-        "containers",
-        "products",
-        "agentic ai",
-        "cloud sandboxes",
-        "concepts"
+        "architecture",
+        "performance & scalability",
+        "sqlite",
+        "serverless",
+        "relational databases"
       ],
-      "score": 63
+      "score": 63.6
     },
     {
       "id": "figma-d2834b",
@@ -505,6 +512,55 @@
         "jetbrains-air"
       ],
       "score": 63
+    },
+    {
+      "id": "docker-e982f1",
+      "name": "Docker",
+      "quadrant": "Platforms",
+      "ring": "Adopt",
+      "description": "A container shares the host kernel. Docker Sandboxes are microVMs with their own kernel and private Docker Engine. See how they differ and when to use each.",
+      "articleCount": 3,
+      "recentCount": 3,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2026-11-05T14:00:00.000Z",
+      "lastSeen": "2026-11-06T03:17:04.000Z",
+      "articleIds": [
+        "3a35a01b31fba168",
+        "8ef031c71685a374",
+        "dbb0af5604c5dd43"
+      ],
+      "tags": [
+        "containers",
+        "products",
+        "agentic ai",
+        "cloud sandboxes",
+        "concepts"
+      ],
+      "score": 63
+    },
+    {
+      "id": "opentelemetry-808c8a",
+      "name": "OpenTelemetry",
+      "quadrant": "Tools",
+      "ring": "Trial",
+      "description": "When we introduced the OpenTelemetry engine for Grafana Alloy, we set out to give teams a way to run native OTLP pipelines without giving up the power and flexibility Alloy is known for.",
+      "articleCount": 3,
+      "recentCount": 3,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2026-11-03T15:05:03.000Z",
+      "lastSeen": "2026-11-08T08:40:23.000Z",
+      "articleIds": [
+        "e4d02fd5d90b0b91",
+        "e11f6903b56d39d8",
+        "902b879b9c1341e7"
+      ],
+      "tags": [
+        "observability",
+        "hackernews"
+      ],
+      "score": 61.5
     },
     {
       "id": "github-copilot-3b30d1",
@@ -558,36 +614,11 @@
       "score": 50.2
     },
     {
-      "id": "cloudflare-f036f5",
-      "name": "Cloudflare",
-      "quadrant": "Platforms",
-      "ring": "Trial",
-      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "articleCount": 2,
-      "recentCount": 2,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2026-11-04T14:00:00.000Z",
-      "lastSeen": "2026-11-07T14:06:27.124Z",
-      "articleIds": [
-        "6426decba2ef7b96",
-        "19361844fc329f21"
-      ],
-      "tags": [
-        "javascript",
-        "github-trending",
-        "open-source",
-        "infra",
-        "security"
-      ],
-      "score": 48.6
-    },
-    {
       "id": "electron-da0059",
       "name": "Electron",
       "quadrant": "Languages & Frameworks",
       "ring": "Trial",
-      "description": "Hacker News discussion with 425 comments.",
+      "description": "Hacker News discussion with 331 comments.",
       "articleCount": 2,
       "recentCount": 2,
       "previousCount": 0,
@@ -750,27 +781,6 @@
         "single sign-on",
         "identity management",
         "java"
-      ],
-      "score": 44
-    },
-    {
-      "id": "opentelemetry-808c8a",
-      "name": "OpenTelemetry",
-      "quadrant": "Tools",
-      "ring": "Trial",
-      "description": "When we introduced the OpenTelemetry engine for Grafana Alloy, we set out to give teams a way to run native OTLP pipelines without giving up the power and flexibility Alloy is known for.",
-      "articleCount": 2,
-      "recentCount": 2,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2026-11-03T15:05:03.000Z",
-      "lastSeen": "2026-11-03T21:32:18.000Z",
-      "articleIds": [
-        "e11f6903b56d39d8",
-        "902b879b9c1341e7"
-      ],
-      "tags": [
-        "observability"
       ],
       "score": 44
     },
@@ -1010,6 +1020,30 @@
       "score": 30
     },
     {
+      "id": "flutter-ff25d1",
+      "name": "Flutter",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Trial",
+      "description": "Why Andrew 'Red' Brogdon's insight on client-side functions is critical for Generative UI—and how bloc_signals_genui turns catalog functions into 0ms synchronous reactive signals.",
+      "articleCount": 1,
+      "recentCount": 1,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2026-11-07T21:34:26.000Z",
+      "lastSeen": "2026-11-07T21:34:26.000Z",
+      "articleIds": [
+        "9470477165cf8ee1"
+      ],
+      "tags": [
+        "flutter",
+        "dart",
+        "ai",
+        "architecture",
+        "devto"
+      ],
+      "score": 29.8
+    },
+    {
       "id": "firebase-92f5e8",
       "name": "Firebase",
       "quadrant": "Platforms",
@@ -1031,6 +1065,30 @@
         "devto"
       ],
       "score": 29.5
+    },
+    {
+      "id": "serverless-89affb",
+      "name": "Serverless",
+      "quadrant": "Techniques",
+      "ring": "Trial",
+      "description": "In a recent article, Cloudflare shared the redesign of the control plane of its D1 serverless SQL database to support millions of databases, avoiding centralized bottlenecks, implementing retries and…",
+      "articleCount": 1,
+      "recentCount": 1,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2026-11-08T06:34:00.000Z",
+      "lastSeen": "2026-11-08T06:34:00.000Z",
+      "articleIds": [
+        "ffae9ae80732c0e4"
+      ],
+      "tags": [
+        "architecture",
+        "performance & scalability",
+        "sqlite",
+        "serverless",
+        "relational databases"
+      ],
+      "score": 29
     },
     {
       "id": "platform-engineering-6211c6",
@@ -1262,30 +1320,6 @@
       "score": 24
     },
     {
-      "id": "clickhouse-ce66b7",
-      "name": "ClickHouse",
-      "quadrant": "Platforms",
-      "ring": "Assess",
-      "description": "If you have built anything that needs both a system of record and fast analytics, you know the shape of The post Postgres and ClickHouse can share tables.",
-      "articleCount": 1,
-      "recentCount": 1,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2026-11-05T14:00:00.000Z",
-      "lastSeen": "2026-11-05T14:00:00.000Z",
-      "articleIds": [
-        "3167edcfb8d550bf"
-      ],
-      "tags": [
-        "cloud-native",
-        "ai agents",
-        "data",
-        "databases",
-        "sponsor-enterprisedb"
-      ],
-      "score": 24
-    },
-    {
       "id": "pgvector-6db608",
       "name": "pgvector",
       "quadrant": "Tools",
@@ -1306,6 +1340,30 @@
         "database",
         "vector databases",
         "open source"
+      ],
+      "score": 24
+    },
+    {
+      "id": "clickhouse-ce66b7",
+      "name": "ClickHouse",
+      "quadrant": "Platforms",
+      "ring": "Assess",
+      "description": "If you have built anything that needs both a system of record and fast analytics, you know the shape of The post Postgres and ClickHouse can share tables.",
+      "articleCount": 1,
+      "recentCount": 1,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2026-11-05T14:00:00.000Z",
+      "lastSeen": "2026-11-05T14:00:00.000Z",
+      "articleIds": [
+        "3167edcfb8d550bf"
+      ],
+      "tags": [
+        "cloud-native",
+        "ai agents",
+        "data",
+        "databases",
+        "sponsor-enterprisedb"
       ],
       "score": 24
     },
@@ -1335,8 +1393,8 @@
     }
   ],
   "stats": {
-    "articles": 254,
+    "articles": 300,
     "sources": 23,
-    "technologies": 53
+    "technologies": 55
   }
 }
