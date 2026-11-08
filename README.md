@@ -4,7 +4,8 @@ A mobile-first technology radar that answers a simple question:
 
 > How are real engineering teams using technology to solve real problems?
 
-It crawls engineering blogs, Hacker News, DEV, Reddit and GitHub Trending every day,
+It crawls engineering blogs, Hacker News, DEV, Reddit, GitHub Trending and the curated
+reading list (`reading_urls.txt`) every day,
 removes duplicate stories, uses an LLM to extract the **problem → approach → outcome**
 behind each story, and plots the technologies on a ThoughtWorks-style radar
 (rings × quadrants). It is a fully static site — no backend — deployed to GitHub Pages.
@@ -63,9 +64,10 @@ npm run crawl:dry -- --sources=hackernews,devto --no-llm
 ### Crawler options
 
 ```bash
-npm run crawl -- --sources=rss,hackernews,devto,reddit,github
+npm run crawl -- --sources=rss,hackernews,devto,reddit,github,reading
 npm run crawl -- --no-llm        # heuristic enrichment only
 npm run crawl -- --dry-run       # fetch + report, do not write files
+npm run crawl -- --year=2020     # initial/backfill crawl collecting a fixed year
 ```
 
 Environment knobs:
@@ -77,6 +79,9 @@ Environment knobs:
 | `LLM_MODEL` | `openai/gpt-4o-mini` | Model name |
 | `MAX_LLM_ARTICLES` | `40` | Max articles enriched per run |
 | `CRAWL_DAYS` | `3` | Lookback window for new source items |
+| `INITIAL_CRAWL_YEAR` | _off_ | Fixed year for backfill crawls (e.g. `2020` for the initial run) |
+| `RETENTION_DAYS` | `120` | Retention for the local dataset |
+| `READING_URLS_FILE` | `reading_urls.txt` | Curated reading list crawled by the reading source |
 
 The LLM is used to produce `summary`, `problem`, `approach`, `outcome`, technologies with
 quadrant/ring suggestions, and tags. Without credentials, a built-in dictionary extracts
@@ -137,7 +142,7 @@ crawler/
   run.ts                  pipeline entry point
   build-radar.ts          technology aggregation + ring/trend scoring
   store.ts                read/prune/write public/data
-  sources/                rss, hackernews, devto, reddit, github
+  sources/                rss, hackernews, devto, reddit, github, reading
   lib/dedupe.ts           canonical URLs + title similarity
   lib/heuristics.ts       technology dictionary + offline enrichment
   lib/llm.ts              batched, validated LLM enrichment
@@ -150,6 +155,7 @@ public/data/              generated JSON (committed)
 ## Customization
 
 - **Add a blog:** edit `FEEDS` in `crawler/config.ts`.
+- **Add a reading source:** add the blog URL to `reading_urls.txt`.
 - **Add subreddits:** edit `REDDIT.subreddits` in `crawler/config.ts`.
 - **Improve offline extraction:** extend `TECH_DICTIONARY` in
   `crawler/lib/heuristics.ts`.

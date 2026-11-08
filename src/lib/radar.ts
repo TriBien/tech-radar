@@ -44,6 +44,7 @@ export const SOURCE_META: Record<SourceKind, { label: string; className: string 
   devto: { label: "DEV", className: "src-devto" },
   reddit: { label: "Reddit", className: "src-reddit" },
   github: { label: "GitHub", className: "src-github" },
+  reading: { label: "Reading list", className: "src-reading" },
 };
 
 // Screen angles (radians, y grows downwards).

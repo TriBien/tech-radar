@@ -63,8 +63,34 @@ export const GITHUB_TRENDING = {
 export const CRAWL_DAYS = Number(process.env.CRAWL_DAYS || 3);
 
 /** Retention for the local dataset. */
-export const RETENTION_DAYS = 120;
+export const RETENTION_DAYS = Number(process.env.RETENTION_DAYS || 120);
 export const MAX_ARTICLES = 1000;
+
+export const READING_URLS_FILE = process.env.READING_URLS_FILE || "reading_urls.txt";
+
+export function initialCrawlYear(): number {
+  const parsed = Number(process.env.INITIAL_CRAWL_YEAR || 0);
+  return Number.isFinite(parsed) && parsed > 1970 ? parsed : 0;
+}
+
+function daysSinceYear(year: number, now: Date = new Date()): number {
+  const start = Date.UTC(year, 0, 1);
+  return Math.max(1, Math.ceil((now.getTime() - start) / 86_400_000));
+}
+
+/** Lookback window for newly fetched items, in days. */
+export function crawlLookbackDays(now: Date = new Date()): number {
+  const year = initialCrawlYear();
+  if (year) return daysSinceYear(year, now);
+  return CRAWL_DAYS;
+}
+
+/** Retention for the local dataset. */
+export function retentionDays(now: Date = new Date()): number {
+  const year = initialCrawlYear();
+  if (year) return daysSinceYear(year, now) + 30;
+  return RETENTION_DAYS;
+}
 
 /** Cap how many articles get sent to the LLM each run. */
 export const MAX_LLM_ARTICLES = Number(process.env.MAX_LLM_ARTICLES || 40);

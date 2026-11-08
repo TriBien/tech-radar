@@ -1,7 +1,7 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import type { Article, MetaData, RadarData } from "../shared/types.js";
-import { MAX_ARTICLES, RETENTION_DAYS } from "./config.js";
+import { MAX_ARTICLES, retentionDays } from "./config.js";
 import { daysAgo } from "./lib/util.js";
 
 export const DATA_DIR = path.resolve(process.cwd(), "public/data");
@@ -36,7 +36,7 @@ export async function loadMeta(): Promise<MetaData | undefined> {
 }
 
 export function pruneArticles(articles: Article[]): Article[] {
-  const cutoff = daysAgo(RETENTION_DAYS).getTime();
+  const cutoff = daysAgo(retentionDays()).getTime();
   const fresh = articles.filter((article) => {
     const ts = new Date(article.publishedAt).getTime();
     return !Number.isFinite(ts) || ts >= cutoff;

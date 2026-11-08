@@ -10,7 +10,7 @@ export const RINGS = ["Adopt", "Trial", "Assess", "Hold"] as const;
 export type Quadrant = (typeof QUADRANTS)[number];
 export type Ring = (typeof RINGS)[number];
 
-export type SourceKind = "rss" | "hackernews" | "devto" | "reddit" | "github";
+export type SourceKind = "rss" | "hackernews" | "devto" | "reddit" | "github" | "reading";
 
 export interface TechnologyMention {
   name: string;

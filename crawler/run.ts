@@ -16,6 +16,7 @@ import { fetchGithubTrending } from "./sources/github.js";
 import { fetchHackerNews } from "./sources/hackernews.js";
 import { fetchReddit } from "./sources/reddit.js";
 import { fetchRss } from "./sources/rss.js";
+import { fetchReadingArticles } from "./sources/reading.js";
 
 interface SourceDef {
   key: SourceKind;
@@ -29,12 +30,14 @@ const SOURCES: SourceDef[] = [
   { key: "devto", label: "DEV Community", run: fetchDevTo },
   { key: "reddit", label: "Reddit", run: fetchReddit },
   { key: "github", label: "GitHub Trending", run: fetchGithubTrending },
+  { key: "reading", label: "Reading list", run: fetchReadingArticles },
 ];
 
 interface Options {
   dryRun: boolean;
   noLlm: boolean;
   sources: Set<SourceKind> | null;
+  year?: number;
 }
 
 function parseOptions(): Options {
@@ -44,10 +47,16 @@ function parseOptions(): Options {
     ? (sourcesArg.split("=")[1].split(",").map((value) => value.trim()) as SourceKind[])
     : null;
 
+  const yearArg = argv.find((arg) => arg.startsWith("--year="));
+  const parsedYear = yearArg ? Number(yearArg.split("=")[1]) : Number(process.env.INITIAL_CRAWL_YEAR || 0);
+  const year = Number.isFinite(parsedYear) && parsedYear > 0 ? parsedYear : undefined;
+  if (year) process.env.INITIAL_CRAWL_YEAR = String(year);
+
   return {
     dryRun: argv.includes("--dry-run"),
     noLlm: argv.includes("--no-llm"),
     sources: selected && selected.length > 0 ? new Set(selected) : null,
+    year,
   };
 }
 
@@ -139,8 +148,14 @@ async function main(): Promise<void> {
     fetched.push(...result.articles);
   }
 
-  const freshIds = new Set(fetched.map((article) => article.id));
-  let articles = dedupeArticles([...existing, ...fetched]);
+  const year = options.year;
+  const relevant = year
+    ? fetched.filter((article) => new Date(article.publishedAt).getFullYear() === year)
+    : fetched;
+
+  const freshIds = new Set(relevant.map((article) => article.id));
+  const base = year ? relevant : [...existing, ...relevant];
+  let articles = dedupeArticles(base);
   for (const article of articles) applyHeuristic(article);
 
   const candidates = articles

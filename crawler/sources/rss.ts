@@ -1,6 +1,6 @@
 import Parser from "rss-parser";
-import type { Article } from "../../shared/types.js";
-import { CRAWL_DAYS, FEEDS, type FeedConfig } from "../config.js";
+import type { Article, SourceKind } from "../../shared/types.js";
+import { FEEDS, type FeedConfig, crawlLookbackDays } from "../config.js";
 import { fetchText } from "../lib/http.js";
 import { daysAgo, parseDate } from "../lib/util.js";
 import { createArticle, isHttpUrl } from "./common.js";
@@ -23,10 +23,14 @@ interface RssItem {
 
 const parser: Parser<unknown, RssItem> = new Parser();
 
-async function parseFeed(feed: FeedConfig): Promise<Article[]> {
+export async function parseFeed(
+  feed: FeedConfig,
+  source: SourceKind = "rss",
+  sourceName: string = feed.name,
+): Promise<Article[]> {
   const xml = await fetchText(feed.url, { timeoutMs: 25_000, retries: 1 });
   const parsed = await parser.parseString(xml);
-  const cutoff = daysAgo(CRAWL_DAYS + 1).getTime();
+  const cutoff = daysAgo(crawlLookbackDays() + 1).getTime();
   const articles: Article[] = [];
 
   for (const item of parsed.items ?? []) {
@@ -46,8 +50,8 @@ async function parseFeed(feed: FeedConfig): Promise<Article[]> {
       createArticle({
         title: item.title,
         url: link,
-        source: "rss",
-        sourceName: feed.name,
+        source,
+        sourceName,
         publishedAt,
         summary,
         author: item.creator || item["dc:creator"] || item.author,

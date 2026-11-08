@@ -144,6 +144,8 @@ function labelForSource(kind: SourceKind): string {
       return "Reddit";
     case "github":
       return "GitHub";
+    case "reading":
+      return "Reading";
     default:
       return kind;
   }
