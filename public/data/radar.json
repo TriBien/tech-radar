@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T11:58:07.664Z",
+  "generatedAt": "2026-11-09T01:16:18.390Z",
   "periodDays": 60,
   "items": [
     {
@@ -7,62 +7,62 @@
       "name": "AI agents",
       "quadrant": "Techniques",
       "ring": "Assess",
-      "description": "Entire is a Git forge designed specifically for collaboration between human developers and AI coding agents. Its premise is that traditional software development infrastructure, particularly the pull…",
-      "articleCount": 29,
-      "recentCount": 29,
+      "description": "Perplexity’s new Teammates can coordinate multiple agents, remember where previous sessions left off, and keep working without another prompt. The The post Perplexity’s AI agents keep working after…",
+      "articleCount": 30,
+      "recentCount": 30,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2026-11-02T21:03:27.000Z",
-      "lastSeen": "2026-11-08T11:00:00.000Z",
+      "lastSeen": "2026-11-08T15:30:00.000Z",
       "articleIds": [
+        "fb9acb2142669a05",
         "97f172440b49ad74",
         "036cbdf195122538",
         "1ceb56a3b3745da8",
         "5cecc12e376b047e",
         "06335ba861afc353",
         "649ad2b494211d8d",
-        "e69ace39708c9465",
-        "71aaa2946db119b3"
+        "e69ace39708c9465"
       ],
       "tags": [
-        "ai",
-        "cloud",
         "cloud-native",
         "ai agents",
-        "devtools"
+        "reading-list",
+        "ai",
+        "cloud"
       ],
-      "score": 448.6
+      "score": 463.6
     },
     {
       "id": "anthropic-claude-ba718d",
       "name": "Anthropic Claude",
       "quadrant": "Tools",
       "ring": "Trial",
-      "description": "Hacker News discussion with 219 comments.",
-      "articleCount": 16,
-      "recentCount": 16,
+      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "articleCount": 19,
+      "recentCount": 19,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2026-11-01T10:03:30.000Z",
-      "lastSeen": "2026-11-08T03:11:48.000Z",
+      "lastSeen": "2026-11-09T01:15:20.818Z",
       "articleIds": [
+        "26b52d229f334526",
+        "3e62264ffb8eefe5",
+        "68ff5ed661ee40ec",
         "e66f4eeac8f3ba07",
         "5186d80b7eef5626",
         "4b49624e6a055732",
         "649ad2b494211d8d",
-        "a16bf7a4548ebe09",
-        "2bf6c7572a76eb11",
-        "64f2fa9c3abbf06b",
-        "3b58ffb304e7b124"
+        "a16bf7a4548ebe09"
       ],
       "tags": [
         "security",
-        "hackernews",
         "ai",
+        "hackernews",
         "cloud-native",
         "devto"
       ],
-      "score": 258.8
+      "score": 303.8
     },
     {
       "id": "google-cloud-6e9b50",
@@ -93,7 +93,38 @@
         "architecture",
         "opensource"
       ],
-      "score": 229.8
+      "score": 229.9
+    },
+    {
+      "id": "rust-7b41f8",
+      "name": "Rust",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Trial",
+      "description": "Research: parse_number() as a SQLite extension: C vs Rust I was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds a parse_number()…",
+      "articleCount": 10,
+      "recentCount": 10,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2026-11-02T21:32:30.000Z",
+      "lastSeen": "2026-11-08T22:35:35.000Z",
+      "articleIds": [
+        "2fab79d06b7a4b4b",
+        "3e62264ffb8eefe5",
+        "9476d12cec2fd106",
+        "4fe6bf290bd6b928",
+        "e9e37faea4d91eef",
+        "84e15caa2b1df69b",
+        "2e0a96f111eac47e",
+        "fa2bcec685c6f26d"
+      ],
+      "tags": [
+        "hackernews",
+        "rust",
+        "devto",
+        "ai",
+        "tpu"
+      ],
+      "score": 167.1
     },
     {
       "id": "aws-553579",
@@ -121,8 +152,8 @@
         "ai",
         "devto",
         "architecture",
-        "cloud-native",
-        "cloud"
+        "cloud",
+        "reading-list"
       ],
       "score": 155.6
     },
@@ -150,12 +181,43 @@
       ],
       "tags": [
         "cloud-native",
+        "reading-list",
         "kubernetes",
         "open source",
-        "cloud",
-        "go"
+        "cloud"
       ],
-      "score": 140.3
+      "score": 141.1
+    },
+    {
+      "id": "gemini-468da0",
+      "name": "Gemini",
+      "quadrant": "Tools",
+      "ring": "Trial",
+      "description": "Listen now (59 mins) | Tulsee Doshi on building Google’s frontier models, why evals and vibes both matter, and her 60-20-20 framework for shipping ahead of the curve",
+      "articleCount": 8,
+      "recentCount": 8,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2026-11-01T10:03:30.000Z",
+      "lastSeen": "2026-11-08T13:31:32.000Z",
+      "articleIds": [
+        "ea2c57144025aa64",
+        "d7e9e3e89ee778d6",
+        "dbb09eb09bdf73eb",
+        "50dcc273211cdf95",
+        "bd5d29a32a5f70b7",
+        "f30582815c21ca92",
+        "17914d9e38109ff4",
+        "2f372b9bf7ce4173"
+      ],
+      "tags": [
+        "cloud",
+        "bigquery",
+        "ai & machine learning",
+        "data analytics",
+        "devto"
+      ],
+      "score": 137.9
     },
     {
       "id": "postgresql-519968",
@@ -188,78 +250,19 @@
       "score": 124.7
     },
     {
-      "id": "gemini-468da0",
-      "name": "Gemini",
-      "quadrant": "Tools",
-      "ring": "Trial",
-      "description": "Hacker News discussion with 234 comments.",
-      "articleCount": 7,
-      "recentCount": 7,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2026-11-01T10:03:30.000Z",
-      "lastSeen": "2026-11-06T13:35:27.000Z",
-      "articleIds": [
-        "d7e9e3e89ee778d6",
-        "dbb09eb09bdf73eb",
-        "50dcc273211cdf95",
-        "bd5d29a32a5f70b7",
-        "f30582815c21ca92",
-        "17914d9e38109ff4",
-        "2f372b9bf7ce4173"
-      ],
-      "tags": [
-        "cloud",
-        "bigquery",
-        "ai & machine learning",
-        "data analytics",
-        "devto"
-      ],
-      "score": 122.9
-    },
-    {
-      "id": "rust-7b41f8",
-      "name": "Rust",
-      "quadrant": "Languages & Frameworks",
-      "ring": "Trial",
-      "description": "An extremely fast Python linter and code formatter, written in Rust.",
-      "articleCount": 7,
-      "recentCount": 7,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2026-11-02T21:32:30.000Z",
-      "lastSeen": "2026-11-08T08:53:43.000Z",
-      "articleIds": [
-        "9476d12cec2fd106",
-        "4fe6bf290bd6b928",
-        "e9e37faea4d91eef",
-        "2e0a96f111eac47e",
-        "fa2bcec685c6f26d",
-        "17914d9e38109ff4",
-        "fbde3297ff711335"
-      ],
-      "tags": [
-        "rust",
-        "hackernews",
-        "devto",
-        "tpu",
-        "github-trending"
-      ],
-      "score": 122.1
-    },
-    {
       "id": "claude-code-7cb022",
       "name": "Claude Code",
       "quadrant": "Tools",
       "ring": "Assess",
-      "description": "Hacker News discussion with 287 comments.",
-      "articleCount": 6,
-      "recentCount": 6,
+      "description": "Hacker News discussion with 350 comments.",
+      "articleCount": 7,
+      "recentCount": 7,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2026-11-03T19:18:34.000Z",
-      "lastSeen": "2026-11-07T20:45:32.000Z",
+      "lastSeen": "2026-11-08T18:16:07.000Z",
       "articleIds": [
+        "68ff5ed661ee40ec",
         "5186d80b7eef5626",
         "4b49624e6a055732",
         "64f2fa9c3abbf06b",
@@ -268,13 +271,13 @@
         "ed9dd69428779a0c"
       ],
       "tags": [
-        "security",
         "hackernews",
+        "security",
         "ai",
         "devto",
         "cloud-native"
       ],
-      "score": 103.8
+      "score": 118.8
     },
     {
       "id": "python-423522",
@@ -305,6 +308,34 @@
       "score": 96.1
     },
     {
+      "id": "observability-34a102",
+      "name": "Observability",
+      "quadrant": "Techniques",
+      "ring": "Adopt",
+      "description": "View on sreweekly.com A message from our sponsor, Archestra: AI chaos in your org? Archestra is an open-source enterprise AI platform used by Fortune 50s that organizes your AI: LLM proxy, MCP…",
+      "articleCount": 5,
+      "recentCount": 5,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2026-11-03T15:05:03.000Z",
+      "lastSeen": "2026-11-08T19:40:16.000Z",
+      "articleIds": [
+        "f113e5aea16ede5b",
+        "288aef15dc28f1ab",
+        "649ad2b494211d8d",
+        "3090d38083de5252",
+        "902b879b9c1341e7"
+      ],
+      "tags": [
+        "reading-list",
+        "observability",
+        "general",
+        "cloud-native",
+        "blog"
+      ],
+      "score": 93
+    },
+    {
       "id": "typescript-fb9da8",
       "name": "TypeScript",
       "quadrant": "Languages & Frameworks",
@@ -329,34 +360,7 @@
         "devto",
         "development"
       ],
-      "score": 80.7
-    },
-    {
-      "id": "observability-34a102",
-      "name": "Observability",
-      "quadrant": "Techniques",
-      "ring": "Adopt",
-      "description": "What do Kubernetes resource allocation, eBPF, carbon observability, and GPUs have in common? Quite a lot, actually. Especially when you start looking at them through the lens of environmental…",
-      "articleCount": 4,
-      "recentCount": 4,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2026-11-03T15:05:03.000Z",
-      "lastSeen": "2026-11-07T12:30:00.000Z",
-      "articleIds": [
-        "288aef15dc28f1ab",
-        "649ad2b494211d8d",
-        "3090d38083de5252",
-        "902b879b9c1341e7"
-      ],
-      "tags": [
-        "observability",
-        "cloud-native",
-        "blog",
-        "cloud",
-        "databases"
-      ],
-      "score": 78
+      "score": 80.8
     },
     {
       "id": "grafana-f519bc",
@@ -404,7 +408,7 @@
         "ai agents",
         "security",
         "ai",
-        "kubernetes"
+        "reading-list"
       ],
       "score": 75
     },
@@ -589,6 +593,32 @@
       "score": 61.1
     },
     {
+      "id": "cursor-7c501e",
+      "name": "Cursor",
+      "quadrant": "Tools",
+      "ring": "Assess",
+      "description": "AI agents are becoming part of everyday engineering workflows, helping teams write code, troubleshoot issues, and automate tasks.",
+      "articleCount": 3,
+      "recentCount": 3,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2026-11-05T15:58:00.000Z",
+      "lastSeen": "2026-11-06T18:37:07.000Z",
+      "articleIds": [
+        "649ad2b494211d8d",
+        "974ef3bd3bfd8c31",
+        "7fb652c9ef37fd7e"
+      ],
+      "tags": [
+        "reading-list",
+        "observability",
+        "cloud-native",
+        "ai",
+        "ai agents"
+      ],
+      "score": 54
+    },
+    {
       "id": "react-6b810c",
       "name": "React",
       "quadrant": "Languages & Frameworks",
@@ -657,7 +687,7 @@
         "cloud-native",
         "ai agents"
       ],
-      "score": 46.6
+      "score": 47.8
     },
     {
       "id": "vue-735f20",
@@ -760,6 +790,31 @@
       "score": 44.6
     },
     {
+      "id": "serverless-89affb",
+      "name": "Serverless",
+      "quadrant": "Techniques",
+      "ring": "Trial",
+      "description": "QA teams shipping complex products generate test failures around the clock. Every failure needs a bug ticket with steps, screenshots, The post Scaling an autonomous agent from one team to fifty: A…",
+      "articleCount": 2,
+      "recentCount": 2,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2026-11-08T06:34:00.000Z",
+      "lastSeen": "2026-11-08T16:30:00.000Z",
+      "articleIds": [
+        "5788376f314c8f0e",
+        "ffae9ae80732c0e4"
+      ],
+      "tags": [
+        "serverless",
+        "cloud-native",
+        "ai agents",
+        "containers",
+        "sponsor-aws-marketplace"
+      ],
+      "score": 44
+    },
+    {
       "id": "vault-a64c89",
       "name": "Vault",
       "quadrant": "Tools",
@@ -808,31 +863,6 @@
         "intellij"
       ],
       "score": 44
-    },
-    {
-      "id": "cursor-7c501e",
-      "name": "Cursor",
-      "quadrant": "Tools",
-      "ring": "Assess",
-      "description": "AI agents are becoming part of everyday engineering workflows, helping teams write code, troubleshoot issues, and automate tasks.",
-      "articleCount": 2,
-      "recentCount": 2,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2026-11-06T15:15:21.000Z",
-      "lastSeen": "2026-11-06T18:37:07.000Z",
-      "articleIds": [
-        "649ad2b494211d8d",
-        "974ef3bd3bfd8c31"
-      ],
-      "tags": [
-        "observability",
-        "cloud-native",
-        "ai",
-        "ai agents",
-        "developer tools"
-      ],
-      "score": 39
     },
     {
       "id": "prometheus-aad8f2",
@@ -969,7 +999,7 @@
         "github-trending",
         "open-source"
       ],
-      "score": 31.6
+      "score": 32.9
     },
     {
       "id": "azure-80b336",
@@ -993,7 +1023,31 @@
         "showdev",
         "devto"
       ],
-      "score": 30.8
+      "score": 30.9
+    },
+    {
+      "id": "flutter-ff25d1",
+      "name": "Flutter",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Trial",
+      "description": "Why Andrew 'Red' Brogdon's insight on client-side functions is critical for Generative UI—and how bloc_signals_genui turns catalog functions into 0ms synchronous reactive signals.",
+      "articleCount": 1,
+      "recentCount": 1,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2026-11-07T21:34:26.000Z",
+      "lastSeen": "2026-11-07T21:34:26.000Z",
+      "articleIds": [
+        "9470477165cf8ee1"
+      ],
+      "tags": [
+        "flutter",
+        "dart",
+        "ai",
+        "architecture",
+        "devto"
+      ],
+      "score": 30.5
     },
     {
       "id": "pytorch-dfecc9",
@@ -1020,30 +1074,6 @@
       "score": 30
     },
     {
-      "id": "flutter-ff25d1",
-      "name": "Flutter",
-      "quadrant": "Languages & Frameworks",
-      "ring": "Trial",
-      "description": "Why Andrew 'Red' Brogdon's insight on client-side functions is critical for Generative UI—and how bloc_signals_genui turns catalog functions into 0ms synchronous reactive signals.",
-      "articleCount": 1,
-      "recentCount": 1,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2026-11-07T21:34:26.000Z",
-      "lastSeen": "2026-11-07T21:34:26.000Z",
-      "articleIds": [
-        "9470477165cf8ee1"
-      ],
-      "tags": [
-        "flutter",
-        "dart",
-        "ai",
-        "architecture",
-        "devto"
-      ],
-      "score": 29.8
-    },
-    {
       "id": "firebase-92f5e8",
       "name": "Firebase",
       "quadrant": "Platforms",
@@ -1064,29 +1094,26 @@
         "webdev",
         "devto"
       ],
-      "score": 29.5
+      "score": 29.6
     },
     {
-      "id": "serverless-89affb",
-      "name": "Serverless",
+      "id": "sre-1ea78b",
+      "name": "SRE",
       "quadrant": "Techniques",
       "ring": "Trial",
-      "description": "In a recent article, Cloudflare shared the redesign of the control plane of its D1 serverless SQL database to support millions of databases, avoiding centralized bottlenecks, implementing retries and…",
+      "description": "View on sreweekly.com A message from our sponsor, Archestra: AI chaos in your org? Archestra is an open-source enterprise AI platform used by Fortune 50s that organizes your AI: LLM proxy, MCP…",
       "articleCount": 1,
       "recentCount": 1,
       "previousCount": 0,
       "trend": "up",
-      "firstSeen": "2026-11-08T06:34:00.000Z",
-      "lastSeen": "2026-11-08T06:34:00.000Z",
+      "firstSeen": "2026-11-08T19:40:16.000Z",
+      "lastSeen": "2026-11-08T19:40:16.000Z",
       "articleIds": [
-        "ffae9ae80732c0e4"
+        "f113e5aea16ede5b"
       ],
       "tags": [
-        "architecture",
-        "performance & scalability",
-        "sqlite",
-        "serverless",
-        "relational databases"
+        "reading-list",
+        "general"
       ],
       "score": 29
     },
@@ -1106,7 +1133,8 @@
         "4d44cd91cc18561d"
       ],
       "tags": [
-        "architecture"
+        "architecture",
+        "reading-list"
       ],
       "score": 29
     },
@@ -1255,6 +1283,26 @@
       "score": 29
     },
     {
+      "id": "deno-bb3d8e",
+      "name": "Deno",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Assess",
+      "description": "",
+      "articleCount": 1,
+      "recentCount": 1,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2026-11-08T14:42:38.000Z",
+      "lastSeen": "2026-11-08T14:42:38.000Z",
+      "articleIds": [
+        "cac662825b6fce8f"
+      ],
+      "tags": [
+        "hackernews"
+      ],
+      "score": 26.5
+    },
+    {
       "id": "vllm-87185e",
       "name": "vLLM",
       "quadrant": "Tools",
@@ -1294,7 +1342,8 @@
         "4d44cd91cc18561d"
       ],
       "tags": [
-        "architecture"
+        "architecture",
+        "reading-list"
       ],
       "score": 24
     },
@@ -1393,8 +1442,8 @@
     }
   ],
   "stats": {
-    "articles": 300,
-    "sources": 23,
-    "technologies": 55
+    "articles": 349,
+    "sources": 27,
+    "technologies": 57
   }
 }
