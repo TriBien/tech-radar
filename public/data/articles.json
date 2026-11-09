@@ -1,5 +1,783 @@
 [
   {
+    "id": "ca7dd68b4ce7da30",
+    "title": "ZhuLinsen/daily_stock_analysis",
+    "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+    "source": "github",
+    "sourceName": "GitHub Trending",
+    "publishedAt": "2026-11-09T13:55:06.814Z",
+    "fetchedAt": "2026-11-09T13:55:06.814Z",
+    "summary": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+    "technologies": [],
+    "tags": [
+      "python",
+      "github-trending",
+      "open-source"
+    ],
+    "engagement": 505,
+    "enriched": false,
+    "outcome": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs."
+  },
+  {
+    "id": "81f33d0f3f662b41",
+    "title": "homeassistant-ai/ha-mcp",
+    "url": "https://github.com/homeassistant-ai/ha-mcp",
+    "source": "github",
+    "sourceName": "GitHub Trending",
+    "publishedAt": "2026-11-09T13:55:06.814Z",
+    "fetchedAt": "2026-11-09T13:55:06.814Z",
+    "summary": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+    "technologies": [
+      {
+        "name": "Anthropic Claude",
+        "quadrant": "Tools",
+        "ring": "Trial"
+      }
+    ],
+    "tags": [
+      "python",
+      "github-trending",
+      "open-source"
+    ],
+    "engagement": 31,
+    "enriched": false
+  },
+  {
+    "id": "ea9a569724f0eb11",
+    "title": "ruvnet/RuView",
+    "url": "https://github.com/ruvnet/RuView",
+    "source": "github",
+    "sourceName": "GitHub Trending",
+    "publishedAt": "2026-11-09T13:55:06.814Z",
+    "fetchedAt": "2026-11-09T13:55:06.814Z",
+    "summary": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+    "technologies": [],
+    "tags": [
+      "rust",
+      "github-trending",
+      "open-source"
+    ],
+    "engagement": 203,
+    "enriched": false
+  },
+  {
+    "id": "4c1a7c570cbfab53",
+    "title": "garrytan/gbrain",
+    "url": "https://github.com/garrytan/gbrain",
+    "source": "github",
+    "sourceName": "GitHub Trending",
+    "publishedAt": "2026-11-09T13:55:06.814Z",
+    "fetchedAt": "2026-11-09T13:55:06.814Z",
+    "summary": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+    "technologies": [],
+    "tags": [
+      "typescript",
+      "github-trending",
+      "open-source"
+    ],
+    "engagement": 215,
+    "enriched": false
+  },
+  {
+    "id": "b692ad199d611bb5",
+    "title": "Children of Men: The Future Is a Mirror for the Present",
+    "url": "https://reactormag.com/children-of-men-the-future-is-a-mirror-for-the-present",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "speckx",
+    "publishedAt": "2026-11-09T13:27:01.000Z",
+    "fetchedAt": "2026-11-09T13:55:06.319Z",
+    "summary": "Hacker News discussion with 0 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 6,
+    "enriched": false
+  },
+  {
+    "id": "4e81905276915c19",
+    "title": "How this founder built a better Duolingo with Codex | William Imoh",
+    "url": "https://lennysnewsletter.com/p/how-this-founder-built-a-better-duolingo",
+    "source": "reading",
+    "sourceName": "Lennysnewsletter.com",
+    "author": "Claire Vo",
+    "publishedAt": "2026-11-09T13:04:17.000Z",
+    "fetchedAt": "2026-11-09T13:56:03.594Z",
+    "summary": "Watch now (39 mins) | 🎙️ Hackmamba founder William Imoh shows the native app he built with Codex to learn Norwegian, and the Lord of the Rings Grok bot fellowship that helps run his company",
+    "technologies": [],
+    "tags": [
+      "reading-list"
+    ],
+    "engagement": 0,
+    "image": "https://api.substack.com/feed/podcast/223506048/0e772a6b2d54aca00c8dfa53a9591eb4.mp3",
+    "enriched": false
+  },
+  {
+    "id": "cb3d8e2e959c612e",
+    "title": "Our newest TPUs: 8tx and 8i Max, built for the agentic era",
+    "url": "https://cloud.google.com/blog/topics/ai-infrastructure/tpu-8tx-and-tpu-8i-max",
+    "source": "rss",
+    "sourceName": "Google Cloud Blog",
+    "publishedAt": "2026-11-09T13:00:00.000Z",
+    "fetchedAt": "2026-11-09T13:55:08.067Z",
+    "summary": "Editor’s note: This blog was originally published on News from Google. We first designed TPUs more than a decade ago motivated by Google’s internal demands, including voice recognition and language translation. Eight generations of TPUs later, the use cases have exploded, covering: i) training and serving our own Gemini models, ii) agentic workloads, iii) delivering services to Google Cloud customers on our cloud infrastructure, and most recently, iv) allowing customers to deploy TPUs directly into their own data centers. TPUs are now a rapidly growing business with nearly 100 customers — including frontier labs, trading firms, retailers, universities, and more. At Google Cloud Next in April, we introduced two new specialized TPUs in the same generation — 8t for large-scale training and 8i for real-time reasoning. TPU 8t and 8i offer up to 2.7 times better training performance and 80% better inference price performance, respectively, versus our previous generation of TPUs. Today, we’re taking that a step further, expanding our eighth-generation TPU portfolio with two additional systems: TPU 8i Max for massive context windows and the highest compute density per rack, and TPU 8tx…",
+    "technologies": [
+      {
+        "name": "AI agents",
+        "quadrant": "Techniques",
+        "ring": "Assess"
+      },
+      {
+        "name": "Google Cloud",
+        "quadrant": "Platforms",
+        "ring": "Adopt"
+      },
+      {
+        "name": "Gemini",
+        "quadrant": "Tools",
+        "ring": "Trial"
+      }
+    ],
+    "tags": [
+      "cloud",
+      "compute",
+      "tpus",
+      "ai infrastructure"
+    ],
+    "engagement": 0,
+    "enriched": false,
+    "approach": "At Google Cloud Next in April, we introduced two new specialized TPUs in the same generation — 8t for large-scale training and 8i for real-time reasoning."
+  },
+  {
+    "id": "714506c910e56a4b",
+    "title": "Cloud Pathways, a distributed ML runtime for massive accelerator fleets, now GA",
+    "url": "https://cloud.google.com/blog/topics/ai-infrastructure/cloud-pathways-a-distributed-ml-runtime-is-ga",
+    "source": "rss",
+    "sourceName": "Google Cloud Blog",
+    "publishedAt": "2026-11-09T13:00:00.000Z",
+    "fetchedAt": "2026-11-09T13:55:08.068Z",
+    "summary": "Today, we are thrilled to announce the general availability (GA) of Cloud Pathways (Pathways on Cloud) on Google Kubernetes Engine (GKE) as a core runtime pillar of the Google Cloud AI Hypercomputer. Originally engineered by Google DeepMind to train and serve Google's frontier models — including Gemini — Pathways is our distributed machine-learning runtime designed for massive, heterogeneous accelerator fleets. In fact, over the last 90 days alone, leading AI companies and global enterprises have processed more than 130 million Cloud TPU chip-hours using Pathways on GKE, across a broad range of TPU generations. With Cloud Pathways, every Google Cloud customer can use the same single-controller runtime, colocated Python sidecars, and elastic fault tolerance that power Google's largest AI workloads. We are also pleased to announce a Preview integration with Cluster Director to extend Cloud Pathways to Slurm clusters, supporting unified multi-slice JAX execution, elastic training, and interactive notebooks. What is Cloud Pathways? As AI workloads scale across thousands of accelerators, spanning multi-slice pre-training, disaggregated inference, and multi-program reinforcement…",
+    "technologies": [
+      {
+        "name": "Google Cloud",
+        "quadrant": "Platforms",
+        "ring": "Adopt"
+      },
+      {
+        "name": "Gemini",
+        "quadrant": "Tools",
+        "ring": "Trial"
+      },
+      {
+        "name": "Kubernetes",
+        "quadrant": "Platforms",
+        "ring": "Adopt"
+      },
+      {
+        "name": "Python",
+        "quadrant": "Languages & Frameworks",
+        "ring": "Adopt"
+      }
+    ],
+    "tags": [
+      "cloud",
+      "tpus",
+      "ai infrastructure"
+    ],
+    "engagement": 0,
+    "enriched": false
+  },
+  {
+    "id": "b2982d30c3500929",
+    "title": "Launching the Vite Ecosystem Fund",
+    "url": "https://blog.cloudflare.com/launching-vite-ecosystem-fund",
+    "source": "rss",
+    "sourceName": "Cloudflare Blog",
+    "author": "Michael Dong",
+    "publishedAt": "2026-11-09T13:00:00.000Z",
+    "fetchedAt": "2026-11-09T13:55:05.658Z",
+    "summary": "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to open source projects and maintainers. The recipients were chosen by a panel of Vite stack core team members, including maintainers not employed by Cloudflare.",
+    "technologies": [
+      {
+        "name": "Vite",
+        "quadrant": "Tools",
+        "ring": "Trial"
+      },
+      {
+        "name": "Cloudflare",
+        "quadrant": "Platforms",
+        "ring": "Trial"
+      }
+    ],
+    "tags": [
+      "infra",
+      "security",
+      "developers",
+      "open source",
+      "vite",
+      "reading-list"
+    ],
+    "engagement": 0,
+    "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M6SMAP95G344HRNFK6NRMGZN.png",
+    "enriched": false
+  },
+  {
+    "id": "4cc997d5eb68c89f",
+    "title": "Introducing TPU Sync: Fast KV cache and weight transfer for inference and RL on TPU",
+    "url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-tpu-sync-fast-kv-cache-and-weight-transfer-on-tpu",
+    "source": "rss",
+    "sourceName": "Google Cloud Blog",
+    "publishedAt": "2026-11-09T13:00:00.000Z",
+    "fetchedAt": "2026-11-09T13:55:08.067Z",
+    "summary": "As frontier AI evolves from stateless single-turn prompts to million-token agents, disaggregated serving, and continuous reinforcement learning (RL), the primary bottleneck in AI infrastructure has shifted from raw compute to orchestrating live model state — both the contextual state held in massive key-value (KV) caches during inference and the parameter state updated and broadcast from trainers to rollout samplers during RL. Whenever this state is trapped inside a single chip's memory or stalled on network transfers, AI accelerators sit idle. We designed TPU Sync from first principles to serve as the model-state layer across TPU clusters — built on the architectural insight that accelerator High Bandwidth Memory (HBM), host DRAM, shared storage, and the data center network (DCN) should operate as a single, co-designed memory hierarchy. An open-source, native C++ library, TPU Sync moves TPU-tiled tensors directly across this hierarchy with asynchronous DMA transfers that overlap data movement with active computation. For inference, it decouples TPU compute from network backpressure and turns host DRAM, local SSDs, and Google Cloud Managed Lustre into an automated, multi-tier KV…",
+    "technologies": [
+      {
+        "name": "Google Cloud",
+        "quadrant": "Platforms",
+        "ring": "Adopt"
+      }
+    ],
+    "tags": [
+      "cloud",
+      "compute",
+      "tpus",
+      "ai infrastructure"
+    ],
+    "engagement": 0,
+    "enriched": false
+  },
+  {
+    "id": "d6cf8c6e76ecb481",
+    "title": "Now generally available: GKE dynamic slicing for higher resilience, and efficiency for TPUs",
+    "url": "https://cloud.google.com/blog/products/containers-kubernetes/gke-dynamic-slicing-on-tpus",
+    "source": "rss",
+    "sourceName": "Google Cloud Blog",
+    "publishedAt": "2026-11-09T13:00:00.000Z",
+    "fetchedAt": "2026-11-09T13:55:08.067Z",
+    "summary": "Running large-scale AI workloads on TPU and Google Kubernetes Engine (GKE) requires infrastructure that adapts as fast as your models change. Dynamic Slicing is generally available on GKE, which decouples logical TPU slice formation from physical nodepool provisioning. Compared to creating a static nodepool for each TPU slice, dynamic slicing reduces AI workload startup times by up to 5x and workload recovery by 4.5x — maximizing TPU goodput, efficiency, and workload resilience at scale. Beyond one workload, one nodepool Previously, managing TPU capacity at GKE standard required separate, fixed TPU slice topology nodepools, increasing startup times and complexity while preventing multi-host nodepools from hosting multiple AI workloads. Changing workload needs meant manually deleting and recreating nodepools. Additionally, this tight coupling created large failure domains where a single hardware fault crashed an entire slice, slowing recovery while reprovisioning. To overcome these challenges, we built GKE dynamic slicing, which decouples physical hardware provisioning from logical slice formation, dynamically stitching together TPU cubes using TPU optical circuit switching (OCS)…",
+    "technologies": [
+      {
+        "name": "Kubernetes",
+        "quadrant": "Platforms",
+        "ring": "Adopt"
+      }
+    ],
+    "tags": [
+      "cloud",
+      "ai & machine learning",
+      "gke",
+      "tpus",
+      "containers & kubernetes"
+    ],
+    "engagement": 0,
+    "enriched": false
+  },
+  {
+    "id": "f98a7303027f8088",
+    "title": "Humans will never again create a project like Wikipedia",
+    "url": "https://economist.com/culture/2026/10/29/humans-will-never-again-create-a-project-quite-like-wikipedia",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "edward",
+    "publishedAt": "2026-11-09T12:30:20.000Z",
+    "fetchedAt": "2026-11-09T13:55:06.319Z",
+    "summary": "Hacker News discussion with 78 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 275,
+    "enriched": false
+  },
+  {
+    "id": "f3b12ee79bee26d8",
+    "title": "Fold Epic Paper Airplanes",
+    "url": "https://foldableflight.com/",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "vismit2000",
+    "publishedAt": "2026-11-09T12:19:22.000Z",
+    "fetchedAt": "2026-11-09T13:55:06.319Z",
+    "summary": "Hacker News discussion with 38 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 248,
+    "enriched": false
+  },
+  {
+    "id": "f851d0d2f31f8c6a",
+    "title": "Run Linux applications in hypervisor-isolated micro-VMs with Hyperlight",
+    "url": "https://cncf.io/blog/2026/11/09/run-linux-applications-in-hypervisor-isolated-micro-vms-with-hyperlight",
+    "source": "rss",
+    "sourceName": "CNCF Blog",
+    "author": "Danilo Chiarlone, Microsoft",
+    "publishedAt": "2026-11-09T12:00:00.000Z",
+    "fetchedAt": "2026-11-09T13:55:09.220Z",
+    "summary": "More and more cloud native systems run code nobody on the team wrote: the Python an AI agent generated a second ago, or a plugin a customer just uploaded. Each of them needs a boundary between...",
+    "technologies": [
+      {
+        "name": "Python",
+        "quadrant": "Languages & Frameworks",
+        "ring": "Adopt"
+      }
+    ],
+    "tags": [
+      "cloud-native",
+      "blog",
+      "reading-list"
+    ],
+    "engagement": 0,
+    "enriched": false
+  },
+  {
+    "id": "722024a858e7b733",
+    "title": "Why AI Agents Are Repeating 2019’s Microservices Mistake",
+    "url": "https://oreilly.com/radar/why-ai-agents-are-repeating-2019s-microservices-mistake",
+    "source": "reading",
+    "sourceName": "Oreilly.com",
+    "author": "Shania Rasheed Nalagath",
+    "publishedAt": "2026-11-09T11:55:04.000Z",
+    "fetchedAt": "2026-11-09T13:55:10.464Z",
+    "summary": "Microservices changed how we build software by breaking large applications into smaller, independently deployable services. That made systems easier to develop and scale, but it introduced a different class of problems: The behavior of the whole system got harder to see. AI agents are now following a similar path. A workflow that once lived inside […]",
+    "technologies": [
+      {
+        "name": "AI agents",
+        "quadrant": "Techniques",
+        "ring": "Assess"
+      },
+      {
+        "name": "Microservices",
+        "quadrant": "Techniques",
+        "ring": "Trial"
+      }
+    ],
+    "tags": [
+      "reading-list",
+      "ai & ml",
+      "commentary"
+    ],
+    "engagement": 0,
+    "enriched": false,
+    "problem": "That made systems easier to develop and scale, but it introduced a different class of problems: The behavior of the whole system got harder to see."
+  },
+  {
+    "id": "5aa2811f45ceef64",
+    "title": "6 Hours of YouTube and 85 handtyped pages of notes on LLM Inference – Start here",
+    "url": "https://github.com/samir-sarwar/samir-vllm",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "samirswr",
+    "publishedAt": "2026-11-09T11:36:55.000Z",
+    "fetchedAt": "2026-11-09T13:55:06.319Z",
+    "summary": "Hacker News discussion with 5 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 51,
+    "enriched": false
+  },
+  {
+    "id": "017ffda2700c77f3",
+    "title": "What is malloc doing, anyway?",
+    "url": "https://benmandrew.com/articles/what-is-malloc-doing-anyway",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "benmandrew",
+    "publishedAt": "2026-11-09T11:31:05.000Z",
+    "fetchedAt": "2026-11-09T13:55:06.319Z",
+    "summary": "Hacker News discussion with 3 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 41,
+    "enriched": false
+  },
+  {
+    "id": "9e18e9d68e851570",
+    "title": "Ginux: A New Kernel Runs Linux Userspace, Made via Human-Directed AI Engineering",
+    "url": "https://zenodo.org/records/23682548",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "ForHackernews",
+    "publishedAt": "2026-11-09T11:30:27.000Z",
+    "fetchedAt": "2026-11-09T13:55:06.319Z",
+    "summary": "Hacker News discussion with 31 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 83,
+    "enriched": false
+  },
+  {
+    "id": "2f47f0209e3ff44c",
+    "title": "AWS Launches TorchNeuron to Run PyTorch Models on AWS Trainium Without Modifications",
+    "url": "https://infoq.com/news/2026/11/aws-torchneuron-trainium-pytorch",
+    "source": "rss",
+    "sourceName": "InfoQ",
+    "author": "Sergio De Simone",
+    "publishedAt": "2026-11-09T11:00:00.000Z",
+    "fetchedAt": "2026-11-09T13:55:06.673Z",
+    "summary": "At the recent PyTorch Conference North America 2026, Amazon introduced TorchNeuron, a native PyTorch backend that enables developers to run existing PyTorch code on AWS Trainium AI chips with virtually no code modifications. By Sergio De Simone",
+    "technologies": [
+      {
+        "name": "PyTorch",
+        "quadrant": "Languages & Frameworks",
+        "ring": "Trial"
+      },
+      {
+        "name": "AWS",
+        "quadrant": "Platforms",
+        "ring": "Adopt"
+      }
+    ],
+    "tags": [
+      "architecture",
+      "machine learning",
+      "pytorch",
+      "aws",
+      "large language models",
+      "development"
+    ],
+    "engagement": 0,
+    "enriched": false,
+    "approach": "At the recent PyTorch Conference North America 2026, Amazon introduced TorchNeuron, a native PyTorch backend that enables developers to run existing PyTorch code on AWS Trainium AI chips with virtually no code modifications."
+  },
+  {
+    "id": "ecf7a899a16f8d25",
+    "title": "Podcast: Distributed LLM Inference on Kubernetes with llm-d, Wasm, & TornadoVM",
+    "url": "https://infoq.com/podcasts/distributed-llm-inference-kubernetes",
+    "source": "rss",
+    "sourceName": "InfoQ",
+    "author": "Edoardo Vacchi",
+    "publishedAt": "2026-11-09T11:00:00.000Z",
+    "fetchedAt": "2026-11-09T13:55:06.673Z",
+    "summary": "In this episode, Edoardo Vacchi discusses the evolving landscape of WebAssembly on the backend, running Java workloads on GPUs using TornadoVM, and optimizing distributed AI inference using llm-d and vLLM on Kubernetes. Edoardo explains how llm-d manages cache locality (KV and prefix caches), request routing, and batch inference across Kubernetes clusters to maximize expensive GPU utilization. By Edoardo Vacchi",
+    "technologies": [
+      {
+        "name": "Kubernetes",
+        "quadrant": "Platforms",
+        "ring": "Adopt"
+      },
+      {
+        "name": "WebAssembly",
+        "quadrant": "Languages & Frameworks",
+        "ring": "Assess"
+      },
+      {
+        "name": "Java",
+        "quadrant": "Languages & Frameworks",
+        "ring": "Adopt"
+      },
+      {
+        "name": "vLLM",
+        "quadrant": "Tools",
+        "ring": "Assess"
+      }
+    ],
+    "tags": [
+      "architecture",
+      "the infoq podcast",
+      "tornadovm",
+      "webassembly",
+      "artificial intelligence",
+      "kubernetes"
+    ],
+    "engagement": 0,
+    "enriched": false
+  },
+  {
+    "id": "a678386f4bab26d0",
+    "title": "Article: Agentic AI Architecture: Current Challenges and Future Opportunities",
+    "url": "https://infoq.com/articles/agentic-ai-architecture-challenges-opportunities",
+    "source": "rss",
+    "sourceName": "InfoQ",
+    "author": "Rafał Gancarz",
+    "publishedAt": "2026-11-09T10:52:00.000Z",
+    "fetchedAt": "2026-11-09T13:55:06.673Z",
+    "summary": "Agentic AI architecture extends microservices and cloud-native architectures with AI agents that work with context, memory, and protocols such as MCP and A2A. The article covers bounded-context integration, task-dependent coordination strategies, new security risks, and observability needs. It expects gradual adoption alongside existing architectures, with platforms absorbing common components. By Rafał Gancarz",
+    "technologies": [
+      {
+        "name": "AI agents",
+        "quadrant": "Techniques",
+        "ring": "Assess"
+      },
+      {
+        "name": "Microservices",
+        "quadrant": "Techniques",
+        "ring": "Trial"
+      },
+      {
+        "name": "Observability",
+        "quadrant": "Techniques",
+        "ring": "Adopt"
+      }
+    ],
+    "tags": [
+      "architecture",
+      "agentic ai architecture",
+      "model context protocol (mcp)",
+      "context engineering",
+      "retrieval-augmented generation",
+      "large language models"
+    ],
+    "engagement": 0,
+    "enriched": false
+  },
+  {
+    "id": "1203c00b66fce8ec",
+    "title": "Fun things to do with your VM/370 CE machine – Fun with big computers",
+    "url": "https://rbanffy.github.io/fun-with-big-computers/fun-with-vm370",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "rbanffy",
+    "publishedAt": "2026-11-09T10:11:47.000Z",
+    "fetchedAt": "2026-11-09T13:55:06.319Z",
+    "summary": "Hacker News discussion with 6 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 74,
+    "enriched": false
+  },
+  {
+    "id": "3f5393a450c5a494",
+    "title": "Borrowing a Microsoft-signed shim to abuse Secure Boot on corporate hardware",
+    "url": "https://leosmith.wtf/blog/not-so-secure-boot.html",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "p4p1",
+    "publishedAt": "2026-11-09T09:22:30.000Z",
+    "fetchedAt": "2026-11-09T13:55:06.319Z",
+    "summary": "Hacker News discussion with 1 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 14,
+    "enriched": false
+  },
+  {
+    "id": "8ceada5f95028093",
+    "title": "ChatGPT Desktop forwards your SSH agent to remote machines",
+    "url": "https://news.ycombinator.com/item?id=50422628",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "DenGorbachev",
+    "publishedAt": "2026-11-09T08:17:49.000Z",
+    "fetchedAt": "2026-11-09T13:55:06.319Z",
+    "summary": "The agent running on a remote machine can authenticate using your local SSH credentials. That means it can push to your private repos on GitHub, for example. Proof: https:&#x2F;&#x2F;github.com&#x2F;openai&#x2F;codex&#x2F;pull&#x2F;28131#discussion_r3410013180",
+    "technologies": [
+      {
+        "name": "OpenAI API",
+        "quadrant": "Tools",
+        "ring": "Trial"
+      }
+    ],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 121,
+    "enriched": false
+  },
+  {
+    "id": "d7d1857ef421d0b5",
+    "title": "Pinterest Replaces Journey Clustering with 4B Qwen3 LLM, Reports Improved Engagement",
+    "url": "https://infoq.com/news/2026/11/pinterest-journey",
+    "source": "rss",
+    "sourceName": "InfoQ",
+    "author": "Matt Foster",
+    "publishedAt": "2026-11-09T07:25:00.000Z",
+    "fetchedAt": "2026-11-09T13:55:06.673Z",
+    "summary": "Pinterest has moved its user-journey inference system from a multi-stage clustering pipeline to a fine-tuned 4-billion-parameter language model, reporting a 1.1% improvement in email click-through and 1.3% higher push opens. By Matt Foster",
+    "technologies": [],
+    "tags": [
+      "architecture",
+      "machine learning",
+      "model inference",
+      "generative ai",
+      "large language models",
+      "architecture & design"
+    ],
+    "engagement": 0,
+    "enriched": false
+  },
+  {
+    "id": "a9c06162812cf7ad",
+    "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
+    "url": "https://arxiv.org/abs/2610.14162",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "theanonymousone",
+    "publishedAt": "2026-11-09T07:20:37.000Z",
+    "fetchedAt": "2026-11-09T13:55:06.319Z",
+    "summary": "Hacker News discussion with 26 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 185,
+    "enriched": false
+  },
+  {
+    "id": "f49487fb0428ddc7",
+    "title": "Is Opus 5.5 nerfed? Thinking patterns changed on November 3",
+    "url": "https://twitter.com/shanemelaugh/status/2119192075505893695",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "rzk",
+    "publishedAt": "2026-11-09T07:04:25.000Z",
+    "fetchedAt": "2026-11-09T13:55:06.320Z",
+    "summary": "Hacker News discussion with 209 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 727,
+    "enriched": false
+  },
+  {
+    "id": "3ff0584fedeacb03",
+    "title": "Tokio Releases Topcoat: A Batteries-Included Full-Stack Rust Framework",
+    "url": "https://infoq.com/news/2026/11/topcoat-rust-framework",
+    "source": "rss",
+    "sourceName": "InfoQ",
+    "author": "Daniel Curtis",
+    "publishedAt": "2026-11-09T06:42:00.000Z",
+    "fetchedAt": "2026-11-09T13:55:06.673Z",
+    "summary": "Topcoat is an open-source, server-rendered full-stack web framework for Rust from the Tokio team, now public at version 0.9. It uses Rust expressions translated to JavaScript for reactivity instead of WebAssembly. It targets typical database-driven apps. Releases are unstable, and authentication and background jobs remain on the roadmap. By Daniel Curtis",
+    "technologies": [
+      {
+        "name": "Rust",
+        "quadrant": "Languages & Frameworks",
+        "ring": "Trial"
+      },
+      {
+        "name": "JavaScript",
+        "quadrant": "Languages & Frameworks",
+        "ring": "Adopt"
+      },
+      {
+        "name": "WebAssembly",
+        "quadrant": "Languages & Frameworks",
+        "ring": "Assess"
+      }
+    ],
+    "tags": [
+      "architecture",
+      "web development",
+      "rust",
+      "django",
+      "frameworks",
+      "development"
+    ],
+    "engagement": 0,
+    "enriched": false
+  },
+  {
+    "id": "373429d3d655c6fb",
+    "title": "PHP Dies After Every Request. How the Zend Engine Actually Runs Your Code.",
+    "url": "https://dev.to/smtahosin/php-dies-after-every-request-how-the-zend-engine-actually-runs-your-code-2843",
+    "source": "devto",
+    "sourceName": "DEV Community",
+    "author": "S M Tahosin",
+    "publishedAt": "2026-11-09T05:56:52.000Z",
+    "fetchedAt": "2026-11-09T13:55:05.820Z",
+    "summary": "A visual, 10-minute architectural deep dive into how PHP actually executes under the hood. From the Shared-Nothing process model and OPcache bytecode caching to 16-byte zvals, Copy-on-Write, and the Tracing JIT.",
+    "technologies": [
+      {
+        "name": "PHP",
+        "quadrant": "Languages & Frameworks",
+        "ring": "Trial"
+      }
+    ],
+    "tags": [
+      "php",
+      "programming",
+      "webdev",
+      "architecture",
+      "devto"
+    ],
+    "engagement": 17,
+    "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fiili.io%2FnMfkIcB.png",
+    "enriched": false
+  },
+  {
+    "id": "285f83056600dcf1",
+    "title": "Show HN: Flide: Make Jev-like decision models up to 9.5x faster",
+    "url": "https://github.com/OmniJev/Flide",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "unikcc",
+    "publishedAt": "2026-11-09T04:43:12.000Z",
+    "fetchedAt": "2026-11-09T13:55:06.319Z",
+    "summary": "Decision models need their own inference engine. So we developed Flide, a high-performance and exact inference engine for Jev-like decision models. Flide achieves up to a 9.5x speedup over vLLM and SGLang. It now supports 30+ popular local Jev-like decision models. Start to make your decision…",
+    "technologies": [
+      {
+        "name": "vLLM",
+        "quadrant": "Tools",
+        "ring": "Assess"
+      }
+    ],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 107,
+    "enriched": false
+  },
+  {
+    "id": "6ee1dee33e4bfc63",
+    "title": "Hide your slop PR descriptions behind",
+    "url": "https://simonwillison.net/2026/Nov/9/details-summary",
+    "source": "rss",
+    "sourceName": "Simon Willison",
+    "publishedAt": "2026-11-09T04:25:05.000Z",
+    "fetchedAt": "2026-11-09T13:55:06.805Z",
+    "summary": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished result. Today's coding agents are great at writing PR descriptions. They're too good at describing the work The problem is that they are too good. An agent-written PR description is accurate and comprehensive. It describes the problem, the detailed solution, and the steps taken to verify it. That's a lot of information to absorb. It's not necessarily slop, but it reads like slop! It's very easy to spot an AI-written PR, and as with other forms of AI writing my instant reaction is best summarized as \"I'm not reading all of that\". It doesn't matter how accurate or useful the information is, I'm instantly put off by the thought that it will take me longer to read than it took the driving author to write... even when that driving author is me! I want human editorial judgement. I want someone to have thought just long enough about the PR to give me a human-approved introduction that helps me understand, at a high…",
+    "technologies": [
+      {
+        "name": "Anthropic Claude",
+        "quadrant": "Tools",
+        "ring": "Trial"
+      },
+      {
+        "name": "Claude Code",
+        "quadrant": "Tools",
+        "ring": "Assess"
+      }
+    ],
+    "tags": [
+      "ai",
+      "python"
+    ],
+    "engagement": 0,
+    "enriched": false,
+    "problem": "They're too good at describing the work The problem is that they are too good."
+  },
+  {
+    "id": "f09ab0b19a40a798",
+    "title": "RIP, Harvest",
+    "url": "https://aphyr.com/posts/427-rip-harvest",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "zdw",
+    "publishedAt": "2026-11-09T01:58:21.000Z",
+    "fetchedAt": "2026-11-09T13:55:06.320Z",
+    "summary": "Hacker News discussion with 125 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 645,
+    "enriched": false
+  },
+  {
     "id": "26b52d229f334526",
     "title": "anthropics/claude-quickstarts",
     "url": "https://github.com/anthropics/claude-quickstarts",
@@ -20,7 +798,7 @@
       "github-trending",
       "open-source"
     ],
-    "engagement": 32,
+    "engagement": 560,
     "enriched": false
   },
   {
@@ -30,7 +808,7 @@
     "source": "github",
     "sourceName": "GitHub Trending",
     "publishedAt": "2026-11-09T01:15:20.818Z",
-    "fetchedAt": "2026-11-09T01:15:20.818Z",
+    "fetchedAt": "2026-11-09T13:55:06.814Z",
     "summary": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
     "technologies": [],
     "tags": [
@@ -38,7 +816,7 @@
       "github-trending",
       "open-source"
     ],
-    "engagement": 41,
+    "engagement": 579,
     "enriched": false
   },
   {
@@ -49,13 +827,30 @@
     "sourceName": "Hacker News",
     "author": "infosecau",
     "publishedAt": "2026-11-09T00:10:50.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.747Z",
-    "summary": "Hacker News discussion with 9 comments.",
+    "fetchedAt": "2026-11-09T13:55:06.320Z",
+    "summary": "Hacker News discussion with 225 comments.",
     "technologies": [],
     "tags": [
       "hackernews"
     ],
-    "engagement": 36,
+    "engagement": 916,
+    "enriched": false
+  },
+  {
+    "id": "b4717b7762b78b19",
+    "title": "I'm not convinced the AI bubble exists",
+    "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "matteoraso",
+    "publishedAt": "2026-11-08T23:44:36.000Z",
+    "fetchedAt": "2026-11-09T13:55:06.318Z",
+    "summary": "Hacker News discussion with 663 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 1723,
     "enriched": false
   },
   {
@@ -83,13 +878,13 @@
     "sourceName": "Hacker News",
     "author": "nmstoker",
     "publishedAt": "2026-11-08T22:36:03.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.747Z",
-    "summary": "Hacker News discussion with 10 comments.",
+    "fetchedAt": "2026-11-09T13:55:06.318Z",
+    "summary": "Hacker News discussion with 44 comments.",
     "technologies": [],
     "tags": [
       "hackernews"
     ],
-    "engagement": 93,
+    "engagement": 354,
     "enriched": false
   },
   {
@@ -101,7 +896,7 @@
     "author": "dcoulmbe",
     "publishedAt": "2026-11-08T22:35:35.000Z",
     "fetchedAt": "2026-11-09T01:15:20.746Z",
-    "summary": "Hacker News discussion with 29 comments.",
+    "summary": "Hacker News discussion with 176 comments.",
     "technologies": [
       {
         "name": "Rust",
@@ -112,7 +907,7 @@
     "tags": [
       "hackernews"
     ],
-    "engagement": 215,
+    "engagement": 944,
     "enriched": false
   },
   {
@@ -145,20 +940,20 @@
     "problem": "Research: parse_number() as a SQLite extension: C vs Rust I was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds a parse_number() function for turning strings like -$1,234."
   },
   {
-    "id": "913c352786977919",
+    "id": "9709ee9b2939f773",
     "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
-    "url": "https://axios.com/2026/11/08/nvidia-ceo-jensen-huang-affair-email-to-company",
+    "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
     "source": "hackernews",
     "sourceName": "Hacker News",
     "author": "karimf",
     "publishedAt": "2026-11-08T22:20:09.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.748Z",
-    "summary": "Hacker News discussion with 319 comments.",
+    "fetchedAt": "2026-11-09T13:55:06.318Z",
+    "summary": "https:&#x2F;&#x2F;www.axios.com&#x2F;2026&#x2F;11&#x2F;08&#x2F;nvidia-ceo-jensen-huang-aff... , https:&#x2F;&#x2F;archive.ph&#x2F;Hxn5h https:&#x2F;&#x2F;www.nytimes.com&#x2F;2026&#x2F;11&#x2F;06&#x2F;us&#x2F;politics&#x2F;chinese-spy-a... , https:&#x2F;&#x2F;archive.ph&#x2F;atMcp…",
     "technologies": [],
     "tags": [
       "hackernews"
     ],
-    "engagement": 959,
+    "engagement": 2547,
     "enriched": false
   },
   {
@@ -169,30 +964,30 @@
     "sourceName": "Hacker News",
     "author": "david927",
     "publishedAt": "2026-11-08T21:20:20.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.747Z",
+    "fetchedAt": "2026-11-09T13:55:06.319Z",
     "summary": "What are you working on? What have you been curious about lately?",
     "technologies": [],
     "tags": [
       "hackernews"
     ],
-    "engagement": 958,
+    "engagement": 1882,
     "enriched": false
   },
   {
     "id": "a24fdfddefa6b5e4",
-    "title": "Nvidia Board of Directors Is Investigating Jensen Huang",
+    "title": "Statement from Nvidia board of directors",
     "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
     "source": "hackernews",
     "sourceName": "Hacker News",
     "author": "vincentchau",
     "publishedAt": "2026-11-08T20:26:43.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.748Z",
-    "summary": "Hacker News discussion with 290 comments.",
+    "fetchedAt": "2026-11-09T13:55:06.320Z",
+    "summary": "Hacker News discussion with 361 comments.",
     "technologies": [],
     "tags": [
       "hackernews"
     ],
-    "engagement": 952,
+    "engagement": 1197,
     "enriched": false
   },
   {
@@ -203,7 +998,7 @@
     "sourceName": "DEV Community",
     "author": "xbill",
     "publishedAt": "2026-11-08T19:52:14.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.390Z",
+    "fetchedAt": "2026-11-09T13:55:05.820Z",
     "summary": "LineageOS 24.0 on the Pixel 3a gets mobile data from a Google Fi data-only SIM after four fixes: mobile data on by default, a Fi APN, VoLTE in the carrier settings and a close_range() backport for IPv4. Each one traced from the radio log.",
     "technologies": [],
     "tags": [
@@ -213,7 +1008,7 @@
       "networking",
       "devto"
     ],
-    "engagement": 9,
+    "engagement": 15,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2Fxbill9%2Fandroid_kernel_google_msm-4.9%2Fmain%2Fbackport-tools%2Flineage-24.0%2Farticle-mobile-data%2Fdevto-cover.eca0f5c3.jpg",
     "enriched": false
   },
@@ -235,17 +1030,30 @@
     "enriched": false
   },
   {
-    "id": "c353641c8e4ce45c",
+    "id": "2382673acb375df8",
     "title": "The Web Is More Than Enough, by Paul Ford",
-    "url": "https://ftrain.com/aboard-the-web-is-more-than-enough",
-    "source": "hackernews",
-    "sourceName": "Hacker News",
+    "url": "https://simonwillison.net/2026/Nov/9/hn-50421091",
+    "source": "rss",
+    "sourceName": "Simon Willison",
     "author": "edward",
     "publishedAt": "2026-11-08T19:48:32.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.747Z",
-    "summary": "Hacker News discussion with 35 comments.",
-    "technologies": [],
+    "fetchedAt": "2026-11-09T13:55:06.805Z",
+    "summary": "My comment on The Web Is More Than Enough, by Paul Ford &mdash; Hacker News. OK, this comment convinced me to give that a shot. Here's a thing I made in Three.js this morning - a Nudibranch themed Faberge Egg: https://static.simonwillison.net/static/2026/Hidden-Reef-Egg... (77KB) I just asked Claude (Opus 5.5 Medium running in regular Claude Chat) to port that to Vanilla JS, in the same thread where it had built it, and got this: https://static.simonwillison.net/static/2026/Hidden-Reef-Egg... (98KB) They aren't identical - you can see what Claude said about that in the transcript (I don't fully understand why it differed): https://claude.ai/share/e56d163e-2793-4677-aa11-191d5058b414 But yeah, it turns out Claude Opus 5.5 is perfectly capable of 3D modeling in Vanilla JS + WebGL without Three.js. In eyeballing the code I find the Three.js slightly easier to understand myself, but I rarely look at the code for these 3D projects so that isn't a particularly big deal. Tags: hacker-news , javascript , ai , generative-ai , llms , claude , three-js",
+    "technologies": [
+      {
+        "name": "Anthropic Claude",
+        "quadrant": "Tools",
+        "ring": "Trial"
+      },
+      {
+        "name": "JavaScript",
+        "quadrant": "Languages & Frameworks",
+        "ring": "Adopt"
+      }
+    ],
     "tags": [
+      "ai",
+      "python",
       "hackernews"
     ],
     "engagement": 135,
@@ -288,30 +1096,30 @@
     "sourceName": "Hacker News",
     "author": "kyunez",
     "publishedAt": "2026-11-08T19:37:42.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.746Z",
-    "summary": "Hacker News discussion with 123 comments.",
+    "fetchedAt": "2026-11-09T13:55:06.320Z",
+    "summary": "Hacker News discussion with 194 comments.",
     "technologies": [],
     "tags": [
       "hackernews"
     ],
-    "engagement": 389,
+    "engagement": 666,
     "enriched": false
   },
   {
     "id": "ec6779b05ebb24a9",
-    "title": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC",
+    "title": "Outlook.com is rejecting email from domains without DMARC",
     "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
     "source": "hackernews",
     "sourceName": "Hacker News",
     "author": "xmddmx",
     "publishedAt": "2026-11-08T19:20:32.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.748Z",
-    "summary": "Hacker News discussion with 181 comments.",
+    "fetchedAt": "2026-11-09T13:55:06.318Z",
+    "summary": "Hacker News discussion with 317 comments.",
     "technologies": [],
     "tags": [
       "hackernews"
     ],
-    "engagement": 590,
+    "engagement": 1086,
     "enriched": false
   },
   {
@@ -322,13 +1130,46 @@
     "sourceName": "Hacker News",
     "author": "indigodaddy",
     "publishedAt": "2026-11-08T19:08:51.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.746Z",
-    "summary": "Hacker News discussion with 60 comments.",
+    "fetchedAt": "2026-11-09T13:55:06.318Z",
+    "summary": "Hacker News discussion with 116 comments.",
     "technologies": [],
     "tags": [
       "hackernews"
     ],
-    "engagement": 311,
+    "engagement": 543,
+    "enriched": false
+  },
+  {
+    "id": "5093dd3be101e179",
+    "title": "Six Serving Engines, One 8 GB GPU: Gemma 4 E2B on an RTX 3050",
+    "url": "https://dev.to/gde/six-serving-engines-one-8-gb-gpu-gemma-4-e2b-on-an-rtx-3050-ad7",
+    "source": "devto",
+    "sourceName": "DEV Community",
+    "author": "xbill",
+    "publishedAt": "2026-11-08T19:08:37.000Z",
+    "fetchedAt": "2026-11-09T13:55:05.821Z",
+    "summary": "llama.cpp, vLLM, SGLang, mistral.rs, a plain PyTorch engine and LiteRT-LM serve the same 4-bit Gemma 4 E2B on one 8 GB RTX 3050, measured with the same prompts, the same load sweep and the same GSM8K and BFCL questions. GSM8K is level on every engine; vLLM is the fastest up to 16 requests and within 3% of SGLang beyond.",
+    "technologies": [
+      {
+        "name": "vLLM",
+        "quadrant": "Tools",
+        "ring": "Assess"
+      },
+      {
+        "name": "PyTorch",
+        "quadrant": "Languages & Frameworks",
+        "ring": "Trial"
+      }
+    ],
+    "tags": [
+      "gemma",
+      "vllm",
+      "llamacpp",
+      "nvidia",
+      "devto"
+    ],
+    "engagement": 17,
+    "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2Fxbill9%2Fgemma4-dev%2Fmain%2Fdocs%2Fserving-engines-3050%2Fdevto-cover.91723b8d.jpg",
     "enriched": false
   },
   {
@@ -349,6 +1190,28 @@
     "enriched": false
   },
   {
+    "id": "b64875016cb72478",
+    "title": "Small Contributions Matter Too 🐈",
+    "url": "https://dev.to/necoz/small-contributions-matter-too-2j4",
+    "source": "devto",
+    "sourceName": "DEV Community",
+    "author": "Hanzla Baig",
+    "publishedAt": "2026-11-08T18:57:44.000Z",
+    "fetchedAt": "2026-11-09T13:55:05.821Z",
+    "summary": "I think one thing that keeps people from contributing to open source is the idea that you have to be...",
+    "technologies": [],
+    "tags": [
+      "discuss",
+      "opensource",
+      "github",
+      "necoz",
+      "devto"
+    ],
+    "engagement": 88,
+    "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fg6v1ndwudptnj1qcmm0n.png",
+    "enriched": false
+  },
+  {
     "id": "32ee65a1fd1627b8",
     "title": "Engine Off: My 2026 Hackathon Run Is Over",
     "url": "https://dev.to/georgekobaidze/engines-off-my-2026-hackathon-run-is-over-2ho8",
@@ -356,7 +1219,7 @@
     "sourceName": "DEV Community",
     "author": "Giorgi Kobaidze",
     "publishedAt": "2026-11-08T18:41:00.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.389Z",
+    "fetchedAt": "2026-11-09T13:55:05.820Z",
     "summary": "There's a moment after a race when you turn the engine off and everything goes quiet. That's where I...",
     "technologies": [],
     "tags": [
@@ -364,7 +1227,7 @@
       "community",
       "devto"
     ],
-    "engagement": 11,
+    "engagement": 49,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F0t7m12wml50etrn4hgoz.jpeg",
     "enriched": false
   },
@@ -410,7 +1273,24 @@
     "tags": [
       "hackernews"
     ],
-    "engagement": 1282,
+    "engagement": 1688,
+    "enriched": false
+  },
+  {
+    "id": "449595a5fc048f01",
+    "title": "RAM Altman: Linux Script Emails Sam Altman Daily How Much Unused RAM in Your PC",
+    "url": "https://respawnfirst.com/linux-script-emails-sam-altman-unused-ram-ram-altman",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "randycupertino",
+    "publishedAt": "2026-11-08T17:20:29.000Z",
+    "fetchedAt": "2026-11-09T13:55:06.320Z",
+    "summary": "Hacker News discussion with 143 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 525,
     "enriched": false
   },
   {
@@ -601,7 +1481,7 @@
     "sourceName": "DEV Community",
     "author": "nyaomaru",
     "publishedAt": "2026-11-08T11:50:29.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.388Z",
+    "fetchedAt": "2026-11-09T13:55:05.819Z",
     "summary": "Hoi hoi! 👋 A little update from Necoz! 😸 We've created our own organization here on DEV! ...",
     "technologies": [],
     "tags": [
@@ -610,7 +1490,7 @@
       "organization",
       "news"
     ],
-    "engagement": 122,
+    "engagement": 176,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4e22zmzbxuhu45eirnzb.gif",
     "enriched": false
   },
@@ -622,13 +1502,13 @@
     "sourceName": "Hacker News",
     "author": "krthr",
     "publishedAt": "2026-11-08T11:23:28.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.748Z",
-    "summary": "Hacker News discussion with 188 comments.",
+    "fetchedAt": "2026-11-09T13:55:06.320Z",
+    "summary": "Hacker News discussion with 193 comments.",
     "technologies": [],
     "tags": [
       "hackernews"
     ],
-    "engagement": 664,
+    "engagement": 690,
     "enriched": false
   },
   {
@@ -702,13 +1582,13 @@
     "sourceName": "Hacker News",
     "author": "jruohonen",
     "publishedAt": "2026-11-08T10:41:52.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.746Z",
-    "summary": "Hacker News discussion with 80 comments.",
+    "fetchedAt": "2026-11-09T13:55:06.318Z",
+    "summary": "Hacker News discussion with 98 comments.",
     "technologies": [],
     "tags": [
       "hackernews"
     ],
-    "engagement": 433,
+    "engagement": 606,
     "enriched": false
   },
   {
@@ -719,13 +1599,13 @@
     "sourceName": "Hacker News",
     "author": "joshcsimmons",
     "publishedAt": "2026-11-08T10:22:04.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.746Z",
-    "summary": "Hacker News discussion with 152 comments.",
+    "fetchedAt": "2026-11-09T13:55:06.318Z",
+    "summary": "Hacker News discussion with 196 comments.",
     "technologies": [],
     "tags": [
       "hackernews"
     ],
-    "engagement": 660,
+    "engagement": 832,
     "enriched": false
   },
   {
@@ -954,7 +1834,7 @@
     "tags": [
       "hackernews"
     ],
-    "engagement": 1551,
+    "engagement": 1736,
     "enriched": false
   },
   {
@@ -1005,7 +1885,7 @@
     "sourceName": "DEV Community",
     "author": "Earl Grey",
     "publishedAt": "2026-11-08T01:45:07.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.389Z",
+    "fetchedAt": "2026-11-09T13:55:05.820Z",
     "summary": "I built my sick wife a digital bell. She pressed the one button I left blank. TL;DR: I caught the...",
     "technologies": [],
     "tags": [
@@ -1015,7 +1895,7 @@
       "showdev",
       "devto"
     ],
-    "engagement": 28,
+    "engagement": 47,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ffhxt2o5ti8j747yswmdq.png",
     "enriched": false
   },
@@ -1095,8 +1975,25 @@
       "architecture",
       "devto"
     ],
-    "engagement": 45,
+    "engagement": 52,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fk8y3gkk7ib2778kh57mp.jpg",
+    "enriched": false
+  },
+  {
+    "id": "d99c038e6c0d898d",
+    "title": "The French Cake Cooked on a Spit (2018) [video]",
+    "url": "https://youtube.com/watch?v=havcACdx0Y0",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "NaOH",
+    "publishedAt": "2026-11-07T21:28:57.000Z",
+    "fetchedAt": "2026-11-09T13:55:06.319Z",
+    "summary": "Hacker News discussion with 12 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 41,
     "enriched": false
   },
   {
@@ -1124,7 +2021,7 @@
     "tags": [
       "hackernews"
     ],
-    "engagement": 1373,
+    "engagement": 1433,
     "enriched": false
   },
   {
@@ -1135,7 +2032,7 @@
     "sourceName": "DEV Community",
     "author": "Jessica Doering",
     "publishedAt": "2026-11-07T20:41:58.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.389Z",
+    "fetchedAt": "2026-11-09T13:55:05.820Z",
     "summary": "Here I am sitting at home on a rainy Saturday, so I thought I'd share my story. It's nothing special,...",
     "technologies": [],
     "tags": [
@@ -1145,9 +2042,27 @@
       "ai",
       "devto"
     ],
-    "engagement": 78,
+    "engagement": 87,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fxh1hhb2ldpcdvcpiisk1.png",
     "enriched": false
+  },
+  {
+    "id": "bc157a9bec5b9d91",
+    "title": "Terry Pratchett's Study",
+    "url": "https://simonwillison.net/2026/Nov/7/hn-50407316",
+    "source": "rss",
+    "sourceName": "Simon Willison",
+    "publishedAt": "2026-11-07T19:34:24.000Z",
+    "fetchedAt": "2026-11-09T13:55:06.805Z",
+    "summary": "My comment on Terry Pratchett&#x27;s Study &mdash; Hacker News. Terry Pratchett once wrote about the concept of \"horizontal wealth\". Vertical wealth is where you spend money on rich people stuff - yachts and suchlike. Horizontal wealth is where you spend more money on the things you liked before you got rich: https://chibuikeani.blogspot.com/2017/02/the-price-of-happin... But horizontal wealth means not letting your increased income dictate your tastes. You like books and now you have money? Buy more books! Change those catenary bookshelves for good hardwood ones! In my case, build a library extension to your office. And, of course, you buy what will be useful for that most wonderful of pursuits, blind research, which is research without direction for the sheer joy of it. (Original source is his book A Slip of the Keyboard - this linked blog post quotes that bit.) Tags: hacker-news , terry-pratchett",
+    "technologies": [],
+    "tags": [
+      "ai",
+      "python"
+    ],
+    "engagement": 0,
+    "enriched": false,
+    "outcome": "But horizontal wealth means not letting your increased income dictate your tastes."
   },
   {
     "id": "e4da1fc3654cef88",
@@ -1163,7 +2078,7 @@
     "tags": [
       "hackernews"
     ],
-    "engagement": 1038,
+    "engagement": 1073,
     "enriched": false
   },
   {
@@ -1180,7 +2095,7 @@
     "tags": [
       "hackernews"
     ],
-    "engagement": 1102,
+    "engagement": 1122,
     "enriched": false
   },
   {
@@ -1214,13 +2129,13 @@
     "sourceName": "Hacker News",
     "author": "hedgerow-dev",
     "publishedAt": "2026-11-07T17:27:30.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.748Z",
+    "fetchedAt": "2026-11-09T13:55:06.320Z",
     "summary": "I built Coldframe, a honeypot that pretends to be a supermarket refrigeration controller. Inspired by the events on industrial fridge installations in the past weeks, I wanted to see what people would try against a convincing fake. To learn more about this I built a honeypot that resembled…",
     "technologies": [],
     "tags": [
       "hackernews"
     ],
-    "engagement": 405,
+    "engagement": 417,
     "enriched": false
   },
   {
@@ -1231,13 +2146,13 @@
     "sourceName": "Hacker News",
     "author": "antiuniverse",
     "publishedAt": "2026-11-07T17:19:00.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.748Z",
-    "summary": "Hacker News discussion with 103 comments.",
+    "fetchedAt": "2026-11-09T13:55:06.320Z",
+    "summary": "Hacker News discussion with 105 comments.",
     "technologies": [],
     "tags": [
       "hackernews"
     ],
-    "engagement": 591,
+    "engagement": 610,
     "enriched": false
   },
   {
@@ -1254,7 +2169,47 @@
     "tags": [
       "hackernews"
     ],
-    "engagement": 1236,
+    "engagement": 1261,
+    "enriched": false
+  },
+  {
+    "id": "0301e14693da4304",
+    "title": "Psalm 7 release: PHP security&static analysis software",
+    "url": "https://psalm.dev/articles/psalm-7",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "danogentili",
+    "publishedAt": "2026-11-07T17:06:18.000Z",
+    "fetchedAt": "2026-11-09T13:55:06.319Z",
+    "summary": "Hacker News discussion with 28 comments.",
+    "technologies": [
+      {
+        "name": "PHP",
+        "quadrant": "Languages & Frameworks",
+        "ring": "Trial"
+      }
+    ],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 111,
+    "enriched": false
+  },
+  {
+    "id": "28af36324ee529a7",
+    "title": "Burying the Evidence: nine out of every 10 time capsules go missing",
+    "url": "https://longreads.com/2026/11/05/time-capsules-ashley-stimpson",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "ohjeez",
+    "publishedAt": "2026-11-07T16:51:17.000Z",
+    "fetchedAt": "2026-11-09T13:55:06.319Z",
+    "summary": "Hacker News discussion with 7 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 42,
     "enriched": false
   },
   {
@@ -1480,13 +2435,31 @@
     "enriched": false
   },
   {
+    "id": "eb8e266816bcb9cd",
+    "title": "sherlock-project/sherlock",
+    "url": "https://github.com/sherlock-project/sherlock",
+    "source": "github",
+    "sourceName": "GitHub Trending",
+    "publishedAt": "2026-11-07T14:06:27.125Z",
+    "fetchedAt": "2026-11-09T13:55:06.814Z",
+    "summary": "Hunt down social media accounts by username across social networks",
+    "technologies": [],
+    "tags": [
+      "python",
+      "github-trending",
+      "open-source"
+    ],
+    "engagement": 4294,
+    "enriched": false
+  },
+  {
     "id": "239feae36314418f",
     "title": "milind-soni/OpenMausBot",
     "url": "https://github.com/milind-soni/OpenMausBot",
     "source": "github",
     "sourceName": "GitHub Trending",
     "publishedAt": "2026-11-07T14:06:27.125Z",
-    "fetchedAt": "2026-11-09T01:15:20.818Z",
+    "fetchedAt": "2026-11-09T13:55:06.814Z",
     "summary": "Open-source Grok Bot alternative with a virtual machine that bots can use",
     "technologies": [],
     "tags": [
@@ -1495,24 +2468,6 @@
       "open-source"
     ],
     "engagement": 1986,
-    "enriched": false
-  },
-  {
-    "id": "eb8e266816bcb9cd",
-    "title": "sherlock-project/sherlock",
-    "url": "https://github.com/sherlock-project/sherlock",
-    "source": "github",
-    "sourceName": "GitHub Trending",
-    "publishedAt": "2026-11-07T14:06:27.125Z",
-    "fetchedAt": "2026-11-09T01:15:20.817Z",
-    "summary": "Hunt down social media accounts by username across social networks",
-    "technologies": [],
-    "tags": [
-      "python",
-      "github-trending",
-      "open-source"
-    ],
-    "engagement": 2373,
     "enriched": false
   },
   {
@@ -1578,7 +2533,7 @@
       "github-trending",
       "open-source"
     ],
-    "engagement": 875,
+    "engagement": 3324,
     "enriched": false
   },
   {
@@ -1606,6 +2561,24 @@
     "enriched": false
   },
   {
+    "id": "10ba719313a0c835",
+    "title": "anthropics/skills",
+    "url": "https://github.com/anthropics/skills",
+    "source": "github",
+    "sourceName": "GitHub Trending",
+    "publishedAt": "2026-11-07T14:06:27.124Z",
+    "fetchedAt": "2026-11-09T13:55:06.814Z",
+    "summary": "Public repository for Agent Skills",
+    "technologies": [],
+    "tags": [
+      "python",
+      "github-trending",
+      "open-source"
+    ],
+    "engagement": 1052,
+    "enriched": false
+  },
+  {
     "id": "76608378b6647553",
     "title": "mattpocock/skills",
     "url": "https://github.com/mattpocock/skills",
@@ -1621,24 +2594,6 @@
       "open-source"
     ],
     "engagement": 1111,
-    "enriched": false
-  },
-  {
-    "id": "10ba719313a0c835",
-    "title": "anthropics/skills",
-    "url": "https://github.com/anthropics/skills",
-    "source": "github",
-    "sourceName": "GitHub Trending",
-    "publishedAt": "2026-11-07T14:06:27.124Z",
-    "fetchedAt": "2026-11-09T01:15:20.818Z",
-    "summary": "Public repository for Agent Skills",
-    "technologies": [],
-    "tags": [
-      "python",
-      "github-trending",
-      "open-source"
-    ],
-    "engagement": 792,
     "enriched": false
   },
   {
@@ -1685,7 +2640,7 @@
       "github-trending",
       "open-source"
     ],
-    "engagement": 815,
+    "engagement": 914,
     "enriched": false
   },
   {
@@ -1696,13 +2651,30 @@
     "sourceName": "Hacker News",
     "author": "zenincognito",
     "publishedAt": "2026-11-07T14:00:20.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.748Z",
-    "summary": "Hacker News discussion with 96 comments.",
+    "fetchedAt": "2026-11-09T13:55:06.320Z",
+    "summary": "Hacker News discussion with 100 comments.",
     "technologies": [],
     "tags": [
       "hackernews"
     ],
-    "engagement": 449,
+    "engagement": 463,
+    "enriched": false
+  },
+  {
+    "id": "ce4fae73e8202657",
+    "title": "Ur-Nammu Founder of the Sumerian Renaissance",
+    "url": "https://worldhistory.org/Ur-Nammu",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "Bluestein",
+    "publishedAt": "2026-11-07T13:35:16.000Z",
+    "fetchedAt": "2026-11-09T13:55:06.319Z",
+    "summary": "Hacker News discussion with 5 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 48,
     "enriched": false
   },
   {
@@ -1759,7 +2731,7 @@
       "beginners",
       "devto"
     ],
-    "engagement": 32,
+    "engagement": 45,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcjxfc69hemwzy0bt0fjl.png",
     "enriched": false
   },
@@ -1783,7 +2755,7 @@
     "tags": [
       "hackernews"
     ],
-    "engagement": 1390,
+    "engagement": 1464,
     "enriched": false
   },
   {
@@ -1821,7 +2793,7 @@
     "sourceName": "DEV Community",
     "author": "Athreya aka Maneshwar",
     "publishedAt": "2026-11-07T10:51:12.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.390Z",
+    "fetchedAt": "2026-11-09T13:55:05.821Z",
     "summary": "Hello, I'm Maneshwar, and I'm building LiveReview — a blast-radius aware AI code review built for...",
     "technologies": [],
     "tags": [
@@ -1831,7 +2803,7 @@
       "devops",
       "devto"
     ],
-    "engagement": 61,
+    "engagement": 63,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fjournal-wa6509js.s3.ap-south-1.amazonaws.com%2Fa9f97414682fab3bc3da3724817dda45f819ca88dec1a1241c419ff1e1569fee.jpg",
     "enriched": false
   },
@@ -1843,13 +2815,13 @@
     "sourceName": "Hacker News",
     "author": "susanthenerd",
     "publishedAt": "2026-11-07T10:15:26.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.748Z",
-    "summary": "Hacker News discussion with 265 comments.",
+    "fetchedAt": "2026-11-09T13:55:06.320Z",
+    "summary": "Hacker News discussion with 268 comments.",
     "technologies": [],
     "tags": [
       "hackernews"
     ],
-    "engagement": 799,
+    "engagement": 807,
     "enriched": false
   },
   {
@@ -1899,7 +2871,7 @@
     "tags": [
       "hackernews"
     ],
-    "engagement": 1736,
+    "engagement": 1768,
     "enriched": false
   },
   {
@@ -1910,13 +2882,13 @@
     "sourceName": "Hacker News",
     "author": "DeepLogin",
     "publishedAt": "2026-11-07T09:39:06.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.748Z",
-    "summary": "Hacker News discussion with 140 comments.",
+    "fetchedAt": "2026-11-09T13:55:06.320Z",
+    "summary": "Hacker News discussion with 145 comments.",
     "technologies": [],
     "tags": [
       "hackernews"
     ],
-    "engagement": 579,
+    "engagement": 596,
     "enriched": false
   },
   {
@@ -1950,7 +2922,7 @@
     "tags": [
       "hackernews"
     ],
-    "engagement": 1672,
+    "engagement": 1717,
     "enriched": false
   },
   {
@@ -1977,7 +2949,7 @@
       "python",
       "devto"
     ],
-    "engagement": 74,
+    "engagement": 84,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2FRobinaMirbahar%2Frailpulse-gemma-cloudrun%2Fmain%2Fassets%2Frailpulse_banner_v2.jpg",
     "enriched": false
   },
@@ -2038,7 +3010,7 @@
     "tags": [
       "hackernews"
     ],
-    "engagement": 1181,
+    "engagement": 1238,
     "enriched": false
   },
   {
@@ -2049,13 +3021,13 @@
     "sourceName": "Hacker News",
     "author": "benbreen",
     "publishedAt": "2026-11-07T04:54:36.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.748Z",
-    "summary": "Hacker News discussion with 250 comments.",
+    "fetchedAt": "2026-11-09T13:55:06.320Z",
+    "summary": "Hacker News discussion with 252 comments.",
     "technologies": [],
     "tags": [
       "hackernews"
     ],
-    "engagement": 750,
+    "engagement": 760,
     "enriched": false
   },
   {
@@ -2082,7 +3054,7 @@
       "windows",
       "devto"
     ],
-    "engagement": 176,
+    "engagement": 184,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Feiamx8g9gjxsqv6pdyxp.png",
     "enriched": false
   },
@@ -2094,7 +3066,7 @@
     "sourceName": "DEV Community",
     "author": "Randal L. Schwartz",
     "publishedAt": "2026-11-06T23:51:03.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.389Z",
+    "fetchedAt": "2026-11-09T13:55:05.820Z",
     "summary": "Why does standard AI code generation try to jump straight to 'Have' without the proper 'Be'? How ladder rungs, the 'Null-State' couch flash, and stand-up comedy explain what separates senior engineers from junior token streamers.",
     "technologies": [],
     "tags": [
@@ -2104,7 +3076,7 @@
       "productivity",
       "devto"
     ],
-    "engagement": 50,
+    "engagement": 56,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmc7bd0mpw7k0aq4vsqj4.jpg",
     "enriched": false
   },
@@ -2139,7 +3111,7 @@
     "tags": [
       "hackernews"
     ],
-    "engagement": 1460,
+    "engagement": 1474,
     "enriched": false
   },
   {
@@ -2181,7 +3153,7 @@
       "ai",
       "devto"
     ],
-    "engagement": 32,
+    "engagement": 34,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fkayiu6onnn0kfacri7qk.png",
     "enriched": false
   },
@@ -2288,7 +3260,7 @@
     "tags": [
       "hackernews"
     ],
-    "engagement": 1081,
+    "engagement": 1082,
     "enriched": false
   },
   {
@@ -2316,13 +3288,13 @@
     "sourceName": "Hacker News",
     "author": "theanomaly",
     "publishedAt": "2026-11-06T19:48:51.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.748Z",
+    "fetchedAt": "2026-11-09T13:55:06.319Z",
     "summary": "Hacker News discussion with 153 comments.",
     "technologies": [],
     "tags": [
       "hackernews"
     ],
-    "engagement": 900,
+    "engagement": 904,
     "enriched": false
   },
   {
@@ -2380,13 +3352,13 @@
     "sourceName": "Hacker News",
     "author": "SerCe",
     "publishedAt": "2026-11-06T19:33:38.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.748Z",
-    "summary": "Hacker News discussion with 141 comments.",
+    "fetchedAt": "2026-11-09T13:55:06.320Z",
+    "summary": "Hacker News discussion with 143 comments.",
     "technologies": [],
     "tags": [
       "hackernews"
     ],
-    "engagement": 569,
+    "engagement": 573,
     "enriched": false
   },
   {
@@ -2657,7 +3629,7 @@
     "tags": [
       "hackernews"
     ],
-    "engagement": 1564,
+    "engagement": 1576,
     "enriched": false
   },
   {
@@ -2668,13 +3640,13 @@
     "sourceName": "Hacker News",
     "author": "LaSombra",
     "publishedAt": "2026-11-06T16:50:29.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.748Z",
+    "fetchedAt": "2026-11-09T13:55:06.320Z",
     "summary": "Hacker News discussion with 57 comments.",
     "technologies": [],
     "tags": [
       "hackernews"
     ],
-    "engagement": 366,
+    "engagement": 367,
     "enriched": false
   },
   {
@@ -2707,13 +3679,13 @@
     "sourceName": "Hacker News",
     "author": "cybersoyuz",
     "publishedAt": "2026-11-06T15:44:36.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.748Z",
+    "fetchedAt": "2026-11-09T13:55:06.320Z",
     "summary": "Hacker News discussion with 205 comments.",
     "technologies": [],
     "tags": [
       "hackernews"
     ],
-    "engagement": 793,
+    "engagement": 794,
     "enriched": false
   },
   {
@@ -2818,15 +3790,32 @@
     "sourceName": "DEV Community",
     "author": "Jess Lee",
     "publishedAt": "2026-11-06T14:00:00.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.388Z",
+    "fetchedAt": "2026-11-09T13:55:05.819Z",
     "summary": "👋👋👋👋 Looking back on your week -- what was something you're proud of? All wins count -- big or small...",
     "technologies": [],
     "tags": [
       "weeklyretro",
       "devto"
     ],
-    "engagement": 222,
+    "engagement": 235,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fkj5tyulak1xdbx8ga5ob.jpg",
+    "enriched": false
+  },
+  {
+    "id": "7b329728903b7c1e",
+    "title": "Nvidia was in 1 in 11 startup rounds over $100M last year",
+    "url": "https://datahyena.com/research/a-chipmaker-was-in-one-of-every-eleven-100m-rounds",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "ghostfoxgod",
+    "publishedAt": "2026-11-06T13:48:35.000Z",
+    "fetchedAt": "2026-11-09T13:55:06.319Z",
+    "summary": "Hacker News discussion with 48 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 149,
     "enriched": false
   },
   {
@@ -3253,6 +4242,32 @@
     "enriched": false
   },
   {
+    "id": "8cc30270a71dd03f",
+    "title": "Fine-Tuning with a Handful of Examples",
+    "url": "https://dev.to/sumanth_kumarkotagudem/fine-tuning-with-a-handful-of-examples-2420",
+    "source": "devto",
+    "sourceName": "DEV Community",
+    "author": "Sumanth Kumar Kotagudem",
+    "publishedAt": "2026-11-06T08:51:22.000Z",
+    "fetchedAt": "2026-11-09T13:55:05.821Z",
+    "summary": "Introduction It was my first day of the internship, and I was given a brief about my new...",
+    "technologies": [
+      {
+        "name": "Fine-tuning",
+        "quadrant": "Techniques",
+        "ring": "Assess"
+      }
+    ],
+    "tags": [
+      "internship",
+      "ai",
+      "learning",
+      "devto"
+    ],
+    "engagement": 5,
+    "enriched": false
+  },
+  {
     "id": "64f2fa9c3abbf06b",
     "title": "Claude Code was mailing your email address to every website it visited: the User-Agent leak, the 5-month system-prompt issue, and the 5-point check",
     "url": "https://dev.to/slabb/claude-code-was-mailing-your-email-address-to-every-website-it-visited-the-user-agent-leak-the-12k6",
@@ -3281,7 +4296,7 @@
       "agents",
       "devto"
     ],
-    "engagement": 47,
+    "engagement": 48,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fj9oljnyn04qj9tv7bm7u.png",
     "enriched": false,
     "problem": "Claude Code put your account email in the User-Agent header of its web requests, so every server log on the agent's path harvested a scam-ready lead, and the same email ships in the system prompt of every session, an issue open since July."
@@ -3421,6 +4436,23 @@
     "enriched": false
   },
   {
+    "id": "8b22a83b2b929519",
+    "title": "How Australia played the first music on a computer",
+    "url": "https://pearcey.org.au/heritage/csirac/how-australia-played-the-worlds-first-music-on-a-computer",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "Skyfall106",
+    "publishedAt": "2026-11-06T04:46:23.000Z",
+    "fetchedAt": "2026-11-09T13:55:06.319Z",
+    "summary": "Hacker News discussion with 1 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 12,
+    "enriched": false
+  },
+  {
     "id": "24b0a9d1f60ce985",
     "title": "From Linux to Wikipedia: How Volunteers Build the Internet",
     "url": "https://thereader.mitpress.mit.edu/from-linux-to-wikipedia-how-volunteers-build-the-internet",
@@ -3544,7 +4576,7 @@
       "career",
       "devto"
     ],
-    "engagement": 260,
+    "engagement": 279,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fixx20m4903kd4gqasfhz.png",
     "enriched": false
   },
@@ -3728,7 +4760,7 @@
     "sourceName": "DEV Community",
     "author": "Jem",
     "publishedAt": "2026-11-05T21:12:11.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.387Z",
+    "fetchedAt": "2026-11-09T13:55:05.819Z",
     "summary": "A few weeks ago we teamed up with Kaggle to ask a deceptively simple question: how do you actually...",
     "technologies": [],
     "tags": [
@@ -3738,7 +4770,7 @@
       "machinelearning",
       "devto"
     ],
-    "engagement": 182,
+    "engagement": 188,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fig8gi4bw1h7vk0z76krk.png",
     "enriched": false
   },
@@ -4549,7 +5581,7 @@
       "security",
       "devto"
     ],
-    "engagement": 111,
+    "engagement": 114,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgp9mzlfxjcl32v27828r.jpg",
     "enriched": false
   },
@@ -4579,6 +5611,26 @@
       "docker hardened images"
     ],
     "engagement": 0,
+    "enriched": false
+  },
+  {
+    "id": "47e4f519a82605b6",
+    "title": "Thank you to everyone who pointed out the phishing posts we got yesterday. We're working on improved mechanisms to automatically reject those types of attacks.",
+    "url": "https://dev.to/ben/thank-you-to-everyone-who-pointed-out-the-phishing-posts-we-got-yesterday-were-working-on-1h9b",
+    "source": "devto",
+    "sourceName": "DEV Community",
+    "author": "Ben Halpern",
+    "publishedAt": "2026-11-05T15:25:46.000Z",
+    "fetchedAt": "2026-11-09T13:55:05.821Z",
+    "summary": "A post by Ben Halpern",
+    "technologies": [],
+    "tags": [
+      "cybersecurity",
+      "infosec",
+      "security",
+      "devto"
+    ],
+    "engagement": 18,
     "enriched": false
   },
   {
@@ -5248,7 +6300,7 @@
     "sourceName": "DEV Community",
     "author": "Daniel Nwaneri",
     "publishedAt": "2026-11-05T11:29:41.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.388Z",
+    "fetchedAt": "2026-11-09T13:55:05.819Z",
     "summary": "If you want agents to do what you want, you need to learn how to box them into deterministic actions....",
     "technologies": [],
     "tags": [
@@ -5258,7 +6310,7 @@
       "productivity",
       "devto"
     ],
-    "engagement": 141,
+    "engagement": 146,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F701t0c2zifz0n0n7667t.jpg",
     "enriched": false
   },
@@ -5432,7 +6484,7 @@
     "sourceName": "DEV Community",
     "author": "Daniel Balcarek",
     "publishedAt": "2026-11-05T07:29:16.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.388Z",
+    "fetchedAt": "2026-11-09T13:55:05.819Z",
     "summary": "WebMCP is a proposed web standard that, at least to me, looks very promising. I already played around...",
     "technologies": [],
     "tags": [
@@ -5442,7 +6494,7 @@
       "security",
       "devto"
     ],
-    "engagement": 250,
+    "engagement": 264,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fv7lgr9ne1q8nrb0kchad.jpg",
     "enriched": false
   },
@@ -5461,6 +6513,23 @@
       "hackernews"
     ],
     "engagement": 569,
+    "enriched": false
+  },
+  {
+    "id": "71b32f08ef3eb950",
+    "title": "Quasi-Logarithmic Kitchen Timer",
+    "url": "https://blog.coredump.cx/p/quasi-logarithmic-kitchen-timer",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "surprisetalk",
+    "publishedAt": "2026-11-05T01:15:15.000Z",
+    "fetchedAt": "2026-11-09T13:55:06.319Z",
+    "summary": "Hacker News discussion with 13 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 82,
     "enriched": false
   },
   {
@@ -5865,7 +6934,7 @@
     "sourceName": "DEV Community",
     "author": "Giorgi Kobaidze",
     "publishedAt": "2026-11-04T17:11:22.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.388Z",
+    "fetchedAt": "2026-11-09T13:55:05.819Z",
     "summary": "⚡ In a hurry? Skip straight to the rules ⚡ Don't Make the Same Mistake I Did I have...",
     "technologies": [],
     "tags": [
@@ -5875,7 +6944,7 @@
       "discuss",
       "devto"
     ],
-    "engagement": 359,
+    "engagement": 393,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fsj3z3wne9uej05d24y0q.jpeg",
     "enriched": false
   },
@@ -5887,13 +6956,13 @@
     "sourceName": "Hacker News",
     "author": "smusamashah",
     "publishedAt": "2026-11-04T17:05:07.000Z",
-    "fetchedAt": "2026-11-09T01:15:20.746Z",
-    "summary": "Hacker News discussion with 38 comments.",
+    "fetchedAt": "2026-11-09T13:55:06.318Z",
+    "summary": "Hacker News discussion with 78 comments.",
     "technologies": [],
     "tags": [
       "hackernews"
     ],
-    "engagement": 402,
+    "engagement": 775,
     "enriched": false
   },
   {
@@ -6050,7 +7119,7 @@
       "community",
       "devto"
     ],
-    "engagement": 242,
+    "engagement": 264,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fxk1od80qev2aceo6uua4.gif",
     "enriched": false
   },
@@ -6463,7 +7532,7 @@
       "architecture",
       "devto"
     ],
-    "engagement": 26,
+    "engagement": 27,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fi.imgur.com%2Fi3w5hN8.jpeg",
     "enriched": false
   },
@@ -6546,7 +7615,7 @@
       "ai",
       "devto"
     ],
-    "engagement": 637,
+    "engagement": 644,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmsqofwuj23waq6n4qaof.png",
     "enriched": false
   },
@@ -7242,7 +8311,7 @@
     "sourceName": "DEV Community",
     "author": "Ken W Alger",
     "publishedAt": "2026-11-03T13:53:00.000Z",
-    "fetchedAt": "2026-11-07T14:06:27.313Z",
+    "fetchedAt": "2026-11-09T13:55:05.821Z",
     "summary": "What racking wine teaches about agent memory The mead's lees on October 21, with the racking cane...",
     "technologies": [],
     "tags": [
@@ -7252,7 +8321,7 @@
       "programming",
       "devto"
     ],
-    "engagement": 26,
+    "engagement": 28,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjta595mrd2d2908smur0.png",
     "enriched": false
   },
@@ -7417,7 +8486,7 @@
       "showdev",
       "devto"
     ],
-    "engagement": 77,
+    "engagement": 86,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F31ijp8806lrw0lbpfmkd.png",
     "enriched": false,
     "approach": "I Built a Visual System Design Reference — Switch Any Architecture Between AWS, Azure, GCP..."
@@ -7430,7 +8499,7 @@
     "sourceName": "DEV Community",
     "author": "FrancisTRᴅᴇᴠ",
     "publishedAt": "2026-11-02T16:11:59.000Z",
-    "fetchedAt": "2026-11-08T11:56:43.945Z",
+    "fetchedAt": "2026-11-09T13:55:05.819Z",
     "summary": "When reading this title, this may sound Netural... Let me explain further. I do recommend reading...",
     "technologies": [],
     "tags": [
@@ -7440,7 +8509,7 @@
       "hacktoberfest",
       "devto"
     ],
-    "engagement": 322,
+    "engagement": 326,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fkdrg60peavzloceeysdp.png",
     "enriched": false
   },
