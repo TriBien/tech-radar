@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T13:56:22.155Z",
+  "generatedAt": "2026-11-10T13:30:23.696Z",
   "periodDays": 60,
   "items": [
     {
@@ -7,22 +7,22 @@
       "name": "AI agents",
       "quadrant": "Techniques",
       "ring": "Assess",
-      "description": "At Google Cloud Next in April, we introduced two new specialized TPUs in the same generation — 8t for large-scale training and 8i for real-time reasoning.",
-      "articleCount": 33,
-      "recentCount": 33,
+      "description": "Aditya Mulik explains how Walmart Global Tech deployed multi-agent LLM workflows across 4,700 stores for nightly batch inventory forecasting. He discusses tackling production hurdles - schema…",
+      "articleCount": 39,
+      "recentCount": 39,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2026-11-02T21:03:27.000Z",
-      "lastSeen": "2026-11-09T13:00:00.000Z",
+      "lastSeen": "2026-11-10T11:00:00.000Z",
       "articleIds": [
+        "b027bdc9b7952760",
+        "b6dff040ef97b102",
+        "819d0c1ccd00d40c",
+        "9621e800a7bb4532",
+        "e79ab6af73d9f9ec",
+        "179d6b06e7d49765",
         "cb3d8e2e959c612e",
-        "722024a858e7b733",
-        "a678386f4bab26d0",
-        "fb9acb2142669a05",
-        "97f172440b49ad74",
-        "036cbdf195122538",
-        "1ceb56a3b3745da8",
-        "5cecc12e376b047e"
+        "722024a858e7b733"
       ],
       "tags": [
         "cloud",
@@ -31,122 +31,184 @@
         "ai agents",
         "ai"
       ],
-      "score": 508.6
+      "score": 598.6
     },
     {
       "id": "anthropic-claude-ba718d",
       "name": "Anthropic Claude",
       "quadrant": "Tools",
       "ring": "Trial",
-      "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
-      "articleCount": 22,
-      "recentCount": 22,
+      "description": "] If you want the model to improve the structure as it works, say that the code is its own: This codebase is yours: what it's for and how it's built are your call, and you'll keep building on it.",
+      "articleCount": 36,
+      "recentCount": 36,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2026-11-01T10:03:30.000Z",
-      "lastSeen": "2026-11-09T13:55:06.814Z",
+      "lastSeen": "2026-11-10T12:49:32.000Z",
       "articleIds": [
-        "81f33d0f3f662b41",
-        "6ee1dee33e4bfc63",
-        "26b52d229f334526",
-        "3e62264ffb8eefe5",
-        "2382673acb375df8",
-        "68ff5ed661ee40ec",
-        "e66f4eeac8f3ba07",
-        "5186d80b7eef5626"
+        "a27532638c556bde",
+        "6f6fff482120edaf",
+        "aa9d06fdcfe1a35b",
+        "ac841c16ab1a0f7b",
+        "baaf713b11e387f5",
+        "f9419f0d8f8db666",
+        "255b56db4a4a44d0",
+        "8d535129305d3ddd"
       ],
       "tags": [
         "ai",
-        "security",
         "hackernews",
         "python",
-        "cloud-native"
+        "cloud-native",
+        "security"
       ],
-      "score": 348.8
+      "score": 558.8
     },
     {
       "id": "google-cloud-6e9b50",
       "name": "Google Cloud",
       "quadrant": "Platforms",
       "ring": "Adopt",
-      "description": "At Google Cloud Next in April, we introduced two new specialized TPUs in the same generation — 8t for large-scale training and 8i for real-time reasoning.",
-      "articleCount": 17,
-      "recentCount": 17,
+      "description": "Google Cloud has made spend caps on Cloud Billing Budgets generally available, pausing new usage of a service in a project once a monthly budget is hit, without deleting resources. GA adds an API,…",
+      "articleCount": 20,
+      "recentCount": 20,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2026-11-02T20:40:43.000Z",
-      "lastSeen": "2026-11-09T13:00:00.000Z",
+      "lastSeen": "2026-11-10T08:39:00.000Z",
       "articleIds": [
+        "616a8c992ccd2997",
+        "819d0c1ccd00d40c",
+        "e79ab6af73d9f9ec",
         "cb3d8e2e959c612e",
         "714506c910e56a4b",
         "4cc997d5eb68c89f",
         "d7b08361a2a2e259",
-        "f558c37291cb9195",
-        "6d7526357c232246",
-        "8701fa3f5588adb9",
-        "f1280b003fab5afa"
+        "f558c37291cb9195"
       ],
       "tags": [
         "cloud",
-        "tpus",
-        "ai infrastructure",
         "google cloud",
-        "ai & machine learning"
+        "ai & machine learning",
+        "architecture",
+        "tpus"
       ],
-      "score": 275
+      "score": 320
+    },
+    {
+      "id": "gemini-468da0",
+      "name": "Gemini",
+      "quadrant": "Tools",
+      "ring": "Trial",
+      "description": "This purpose-built industry solution extends the universal Gemini agent, we introduced last month at Gemini at Work.",
+      "articleCount": 15,
+      "recentCount": 15,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2026-11-01T10:03:30.000Z",
+      "lastSeen": "2026-11-10T12:00:00.000Z",
+      "articleIds": [
+        "3ed97e4f134d8761",
+        "616a8c992ccd2997",
+        "1b18e8c9acf73639",
+        "819d0c1ccd00d40c",
+        "c7a8b6fe75e41463",
+        "cb3d8e2e959c612e",
+        "714506c910e56a4b",
+        "ea2c57144025aa64"
+      ],
+      "tags": [
+        "cloud",
+        "ai & machine learning",
+        "architecture",
+        "hackernews",
+        "tpus"
+      ],
+      "score": 243
     },
     {
       "id": "kubernetes-adc1f5",
       "name": "Kubernetes",
       "quadrant": "Platforms",
       "ring": "Adopt",
-      "description": "Today, we are thrilled to announce the general availability (GA) of Cloud Pathways (Pathways on Cloud) on Google Kubernetes Engine (GKE) as a core runtime pillar of the Google Cloud AI Hypercomputer.…",
-      "articleCount": 11,
-      "recentCount": 11,
+      "description": "Over the past decade, Kubernetes established itself as the standard for orchestrating microservices and containerized applications. Today, we're witnessing the next major architectural shift in…",
+      "articleCount": 12,
+      "recentCount": 12,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2026-11-04T13:56:06.000Z",
-      "lastSeen": "2026-11-09T13:00:00.000Z",
+      "lastSeen": "2026-11-10T01:00:00.000Z",
       "articleIds": [
+        "0615186de1ed79ff",
         "714506c910e56a4b",
         "d6cf8c6e76ecb481",
         "ecf7a899a16f8d25",
         "b95f6aa29001e5a7",
         "288aef15dc28f1ab",
         "2bf6c7572a76eb11",
-        "b182e42b92d90909",
-        "e9657751164169cb"
+        "b182e42b92d90909"
       ],
       "tags": [
         "cloud",
         "kubernetes",
         "cloud-native",
         "reading-list",
-        "tpus"
+        "developers & practitioners"
       ],
-      "score": 186.1
+      "score": 201.1
+    },
+    {
+      "id": "aws-553579",
+      "name": "AWS",
+      "quadrant": "Platforms",
+      "ring": "Adopt",
+      "description": "Learn how Novus Hi-Tech, with the AWS Prototyping and AI Customer Engineering (PACE) team, built FleetGPT, an agentic AI solution on Amazon Bedrock that turns fleet IoT data into real-time safety…",
+      "articleCount": 12,
+      "recentCount": 12,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2026-11-02T20:40:43.000Z",
+      "lastSeen": "2026-11-09T20:34:35.000Z",
+      "articleIds": [
+        "b6dff040ef97b102",
+        "d5ae3b70fdacc96f",
+        "2f47f0209e3ff44c",
+        "d7b08361a2a2e259",
+        "036cbdf195122538",
+        "44bb29128756399d",
+        "4b49624e6a055732",
+        "dc28a8fc7631eece"
+      ],
+      "tags": [
+        "cloud",
+        "reading-list",
+        "architecture",
+        "ai",
+        "devto"
+      ],
+      "score": 200.7
     },
     {
       "id": "rust-7b41f8",
       "name": "Rust",
       "quadrant": "Languages & Frameworks",
       "ring": "Trial",
-      "description": "Topcoat is an open-source, server-rendered full-stack web framework for Rust from the Tokio team, now public at version 0.9. It uses Rust expressions translated to JavaScript for reactivity instead…",
-      "articleCount": 11,
-      "recentCount": 11,
+      "description": "Rust is a great language for many reasons: safety, performance and tooling. However, debugging is maybe one of the weakest points still. Interestingly enough, the Rust debugging survey 2026 results…",
+      "articleCount": 12,
+      "recentCount": 12,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2026-11-02T21:32:30.000Z",
-      "lastSeen": "2026-11-09T06:42:00.000Z",
+      "lastSeen": "2026-11-10T10:57:58.000Z",
       "articleIds": [
+        "08153d08fb497abe",
         "3ff0584fedeacb03",
         "2fab79d06b7a4b4b",
         "3e62264ffb8eefe5",
         "9476d12cec2fd106",
         "4fe6bf290bd6b928",
         "e9e37faea4d91eef",
-        "84e15caa2b1df69b",
-        "2e0a96f111eac47e"
+        "84e15caa2b1df69b"
       ],
       "tags": [
         "rust",
@@ -155,114 +217,53 @@
         "ai",
         "tpu"
       ],
-      "score": 183
-    },
-    {
-      "id": "aws-553579",
-      "name": "AWS",
-      "quadrant": "Platforms",
-      "ring": "Adopt",
-      "description": "At the recent PyTorch Conference North America 2026, Amazon introduced TorchNeuron, a native PyTorch backend that enables developers to run existing PyTorch code on AWS Trainium AI chips with…",
-      "articleCount": 10,
-      "recentCount": 10,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2026-11-02T20:40:43.000Z",
-      "lastSeen": "2026-11-09T11:00:00.000Z",
-      "articleIds": [
-        "2f47f0209e3ff44c",
-        "d7b08361a2a2e259",
-        "036cbdf195122538",
-        "44bb29128756399d",
-        "4b49624e6a055732",
-        "dc28a8fc7631eece",
-        "a82a54d12c29c90a",
-        "302de1794f3160fa"
-      ],
-      "tags": [
-        "architecture",
-        "ai",
-        "devto",
-        "cloud",
-        "reading-list"
-      ],
-      "score": 170.6
-    },
-    {
-      "id": "gemini-468da0",
-      "name": "Gemini",
-      "quadrant": "Tools",
-      "ring": "Trial",
-      "description": "At Google Cloud Next in April, we introduced two new specialized TPUs in the same generation — 8t for large-scale training and 8i for real-time reasoning.",
-      "articleCount": 10,
-      "recentCount": 10,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2026-11-01T10:03:30.000Z",
-      "lastSeen": "2026-11-09T13:00:00.000Z",
-      "articleIds": [
-        "cb3d8e2e959c612e",
-        "714506c910e56a4b",
-        "ea2c57144025aa64",
-        "d7e9e3e89ee778d6",
-        "dbb09eb09bdf73eb",
-        "50dcc273211cdf95",
-        "bd5d29a32a5f70b7",
-        "f30582815c21ca92"
-      ],
-      "tags": [
-        "cloud",
-        "tpus",
-        "ai infrastructure",
-        "bigquery",
-        "ai & machine learning"
-      ],
-      "score": 167.9
+      "score": 198.2
     },
     {
       "id": "claude-code-7cb022",
       "name": "Claude Code",
       "quadrant": "Tools",
       "ring": "Assess",
-      "description": "They're too good at describing the work The problem is that they are too good.",
-      "articleCount": 8,
-      "recentCount": 8,
+      "description": "Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping . The beeps were far enough…",
+      "articleCount": 11,
+      "recentCount": 11,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2026-11-03T19:18:34.000Z",
-      "lastSeen": "2026-11-09T04:25:05.000Z",
+      "lastSeen": "2026-11-09T23:57:21.000Z",
       "articleIds": [
+        "baaf713b11e387f5",
+        "2396c16836f4db23",
+        "9d38e7e45a37e612",
         "6ee1dee33e4bfc63",
         "68ff5ed661ee40ec",
         "5186d80b7eef5626",
         "4b49624e6a055732",
-        "64f2fa9c3abbf06b",
-        "3b58ffb304e7b124",
-        "2c298dc2806747de",
-        "ed9dd69428779a0c"
+        "64f2fa9c3abbf06b"
       ],
       "tags": [
         "ai",
         "hackernews",
-        "security",
-        "devto",
-        "cloud-native"
+        "cloud-native",
+        "ai agents",
+        "developer tools"
       ],
-      "score": 133.8
+      "score": 178.8
     },
     {
       "id": "python-423522",
       "name": "Python",
       "quadrant": "Languages & Frameworks",
       "ring": "Adopt",
-      "description": "Today, we are thrilled to announce the general availability (GA) of Cloud Pathways (Pathways on Cloud) on Google Kubernetes Engine (GKE) as a core runtime pillar of the Google Cloud AI Hypercomputer.…",
-      "articleCount": 7,
-      "recentCount": 7,
+      "description": "Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping . The beeps were far enough…",
+      "articleCount": 8,
+      "recentCount": 8,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2026-11-01T02:22:52.000Z",
-      "lastSeen": "2026-11-09T13:00:00.000Z",
+      "lastSeen": "2026-11-09T23:57:21.000Z",
       "articleIds": [
+        "baaf713b11e387f5",
         "714506c910e56a4b",
         "f851d0d2f31f8c6a",
         "e9e37faea4d91eef",
@@ -273,12 +274,12 @@
       ],
       "tags": [
         "devto",
-        "rust",
         "ai",
-        "cloud",
-        "tpus"
+        "python",
+        "rust",
+        "hackernews"
       ],
-      "score": 126.1
+      "score": 141.4
     },
     {
       "id": "postgresql-519968",
@@ -344,14 +345,15 @@
       "name": "OpenAI API",
       "quadrant": "Tools",
       "ring": "Trial",
-      "description": "The agent running on a remote machine can authenticate using your local SSH credentials. That means it can push to your private repos on GitHub, for example. Proof:…",
-      "articleCount": 5,
-      "recentCount": 5,
+      "description": "Two of the biggest players in the AI coding space are betting that developers want to talk to their agents The post Cursor and Google join OpenAI in giving coding agents a voice. Claude Code stays…",
+      "articleCount": 6,
+      "recentCount": 6,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2026-11-02T21:32:30.000Z",
-      "lastSeen": "2026-11-09T08:17:49.000Z",
+      "lastSeen": "2026-11-09T18:22:41.000Z",
       "articleIds": [
+        "2396c16836f4db23",
         "8ceada5f95028093",
         "2bf6c7572a76eb11",
         "d3f1975aa4eab60f",
@@ -361,25 +363,26 @@
       "tags": [
         "cloud-native",
         "ai agents",
-        "security",
         "ai",
-        "reading-list"
+        "reading-list",
+        "security"
       ],
-      "score": 91.2
+      "score": 106.2
     },
     {
       "id": "typescript-fb9da8",
       "name": "TypeScript",
       "quadrant": "Languages & Frameworks",
       "ring": "Adopt",
-      "description": "Bumpy is an MIT-licensed, TypeScript tool for version management and changelogs in monorepos. It follows the changesets workflow, using markdown bump files, and adds support for workspace and catalog…",
-      "articleCount": 4,
-      "recentCount": 4,
+      "description": "Effect 4.0, a TypeScript framework for typed errors and structured concurrency, was released on 30 September 2026 with a rewritten fiber runtime. The team reports a bundle size drop from 35.6 kB to…",
+      "articleCount": 5,
+      "recentCount": 5,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2026-11-02T09:05:46.000Z",
-      "lastSeen": "2026-11-07T06:54:00.000Z",
+      "lastSeen": "2026-11-10T06:33:00.000Z",
       "articleIds": [
+        "41649c546d9bea43",
         "b031e95169011e00",
         "0a7574f349c317a9",
         "c641a2330bd759b6",
@@ -389,51 +392,53 @@
         "architecture",
         "web development",
         "typescript",
-        "devto",
+        "javascript",
         "development"
       ],
-      "score": 80.9
+      "score": 95.9
     },
     {
       "id": "cloudflare-f036f5",
       "name": "Cloudflare",
       "quadrant": "Platforms",
       "ring": "Trial",
-      "description": "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to open source projects and maintainers. The recipients were chosen by a panel of Vite stack core team members, including…",
-      "articleCount": 4,
-      "recentCount": 4,
+      "description": "Cloudflare is developing a public certificate authority for Merkle Tree Certificates (MTCs) to reduce the bandwidth overhead of post-quantum cryptography. A Chrome experiment served billions of MTCs…",
+      "articleCount": 5,
+      "recentCount": 5,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2026-11-04T14:00:00.000Z",
-      "lastSeen": "2026-11-09T13:00:00.000Z",
+      "lastSeen": "2026-11-09T14:35:00.000Z",
       "articleIds": [
+        "5720b59a680a066d",
         "b2982d30c3500929",
         "ffae9ae80732c0e4",
         "6426decba2ef7b96",
         "19361844fc329f21"
       ],
       "tags": [
-        "infra",
         "security",
-        "developers",
-        "open source",
-        "vite"
+        "architecture",
+        "infra",
+        "network security",
+        "web browser"
       ],
-      "score": 78.6
+      "score": 93.6
     },
     {
       "id": "grafana-f519bc",
       "name": "Grafana",
       "quadrant": "Tools",
       "ring": "Adopt",
-      "description": "AI agents are becoming part of everyday engineering workflows, helping teams write code, troubleshoot issues, and automate tasks.",
-      "articleCount": 4,
-      "recentCount": 4,
+      "description": "Ultimately, this helps you surface problems without needing an alert, giving you wider coverage and more confidence in your system.",
+      "articleCount": 5,
+      "recentCount": 5,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2026-11-03T15:05:03.000Z",
-      "lastSeen": "2026-11-06T18:37:07.000Z",
+      "lastSeen": "2026-11-09T16:30:31.000Z",
       "articleIds": [
+        "9621e800a7bb4532",
         "649ad2b494211d8d",
         "67826e3f3312b1b9",
         "e11f6903b56d39d8",
@@ -441,6 +446,60 @@
       ],
       "tags": [
         "observability"
+      ],
+      "score": 93
+    },
+    {
+      "id": "go-1ec558",
+      "name": "Go",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Adopt",
+      "description": "Every year, the JetBrains Developer Ecosystem survey gives us a snapshot of how developers work. This year, 28,945 developers took part between May and July 2026, and 1,836 of them named Go as one of…",
+      "articleCount": 4,
+      "recentCount": 4,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2026-11-04T17:52:11.000Z",
+      "lastSeen": "2026-11-10T07:56:41.000Z",
+      "articleIds": [
+        "2cb87251db30d865",
+        "71aaa2946db119b3",
+        "611eaa424a2ea349",
+        "aed4d9c60c01ceb3"
+      ],
+      "tags": [
+        "devtools",
+        "goland",
+        "go",
+        "developer-ecosystem",
+        "golang"
+      ],
+      "score": 81.8
+    },
+    {
+      "id": "figma-d2834b",
+      "name": "Figma",
+      "quadrant": "Tools",
+      "ring": "Adopt",
+      "description": "From making designs more expressive and automating busywork, to exploring more possibilities on the canvas, here are six ways to push designers further with the Figma agent.",
+      "articleCount": 4,
+      "recentCount": 4,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2026-11-04T16:23:00.000Z",
+      "lastSeen": "2026-11-09T21:46:00.000Z",
+      "articleIds": [
+        "bdea120a0c27b6dd",
+        "4ab695861299d0f8",
+        "fa8e611759ccc35e",
+        "547f134dd51fb496"
+      ],
+      "tags": [
+        "frontend",
+        "devtools",
+        "news",
+        "releases",
+        "jetbrains-air"
       ],
       "score": 78
     },
@@ -499,56 +558,31 @@
       "score": 71.1
     },
     {
-      "id": "go-1ec558",
-      "name": "Go",
-      "quadrant": "Languages & Frameworks",
-      "ring": "Adopt",
-      "description": "In our practical guide to profiling in Go, we mentioned that some of the Go developers we talked to avoid pprof if they can. For many of them, typical Go services perform well enough without…",
-      "articleCount": 3,
-      "recentCount": 3,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2026-11-04T17:52:11.000Z",
-      "lastSeen": "2026-11-06T11:32:04.000Z",
-      "articleIds": [
-        "71aaa2946db119b3",
-        "611eaa424a2ea349",
-        "aed4d9c60c01ceb3"
-      ],
-      "tags": [
-        "devtools",
-        "goland",
-        "ai-agents",
-        "performance-optimization",
-        "profiler"
-      ],
-      "score": 66.8
-    },
-    {
-      "id": "figma-d2834b",
-      "name": "Figma",
+      "id": "cursor-7c501e",
+      "name": "Cursor",
       "quadrant": "Tools",
-      "ring": "Adopt",
-      "description": "WebStorm 2026.3 is now available! Building a UI feature with an AI agent often involves more switching between tools than actual coding. You copy values out of Figma, hunt for the right story in…",
-      "articleCount": 3,
-      "recentCount": 3,
+      "ring": "Assess",
+      "description": "Two of the biggest players in the AI coding space are betting that developers want to talk to their agents The post Cursor and Google join OpenAI in giving coding agents a voice. Claude Code stays…",
+      "articleCount": 4,
+      "recentCount": 4,
       "previousCount": 0,
       "trend": "up",
-      "firstSeen": "2026-11-04T16:23:00.000Z",
-      "lastSeen": "2026-11-05T13:27:56.000Z",
+      "firstSeen": "2026-11-05T15:58:00.000Z",
+      "lastSeen": "2026-11-09T18:22:41.000Z",
       "articleIds": [
-        "4ab695861299d0f8",
-        "fa8e611759ccc35e",
-        "547f134dd51fb496"
+        "2396c16836f4db23",
+        "649ad2b494211d8d",
+        "974ef3bd3bfd8c31",
+        "7fb652c9ef37fd7e"
       ],
       "tags": [
-        "frontend",
-        "devtools",
-        "news",
-        "releases",
-        "jetbrains-air"
+        "reading-list",
+        "cloud-native",
+        "ai",
+        "ai agents",
+        "developer tools"
       ],
-      "score": 63
+      "score": 69
     },
     {
       "id": "docker-e982f1",
@@ -573,6 +607,32 @@
         "agentic ai",
         "cloud sandboxes",
         "concepts"
+      ],
+      "score": 63
+    },
+    {
+      "id": "java-23524b",
+      "name": "Java",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Adopt",
+      "description": "This week's Java roundup for November 2nd, 2026, features news highlighting: point releases of TornadoVM, TornadoInsight, A2A for Java, Gradle and EclipseStore; the November 2026 edition of Open…",
+      "articleCount": 3,
+      "recentCount": 3,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2026-11-06T08:07:06.000Z",
+      "lastSeen": "2026-11-09T18:40:00.000Z",
+      "articleIds": [
+        "d2ab14a5ea188b3a",
+        "ecf7a899a16f8d25",
+        "4daf6dadf9c46066"
+      ],
+      "tags": [
+        "architecture",
+        "tornadovm",
+        "jreleaser",
+        "eclipsestore",
+        "agent2agent"
       ],
       "score": 63
     },
@@ -678,30 +738,30 @@
       "score": 60
     },
     {
-      "id": "cursor-7c501e",
-      "name": "Cursor",
-      "quadrant": "Tools",
-      "ring": "Assess",
-      "description": "AI agents are becoming part of everyday engineering workflows, helping teams write code, troubleshoot issues, and automate tasks.",
+      "id": "microservices-999f3e",
+      "name": "Microservices",
+      "quadrant": "Techniques",
+      "ring": "Trial",
+      "description": "Over the past decade, Kubernetes established itself as the standard for orchestrating microservices and containerized applications. Today, we're witnessing the next major architectural shift in…",
       "articleCount": 3,
       "recentCount": 3,
       "previousCount": 0,
       "trend": "up",
-      "firstSeen": "2026-11-05T15:58:00.000Z",
-      "lastSeen": "2026-11-06T18:37:07.000Z",
+      "firstSeen": "2026-11-09T10:52:00.000Z",
+      "lastSeen": "2026-11-10T01:00:00.000Z",
       "articleIds": [
-        "649ad2b494211d8d",
-        "974ef3bd3bfd8c31",
-        "7fb652c9ef37fd7e"
+        "0615186de1ed79ff",
+        "722024a858e7b733",
+        "a678386f4bab26d0"
       ],
       "tags": [
+        "cloud",
+        "developers & practitioners",
         "reading-list",
-        "observability",
-        "cloud-native",
-        "ai",
-        "ai agents"
+        "ai & ml",
+        "commentary"
       ],
-      "score": 54
+      "score": 59
     },
     {
       "id": "javascript-b6e13a",
@@ -775,31 +835,6 @@
       "score": 48.3
     },
     {
-      "id": "java-23524b",
-      "name": "Java",
-      "quadrant": "Languages & Frameworks",
-      "ring": "Adopt",
-      "description": "In this episode, Edoardo Vacchi discusses the evolving landscape of WebAssembly on the backend, running Java workloads on GPUs using TornadoVM, and optimizing distributed AI inference using llm-d and…",
-      "articleCount": 2,
-      "recentCount": 2,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2026-11-06T08:07:06.000Z",
-      "lastSeen": "2026-11-09T11:00:00.000Z",
-      "articleIds": [
-        "ecf7a899a16f8d25",
-        "4daf6dadf9c46066"
-      ],
-      "tags": [
-        "architecture",
-        "the infoq podcast",
-        "tornadovm",
-        "webassembly",
-        "artificial intelligence"
-      ],
-      "score": 48
-    },
-    {
       "id": "vercel-587f4e",
       "name": "Vercel",
       "quadrant": "Platforms",
@@ -823,6 +858,31 @@
         "ai agents"
       ],
       "score": 47.9
+    },
+    {
+      "id": "ruby-on-rails-62da32",
+      "name": "Ruby on Rails",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Trial",
+      "description": "A month ago, an average web request on DEV took about 70 milliseconds inside Rails, with P99 response...",
+      "articleCount": 2,
+      "recentCount": 2,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2026-11-05T13:47:45.000Z",
+      "lastSeen": "2026-11-09T16:12:25.000Z",
+      "articleIds": [
+        "678573bae444375c",
+        "da2a962c46f1dd4a"
+      ],
+      "tags": [
+        "ai",
+        "agents",
+        "automation",
+        "architecture",
+        "devto"
+      ],
+      "score": 46.3
     },
     {
       "id": "vue-735f20",
@@ -875,6 +935,31 @@
       "score": 46.2
     },
     {
+      "id": "azure-80b336",
+      "name": "Azure",
+      "quadrant": "Platforms",
+      "ring": "Trial",
+      "description": "Day 82 of DevOps, Day 32 of Azure. Both tasks today returned a cheerful single word that meant less...",
+      "articleCount": 2,
+      "recentCount": 2,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2026-11-02T20:40:43.000Z",
+      "lastSeen": "2026-11-09T18:20:21.000Z",
+      "articleIds": [
+        "2ea58fe6d3832d71",
+        "02ab276b39463efa"
+      ],
+      "tags": [
+        "devto",
+        "devops",
+        "ansible",
+        "azure",
+        "automation"
+      ],
+      "score": 46
+    },
+    {
       "id": "svelte-c69fc2",
       "name": "Svelte",
       "quadrant": "Languages & Frameworks",
@@ -923,31 +1008,6 @@
         "gemma"
       ],
       "score": 44.6
-    },
-    {
-      "id": "microservices-999f3e",
-      "name": "Microservices",
-      "quadrant": "Techniques",
-      "ring": "Trial",
-      "description": "That made systems easier to develop and scale, but it introduced a different class of problems: The behavior of the whole system got harder to see.",
-      "articleCount": 2,
-      "recentCount": 2,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2026-11-09T10:52:00.000Z",
-      "lastSeen": "2026-11-09T11:55:04.000Z",
-      "articleIds": [
-        "722024a858e7b733",
-        "a678386f4bab26d0"
-      ],
-      "tags": [
-        "reading-list",
-        "ai & ml",
-        "commentary",
-        "architecture",
-        "agentic ai architecture"
-      ],
-      "score": 44
     },
     {
       "id": "serverless-89affb",
@@ -1023,6 +1083,31 @@
         "intellij"
       ],
       "score": 44
+    },
+    {
+      "id": "clickhouse-ce66b7",
+      "name": "ClickHouse",
+      "quadrant": "Platforms",
+      "ring": "Assess",
+      "description": "If you have built anything that needs both a system of record and fast analytics, you know the shape of The post Postgres and ClickHouse can share tables.",
+      "articleCount": 2,
+      "recentCount": 2,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2026-11-05T14:00:00.000Z",
+      "lastSeen": "2026-11-10T06:14:51.000Z",
+      "articleIds": [
+        "731b359b01ad1869",
+        "3167edcfb8d550bf"
+      ],
+      "tags": [
+        "hackernews",
+        "cloud-native",
+        "ai agents",
+        "data",
+        "databases"
+      ],
+      "score": 40.9
     },
     {
       "id": "webassembly-65812b",
@@ -1163,30 +1248,6 @@
       "score": 33
     },
     {
-      "id": "azure-80b336",
-      "name": "Azure",
-      "quadrant": "Platforms",
-      "ring": "Trial",
-      "description": "I Built a Visual System Design Reference — Switch Any Architecture Between AWS, Azure, GCP...",
-      "articleCount": 1,
-      "recentCount": 1,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2026-11-02T20:40:43.000Z",
-      "lastSeen": "2026-11-02T20:40:43.000Z",
-      "articleIds": [
-        "02ab276b39463efa"
-      ],
-      "tags": [
-        "systemdesign",
-        "webdev",
-        "opensource",
-        "showdev",
-        "devto"
-      ],
-      "score": 31
-    },
-    {
       "id": "flutter-ff25d1",
       "name": "Flutter",
       "quadrant": "Languages & Frameworks",
@@ -1208,7 +1269,7 @@
         "architecture",
         "devto"
       ],
-      "score": 30.6
+      "score": 30.9
     },
     {
       "id": "firebase-92f5e8",
@@ -1232,6 +1293,28 @@
         "devto"
       ],
       "score": 29.6
+    },
+    {
+      "id": "gitops-c4400d",
+      "name": "GitOps",
+      "quadrant": "Techniques",
+      "ring": "Trial",
+      "description": "This post draws on a talk co-presented with Julien Semaan of Kubex at KubeCon + CloudNativeCon Europe 2026; GitOps Gone Wild: Hardening Delivery Pipelines for the AI Era Most platform teams are…",
+      "articleCount": 1,
+      "recentCount": 1,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2026-11-10T12:00:00.000Z",
+      "lastSeen": "2026-11-10T12:00:00.000Z",
+      "articleIds": [
+        "9a5427466d9a2fab"
+      ],
+      "tags": [
+        "cloud-native",
+        "blog",
+        "reading-list"
+      ],
+      "score": 29
     },
     {
       "id": "sre-1ea78b",
@@ -1372,32 +1455,32 @@
       "score": 29
     },
     {
-      "id": "ruby-18e40e",
-      "name": "Ruby",
-      "quadrant": "Languages & Frameworks",
+      "id": "apache-kafka-5dd942",
+      "name": "Apache Kafka",
+      "quadrant": "Platforms",
       "ring": "Trial",
-      "description": "RubyMine 2026.3 is out! This release brings JetBrains Air for working with your preferred coding agents, native access to WSL and Dev Container projects, and smarter Ruby and Rails support. You’ll…",
+      "description": "Real-time applications often combine tools with distinct roles. A typical setup might use Kafka to handle events, Flink to process The post Real-time state has a cost your memory bill won’t show…",
       "articleCount": 1,
       "recentCount": 1,
       "previousCount": 0,
       "trend": "up",
-      "firstSeen": "2026-11-05T13:47:45.000Z",
-      "lastSeen": "2026-11-05T13:47:45.000Z",
+      "firstSeen": "2026-11-09T14:29:57.000Z",
+      "lastSeen": "2026-11-09T14:29:57.000Z",
       "articleIds": [
-        "da2a962c46f1dd4a"
+        "f3c17f6b58480eaf"
       ],
       "tags": [
-        "devtools",
-        "ai",
-        "articles-2",
-        "release",
-        "releases"
+        "cloud-native",
+        "backend development",
+        "data streaming",
+        "databases",
+        "sponsor-hazelcast"
       ],
       "score": 29
     },
     {
-      "id": "ruby-on-rails-62da32",
-      "name": "Ruby on Rails",
+      "id": "ruby-18e40e",
+      "name": "Ruby",
       "quadrant": "Languages & Frameworks",
       "ring": "Trial",
       "description": "RubyMine 2026.3 is out! This release brings JetBrains Air for working with your preferred coding agents, native access to WSL and Dev Container projects, and smarter Ruby and Rails support. You’ll…",
@@ -1529,30 +1612,6 @@
       "score": 24
     },
     {
-      "id": "clickhouse-ce66b7",
-      "name": "ClickHouse",
-      "quadrant": "Platforms",
-      "ring": "Assess",
-      "description": "If you have built anything that needs both a system of record and fast analytics, you know the shape of The post Postgres and ClickHouse can share tables.",
-      "articleCount": 1,
-      "recentCount": 1,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2026-11-05T14:00:00.000Z",
-      "lastSeen": "2026-11-05T14:00:00.000Z",
-      "articleIds": [
-        "3167edcfb8d550bf"
-      ],
-      "tags": [
-        "cloud-native",
-        "ai agents",
-        "data",
-        "databases",
-        "sponsor-enterprisedb"
-      ],
-      "score": 24
-    },
-    {
       "id": "scala-54274e",
       "name": "Scala",
       "quadrant": "Languages & Frameworks",
@@ -1578,8 +1637,8 @@
     }
   ],
   "stats": {
-    "articles": 395,
-    "sources": 27,
-    "technologies": 62
+    "articles": 490,
+    "sources": 29,
+    "technologies": 64
   }
 }
