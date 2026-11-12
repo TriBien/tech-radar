@@ -9,6 +9,7 @@
     "preview": "vite preview",
     "crawl": "tsx crawler/run.ts",
     "crawl:dry": "tsx crawler/run.ts --dry-run --no-llm",
+    "crawl:backfill": "tsx crawler/run.ts --sources=hackernews --since=2020 --system-design-only --no-llm",
     "typecheck": "tsc --noEmit",
     "lint": "tsc --noEmit"
   },

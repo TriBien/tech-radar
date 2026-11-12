@@ -20,6 +20,8 @@ behind each story, and plots the technologies on a ThoughtWorks-style radar
   architecture, distributed systems, scaling, data, caching, messaging, reliability,
   security, observability, APIs and cloud infrastructure, collected from popular
   engineering pages.
+- **Historical backfill + unlimited retention** — an optional backfill pulls
+  system-design stories from 2020 onward, and the dataset is not capped by default.
 - **Deduplication** — canonical URLs plus title-shingle similarity, so the same article
   from HN, Reddit and an RSS feed becomes one story.
 - **Daily enrichment** — OpenAI-compatible LLM (GitHub Models by default) with a
@@ -71,8 +73,14 @@ npm run crawl:dry -- --sources=hackernews,devto --no-llm
 npm run crawl -- --sources=rss,hackernews,devto,reddit,github,reading
 npm run crawl -- --no-llm        # heuristic enrichment only
 npm run crawl -- --dry-run       # fetch + report, do not write files
-npm run crawl -- --year=2020     # initial/backfill crawl collecting a fixed year
+npm run crawl -- --since=2020    # keep items published from 2020 onward
+npm run crawl:backfill           # historical system-design backfill from 2020
 ```
+
+`--year=YYYY` is kept as an alias for `--since=YYYY`. The backfill command uses Hacker
+News' Algolia archive to discover architecture stories from 2020 onward, then classifies
+and keeps only system-design matches. Article retention is unlimited by default, so
+backfilled items are not pruned.
 
 Environment knobs:
 
@@ -81,10 +89,12 @@ Environment knobs:
 | `LLM_API_KEY` | `GITHUB_TOKEN` | OpenAI-compatible API key |
 | `LLM_BASE_URL` | `https://models.github.ai/inference` | API base URL |
 | `LLM_MODEL` | `openai/gpt-4o-mini` | Model name |
-| `MAX_LLM_ARTICLES` | `40` | Max articles enriched per run |
+| `MAX_LLM_ARTICLES` | `40` | Max articles enriched per run (`0` = unlimited) |
 | `CRAWL_DAYS` | `3` | Lookback window for new source items |
-| `INITIAL_CRAWL_YEAR` | _off_ | Fixed year for backfill crawls (e.g. `2020` for the initial run) |
-| `RETENTION_DAYS` | `120` | Retention for the local dataset |
+| `INITIAL_CRAWL_YEAR` | _off_ | Backfill from this year onward (e.g. `2020`) |
+| `RETENTION_DAYS` | `0` | Retention for the local dataset (`0` = unlimited) |
+| `MAX_ARTICLES` | `0` | Maximum retained articles (`0` = unlimited) |
+| `SYSTEM_DESIGN_ONLY` | `0` | Set to `1` to keep only system-design fetched items |
 | `READING_URLS_FILE` | `reading_urls.txt` | Curated reading list crawled by the reading source |
 
 The LLM is used to produce `summary`, `problem`, `approach`, `outcome`, technologies with

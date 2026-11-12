@@ -44,6 +44,21 @@ export const HN = {
   frontPageLimit: 40,
   recentLimit: 40,
   minPoints: 40,
+  /** Search terms used by the historical backfill until the current year. */
+  backfillQueries: [
+    "system design",
+    "software architecture",
+    "distributed systems",
+    "scalability",
+    "high availability",
+    "microservices",
+    "database sharding",
+    "caching",
+    "event-driven architecture",
+    "site reliability engineering",
+  ],
+  backfillHitsPerPage: 1000,
+  backfillPauseMs: 250,
 };
 
 export const DEVTO = {
@@ -62,12 +77,20 @@ export const GITHUB_TRENDING = {
   limit: 15,
 };
 
-/** Default lookback window for newly fetched items, in days. */
-export const CRAWL_DAYS = Number(process.env.CRAWL_DAYS || 3);
+function envNumber(name: string, fallback: number): number {
+  const raw = process.env[name];
+  if (raw === undefined || raw.trim() === "") return fallback;
+  const parsed = Number(raw);
+  return Number.isFinite(parsed) ? parsed : fallback;
+}
 
-/** Retention for the local dataset. */
-export const RETENTION_DAYS = Number(process.env.RETENTION_DAYS || 120);
-export const MAX_ARTICLES = 1000;
+/** Default lookback window for newly fetched items, in days. */
+export const CRAWL_DAYS = envNumber("CRAWL_DAYS", 3);
+
+/** Retention for the local dataset. 0 means keep everything forever. */
+export const RETENTION_DAYS = envNumber("RETENTION_DAYS", 0);
+/** Maximum retained articles. 0 means unlimited. */
+export const MAX_ARTICLES = envNumber("MAX_ARTICLES", 0);
 
 export const READING_URLS_FILE = process.env.READING_URLS_FILE || "reading_urls.txt";
 
@@ -88,15 +111,15 @@ export function crawlLookbackDays(now: Date = new Date()): number {
   return CRAWL_DAYS;
 }
 
-/** Retention for the local dataset. */
+/** Retention for the local dataset. Infinity means keep everything forever. */
 export function retentionDays(now: Date = new Date()): number {
   const year = initialCrawlYear();
   if (year) return daysSinceYear(year, now) + 30;
-  return RETENTION_DAYS;
+  return RETENTION_DAYS > 0 ? RETENTION_DAYS : Number.POSITIVE_INFINITY;
 }
 
-/** Cap how many articles get sent to the LLM each run. */
-export const MAX_LLM_ARTICLES = Number(process.env.MAX_LLM_ARTICLES || 40);
+/** Cap how many articles get sent to the LLM each run. 0 means unlimited. */
+export const MAX_LLM_ARTICLES = envNumber("MAX_LLM_ARTICLES", 40);
 
 export const USER_AGENT =
   "TechRadarBot/1.0 (+https://github.com/; polite crawler; contact repo owner)";

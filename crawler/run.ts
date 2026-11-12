@@ -38,7 +38,8 @@ interface Options {
   dryRun: boolean;
   noLlm: boolean;
   sources: Set<SourceKind> | null;
-  year?: number;
+  sinceYear?: number;
+  systemDesignOnly: boolean;
 }
 
 function parseOptions(): Options {
@@ -48,16 +49,23 @@ function parseOptions(): Options {
     ? (sourcesArg.split("=")[1].split(",").map((value) => value.trim()) as SourceKind[])
     : null;
 
-  const yearArg = argv.find((arg) => arg.startsWith("--year="));
-  const parsedYear = yearArg ? Number(yearArg.split("=")[1]) : Number(process.env.INITIAL_CRAWL_YEAR || 0);
-  const year = Number.isFinite(parsedYear) && parsedYear > 0 ? parsedYear : undefined;
-  if (year) process.env.INITIAL_CRAWL_YEAR = String(year);
+  const sinceArg =
+    argv.find((arg) => arg.startsWith("--since=")) ?? argv.find((arg) => arg.startsWith("--year="));
+  const parsedYear = sinceArg
+    ? Number(sinceArg.split("=")[1])
+    : Number(process.env.INITIAL_CRAWL_YEAR || 0);
+  const sinceYear = Number.isFinite(parsedYear) && parsedYear > 0 ? parsedYear : undefined;
+  if (sinceYear) process.env.INITIAL_CRAWL_YEAR = String(sinceYear);
 
   return {
     dryRun: argv.includes("--dry-run"),
     noLlm: argv.includes("--no-llm"),
     sources: selected && selected.length > 0 ? new Set(selected) : null,
-    year,
+    sinceYear,
+    systemDesignOnly:
+      argv.includes("--system-design-only") ||
+      argv.includes("--system-design") ||
+      process.env.SYSTEM_DESIGN_ONLY === "1",
   };
 }
 
@@ -119,6 +127,8 @@ async function main(): Promise<void> {
   const startedAt = Date.now();
   log("Tech Radar crawler");
   log("------------------");
+  if (options.sinceYear) log(`Backfill from ${options.sinceYear} onward.`);
+  if (options.systemDesignOnly) log("Filtering fetched items to system-design topics.");
 
   const existing = await loadArticles();
   const existingIds = new Set(existing.map((article) => article.id));
@@ -158,25 +168,30 @@ async function main(): Promise<void> {
     fetched.push(...result.articles);
   }
 
-  const year = options.year;
-  const relevant = year
-    ? fetched.filter((article) => new Date(article.publishedAt).getFullYear() === year)
-    : fetched;
+  const sinceMs = options.sinceYear ? Date.UTC(options.sinceYear, 0, 1) : Number.NEGATIVE_INFINITY;
+  let relevant = fetched.filter((article) => new Date(article.publishedAt).getTime() >= sinceMs);
+
+  if (options.systemDesignOnly) {
+    for (const article of relevant) applyHeuristic(article);
+    relevant = relevant.filter((article) => classifySystemDesign(article).isSystemDesign);
+    log(`  System-design filter kept ${relevant.length}/${fetched.length} fetched item(s).`);
+  }
 
   const freshIds = new Set(relevant.map((article) => article.id));
-  const base = year ? relevant : [...existing, ...relevant];
+  const base = [...existing, ...relevant];
   let articles = dedupeArticles(base);
   for (const article of articles) applyHeuristic(article);
 
-  const candidates = articles
+  const sortedCandidates = articles
     .filter((article) => !article.enriched)
     .sort((a, b) => {
       const aNew = freshIds.has(a.id) ? 1 : 0;
       const bNew = freshIds.has(b.id) ? 1 : 0;
       if (aNew !== bNew) return bNew - aNew;
       return new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime();
-    })
-    .slice(0, MAX_LLM_ARTICLES);
+    });
+  const candidates =
+    MAX_LLM_ARTICLES > 0 ? sortedCandidates.slice(0, MAX_LLM_ARTICLES) : sortedCandidates;
 
   let llmCount = 0;
   if (!options.noLlm && llmAvailable() && candidates.length > 0) {

@@ -36,15 +36,18 @@ export async function loadMeta(): Promise<MetaData | undefined> {
 }
 
 export function pruneArticles(articles: Article[]): Article[] {
-  const cutoff = daysAgo(retentionDays()).getTime();
+  const retention = retentionDays();
+  const cutoff =
+    retention === Number.POSITIVE_INFINITY ? Number.NEGATIVE_INFINITY : daysAgo(retention).getTime();
   const fresh = articles.filter((article) => {
     const ts = new Date(article.publishedAt).getTime();
     return !Number.isFinite(ts) || ts >= cutoff;
   });
 
-  return fresh
-    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
-    .slice(0, MAX_ARTICLES);
+  const sorted = fresh.sort(
+    (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime(),
+  );
+  return MAX_ARTICLES > 0 ? sorted.slice(0, MAX_ARTICLES) : sorted;
 }
 
 async function writeJson(file: string, data: unknown): Promise<void> {
