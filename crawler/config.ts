@@ -35,6 +35,9 @@ export const FEEDS: FeedConfig[] = [
   { name: "CNCF Blog", url: "https://www.cncf.io/feed/", tags: ["cloud-native"] },
   { name: "ByteByteGo", url: "https://blog.bytebytego.com/feed", tags: ["architecture"] },
   { name: "All Things Distributed", url: "https://www.allthingsdistributed.com/atom.xml", tags: ["distributed-systems"] },
+  { name: "High Scalability", url: "https://highscalability.com/feed/", tags: ["architecture", "scale"] },
+  { name: "Etsy Code as Craft", url: "https://www.etsy.com/codeascraft/rss", tags: ["architecture"] },
+  { name: "Materialized View", url: "https://materializedview.io/feed", tags: ["data", "distributed-systems"] },
 ];
 
 export const HN = {

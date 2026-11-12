@@ -16,6 +16,10 @@ behind each story, and plots the technologies on a ThoughtWorks-style radar
 - **Four quadrants** — Techniques, Tools, Platforms, Languages & Frameworks.
 - **Problem-first feed** — every story shows the real problem, how the technology was
   used, and the outcome (when stated).
+- **System Design tab** — a topic-filtered library of posts and blogs about software
+  architecture, distributed systems, scaling, data, caching, messaging, reliability,
+  security, observability, APIs and cloud infrastructure, collected from popular
+  engineering pages.
 - **Deduplication** — canonical URLs plus title-shingle similarity, so the same article
   from HN, Reddit and an RSS feed becomes one story.
 - **Daily enrichment** — OpenAI-compatible LLM (GitHub Models by default) with a
@@ -147,6 +151,7 @@ crawler/
   lib/heuristics.ts       technology dictionary + offline enrichment
   lib/llm.ts              batched, validated LLM enrichment
 shared/types.ts           data model shared by crawler and UI
+shared/system-design.ts   architecture topic taxonomy + relevance classifier
 src/                      React + Vite mobile-first UI
 public/data/              generated JSON (committed)
 .github/workflows/        deploy.yml + crawl.yml
@@ -159,6 +164,8 @@ public/data/              generated JSON (committed)
 - **Add subreddits:** edit `REDDIT.subreddits` in `crawler/config.ts`.
 - **Improve offline extraction:** extend `TECH_DICTIONARY` in
   `crawler/lib/heuristics.ts`.
+- **Tune the System Design tab:** edit the topic keywords and relevance rules in
+  `shared/system-design.ts`; the crawler stores matching `topics` on each article.
 - **Change the radar shape:** edit ring/quadrant definitions in `shared/types.ts` and
   the colors/labels in `src/lib/radar.ts`.
 - **Retention:** `RETENTION_DAYS` and `MAX_ARTICLES` in `crawler/config.ts`.

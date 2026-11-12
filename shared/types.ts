@@ -37,6 +37,7 @@ export interface Article {
   image?: string;
   lang?: string;
   enriched: boolean;
+  topics?: string[];
 }
 
 export interface RadarItem {

@@ -5,6 +5,7 @@ import { ArticleSheet } from "./components/ArticleSheet";
 import { EmptyState } from "./components/EmptyState";
 import { Feed } from "./components/Feed";
 import {
+  ArchitectureIcon,
   BookmarkIcon,
   CloseIcon,
   FeedIcon,
@@ -14,11 +15,12 @@ import {
   SunIcon,
 } from "./components/Icons";
 import { RadarView } from "./components/RadarView";
+import { SystemDesignView } from "./components/SystemDesignView";
 import { TechSheet } from "./components/TechSheet";
 import { relativeTime } from "./lib/format";
 import { loadAppData, type AppData } from "./lib/data";
 
-type Tab = "radar" | "feed" | "saved";
+type Tab = "radar" | "system" | "feed" | "saved";
 type Theme = "light" | "dark";
 
 const SAVED_KEY = "tech-radar:saved";
@@ -193,7 +195,11 @@ export default function App() {
               value={query}
               onChange={(event) => setQuery(event.target.value)}
               placeholder={
-                tab === "feed" ? "Search stories, teams, problems…" : "Search technologies and topics…"
+                tab === "feed"
+                  ? "Search stories, teams, problems…"
+                  : tab === "system"
+                    ? "Search architecture, systems, patterns…"
+                    : "Search technologies and topics…"
               }
               aria-label="Search"
             />
@@ -211,6 +217,13 @@ export default function App() {
               onClick={() => setTab("radar")}
             >
               <RadarIcon size={18} /> Radar
+            </button>
+            <button
+              type="button"
+              className={tab === "system" ? "is-active" : ""}
+              onClick={() => setTab("system")}
+            >
+              <ArchitectureIcon size={18} /> System Design
             </button>
             <button
               type="button"
@@ -246,6 +259,14 @@ export default function App() {
             query={deferredQuery}
             selectedId={selectedTechId ?? undefined}
             onOpenTech={openTech}
+          />
+        ) : tab === "system" ? (
+          <SystemDesignView
+            articles={articles}
+            query={deferredQuery}
+            savedIds={savedIds}
+            onOpen={openArticle}
+            onToggleSave={toggleSave}
           />
         ) : tab === "feed" ? (
           <Feed
@@ -294,6 +315,14 @@ export default function App() {
         >
           <RadarIcon size={21} />
           <span>Radar</span>
+        </button>
+        <button
+          type="button"
+          className={tab === "system" ? "is-active" : ""}
+          onClick={() => setTab("system")}
+        >
+          <ArchitectureIcon size={21} />
+          <span>System Design</span>
         </button>
         <button
           type="button"

@@ -1,40 +1,15 @@
 {
-  "lastRun": "2026-11-08T11:58:07.667Z",
-  "lastRunMs": 84131,
+  "lastRun": "2026-11-12T15:23:55.183Z",
+  "lastRunMs": 11621,
   "llmUsed": false,
-  "newArticles": 46,
-  "totalArticles": 300,
+  "newArticles": 121,
+  "totalArticles": 421,
   "sources": [
     {
       "name": "RSS / Atom feeds",
       "kind": "rss",
-      "fetched": 100,
-      "kept": 118
-    },
-    {
-      "name": "Hacker News",
-      "kind": "hackernews",
-      "fetched": 70,
-      "kept": 98
-    },
-    {
-      "name": "DEV Community",
-      "kind": "devto",
-      "fetched": 60,
-      "kept": 69
-    },
-    {
-      "name": "Reddit",
-      "kind": "reddit",
-      "fetched": 0,
-      "kept": 0
-    },
-    {
-      "name": "GitHub Trending",
-      "kind": "github",
-      "fetched": 0,
-      "kept": 15,
-      "error": "This operation was aborted"
+      "fetched": 121,
+      "kept": 239
     }
   ]
 }

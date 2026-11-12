@@ -452,6 +452,121 @@ img {
   text-underline-offset: 3px;
 }
 
+/* ---------- System design ---------- */
+.sd-hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 14px;
+  padding: 20px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--panel);
+  box-shadow: var(--shadow);
+}
+
+.sd-hero-main {
+  flex: 1 1 320px;
+  min-width: 0;
+}
+
+.sd-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 6px;
+  color: var(--accent);
+  font-size: 0.62rem;
+  font-weight: 750;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.sd-hero h2 {
+  margin: 0;
+  font-size: 1.22rem;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+}
+
+.sd-hero p {
+  margin: 7px 0 0;
+  max-width: 620px;
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.55;
+}
+
+.sd-stats {
+  display: flex;
+  gap: 18px;
+  flex: 0 0 auto;
+}
+
+.sd-stats div {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.sd-stats strong {
+  font-size: 1.16rem;
+  font-weight: 750;
+  letter-spacing: -0.02em;
+}
+
+.sd-stats span {
+  color: var(--muted);
+  font-size: 0.6rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.sd-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 14px 0 14px;
+}
+
+.sd-toolbar .result-count {
+  margin: 0;
+}
+
+.sd-card-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+
+.sd-card-wrap .card {
+  flex: 1;
+}
+
+.sd-card-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 0 4px;
+}
+
+.sd-topic-tag {
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid color-mix(in srgb, var(--topic) 42%, transparent);
+  background: color-mix(in srgb, var(--topic) 12%, transparent);
+  color: var(--topic);
+  font-size: 0.6rem;
+  font-weight: 650;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
 /* ---------- Feed ---------- */
 .feed-toolbar {
   display: flex;

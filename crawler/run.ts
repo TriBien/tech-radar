@@ -5,6 +5,7 @@ import type {
   SourceRun,
   TechnologyMention,
 } from "../shared/types.js";
+import { classifySystemDesign } from "../shared/system-design.js";
 import { buildRadar } from "./build-radar.js";
 import { MAX_LLM_ARTICLES } from "./config.js";
 import { dedupeArticles } from "./lib/dedupe.js";
@@ -88,6 +89,15 @@ function mergeTechnologies(
     if (!merged.has(key)) merged.set(key, tech);
   }
   return [...merged.values()].slice(0, 8);
+}
+
+function applySystemDesignTopics(article: Article): void {
+  const match = classifySystemDesign(article);
+  if (match.isSystemDesign && match.topics.length > 0) {
+    article.topics = match.topics;
+  } else {
+    delete article.topics;
+  }
 }
 
 function applyEnrichment(article: Article, enrichment: Enrichment): void {
@@ -187,7 +197,10 @@ async function main(): Promise<void> {
   }
 
   articles = pruneArticles(dedupeArticles(articles));
-  for (const article of articles) applyHeuristic(article);
+  for (const article of articles) {
+    applyHeuristic(article);
+    applySystemDesignTopics(article);
+  }
 
   for (const run of runs) {
     run.kept = articles.filter((article) => article.source === run.kind).length;
