@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T16:00:07.718Z",
+  "generatedAt": "2026-11-12T16:06:34.662Z",
   "periodDays": 60,
   "items": [
     {
@@ -38,31 +38,31 @@
       "name": "AI agents",
       "quadrant": "Techniques",
       "ring": "Assess",
-      "description": "The shift to agentic reality When Git was designed in 2005, Linus Torvalds solved a brilliant problem for humans collaborating over terminal windows by trading line-by-line diffs.",
-      "articleCount": 90,
-      "recentCount": 59,
+      "description": "Gartner has named Google Cloud a Leader, positioned furthest in vision, in its first-ever Magic Quadrant for Lakehouse Platforms. In our opinion, this recognition validates a fundamental shift our…",
+      "articleCount": 92,
+      "recentCount": 61,
       "previousCount": 2,
       "trend": "up",
       "firstSeen": "2024-01-29T18:28:18.000Z",
-      "lastSeen": "2026-11-12T11:54:27.000Z",
+      "lastSeen": "2026-11-12T16:00:00.000Z",
       "articleIds": [
+        "55ea60e6066a8a04",
+        "0f0daa4a50c562bb",
         "c37447a6ba003f3b",
         "f99e3a9ec2e5c566",
         "53bc56e14c08d499",
         "53d5cdba12bea358",
         "3a0126a331afd235",
-        "fa2da1956d62f757",
-        "5458547ac28ee5fa",
-        "844d3a2b3f633acf"
+        "fa2da1956d62f757"
       ],
       "tags": [
         "hackernews",
         "archive",
-        "reading-list",
         "cloud",
+        "reading-list",
         "cloud-native"
       ],
-      "score": 1084.6
+      "score": 1114.6
     },
     {
       "id": "anthropic-claude-ba718d",
@@ -284,21 +284,21 @@
       "quadrant": "Platforms",
       "ring": "Adopt",
       "description": "We built AlloyDB AI to bring Gemini world knowledge directly into your operational database.",
-      "articleCount": 69,
-      "recentCount": 9,
+      "articleCount": 70,
+      "recentCount": 10,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-01-31T06:42:05.000Z",
-      "lastSeen": "2026-11-11T17:00:00.000Z",
+      "lastSeen": "2026-11-12T14:25:23.000Z",
       "articleIds": [
+        "5e43bafddf4ea295",
         "ed0816bfc3352e85",
         "592021ac783a2090",
         "9f99b6297214ae52",
         "6d7526357c232246",
         "0345c8661011bd62",
         "3167edcfb8d550bf",
-        "dc17eeba94f57013",
-        "72957cab726e0334"
+        "dc17eeba94f57013"
       ],
       "tags": [
         "hackernews",
@@ -307,29 +307,29 @@
         "databases",
         "reading-list"
       ],
-      "score": 516.3
+      "score": 531.3
     },
     {
       "id": "google-cloud-6e9b50",
       "name": "Google Cloud",
       "quadrant": "Platforms",
       "ring": "Adopt",
-      "description": "Google Cloud has open-sourced TPU Sync, a native C++ library that moves KV cache blocks and model weights between TPU HBM, host DRAM, shared storage, and the data center network. By Daniel Dominguez",
-      "articleCount": 39,
-      "recentCount": 27,
+      "description": "Gartner has named Google Cloud a Leader, positioned furthest in vision, in its first-ever Magic Quadrant for Lakehouse Platforms. In our opinion, this recognition validates a fundamental shift our…",
+      "articleCount": 40,
+      "recentCount": 28,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-02-23T15:07:24.000Z",
-      "lastSeen": "2026-11-12T10:06:00.000Z",
+      "lastSeen": "2026-11-12T16:00:00.000Z",
       "articleIds": [
+        "55ea60e6066a8a04",
         "2af3888a7b8b85a9",
         "fa2da1956d62f757",
         "5458547ac28ee5fa",
         "27e3dadc6235781b",
         "10379432e7afb3ea",
         "130290724fa68d1f",
-        "23317fcdee853e0d",
-        "616a8c992ccd2997"
+        "23317fcdee853e0d"
       ],
       "tags": [
         "cloud",
@@ -338,7 +338,7 @@
         "google cloud",
         "ai & machine learning"
       ],
-      "score": 497.5
+      "score": 512.5
     },
     {
       "id": "gemini-468da0",
@@ -741,31 +741,31 @@
       "name": "Ruby on Rails",
       "quadrant": "Languages & Frameworks",
       "ring": "Trial",
-      "description": "On November 4, Rails shipped fixes for 21 security advisories, and both apps I work on had a 14-day Bundler cooldown telling us to skip brand-new releases. Here's how we patched the same day, where…",
-      "articleCount": 26,
-      "recentCount": 3,
+      "description": "When DHH took the stage at Rails World 2026 and talked openly about going \"pencils down\" on...",
+      "articleCount": 27,
+      "recentCount": 4,
       "previousCount": 1,
       "trend": "up",
       "firstSeen": "2020-03-27T15:28:09.000Z",
-      "lastSeen": "2026-11-09T21:29:51.000Z",
+      "lastSeen": "2026-11-12T15:30:50.000Z",
       "articleIds": [
+        "f26787f9c3fd2513",
         "d9c11c6e1d8b98a4",
         "678573bae444375c",
         "da2a962c46f1dd4a",
         "0571853de0b43b90",
         "1ea424ac5eb204f6",
         "421c5b8d030adbdb",
-        "a2a623cbe12118b8",
-        "715acbd31754d63c"
+        "a2a623cbe12118b8"
       ],
       "tags": [
         "hackernews",
         "archive",
-        "devto",
         "ai",
-        "bundler"
+        "devto",
+        "ruby"
       ],
-      "score": 199.6
+      "score": 214.6
     },
     {
       "id": "cloudflare-f036f5",
@@ -1010,6 +1010,36 @@
       "score": 126.3
     },
     {
+      "id": "figma-d2834b",
+      "name": "Figma",
+      "quadrant": "Tools",
+      "ring": "Adopt",
+      "description": "See how Figma’s Brand Studio team combined 3D design, agent-built plugins, shaders, and motion to create a video together on the canvas.",
+      "articleCount": 7,
+      "recentCount": 6,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2024-06-22T18:28:32.000Z",
+      "lastSeen": "2026-11-12T14:00:00.000Z",
+      "articleIds": [
+        "5aea0d5ef48ff8c0",
+        "af85c795f169cc0c",
+        "bdea120a0c27b6dd",
+        "4ab695861299d0f8",
+        "fa8e611759ccc35e",
+        "547f134dd51fb496",
+        "c54df5a727998aba"
+      ],
+      "tags": [
+        "frontend",
+        "architecture",
+        "security",
+        "qcon ai new york 2026",
+        "artificial intelligence"
+      ],
+      "score": 114.1
+    },
+    {
       "id": "continuous-delivery-ede87a",
       "name": "Continuous delivery",
       "quadrant": "Techniques",
@@ -1218,35 +1248,6 @@
         "archive"
       ],
       "score": 99.7
-    },
-    {
-      "id": "figma-d2834b",
-      "name": "Figma",
-      "quadrant": "Tools",
-      "ring": "Adopt",
-      "description": "QCon AI New York has published its full program for December 15–16, 2026. Engineers from LinkedIn, Netflix, DoorDash, Figma, Pinterest, Honeycomb, Harvey, Google DeepMind and OpenAI describe AI…",
-      "articleCount": 6,
-      "recentCount": 5,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2024-06-22T18:28:32.000Z",
-      "lastSeen": "2026-11-11T11:00:00.000Z",
-      "articleIds": [
-        "af85c795f169cc0c",
-        "bdea120a0c27b6dd",
-        "4ab695861299d0f8",
-        "fa8e611759ccc35e",
-        "547f134dd51fb496",
-        "c54df5a727998aba"
-      ],
-      "tags": [
-        "frontend",
-        "architecture",
-        "security",
-        "qcon ai new york 2026",
-        "artificial intelligence"
-      ],
-      "score": 99.1
     },
     {
       "id": "rabbitmq-d37a96",
@@ -2219,7 +2220,7 @@
     }
   ],
   "stats": {
-    "articles": 4477,
+    "articles": 4505,
     "sources": 32,
     "technologies": 77
   }
