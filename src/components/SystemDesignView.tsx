@@ -26,6 +26,7 @@ interface SystemDesignViewProps {
   savedIds: Set<string>;
   onOpen: (article: Article) => void;
   onToggleSave: (id: string) => void;
+  onDelete: (article: Article) => void;
 }
 
 interface Entry {
@@ -44,6 +45,7 @@ export function SystemDesignView({
   savedIds,
   onOpen,
   onToggleSave,
+  onDelete,
 }: SystemDesignViewProps) {
   const [topic, setTopic] = useState<TopicFilter>("all");
   const [sort, setSort] = useState<SortKey>("latest");
@@ -218,6 +220,7 @@ export function SystemDesignView({
                   saved={savedIds.has(article.id)}
                   onOpen={onOpen}
                   onToggleSave={onToggleSave}
+                  onDelete={onDelete}
                 />
                 {topics.length > 0 && (
                   <div className="sd-card-topics" aria-label="System design topics">

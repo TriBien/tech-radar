@@ -1,5 +1,6 @@
 import { useDeferredValue, useEffect, useMemo, useState } from "react";
 import type { Article, RadarItem } from "../shared/types";
+import { buildRadar } from "../shared/build-radar";
 import { ArticleCard } from "./components/ArticleCard";
 import { ArticleSheet } from "./components/ArticleSheet";
 import { EmptyState } from "./components/EmptyState";
@@ -19,6 +20,7 @@ import { SystemDesignView } from "./components/SystemDesignView";
 import { TechSheet } from "./components/TechSheet";
 import { relativeTime } from "./lib/format";
 import { loadAppData, type AppData } from "./lib/data";
+import { readDeleted, saveDeleted } from "./lib/deletions";
 
 type Tab = "radar" | "system" | "feed" | "saved";
 type Theme = "light" | "dark";
@@ -52,6 +54,7 @@ export default function App() {
   const [query, setQuery] = useState("");
   const deferredQuery = useDeferredValue(query);
   const [savedIds, setSavedIds] = useState<Set<string>>(readSaved);
+  const [deletedIds, setDeletedIds] = useState<Set<string>>(readDeleted);
   const [theme, setTheme] = useState<Theme>(readTheme);
   const [selectedArticleId, setSelectedArticleId] = useState<string | null>(null);
   const [selectedTechId, setSelectedTechId] = useState<string | null>(null);
@@ -87,8 +90,16 @@ export default function App() {
     }
   }, [savedIds]);
 
-  const articles = data?.articles ?? [];
-  const radarItems = data?.radar.items ?? [];
+  useEffect(() => {
+    saveDeleted(deletedIds);
+  }, [deletedIds]);
+
+  const allArticles = data?.articles;
+  const articles = useMemo(
+    () => (allArticles ?? []).filter((article) => !deletedIds.has(article.id)),
+    [allArticles, deletedIds],
+  );
+  const radarItems = useMemo(() => buildRadar(articles).items, [articles]);
   const selectedArticle = useMemo(
     () => articles.find((article) => article.id === selectedArticleId) ?? null,
     [articles, selectedArticleId],
@@ -109,6 +120,26 @@ export default function App() {
       else next.add(id);
       return next;
     });
+  };
+
+  const deleteArticle = (article: Article) => {
+    const confirmed = window.confirm(
+      `Permanently delete “${article.title}”?\n\nThis cannot be undone. The story will be hidden from the radar and excluded from future crawls on this device.`,
+    );
+    if (!confirmed) return;
+
+    setDeletedIds((current) => {
+      const next = new Set(current);
+      next.add(article.id);
+      return next;
+    });
+    setSavedIds((current) => {
+      if (!current.has(article.id)) return current;
+      const next = new Set(current);
+      next.delete(article.id);
+      return next;
+    });
+    setSelectedArticleId((current) => (current === article.id ? null : current));
   };
 
   const openArticle = (article: Article) => {
@@ -267,6 +298,7 @@ export default function App() {
             savedIds={savedIds}
             onOpen={openArticle}
             onToggleSave={toggleSave}
+            onDelete={deleteArticle}
           />
         ) : tab === "feed" ? (
           <Feed
@@ -275,6 +307,7 @@ export default function App() {
             savedIds={savedIds}
             onOpen={openArticle}
             onToggleSave={toggleSave}
+            onDelete={deleteArticle}
           />
         ) : (
           <section className="feed" aria-label="Saved stories">
@@ -294,6 +327,7 @@ export default function App() {
                     saved
                     onOpen={openArticle}
                     onToggleSave={toggleSave}
+                    onDelete={deleteArticle}
                   />
                 ))}
               </div>
@@ -304,7 +338,7 @@ export default function App() {
 
       <footer className="site-footer">
         <span>Built for solution architects · Data refreshed daily via GitHub Actions</span>
-        <span>Bookmarks stay on this device</span>
+        <span>Bookmarks and deletions stay on this device</span>
       </footer>
 
       <nav className="bottom-nav" aria-label="Sections">
@@ -349,6 +383,7 @@ export default function App() {
           saved={savedIds.has(selectedArticle.id)}
           onClose={() => setSelectedArticleId(null)}
           onToggleSave={toggleSave}
+          onDelete={deleteArticle}
           onTechClick={openTechByName}
         />
       )}

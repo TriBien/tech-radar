@@ -18,9 +18,17 @@ interface FeedProps {
   savedIds: Set<string>;
   onOpen: (article: Article) => void;
   onToggleSave: (id: string) => void;
+  onDelete: (article: Article) => void;
 }
 
-export function Feed({ articles, query, savedIds, onOpen, onToggleSave }: FeedProps) {
+export function Feed({
+  articles,
+  query,
+  savedIds,
+  onOpen,
+  onToggleSave,
+  onDelete,
+}: FeedProps) {
   const [source, setSource] = useState<SourceKind | "all">("all");
   const [sort, setSort] = useState<SortKey>("latest");
   const [visible, setVisible] = useState(PAGE_SIZE);
@@ -114,6 +122,7 @@ export function Feed({ articles, query, savedIds, onOpen, onToggleSave }: FeedPr
                 saved={savedIds.has(article.id)}
                 onOpen={onOpen}
                 onToggleSave={onToggleSave}
+                onDelete={onDelete}
               />
             ))}
           </div>

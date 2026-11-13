@@ -6,6 +6,7 @@ import {
   BookmarkIcon,
   ExternalIcon,
   SparkIcon,
+  TrashIcon,
 } from "./Icons";
 import { Sheet } from "./Sheet";
 
@@ -14,6 +15,7 @@ interface ArticleSheetProps {
   saved: boolean;
   onClose: () => void;
   onToggleSave: (id: string) => void;
+  onDelete: (article: Article) => void;
   onTechClick: (name: string) => void;
 }
 
@@ -22,6 +24,7 @@ export function ArticleSheet({
   saved,
   onClose,
   onToggleSave,
+  onDelete,
   onTechClick,
 }: ArticleSheetProps) {
   const source = SOURCE_META[article.source] ?? { label: article.sourceName, className: "src-rss" };
@@ -142,6 +145,14 @@ export function ArticleSheet({
         >
           {saved ? <BookmarkFilledIcon size={17} /> : <BookmarkIcon size={17} />}
           {saved ? "Saved" : "Save"}
+        </button>
+        <button
+          type="button"
+          className="btn btn-ghost btn-danger"
+          onClick={() => onDelete(article)}
+        >
+          <TrashIcon size={17} />
+          Delete
         </button>
       </div>
     </Sheet>

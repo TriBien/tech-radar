@@ -8,6 +8,7 @@ import type {
 import { classifySystemDesign } from "../shared/system-design.js";
 import { buildRadar } from "./build-radar.js";
 import { MAX_LLM_ARTICLES } from "./config.js";
+import { loadBlocklist, isBlocked } from "./lib/blocklist.js";
 import { dedupeArticles } from "./lib/dedupe.js";
 import { heuristicEnrich } from "./lib/heuristics.js";
 import { enrichWithLlm, llmAvailable, type Enrichment } from "./lib/llm.js";
@@ -131,8 +132,13 @@ async function main(): Promise<void> {
   if (options.systemDesignOnly) log("Filtering fetched items to system-design topics.");
 
   const existing = await loadArticles();
-  const existingIds = new Set(existing.map((article) => article.id));
-  log(`Loaded ${existing.length} existing article(s).`);
+  const blocklist = await loadBlocklist();
+  if (blocklist.ids.size > 0) {
+    log(`Loaded ${blocklist.ids.size} deleted article(s) from the blocklist.`);
+  }
+  const kept = existing.filter((article) => !isBlocked(article, blocklist));
+  const existingIds = new Set(kept.map((article) => article.id));
+  log(`Loaded ${kept.length} existing article(s).`);
 
   const activeSources = SOURCES.filter(
     (source) => !options.sources || options.sources.has(source.key),
@@ -169,7 +175,10 @@ async function main(): Promise<void> {
   }
 
   const sinceMs = options.sinceYear ? Date.UTC(options.sinceYear, 0, 1) : Number.NEGATIVE_INFINITY;
-  let relevant = fetched.filter((article) => new Date(article.publishedAt).getTime() >= sinceMs);
+  let relevant = fetched.filter(
+    (article) =>
+      new Date(article.publishedAt).getTime() >= sinceMs && !isBlocked(article, blocklist),
+  );
 
   if (options.systemDesignOnly) {
     for (const article of relevant) applyHeuristic(article);
@@ -178,7 +187,7 @@ async function main(): Promise<void> {
   }
 
   const freshIds = new Set(relevant.map((article) => article.id));
-  const base = [...existing, ...relevant];
+  const base = [...kept, ...relevant];
   let articles = dedupeArticles(base);
   for (const article of articles) applyHeuristic(article);
 
@@ -211,7 +220,9 @@ async function main(): Promise<void> {
     log("No LLM credentials found; using heuristic enrichment.");
   }
 
-  articles = pruneArticles(dedupeArticles(articles));
+  articles = pruneArticles(dedupeArticles(articles)).filter(
+    (article) => !isBlocked(article, blocklist),
+  );
   for (const article of articles) {
     applyHeuristic(article);
     applySystemDesignTopics(article);

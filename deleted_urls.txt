@@ -1,0 +1,3 @@
+# Articles to permanently exclude from future crawls.
+# Add one article URL or article id per line. Lines starting with # are ignored.
+# The crawler also removes matching articles from public/data/articles.json.

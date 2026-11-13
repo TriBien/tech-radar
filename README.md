@@ -24,6 +24,10 @@ behind each story, and plots the technologies on a ThoughtWorks-style radar
   system-design stories from 2020 onward, and the dataset is not capped by default.
 - **Deduplication** — canonical URLs plus title-shingle similarity, so the same article
   from HN, Reddit and an RSS feed becomes one story.
+- **Delete stories** — permanently delete any story from the feed or system-design
+  library (no restore). Deletions are remembered on-device and filtered out after every
+  future crawl. Add URLs to `deleted_urls.txt` to exclude them permanently from the
+  crawler output for everyone.
 - **Daily enrichment** — OpenAI-compatible LLM (GitHub Models by default) with a
   heuristic fallback when no credentials are available.
 - **Mobile-first UX** — interactive SVG radar, list alternative, filter chips, search,
@@ -96,6 +100,7 @@ Environment knobs:
 | `MAX_ARTICLES` | `0` | Maximum retained articles (`0` = unlimited) |
 | `SYSTEM_DESIGN_ONLY` | `0` | Set to `1` to keep only system-design fetched items |
 | `READING_URLS_FILE` | `reading_urls.txt` | Curated reading list crawled by the reading source |
+| `DELETED_URLS_FILE` | `deleted_urls.txt` | Articles to permanently exclude from crawls |
 
 The LLM is used to produce `summary`, `problem`, `approach`, `outcome`, technologies with
 quadrant/ring suggestions, and tags. Without credentials, a built-in dictionary extracts
@@ -154,16 +159,20 @@ LLM_API_KEY=<secret>
 crawler/
   config.ts               feeds, subreddits, limits
   run.ts                  pipeline entry point
-  build-radar.ts          technology aggregation + ring/trend scoring
+  build-radar.ts          re-exports shared radar aggregation
   store.ts                read/prune/write public/data
+  lib/blocklist.ts        permanent deletion list (deleted_urls.txt)
   sources/                rss, hackernews, devto, reddit, github, reading
   lib/dedupe.ts           canonical URLs + title similarity
   lib/heuristics.ts       technology dictionary + offline enrichment
   lib/llm.ts              batched, validated LLM enrichment
 shared/types.ts           data model shared by crawler and UI
+shared/build-radar.ts     technology aggregation + ring/trend scoring
+shared/text.ts            text/hash helpers shared by crawler and UI
 shared/system-design.ts   architecture topic taxonomy + relevance classifier
 src/                      React + Vite mobile-first UI
 public/data/              generated JSON (committed)
+deleted_urls.txt          permanent article deletion list
 .github/workflows/        deploy.yml + crawl.yml
 ```
 
@@ -174,6 +183,9 @@ public/data/              generated JSON (committed)
 - **Add subreddits:** edit `REDDIT.subreddits` in `crawler/config.ts`.
 - **Improve offline extraction:** extend `TECH_DICTIONARY` in
   `crawler/lib/heuristics.ts`.
+- **Delete articles permanently:** click the trash icon in the app to permanently delete a
+  story on this device (no restore), or add its URL (or id) to `deleted_urls.txt` so every
+  future crawl drops it from the generated dataset. Lines starting with `#` are ignored.
 - **Tune the System Design tab:** edit the topic keywords and relevance rules in
   `shared/system-design.ts`; the crawler stores matching `topics` on each article.
 - **Change the radar shape:** edit ring/quadrant definitions in `shared/types.ts` and

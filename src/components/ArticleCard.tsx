@@ -1,16 +1,23 @@
 import type { Article } from "../../shared/types";
 import { relativeTime, hostname } from "../lib/format";
 import { QUADRANT_META, SOURCE_META } from "../lib/radar";
-import { BookmarkFilledIcon, BookmarkIcon } from "./Icons";
+import { BookmarkFilledIcon, BookmarkIcon, TrashIcon } from "./Icons";
 
 interface ArticleCardProps {
   article: Article;
   saved: boolean;
   onOpen: (article: Article) => void;
   onToggleSave: (id: string) => void;
+  onDelete: (article: Article) => void;
 }
 
-export function ArticleCard({ article, saved, onOpen, onToggleSave }: ArticleCardProps) {
+export function ArticleCard({
+  article,
+  saved,
+  onOpen,
+  onToggleSave,
+  onDelete,
+}: ArticleCardProps) {
   const source = SOURCE_META[article.source] ?? { label: article.sourceName, className: "src-rss" };
   const host = hostname(article.url);
 
@@ -39,6 +46,19 @@ export function ArticleCard({ article, saved, onOpen, onToggleSave }: ArticleCar
         }}
       >
         {saved ? <BookmarkFilledIcon size={18} /> : <BookmarkIcon size={18} />}
+      </button>
+
+      <button
+        type="button"
+        className="save-btn card-delete"
+        aria-label="Delete article"
+        title="Delete article"
+        onClick={(event) => {
+          event.stopPropagation();
+          onDelete(article);
+        }}
+      >
+        <TrashIcon size={17} />
       </button>
 
       <div className="card-meta">

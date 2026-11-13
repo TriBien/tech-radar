@@ -94,6 +94,9 @@ export const MAX_ARTICLES = envNumber("MAX_ARTICLES", 0);
 
 export const READING_URLS_FILE = process.env.READING_URLS_FILE || "reading_urls.txt";
 
+/** Optional list of article URLs/ids that must never be collected again. */
+export const DELETED_URLS_FILE = process.env.DELETED_URLS_FILE || "deleted_urls.txt";
+
 export function initialCrawlYear(): number {
   const parsed = Number(process.env.INITIAL_CRAWL_YEAR || 0);
   return Number.isFinite(parsed) && parsed > 1970 ? parsed : 0;

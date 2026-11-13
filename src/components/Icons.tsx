@@ -104,6 +104,26 @@ export function BookmarkFilledIcon({ size = 22, className }: IconProps) {
   );
 }
 
+export function TrashIcon({ size = 22, className }: IconProps) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.7"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+      aria-hidden="true"
+    >
+      <path d="M4 7h16M9 7V4h6v3M6 7l1 12.2A1.8 1.8 0 0 0 8.8 21h6.4a1.8 1.8 0 0 0 1.8-1.8L18 7" />
+      <path d="M10 11v6M14 11v6" />
+    </svg>
+  );
+}
+
 export function SearchIcon({ size = 18, className }: IconProps) {
   return (
     <svg

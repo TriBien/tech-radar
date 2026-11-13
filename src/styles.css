@@ -697,19 +697,28 @@ img {
   background: var(--accent-soft);
 }
 
+.card-delete {
+  right: 54px;
+}
+
+.card-delete:hover {
+  color: var(--bad);
+  border-color: var(--bad);
+}
+
 .card-meta {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 6px;
-  padding-right: 38px;
+  padding-right: 76px;
   color: var(--muted);
   font-size: 0.7rem;
 }
 
 .card-title {
   margin: 0;
-  padding-right: 26px;
+  padding-right: 64px;
   font-size: 1.03rem;
   font-weight: 650;
   line-height: 1.32;
@@ -1486,6 +1495,7 @@ img {
 
 .sheet-actions {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
   margin-top: 18px;
 }
@@ -1528,6 +1538,15 @@ img {
 .btn-ghost.is-saved {
   color: var(--accent);
   border-color: var(--accent-ring);
+}
+
+.btn-danger {
+  color: var(--bad);
+}
+
+.btn-danger:hover {
+  color: var(--bad);
+  border-color: var(--bad);
 }
 
 .tech-sheet-head {

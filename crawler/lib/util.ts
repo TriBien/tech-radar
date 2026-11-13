@@ -1,40 +1,10 @@
 import { createHash } from "node:crypto";
+import { stripHtml, truncate } from "../../shared/text.js";
+
+export { slugify, stripHtml, truncate } from "../../shared/text.js";
 
 export function hashId(input: string, length = 16): string {
   return createHash("sha1").update(input).digest("hex").slice(0, length);
-}
-
-export function slugify(input: string): string {
-  return input
-    .toLowerCase()
-    .normalize("NFKD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "")
-    .slice(0, 80);
-}
-
-export function stripHtml(input: string | undefined | null): string {
-  if (!input) return "";
-  return input
-    .replace(/<script[\s\S]*?<\/script>/gi, " ")
-    .replace(/<style[\s\S]*?<\/style>/gi, " ")
-    .replace(/<[^>]+>/g, " ")
-    .replace(/&nbsp;/gi, " ")
-    .replace(/&amp;/gi, "&")
-    .replace(/&lt;/gi, "<")
-    .replace(/&gt;/gi, ">")
-    .replace(/&quot;/gi, '"')
-    .replace(/&#39;/gi, "'")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
-export function truncate(input: string, max: number): string {
-  if (input.length <= max) return input;
-  const cut = input.slice(0, max);
-  const lastSpace = cut.lastIndexOf(" ");
-  return `${cut.slice(0, lastSpace > max * 0.6 ? lastSpace : max).trim()}…`;
 }
 
 /** Cheap extractive summary: first sentences up to a character budget. */
