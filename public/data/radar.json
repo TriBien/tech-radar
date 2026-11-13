@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-11-12T16:06:34.662Z",
+  "generatedAt": "2026-11-13T13:09:01.959Z",
   "periodDays": 60,
   "items": [
     {
-      "id": "microservices-999f3e",
+      "id": "microservices-2f418d",
       "name": "Microservices",
       "quadrant": "Techniques",
       "ring": "Trial",
       "description": "Standard Network Policies limit you to applying policies at the namespace level, but ClusterNetworkPolicy (CNP) lets you apply granular networking policies across an entire cluster. When you use CNP,…",
       "articleCount": 1165,
-      "recentCount": 7,
-      "previousCount": 5,
-      "trend": "up",
+      "recentCount": 6,
+      "previousCount": 6,
+      "trend": "steady",
       "firstSeen": "2020-01-02T21:19:39.000Z",
       "lastSeen": "2026-11-10T19:06:42.000Z",
       "articleIds": [
@@ -31,60 +31,60 @@
         "developers & practitioners",
         "reading-list"
       ],
-      "score": 7071.8
+      "score": 7058.8
     },
     {
-      "id": "ai-agents-3a736c",
+      "id": "ai-agents-ac421d",
       "name": "AI agents",
       "quadrant": "Techniques",
       "ring": "Assess",
-      "description": "Gartner has named Google Cloud a Leader, positioned furthest in vision, in its first-ever Magic Quadrant for Lakehouse Platforms. In our opinion, this recognition validates a fundamental shift our…",
-      "articleCount": 92,
-      "recentCount": 61,
+      "description": "Netflix is developing an ontology-driven knowledge graph to accelerate production investigations and provide AI agents with a shared understanding of its operational environment. By Craig Risi",
+      "articleCount": 99,
+      "recentCount": 68,
       "previousCount": 2,
       "trend": "up",
       "firstSeen": "2024-01-29T18:28:18.000Z",
-      "lastSeen": "2026-11-12T16:00:00.000Z",
+      "lastSeen": "2026-11-13T12:00:00.000Z",
       "articleIds": [
-        "55ea60e6066a8a04",
-        "0f0daa4a50c562bb",
-        "c37447a6ba003f3b",
-        "f99e3a9ec2e5c566",
-        "53bc56e14c08d499",
-        "53d5cdba12bea358",
-        "3a0126a331afd235",
-        "fa2da1956d62f757"
+        "5b498fce51fa1178",
+        "83269f06f187277a",
+        "b3c84623c44d3655",
+        "d90593ab4f290146",
+        "20b69209b0cb442b",
+        "ae101ce5b72b61e2",
+        "e6b61badd188738a",
+        "55ea60e6066a8a04"
       ],
       "tags": [
         "hackernews",
         "archive",
         "cloud",
         "reading-list",
-        "cloud-native"
+        "ai"
       ],
-      "score": 1114.6
+      "score": 1219.6
     },
     {
-      "id": "anthropic-claude-ba718d",
+      "id": "anthropic-claude-cc3f96",
       "name": "Anthropic Claude",
       "quadrant": "Tools",
       "ring": "Trial",
-      "description": "We built the open-source Kompressor for compressing identical tool outputs that agents constantly resend.",
-      "articleCount": 89,
-      "recentCount": 53,
-      "previousCount": 1,
+      "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+      "articleCount": 94,
+      "recentCount": 58,
+      "previousCount": 0,
       "trend": "up",
       "firstSeen": "2023-08-12T00:08:13.000Z",
-      "lastSeen": "2026-11-12T14:02:38.000Z",
+      "lastSeen": "2026-11-13T13:07:31.013Z",
       "articleIds": [
+        "ec453d1217c21859",
+        "f7cfdfd7bcc39abd",
+        "22bcd83804c6c356",
+        "44da454e7900959c",
+        "9f0b516152c12ca0",
         "e9ab5dca6955aaf6",
         "d1aa340a643527c9",
-        "f101ffad2bb3a113",
-        "8620b38d2309362b",
-        "c5d1a9eb33834e11",
-        "7d94c1732eb2d1a4",
-        "6734a79295b9f50e",
-        "2cac4253f10e065c"
+        "f101ffad2bb3a113"
       ],
       "tags": [
         "hackernews",
@@ -93,18 +93,18 @@
         "python",
         "cloud-native"
       ],
-      "score": 1030
+      "score": 1105
     },
     {
-      "id": "event-driven-architecture-55d79a",
+      "id": "event-driven-architecture-e0d623",
       "name": "Event-driven architecture",
       "quadrant": "Techniques",
       "ring": "Trial",
       "description": "I built OS3-RNode as a tiny RNode-compatible LoRa modem firmware for CH32V003 + E22-900M22S. It is based on a small deterministic event-driven core, with no scheduler, no threads, and bounded…",
       "articleCount": 122,
-      "recentCount": 1,
-      "previousCount": 1,
-      "trend": "steady",
+      "recentCount": 0,
+      "previousCount": 2,
+      "trend": "down",
       "firstSeen": "2020-01-13T15:27:07.000Z",
       "lastSeen": "2026-10-23T03:18:52.000Z",
       "articleIds": [
@@ -121,10 +121,10 @@
         "hackernews",
         "archive"
       ],
-      "score": 754.6
+      "score": 743.6
     },
     {
-      "id": "kubernetes-adc1f5",
+      "id": "kubernetes-74afb9",
       "name": "Kubernetes",
       "quadrant": "Platforms",
       "ring": "Adopt",
@@ -155,7 +155,7 @@
       "score": 729.6
     },
     {
-      "id": "go-1ec558",
+      "id": "go-422077",
       "name": "Go",
       "quadrant": "Languages & Frameworks",
       "ring": "Adopt",
@@ -186,14 +186,76 @@
       "score": 669.8
     },
     {
-      "id": "python-423522",
+      "id": "aws-1a683c",
+      "name": "AWS",
+      "quadrant": "Platforms",
+      "ring": "Adopt",
+      "description": "Regression testing must catch behavior changes before they reach production, yet synthetic tests miss real-world edge cases. This post walks through a modular framework, built on AWS, that replays a…",
+      "articleCount": 66,
+      "recentCount": 23,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-01-28T20:05:18.000Z",
+      "lastSeen": "2026-11-12T21:51:43.000Z",
+      "articleIds": [
+        "aa04d052c89c07b4",
+        "c5bf4443a1247ac3",
+        "d90593ab4f290146",
+        "232301c2fd8ad5b2",
+        "00db8bb1bba80204",
+        "53d5cdba12bea358",
+        "70a69d3bb5822802",
+        "6beb09d107cb3c3b"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "reading-list",
+        "cloud",
+        "ai"
+      ],
+      "score": 625.4
+    },
+    {
+      "id": "rust-1d3fbd",
+      "name": "Rust",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Trial",
+      "description": "Hacker News discussion with 277 comments.",
+      "articleCount": 69,
+      "recentCount": 18,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-01-15T00:22:16.000Z",
+      "lastSeen": "2026-11-12T18:39:05.000Z",
+      "articleIds": [
+        "b8c82d5c01fe377a",
+        "601b9533788c06e0",
+        "629d650b4735fe61",
+        "53d5cdba12bea358",
+        "edcddc610a9e2407",
+        "c7433ec470cb8f9b",
+        "08153d08fb497abe",
+        "3ff0584fedeacb03"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "rust",
+        "ai",
+        "architecture"
+      ],
+      "score": 594.2
+    },
+    {
+      "id": "python-0fceff",
       "name": "Python",
       "quadrant": "Languages & Frameworks",
       "ring": "Adopt",
       "description": "https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;Python&#x2F;s&#x2F;2Cm5dBcvQw",
       "articleCount": 76,
-      "recentCount": 10,
-      "previousCount": 2,
+      "recentCount": 9,
+      "previousCount": 3,
       "trend": "up",
       "firstSeen": "2020-01-13T16:40:35.000Z",
       "lastSeen": "2026-11-11T07:03:17.000Z",
@@ -214,91 +276,60 @@
         "ai",
         "python"
       ],
-      "score": 568.4
+      "score": 559.5
     },
     {
-      "id": "aws-553579",
-      "name": "AWS",
+      "id": "google-cloud-c47ea8",
+      "name": "Google Cloud",
       "quadrant": "Platforms",
       "ring": "Adopt",
-      "description": "Zillow sends more than 100 million personalized notifications a day, each as a short-lived AWS Step Functions Express workflow. See how the Comms Experience team replaced more than 10 campaign…",
-      "articleCount": 62,
-      "recentCount": 19,
+      "description": "We designed Google Cloud's Cross-Cloud Network to simplify and optimize how organizations connect and secure applications across cloud and on-premises environments.",
+      "articleCount": 43,
+      "recentCount": 31,
       "previousCount": 0,
       "trend": "up",
-      "firstSeen": "2020-01-28T20:05:18.000Z",
-      "lastSeen": "2026-11-11T23:25:00.000Z",
+      "firstSeen": "2020-02-23T15:07:24.000Z",
+      "lastSeen": "2026-11-12T17:00:00.000Z",
       "articleIds": [
-        "00db8bb1bba80204",
-        "53d5cdba12bea358",
-        "70a69d3bb5822802",
-        "6beb09d107cb3c3b",
-        "6734a79295b9f50e",
-        "8c9052413e13c82f",
-        "494d518106a53a8c",
-        "b6dff040ef97b102"
+        "232301c2fd8ad5b2",
+        "c20431e651bd693a",
+        "ae101ce5b72b61e2",
+        "55ea60e6066a8a04",
+        "2af3888a7b8b85a9",
+        "fa2da1956d62f757",
+        "5458547ac28ee5fa",
+        "27e3dadc6235781b"
       ],
       "tags": [
+        "cloud",
         "hackernews",
         "archive",
-        "reading-list",
-        "ai",
-        "cloud"
+        "security & identity",
+        "google cloud"
       ],
-      "score": 565.3
+      "score": 557.5
     },
     {
-      "id": "rust-7b41f8",
-      "name": "Rust",
-      "quadrant": "Languages & Frameworks",
-      "ring": "Trial",
-      "description": "aws-emulator Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so. It's written in Rust by a…",
-      "articleCount": 66,
-      "recentCount": 15,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-01-15T00:22:16.000Z",
-      "lastSeen": "2026-11-11T21:18:30.000Z",
-      "articleIds": [
-        "53d5cdba12bea358",
-        "edcddc610a9e2407",
-        "c7433ec470cb8f9b",
-        "08153d08fb497abe",
-        "3ff0584fedeacb03",
-        "2fab79d06b7a4b4b",
-        "3e62264ffb8eefe5",
-        "9476d12cec2fd106"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "rust",
-        "ai",
-        "architecture"
-      ],
-      "score": 549.2
-    },
-    {
-      "id": "postgresql-519968",
+      "id": "postgresql-2ee91e",
       "name": "PostgreSQL",
       "quadrant": "Platforms",
       "ring": "Adopt",
       "description": "We built AlloyDB AI to bring Gemini world knowledge directly into your operational database.",
-      "articleCount": 70,
-      "recentCount": 10,
+      "articleCount": 71,
+      "recentCount": 11,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-01-31T06:42:05.000Z",
-      "lastSeen": "2026-11-12T14:25:23.000Z",
+      "lastSeen": "2026-11-12T18:22:22.000Z",
       "articleIds": [
+        "5b3e85fd4334d620",
         "5e43bafddf4ea295",
         "ed0816bfc3352e85",
         "592021ac783a2090",
         "9f99b6297214ae52",
         "6d7526357c232246",
         "0345c8661011bd62",
-        "3167edcfb8d550bf",
-        "dc17eeba94f57013"
+        "3167edcfb8d550bf"
       ],
       "tags": [
         "hackernews",
@@ -307,60 +338,29 @@
         "databases",
         "reading-list"
       ],
-      "score": 531.3
+      "score": 546.3
     },
     {
-      "id": "google-cloud-6e9b50",
-      "name": "Google Cloud",
-      "quadrant": "Platforms",
-      "ring": "Adopt",
-      "description": "Gartner has named Google Cloud a Leader, positioned furthest in vision, in its first-ever Magic Quadrant for Lakehouse Platforms. In our opinion, this recognition validates a fundamental shift our…",
-      "articleCount": 40,
-      "recentCount": 28,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-02-23T15:07:24.000Z",
-      "lastSeen": "2026-11-12T16:00:00.000Z",
-      "articleIds": [
-        "55ea60e6066a8a04",
-        "2af3888a7b8b85a9",
-        "fa2da1956d62f757",
-        "5458547ac28ee5fa",
-        "27e3dadc6235781b",
-        "10379432e7afb3ea",
-        "130290724fa68d1f",
-        "23317fcdee853e0d"
-      ],
-      "tags": [
-        "cloud",
-        "hackernews",
-        "archive",
-        "google cloud",
-        "ai & machine learning"
-      ],
-      "score": 512.5
-    },
-    {
-      "id": "gemini-468da0",
+      "id": "gemini-90e14d",
       "name": "Gemini",
       "quadrant": "Tools",
       "ring": "Trial",
-      "description": "Gemini Decisions API Google join Jev and OpenAI in the decision model category with \"Gemini Decision 1\". This new model API is almost identical to Jev: it supports the same three types of questions…",
-      "articleCount": 33,
-      "recentCount": 23,
+      "description": "Release: llm-gemini 0.37 Google launched Gemini 4 Hydrogen today - the lowest cost member of the Gemini 4 family. It's actually not too far off the price of its much bigger siblings, Carbon and…",
+      "articleCount": 40,
+      "recentCount": 30,
       "previousCount": 1,
       "trend": "up",
       "firstSeen": "2024-12-05T07:03:29.000Z",
-      "lastSeen": "2026-11-11T22:03:25.000Z",
+      "lastSeen": "2026-11-12T22:55:19.000Z",
       "articleIds": [
-        "624a305adfa41ec6",
-        "cce714811b519a82",
-        "ed0816bfc3352e85",
-        "fa2da1956d62f757",
-        "8d84aa1a26bd7168",
-        "096f075e11080075",
-        "10379432e7afb3ea",
-        "d4f73b739223da48"
+        "9f0b516152c12ca0",
+        "f6a41a4da0e4df3e",
+        "20b69209b0cb442b",
+        "d40fca9fd5e12c4b",
+        "8fdb0296ea11e78c",
+        "64338ecad904c5f5",
+        "ae101ce5b72b61e2",
+        "624a305adfa41ec6"
       ],
       "tags": [
         "hackernews",
@@ -369,10 +369,10 @@
         "ai & machine learning",
         "ai"
       ],
-      "score": 423
+      "score": 528.2
     },
     {
-      "id": "redis-b840fc",
+      "id": "redis-b60889",
       "name": "Redis",
       "quadrant": "Platforms",
       "ring": "Adopt",
@@ -400,7 +400,7 @@
       "score": 371.3
     },
     {
-      "id": "sre-1ea78b",
+      "id": "sre-d53ce4",
       "name": "SRE",
       "quadrant": "Techniques",
       "ring": "Trial",
@@ -430,26 +430,26 @@
       "score": 359.9
     },
     {
-      "id": "openai-api-afe7d8",
+      "id": "openai-api-a8a7c5",
       "name": "OpenAI API",
       "quadrant": "Tools",
       "ring": "Trial",
-      "description": "Gemini Decisions API Google join Jev and OpenAI in the decision model category with \"Gemini Decision 1\". This new model API is almost identical to Jev: it supports the same three types of questions…",
-      "articleCount": 36,
-      "recentCount": 10,
-      "previousCount": 2,
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset…",
+      "articleCount": 37,
+      "recentCount": 11,
+      "previousCount": 1,
       "trend": "up",
       "firstSeen": "2023-01-10T11:25:15.000Z",
-      "lastSeen": "2026-11-11T22:03:25.000Z",
+      "lastSeen": "2026-11-13T13:07:31.012Z",
       "articleIds": [
+        "f7cfdfd7bcc39abd",
         "624a305adfa41ec6",
         "ac992cc25d49f443",
         "65f8a2e3eddbdfe5",
         "af85c795f169cc0c",
         "2396c16836f4db23",
         "8ceada5f95028093",
-        "2bf6c7572a76eb11",
-        "d3f1975aa4eab60f"
+        "2bf6c7572a76eb11"
       ],
       "tags": [
         "hackernews",
@@ -458,10 +458,41 @@
         "security",
         "cloud-native"
       ],
-      "score": 324.3
+      "score": 339.3
     },
     {
-      "id": "docker-e982f1",
+      "id": "claude-code-dfaa85",
+      "name": "Claude Code",
+      "quadrant": "Tools",
+      "ring": "Assess",
+      "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+      "articleCount": 29,
+      "recentCount": 16,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2025-12-21T12:57:10.000Z",
+      "lastSeen": "2026-11-13T13:07:31.013Z",
+      "articleIds": [
+        "ec453d1217c21859",
+        "44da454e7900959c",
+        "e9ab5dca6955aaf6",
+        "d1aa340a643527c9",
+        "2cac4253f10e065c",
+        "baaf713b11e387f5",
+        "2396c16836f4db23",
+        "9d38e7e45a37e612"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "ai",
+        "python",
+        "cloud-native"
+      ],
+      "score": 331.8
+    },
+    {
+      "id": "docker-0be35d",
       "name": "Docker",
       "quadrant": "Platforms",
       "ring": "Adopt",
@@ -492,14 +523,14 @@
       "score": 321.3
     },
     {
-      "id": "apache-kafka-5dd942",
+      "id": "apache-kafka-0d516b",
       "name": "Apache Kafka",
       "quadrant": "Platforms",
       "ring": "Trial",
       "description": "Over the last year, at Smartness, the company where I work, we built a new message broker, open source under Apache 2.",
       "articleCount": 43,
-      "recentCount": 3,
-      "previousCount": 0,
+      "recentCount": 2,
+      "previousCount": 1,
       "trend": "up",
       "firstSeen": "2020-01-08T21:09:20.000Z",
       "lastSeen": "2026-11-10T14:52:36.000Z",
@@ -520,41 +551,41 @@
         "backend development",
         "data streaming"
       ],
-      "score": 302.2
+      "score": 293.2
     },
     {
-      "id": "claude-code-7cb022",
-      "name": "Claude Code",
-      "quadrant": "Tools",
-      "ring": "Assess",
-      "description": "We built the open-source Kompressor for compressing identical tool outputs that agents constantly resend.",
+      "id": "typescript-19862f",
+      "name": "TypeScript",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Adopt",
+      "description": "Why attaching dozens of Model Context Protocol (MCP) tools degrades LLM reasoning, inflates API bills, and how small, focused TypeScript micro-tools fix the problem.",
       "articleCount": 27,
-      "recentCount": 14,
-      "previousCount": 1,
+      "recentCount": 12,
+      "previousCount": 0,
       "trend": "up",
-      "firstSeen": "2025-12-21T12:57:10.000Z",
-      "lastSeen": "2026-11-12T14:02:38.000Z",
+      "firstSeen": "2021-05-07T12:42:22.000Z",
+      "lastSeen": "2026-11-12T16:30:00.000Z",
       "articleIds": [
-        "e9ab5dca6955aaf6",
-        "d1aa340a643527c9",
-        "2cac4253f10e065c",
-        "baaf713b11e387f5",
-        "2396c16836f4db23",
-        "9d38e7e45a37e612",
-        "6ee1dee33e4bfc63",
-        "68ff5ed661ee40ec"
+        "e6b61badd188738a",
+        "a26f08e053aa1f16",
+        "af1718a415eac7ae",
+        "65f8a2e3eddbdfe5",
+        "95c23a9afeb3554e",
+        "edcddc610a9e2407",
+        "c7433ec470cb8f9b",
+        "41649c546d9bea43"
       ],
       "tags": [
         "hackernews",
         "archive",
-        "ai",
-        "python",
-        "cloud-native"
+        "typescript",
+        "architecture",
+        "web development"
       ],
-      "score": 301.8
+      "score": 292.6
     },
     {
-      "id": "java-23524b",
+      "id": "java-081fb5",
       "name": "Java",
       "quadrant": "Languages & Frameworks",
       "ring": "Adopt",
@@ -585,7 +616,7 @@
       "score": 285.2
     },
     {
-      "id": "graphql-9fdcc7",
+      "id": "graphql-c19cf2",
       "name": "GraphQL",
       "quadrant": "Languages & Frameworks",
       "ring": "Trial",
@@ -613,38 +644,7 @@
       "score": 283.2
     },
     {
-      "id": "typescript-fb9da8",
-      "name": "TypeScript",
-      "quadrant": "Languages & Frameworks",
-      "ring": "Adopt",
-      "description": "finprim is an MIT-licensed TypeScript library that offers IBAN, BIC, card, sort code, VAT, routing number and loan functions through one API with no runtime dependencies. Its author built it after…",
-      "articleCount": 26,
-      "recentCount": 11,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2021-05-07T12:42:22.000Z",
-      "lastSeen": "2026-11-12T09:28:00.000Z",
-      "articleIds": [
-        "a26f08e053aa1f16",
-        "af1718a415eac7ae",
-        "65f8a2e3eddbdfe5",
-        "95c23a9afeb3554e",
-        "edcddc610a9e2407",
-        "c7433ec470cb8f9b",
-        "41649c546d9bea43",
-        "b031e95169011e00"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "typescript",
-        "architecture",
-        "web development"
-      ],
-      "score": 276.8
-    },
-    {
-      "id": "serverless-89affb",
+      "id": "serverless-d08ae9",
       "name": "Serverless",
       "quadrant": "Techniques",
       "ring": "Trial",
@@ -675,38 +675,38 @@
       "score": 253
     },
     {
-      "id": "observability-34a102",
+      "id": "observability-3f4219",
       "name": "Observability",
       "quadrant": "Techniques",
       "ring": "Adopt",
-      "description": "Moving an AI workload to another cloud means bringing more than a model and its data. Your serving layer, observability The post CoreWeave tests AI integrations on its cloud before you migrate…",
-      "articleCount": 24,
-      "recentCount": 8,
+      "description": "Netflix is developing an ontology-driven knowledge graph to accelerate production investigations and provide AI agents with a shared understanding of its operational environment. By Craig Risi",
+      "articleCount": 25,
+      "recentCount": 9,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-10-08T12:32:56.000Z",
-      "lastSeen": "2026-11-11T15:00:00.000Z",
+      "lastSeen": "2026-11-13T12:00:00.000Z",
       "articleIds": [
+        "5b498fce51fa1178",
         "6f6c86a06e5ced76",
         "51b69a0abc927c87",
         "a678386f4bab26d0",
         "f113e5aea16ede5b",
         "288aef15dc28f1ab",
         "649ad2b494211d8d",
-        "3090d38083de5252",
-        "902b879b9c1341e7"
+        "3090d38083de5252"
       ],
       "tags": [
         "hackernews",
         "archive",
         "reading-list",
-        "cloud-native",
-        "blog"
+        "observability",
+        "architecture"
       ],
-      "score": 235.5
+      "score": 250.5
     },
     {
-      "id": "javascript-b6e13a",
+      "id": "javascript-818045",
       "name": "JavaScript",
       "quadrant": "Languages & Frameworks",
       "ring": "Adopt",
@@ -737,7 +737,7 @@
       "score": 225.7
     },
     {
-      "id": "ruby-on-rails-62da32",
+      "id": "ruby-on-rails-9e1b81",
       "name": "Ruby on Rails",
       "quadrant": "Languages & Frameworks",
       "ring": "Trial",
@@ -765,10 +765,10 @@
         "devto",
         "ruby"
       ],
-      "score": 214.6
+      "score": 214.7
     },
     {
-      "id": "cloudflare-f036f5",
+      "id": "cloudflare-a187f4",
       "name": "Cloudflare",
       "quadrant": "Platforms",
       "ring": "Trial",
@@ -799,7 +799,7 @@
       "score": 192.6
     },
     {
-      "id": "opentelemetry-808c8a",
+      "id": "opentelemetry-31e074",
       "name": "OpenTelemetry",
       "quadrant": "Tools",
       "ring": "Trial",
@@ -830,7 +830,7 @@
       "score": 175.9
     },
     {
-      "id": "react-6b810c",
+      "id": "react-58fd63",
       "name": "React",
       "quadrant": "Languages & Frameworks",
       "ring": "Adopt",
@@ -858,10 +858,10 @@
         "devto",
         "webdev"
       ],
-      "score": 173.3
+      "score": 173.4
     },
     {
-      "id": "grpc-25e1c2",
+      "id": "grpc-a0713c",
       "name": "gRPC",
       "quadrant": "Languages & Frameworks",
       "ring": "Trial",
@@ -889,26 +889,26 @@
       "score": 162.7
     },
     {
-      "id": "azure-80b336",
+      "id": "azure-3758c2",
       "name": "Azure",
       "quadrant": "Platforms",
       "ring": "Trial",
-      "description": "Microsoft has released a public preview of the logicapp extension for the Azure CLI, adding local project creation, workflow authoring, a runtime lifecycle, connector management, run inspection, and…",
-      "articleCount": 16,
-      "recentCount": 3,
+      "description": "For the past 5 minutes all of our Microsoft Cloud connections are down. Anyone else? The Status page won&#x27;t even load.",
+      "articleCount": 17,
+      "recentCount": 4,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-02-21T06:36:14.000Z",
-      "lastSeen": "2026-11-12T10:23:00.000Z",
+      "lastSeen": "2026-11-12T18:17:13.000Z",
       "articleIds": [
+        "7482059e8feb089c",
         "70bd8739af1678af",
         "2ea58fe6d3832d71",
         "02ab276b39463efa",
         "50d8c94d3fbbf6f4",
         "81ec892a649a998f",
         "86fbfc5297f75fd2",
-        "f17baa51dbdd3b32",
-        "503b4b2b3d1c2eee"
+        "f17baa51dbdd3b32"
       ],
       "tags": [
         "hackernews",
@@ -917,10 +917,41 @@
         "devto",
         "architecture"
       ],
-      "score": 139.7
+      "score": 155.2
     },
     {
-      "id": "spring-boot-aeb184",
+      "id": "github-actions-1c2ae8",
+      "name": "GitHub Actions",
+      "quadrant": "Tools",
+      "ring": "Adopt",
+      "description": "Review Pull Requests with Kiro CLI and GitHub Actions Kiro CLI has a headless mode. Give...",
+      "articleCount": 14,
+      "recentCount": 4,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-05-30T08:08:26.000Z",
+      "lastSeen": "2026-11-11T22:16:41.000Z",
+      "articleIds": [
+        "2f1463e50ee923f0",
+        "531b0b0b55665264",
+        "844d3a2b3f633acf",
+        "cad7c5b8211d09ee",
+        "f6a4ed13b9a3943c",
+        "b596fef2ff18b9cb",
+        "3dd6ebb0dea7761e",
+        "34ed90baf39f843d"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "devops",
+        "architecture",
+        "github"
+      ],
+      "score": 141.3
+    },
+    {
+      "id": "spring-boot-b43dbc",
       "name": "Spring Boot",
       "quadrant": "Languages & Frameworks",
       "ring": "Adopt",
@@ -948,7 +979,7 @@
       "score": 136
     },
     {
-      "id": "rag-69a537",
+      "id": "rag-53ff2c",
       "name": "RAG",
       "quadrant": "Techniques",
       "ring": "Trial",
@@ -979,38 +1010,66 @@
       "score": 128
     },
     {
-      "id": "github-actions-4ea69f",
-      "name": "GitHub Actions",
+      "id": "cursor-e33632",
+      "name": "Cursor",
       "quadrant": "Tools",
-      "ring": "Adopt",
-      "description": "GitHub Agentic Workflows is generally available, running coding agents in GitHub Actions with read-only defaults and separately scoped write jobs. Those protections do not cover direct write…",
-      "articleCount": 13,
-      "recentCount": 3,
+      "ring": "Assess",
+      "description": "Coding agents are pretty good at working in parallel: one writes a new API endpoint, another updates the tests, while The post Google’s coding agents now /swarm for one developer. Cursor’s go…",
+      "articleCount": 10,
+      "recentCount": 6,
       "previousCount": 0,
       "trend": "up",
-      "firstSeen": "2020-05-30T08:08:26.000Z",
-      "lastSeen": "2026-11-11T22:16:41.000Z",
+      "firstSeen": "2024-10-29T04:55:39.000Z",
+      "lastSeen": "2026-11-12T21:22:46.000Z",
       "articleIds": [
-        "2f1463e50ee923f0",
-        "844d3a2b3f633acf",
-        "cad7c5b8211d09ee",
-        "f6a4ed13b9a3943c",
-        "b596fef2ff18b9cb",
-        "3dd6ebb0dea7761e",
-        "34ed90baf39f843d",
-        "41310eb0d85c0d6b"
+        "86932b5c72e9eeb7",
+        "2396c16836f4db23",
+        "649ad2b494211d8d",
+        "974ef3bd3bfd8c31",
+        "357a441926bce029",
+        "7fb652c9ef37fd7e",
+        "71294fa980648795",
+        "cd1743a0b788fdba"
       ],
       "tags": [
         "hackernews",
         "archive",
-        "architecture",
-        "github",
-        "github actions"
+        "reading-list",
+        "cloud-native",
+        "ai"
       ],
-      "score": 126.3
+      "score": 123.5
     },
     {
-      "id": "figma-d2834b",
+      "id": "grafana-418c13",
+      "name": "Grafana",
+      "quadrant": "Tools",
+      "ring": "Adopt",
+      "description": "3 release, we introduced the first phase of our biggest visual refresh since Grafana 7.",
+      "articleCount": 7,
+      "recentCount": 6,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-10-28T14:57:10.000Z",
+      "lastSeen": "2026-11-12T17:01:40.000Z",
+      "articleIds": [
+        "cea589efa9324ca0",
+        "9621e800a7bb4532",
+        "649ad2b494211d8d",
+        "67826e3f3312b1b9",
+        "e11f6903b56d39d8",
+        "902b879b9c1341e7",
+        "2133b52541cf467f"
+      ],
+      "tags": [
+        "observability",
+        "hackernews",
+        "archive"
+      ],
+      "score": 117.1
+    },
+    {
+      "id": "figma-1e4ff5",
       "name": "Figma",
       "quadrant": "Tools",
       "ring": "Adopt",
@@ -1040,7 +1099,7 @@
       "score": 114.1
     },
     {
-      "id": "continuous-delivery-ede87a",
+      "id": "continuous-delivery-9bbcb6",
       "name": "Continuous delivery",
       "quadrant": "Techniques",
       "ring": "Adopt",
@@ -1071,7 +1130,7 @@
       "score": 113
     },
     {
-      "id": "bigquery-582872",
+      "id": "bigquery-ee620c",
       "name": "BigQuery",
       "quadrant": "Platforms",
       "ring": "Trial",
@@ -1102,38 +1161,7 @@
       "score": 110.2
     },
     {
-      "id": "cursor-7c501e",
-      "name": "Cursor",
-      "quadrant": "Tools",
-      "ring": "Assess",
-      "description": "Two of the biggest players in the AI coding space are betting that developers want to talk to their agents The post Cursor and Google join OpenAI in giving coding agents a voice. Claude Code stays…",
-      "articleCount": 9,
-      "recentCount": 5,
-      "previousCount": 1,
-      "trend": "up",
-      "firstSeen": "2024-10-29T04:55:39.000Z",
-      "lastSeen": "2026-11-09T18:22:41.000Z",
-      "articleIds": [
-        "2396c16836f4db23",
-        "649ad2b494211d8d",
-        "974ef3bd3bfd8c31",
-        "357a441926bce029",
-        "7fb652c9ef37fd7e",
-        "71294fa980648795",
-        "cd1743a0b788fdba",
-        "66da26e40705b1aa"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "reading-list",
-        "cloud-native",
-        "ai"
-      ],
-      "score": 108.5
-    },
-    {
-      "id": "vllm-87185e",
+      "id": "vllm-e33a0a",
       "name": "vLLM",
       "quadrant": "Tools",
       "ring": "Assess",
@@ -1164,34 +1192,7 @@
       "score": 104.1
     },
     {
-      "id": "grafana-f519bc",
-      "name": "Grafana",
-      "quadrant": "Tools",
-      "ring": "Adopt",
-      "description": "Ultimately, this helps you surface problems without needing an alert, giving you wider coverage and more confidence in your system.",
-      "articleCount": 6,
-      "recentCount": 5,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-10-28T14:57:10.000Z",
-      "lastSeen": "2026-11-09T16:30:31.000Z",
-      "articleIds": [
-        "9621e800a7bb4532",
-        "649ad2b494211d8d",
-        "67826e3f3312b1b9",
-        "e11f6903b56d39d8",
-        "902b879b9c1341e7",
-        "2133b52541cf467f"
-      ],
-      "tags": [
-        "observability",
-        "hackernews",
-        "archive"
-      ],
-      "score": 102.1
-    },
-    {
-      "id": "webassembly-65812b",
+      "id": "webassembly-733ad6",
       "name": "WebAssembly",
       "quadrant": "Languages & Frameworks",
       "ring": "Assess",
@@ -1222,7 +1223,7 @@
       "score": 100.9
     },
     {
-      "id": "domain-driven-design-d0633a",
+      "id": "domain-driven-design-da83b7",
       "name": "Domain-driven design",
       "quadrant": "Techniques",
       "ring": "Trial",
@@ -1250,7 +1251,7 @@
       "score": 99.7
     },
     {
-      "id": "rabbitmq-d37a96",
+      "id": "rabbitmq-a9b283",
       "name": "RabbitMQ",
       "quadrant": "Tools",
       "ring": "Trial",
@@ -1278,7 +1279,7 @@
       "score": 98.1
     },
     {
-      "id": "mysql-f460c8",
+      "id": "mysql-6a6a63",
       "name": "MySQL",
       "quadrant": "Platforms",
       "ring": "Trial",
@@ -1306,7 +1307,7 @@
       "score": 95
     },
     {
-      "id": "kotlin-63d4c0",
+      "id": "kotlin-9d8cf0",
       "name": "Kotlin",
       "quadrant": "Languages & Frameworks",
       "ring": "Trial",
@@ -1337,7 +1338,36 @@
       "score": 89.2
     },
     {
-      "id": "github-copilot-3b30d1",
+      "id": "php-5b44b8",
+      "name": "PHP",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Trial",
+      "description": "At KubeCon + CloudNativeCon North America 2026 this week, Chainguard co-founder and CTO Matt Moore defended the company’s decision to The post Chainguard defends its choice to break the PHP security…",
+      "articleCount": 6,
+      "recentCount": 4,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2021-01-22T09:03:06.000Z",
+      "lastSeen": "2026-11-12T17:03:25.000Z",
+      "articleIds": [
+        "ca61db4ce015f9bf",
+        "373429d3d655c6fb",
+        "0301e14693da4304",
+        "abe4459bf83dc714",
+        "e647315ecccedd98",
+        "02811246f5aeb94b"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "cloud-native",
+        "containers",
+        "open source"
+      ],
+      "score": 89.1
+    },
+    {
+      "id": "github-copilot-507317",
       "name": "GitHub Copilot",
       "quadrant": "Tools",
       "ring": "Trial",
@@ -1366,7 +1396,7 @@
       "score": 88.1
     },
     {
-      "id": "pytorch-dfecc9",
+      "id": "pytorch-7527fb",
       "name": "PyTorch",
       "quadrant": "Languages & Frameworks",
       "ring": "Trial",
@@ -1394,7 +1424,7 @@
       "score": 81.1
     },
     {
-      "id": "django-39e5d5",
+      "id": "django-b78d25",
       "name": "Django",
       "quadrant": "Languages & Frameworks",
       "ring": "Trial",
@@ -1422,7 +1452,7 @@
       "score": 81
     },
     {
-      "id": "c-2e26e6",
+      "id": "c-9629f5",
       "name": "C#",
       "quadrant": "Languages & Frameworks",
       "ring": "Adopt",
@@ -1453,35 +1483,7 @@
       "score": 75.4
     },
     {
-      "id": "php-47425e",
-      "name": "PHP",
-      "quadrant": "Languages & Frameworks",
-      "ring": "Trial",
-      "description": "A visual, 10-minute architectural deep dive into how PHP actually executes under the hood. From the Shared-Nothing process model and OPcache bytecode caching to 16-byte zvals, Copy-on-Write, and the…",
-      "articleCount": 5,
-      "recentCount": 3,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2021-01-22T09:03:06.000Z",
-      "lastSeen": "2026-11-09T05:56:52.000Z",
-      "articleIds": [
-        "373429d3d655c6fb",
-        "0301e14693da4304",
-        "abe4459bf83dc714",
-        "e647315ecccedd98",
-        "02811246f5aeb94b"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "php",
-        "programming",
-        "webdev"
-      ],
-      "score": 74.1
-    },
-    {
-      "id": "ruby-18e40e",
+      "id": "ruby-1c14db",
       "name": "Ruby",
       "quadrant": "Languages & Frameworks",
       "ring": "Trial",
@@ -1512,7 +1514,7 @@
       "score": 72.8
     },
     {
-      "id": "prometheus-aad8f2",
+      "id": "prometheus-6c7ac5",
       "name": "Prometheus",
       "quadrant": "Tools",
       "ring": "Adopt",
@@ -1542,7 +1544,7 @@
       "score": 72.1
     },
     {
-      "id": "gitops-c4400d",
+      "id": "gitops-a06b8f",
       "name": "GitOps",
       "quadrant": "Techniques",
       "ring": "Trial",
@@ -1570,7 +1572,7 @@
       "score": 71.8
     },
     {
-      "id": "mongodb-7f1c98",
+      "id": "mongodb-260d17",
       "name": "MongoDB",
       "quadrant": "Platforms",
       "ring": "Trial",
@@ -1598,7 +1600,7 @@
       "score": 70.3
     },
     {
-      "id": "angular-54e0c1",
+      "id": "angular-f5ec47",
       "name": "Angular",
       "quadrant": "Languages & Frameworks",
       "ring": "Trial",
@@ -1625,7 +1627,7 @@
       "score": 67.2
     },
     {
-      "id": "terraform-75ada9",
+      "id": "terraform-9acce5",
       "name": "Terraform",
       "quadrant": "Tools",
       "ring": "Adopt",
@@ -1653,7 +1655,7 @@
       "score": 65.9
     },
     {
-      "id": "platform-engineering-6211c6",
+      "id": "platform-engineering-6fb52c",
       "name": "Platform engineering",
       "quadrant": "Techniques",
       "ring": "Trial",
@@ -1680,7 +1682,7 @@
       "score": 65.1
     },
     {
-      "id": "clickhouse-ce66b7",
+      "id": "clickhouse-584d9d",
       "name": "ClickHouse",
       "quadrant": "Platforms",
       "ring": "Assess",
@@ -1709,7 +1711,7 @@
       "score": 64.9
     },
     {
-      "id": "cqrs-3fbd3c",
+      "id": "cqrs-c7a9ee",
       "name": "CQRS",
       "quadrant": "Techniques",
       "ring": "Assess",
@@ -1737,7 +1739,7 @@
       "score": 61.7
     },
     {
-      "id": "vue-735f20",
+      "id": "vue-8d5789",
       "name": "Vue",
       "quadrant": "Languages & Frameworks",
       "ring": "Trial",
@@ -1763,7 +1765,7 @@
       "score": 61.2
     },
     {
-      "id": "snowflake-b0c551",
+      "id": "snowflake-91fe08",
       "name": "Snowflake",
       "quadrant": "Platforms",
       "ring": "Trial",
@@ -1791,7 +1793,7 @@
       "score": 56.2
     },
     {
-      "id": "design-systems-730058",
+      "id": "design-systems-aefcbd",
       "name": "Design systems",
       "quadrant": "Techniques",
       "ring": "Trial",
@@ -1819,7 +1821,7 @@
       "score": 54
     },
     {
-      "id": "vercel-587f4e",
+      "id": "vercel-940045",
       "name": "Vercel",
       "quadrant": "Platforms",
       "ring": "Trial",
@@ -1845,7 +1847,33 @@
       "score": 53.9
     },
     {
-      "id": "vault-a64c89",
+      "id": "playwright-126a03",
+      "name": "Playwright",
+      "quadrant": "Tools",
+      "ring": "Trial",
+      "description": "Dropbox engineers described a Playwright-based auditor that checks cookie consent behavior across more than 200 web surfaces. It runs three tests per page: US visitor, EU visitor, and Global Privacy…",
+      "articleCount": 3,
+      "recentCount": 2,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2025-11-17T23:01:23.000Z",
+      "lastSeen": "2026-11-13T06:15:00.000Z",
+      "articleIds": [
+        "3eb31c5ac6150b8f",
+        "68c1dbf6fc467cbf",
+        "1379c23e3ce11479"
+      ],
+      "tags": [
+        "architecture",
+        "automated testing",
+        "development",
+        "javascript",
+        "web development"
+      ],
+      "score": 50.1
+    },
+    {
+      "id": "vault-45496b",
       "name": "Vault",
       "quadrant": "Tools",
       "ring": "Trial",
@@ -1871,7 +1899,7 @@
       "score": 50.1
     },
     {
-      "id": "event-sourcing-b85c3a",
+      "id": "event-sourcing-df3805",
       "name": "Event sourcing",
       "quadrant": "Techniques",
       "ring": "Assess",
@@ -1898,7 +1926,7 @@
       "score": 49.7
     },
     {
-      "id": "gitlab-ci-862c4c",
+      "id": "gitlab-ci-11e4cb",
       "name": "GitLab CI",
       "quadrant": "Tools",
       "ring": "Trial",
@@ -1925,7 +1953,7 @@
       "score": 48.1
     },
     {
-      "id": "edge-computing-1fbe34",
+      "id": "edge-computing-d841c4",
       "name": "Edge computing",
       "quadrant": "Techniques",
       "ring": "Trial",
@@ -1951,7 +1979,7 @@
       "score": 47.8
     },
     {
-      "id": "devex-0c22ed",
+      "id": "devex-e1cf23",
       "name": "DevEx",
       "quadrant": "Techniques",
       "ring": "Assess",
@@ -1977,7 +2005,7 @@
       "score": 45.1
     },
     {
-      "id": "argo-cd-16b131",
+      "id": "argo-cd-6cd2c2",
       "name": "Argo CD",
       "quadrant": "Tools",
       "ring": "Trial",
@@ -2002,7 +2030,7 @@
       "score": 44
     },
     {
-      "id": "helm-2b8380",
+      "id": "helm-1d7179",
       "name": "Helm",
       "quadrant": "Tools",
       "ring": "Trial",
@@ -2027,7 +2055,7 @@
       "score": 40.8
     },
     {
-      "id": "nats-997605",
+      "id": "nats-aefb8a",
       "name": "NATS",
       "quadrant": "Tools",
       "ring": "Assess",
@@ -2052,32 +2080,7 @@
       "score": 37.9
     },
     {
-      "id": "vite-9907d3",
-      "name": "Vite",
-      "quadrant": "Tools",
-      "ring": "Trial",
-      "description": "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to open source projects and maintainers. The recipients were chosen by a panel of Vite stack core team members, including…",
-      "articleCount": 2,
-      "recentCount": 1,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2023-07-29T23:49:15.000Z",
-      "lastSeen": "2026-11-09T13:00:00.000Z",
-      "articleIds": [
-        "b2982d30c3500929",
-        "89385d6380c698f1"
-      ],
-      "tags": [
-        "infra",
-        "security",
-        "developers",
-        "open source",
-        "vite"
-      ],
-      "score": 36.2
-    },
-    {
-      "id": "chaos-engineering-ecfc9d",
+      "id": "chaos-engineering-063cb0",
       "name": "Chaos engineering",
       "quadrant": "Techniques",
       "ring": "Assess",
@@ -2102,7 +2105,7 @@
       "score": 35.8
     },
     {
-      "id": "infrastructure-as-code-2c829d",
+      "id": "infrastructure-as-code-b92bb8",
       "name": "Infrastructure as Code",
       "quadrant": "Techniques",
       "ring": "Adopt",
@@ -2125,7 +2128,7 @@
       "score": 34.5
     },
     {
-      "id": "accessibility-aba958",
+      "id": "accessibility-6c0a0c",
       "name": "Accessibility",
       "quadrant": "Techniques",
       "ring": "Adopt",
@@ -2149,7 +2152,7 @@
       "score": 33
     },
     {
-      "id": "fine-tuning-e82adb",
+      "id": "fine-tuning-3afd1a",
       "name": "Fine-tuning",
       "quadrant": "Techniques",
       "ring": "Assess",
@@ -2174,7 +2177,7 @@
       "score": 30.4
     },
     {
-      "id": "firebase-92f5e8",
+      "id": "firebase-8ccc31",
       "name": "Firebase",
       "quadrant": "Platforms",
       "ring": "Trial",
@@ -2197,7 +2200,7 @@
       "score": 29.6
     },
     {
-      "id": "elasticsearch-916e8b",
+      "id": "elasticsearch-6e439c",
       "name": "Elasticsearch",
       "quadrant": "Platforms",
       "ring": "Trial",
@@ -2220,8 +2223,8 @@
     }
   ],
   "stats": {
-    "articles": 4505,
-    "sources": 32,
+    "articles": 4573,
+    "sources": 33,
     "technologies": 77
   }
 }
