@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T13:09:01.959Z",
+  "generatedAt": "2026-11-14T12:13:32.459Z",
   "periodDays": 60,
   "items": [
     {
@@ -38,53 +38,53 @@
       "name": "AI agents",
       "quadrant": "Techniques",
       "ring": "Assess",
-      "description": "Netflix is developing an ontology-driven knowledge graph to accelerate production investigations and provide AI agents with a shared understanding of its operational environment. By Craig Risi",
-      "articleCount": 99,
-      "recentCount": 68,
+      "description": "Anthropic has unveiled a self-hosted version of its platform for building and running AI agents. Self-hosted Claude Managed Agents, as The post Anthropic now lets you self-host Claude Managed Agents.…",
+      "articleCount": 108,
+      "recentCount": 77,
       "previousCount": 2,
       "trend": "up",
       "firstSeen": "2024-01-29T18:28:18.000Z",
-      "lastSeen": "2026-11-13T12:00:00.000Z",
+      "lastSeen": "2026-11-13T21:29:30.000Z",
       "articleIds": [
-        "5b498fce51fa1178",
-        "83269f06f187277a",
-        "b3c84623c44d3655",
-        "d90593ab4f290146",
-        "20b69209b0cb442b",
-        "ae101ce5b72b61e2",
-        "e6b61badd188738a",
-        "55ea60e6066a8a04"
+        "9cbf355d13ac2c93",
+        "d11365f0dd8c900d",
+        "09e5e80125ce2409",
+        "376ee9c71902f3cb",
+        "1c4499e0c33136bc",
+        "d14fac5804e6adb9",
+        "a324048b9a561e00",
+        "2be0f84ec0637bb5"
       ],
       "tags": [
         "hackernews",
         "archive",
-        "cloud",
         "reading-list",
-        "ai"
+        "cloud",
+        "cloud-native"
       ],
-      "score": 1219.6
+      "score": 1354.6
     },
     {
       "id": "anthropic-claude-cc3f96",
       "name": "Anthropic Claude",
       "quadrant": "Tools",
       "ring": "Trial",
-      "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
-      "articleCount": 94,
-      "recentCount": 58,
+      "description": "Anthropic has unveiled a self-hosted version of its platform for building and running AI agents. Self-hosted Claude Managed Agents, as The post Anthropic now lets you self-host Claude Managed Agents.…",
+      "articleCount": 96,
+      "recentCount": 60,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2023-08-12T00:08:13.000Z",
-      "lastSeen": "2026-11-13T13:07:31.013Z",
+      "lastSeen": "2026-11-13T21:29:30.000Z",
       "articleIds": [
+        "9cbf355d13ac2c93",
+        "81cd24c26e707d6f",
         "ec453d1217c21859",
         "f7cfdfd7bcc39abd",
         "22bcd83804c6c356",
         "44da454e7900959c",
         "9f0b516152c12ca0",
-        "e9ab5dca6955aaf6",
-        "d1aa340a643527c9",
-        "f101ffad2bb3a113"
+        "e9ab5dca6955aaf6"
       ],
       "tags": [
         "hackernews",
@@ -93,7 +93,7 @@
         "python",
         "cloud-native"
       ],
-      "score": 1105
+      "score": 1135
     },
     {
       "id": "event-driven-architecture-e0d623",
@@ -190,22 +190,22 @@
       "name": "AWS",
       "quadrant": "Platforms",
       "ring": "Adopt",
-      "description": "Regression testing must catch behavior changes before they reach production, yet synthetic tests miss real-world edge cases. This post walks through a modular framework, built on AWS, that replays a…",
-      "articleCount": 66,
-      "recentCount": 23,
+      "description": "Learn how Thermo Fisher Scientific built an AI-powered patient-matching platform on AWS, modernizing its clinical trial recruitment data foundation and using AWS Countdown Premium to de-risk the…",
+      "articleCount": 67,
+      "recentCount": 24,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-01-28T20:05:18.000Z",
-      "lastSeen": "2026-11-12T21:51:43.000Z",
+      "lastSeen": "2026-11-13T20:26:58.000Z",
       "articleIds": [
+        "27674296406cc6c6",
         "aa04d052c89c07b4",
         "c5bf4443a1247ac3",
         "d90593ab4f290146",
         "232301c2fd8ad5b2",
         "00db8bb1bba80204",
         "53d5cdba12bea358",
-        "70a69d3bb5822802",
-        "6beb09d107cb3c3b"
+        "70a69d3bb5822802"
       ],
       "tags": [
         "hackernews",
@@ -214,29 +214,29 @@
         "cloud",
         "ai"
       ],
-      "score": 625.4
+      "score": 640.4
     },
     {
       "id": "rust-1d3fbd",
       "name": "Rust",
       "quadrant": "Languages & Frameworks",
       "ring": "Trial",
-      "description": "Hacker News discussion with 277 comments.",
-      "articleCount": 69,
-      "recentCount": 18,
+      "description": "We’ve made updates to Pyroscope, our open source continuous profiling database, that make it easier to profile your applications, find performance bottlenecks, and optimize your code, whether you're…",
+      "articleCount": 71,
+      "recentCount": 20,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-01-15T00:22:16.000Z",
-      "lastSeen": "2026-11-12T18:39:05.000Z",
+      "lastSeen": "2026-11-13T17:14:29.000Z",
       "articleIds": [
+        "1c4499e0c33136bc",
+        "4f31dbe9014ddf9a",
         "b8c82d5c01fe377a",
         "601b9533788c06e0",
         "629d650b4735fe61",
         "53d5cdba12bea358",
         "edcddc610a9e2407",
-        "c7433ec470cb8f9b",
-        "08153d08fb497abe",
-        "3ff0584fedeacb03"
+        "c7433ec470cb8f9b"
       ],
       "tags": [
         "hackernews",
@@ -245,100 +245,100 @@
         "ai",
         "architecture"
       ],
-      "score": 594.2
+      "score": 624.4
     },
     {
       "id": "python-0fceff",
       "name": "Python",
       "quadrant": "Languages & Frameworks",
       "ring": "Adopt",
-      "description": "https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;Python&#x2F;s&#x2F;2Cm5dBcvQw",
-      "articleCount": 76,
-      "recentCount": 9,
+      "description": "We’ve made updates to Pyroscope, our open source continuous profiling database, that make it easier to profile your applications, find performance bottlenecks, and optimize your code, whether you're…",
+      "articleCount": 79,
+      "recentCount": 12,
       "previousCount": 3,
       "trend": "up",
       "firstSeen": "2020-01-13T16:40:35.000Z",
-      "lastSeen": "2026-11-11T07:03:17.000Z",
+      "lastSeen": "2026-11-13T17:14:29.000Z",
       "articleIds": [
+        "1c4499e0c33136bc",
+        "911951d150ec1098",
+        "5a0301f89f46d275",
         "8363ca58553c4aa2",
         "baaf713b11e387f5",
         "714506c910e56a4b",
         "f851d0d2f31f8c6a",
-        "e9e37faea4d91eef",
-        "06a77c64d36936cb",
-        "4b49624e6a055732",
-        "2e0a96f111eac47e"
+        "e9e37faea4d91eef"
       ],
       "tags": [
         "hackernews",
         "archive",
         "devto",
-        "ai",
-        "python"
+        "python",
+        "ai"
       ],
-      "score": 559.5
+      "score": 604.5
     },
     {
       "id": "google-cloud-c47ea8",
       "name": "Google Cloud",
       "quadrant": "Platforms",
       "ring": "Adopt",
-      "description": "We designed Google Cloud's Cross-Cloud Network to simplify and optimize how organizations connect and secure applications across cloud and on-premises environments.",
-      "articleCount": 43,
-      "recentCount": 31,
+      "description": "Google Cloud has made date-based versioning of the Compute Engine API generally available, replacing the single mutable /v1 surface with immutable quarterly snapshots such as 2026-09-01, selected per…",
+      "articleCount": 45,
+      "recentCount": 33,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-02-23T15:07:24.000Z",
-      "lastSeen": "2026-11-12T17:00:00.000Z",
+      "lastSeen": "2026-11-14T07:27:00.000Z",
       "articleIds": [
+        "e39e802bc6fc5c6c",
+        "2be0f84ec0637bb5",
         "232301c2fd8ad5b2",
         "c20431e651bd693a",
         "ae101ce5b72b61e2",
         "55ea60e6066a8a04",
         "2af3888a7b8b85a9",
-        "fa2da1956d62f757",
-        "5458547ac28ee5fa",
-        "27e3dadc6235781b"
+        "fa2da1956d62f757"
       ],
       "tags": [
         "cloud",
         "hackernews",
         "archive",
-        "security & identity",
-        "google cloud"
+        "google cloud",
+        "architecture"
       ],
-      "score": 557.5
+      "score": 587.5
     },
     {
       "id": "postgresql-2ee91e",
       "name": "PostgreSQL",
       "quadrant": "Platforms",
       "ring": "Adopt",
-      "description": "We built AlloyDB AI to bring Gemini world knowledge directly into your operational database.",
-      "articleCount": 71,
-      "recentCount": 11,
+      "description": "DocumentDB 1.0 is the first generally available release of the open source, MIT-licensed document database built on PostgreSQL, with compatibility for the MongoDB wire protocol. Most MongoDB drivers,…",
+      "articleCount": 72,
+      "recentCount": 12,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-01-31T06:42:05.000Z",
-      "lastSeen": "2026-11-12T18:22:22.000Z",
+      "lastSeen": "2026-11-14T06:37:00.000Z",
       "articleIds": [
+        "e09a9beaaee6ba56",
         "5b3e85fd4334d620",
         "5e43bafddf4ea295",
         "ed0816bfc3352e85",
         "592021ac783a2090",
         "9f99b6297214ae52",
         "6d7526357c232246",
-        "0345c8661011bd62",
-        "3167edcfb8d550bf"
+        "0345c8661011bd62"
       ],
       "tags": [
         "hackernews",
         "archive",
         "cloud",
         "databases",
-        "reading-list"
+        "architecture"
       ],
-      "score": 546.3
+      "score": 561.3
     },
     {
       "id": "gemini-90e14d",
@@ -434,31 +434,31 @@
       "name": "OpenAI API",
       "quadrant": "Tools",
       "ring": "Trial",
-      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset…",
-      "articleCount": 37,
-      "recentCount": 11,
+      "description": "AI is becoming more capable at handling everyday tasks, but benefiting from that progress depends increasingly on where people live, what language they speak, and how much control they have over the…",
+      "articleCount": 38,
+      "recentCount": 12,
       "previousCount": 1,
       "trend": "up",
       "firstSeen": "2023-01-10T11:25:15.000Z",
-      "lastSeen": "2026-11-13T13:07:31.012Z",
+      "lastSeen": "2026-11-13T16:54:46.000Z",
       "articleIds": [
+        "81cd24c26e707d6f",
         "f7cfdfd7bcc39abd",
         "624a305adfa41ec6",
         "ac992cc25d49f443",
         "65f8a2e3eddbdfe5",
         "af85c795f169cc0c",
         "2396c16836f4db23",
-        "8ceada5f95028093",
-        "2bf6c7572a76eb11"
+        "8ceada5f95028093"
       ],
       "tags": [
         "hackernews",
         "archive",
         "ai",
-        "security",
-        "cloud-native"
+        "reading-list",
+        "security"
       ],
-      "score": 339.3
+      "score": 354.3
     },
     {
       "id": "claude-code-dfaa85",
@@ -644,6 +644,37 @@
       "score": 283.2
     },
     {
+      "id": "observability-3f4219",
+      "name": "Observability",
+      "quadrant": "Techniques",
+      "ring": "Adopt",
+      "description": "As enterprises move AI agents from experimental prototypes into production, data and platform teams are discovering that deploying an agent is only half the battle — you also need to see how it…",
+      "articleCount": 26,
+      "recentCount": 10,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-10-08T12:32:56.000Z",
+      "lastSeen": "2026-11-13T17:00:00.000Z",
+      "articleIds": [
+        "a324048b9a561e00",
+        "5b498fce51fa1178",
+        "6f6c86a06e5ced76",
+        "51b69a0abc927c87",
+        "a678386f4bab26d0",
+        "f113e5aea16ede5b",
+        "288aef15dc28f1ab",
+        "649ad2b494211d8d"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "reading-list",
+        "observability",
+        "cloud"
+      ],
+      "score": 265.5
+    },
+    {
       "id": "serverless-d08ae9",
       "name": "Serverless",
       "quadrant": "Techniques",
@@ -675,35 +706,35 @@
       "score": 253
     },
     {
-      "id": "observability-3f4219",
-      "name": "Observability",
-      "quadrant": "Techniques",
-      "ring": "Adopt",
-      "description": "Netflix is developing an ontology-driven knowledge graph to accelerate production investigations and provide AI agents with a shared understanding of its operational environment. By Craig Risi",
-      "articleCount": 25,
-      "recentCount": 9,
+      "id": "cloudflare-a187f4",
+      "name": "Cloudflare",
+      "quadrant": "Platforms",
+      "ring": "Trial",
+      "description": "Kitesurf, our experimental browser engine for AI agents, is now open source. Inspect the code, run it locally, or deploy your own instance on Cloudflare Workers.",
+      "articleCount": 20,
+      "recentCount": 11,
       "previousCount": 0,
       "trend": "up",
-      "firstSeen": "2020-10-08T12:32:56.000Z",
-      "lastSeen": "2026-11-13T12:00:00.000Z",
+      "firstSeen": "2020-09-17T13:10:26.000Z",
+      "lastSeen": "2026-11-13T20:20:21.000Z",
       "articleIds": [
-        "5b498fce51fa1178",
-        "6f6c86a06e5ced76",
-        "51b69a0abc927c87",
-        "a678386f4bab26d0",
-        "f113e5aea16ede5b",
-        "288aef15dc28f1ab",
-        "649ad2b494211d8d",
-        "3090d38083de5252"
+        "09e5e80125ce2409",
+        "4766c254790f5422",
+        "813e40fce5f80ae4",
+        "1e25c4d1d22c66b1",
+        "804af6cb982454d2",
+        "5720b59a680a066d",
+        "b2982d30c3500929",
+        "ffae9ae80732c0e4"
       ],
       "tags": [
         "hackernews",
         "archive",
-        "reading-list",
-        "observability",
-        "architecture"
+        "security",
+        "infra",
+        "reading-list"
       ],
-      "score": 250.5
+      "score": 237.6
     },
     {
       "id": "javascript-818045",
@@ -768,35 +799,35 @@
       "score": 214.7
     },
     {
-      "id": "cloudflare-a187f4",
-      "name": "Cloudflare",
-      "quadrant": "Platforms",
-      "ring": "Trial",
-      "description": "Cloudflare is building an experimental consensus service using a never-before-deployed consensus algorithm, QuePaxa.",
-      "articleCount": 17,
-      "recentCount": 8,
+      "id": "react-58fd63",
+      "name": "React",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Adopt",
+      "description": "On the Events list, the browser discovered zero WebMCP tools. Opening an event draft exposed four....",
+      "articleCount": 22,
+      "recentCount": 4,
       "previousCount": 0,
       "trend": "up",
-      "firstSeen": "2020-09-17T13:10:26.000Z",
-      "lastSeen": "2026-11-11T14:24:46.000Z",
+      "firstSeen": "2020-02-11T08:28:41.000Z",
+      "lastSeen": "2026-11-13T17:15:20.000Z",
       "articleIds": [
-        "1e25c4d1d22c66b1",
-        "804af6cb982454d2",
-        "5720b59a680a066d",
-        "b2982d30c3500929",
-        "ffae9ae80732c0e4",
-        "6426decba2ef7b96",
-        "6eea011caa59695a",
-        "19361844fc329f21"
+        "fb9f28a732b1b6f2",
+        "5d31e84656ca95df",
+        "f52fc350385cb211",
+        "a7d0df830217f793",
+        "07b10ba357f43b6c",
+        "ef2ff6f004fef991",
+        "5bdc5e6b09bd983c",
+        "1fe6c63b0363ef50"
       ],
       "tags": [
         "hackernews",
         "archive",
-        "security",
-        "infra",
-        "architecture"
+        "react",
+        "devto",
+        "webdev"
       ],
-      "score": 192.6
+      "score": 188.4
     },
     {
       "id": "opentelemetry-31e074",
@@ -830,35 +861,35 @@
       "score": 175.9
     },
     {
-      "id": "react-58fd63",
-      "name": "React",
-      "quadrant": "Languages & Frameworks",
-      "ring": "Adopt",
-      "description": "I had already explored gp-grid's features and capabilities, and I wrote gp-grid: A Free, Open-Source...",
-      "articleCount": 21,
-      "recentCount": 3,
+      "id": "azure-3758c2",
+      "name": "Azure",
+      "quadrant": "Platforms",
+      "ring": "Trial",
+      "description": "Google Cloud has made date-based versioning of the Compute Engine API generally available, replacing the single mutable /v1 surface with immutable quarterly snapshots such as 2026-09-01, selected per…",
+      "articleCount": 18,
+      "recentCount": 5,
       "previousCount": 0,
       "trend": "up",
-      "firstSeen": "2020-02-11T08:28:41.000Z",
-      "lastSeen": "2026-11-10T09:04:10.000Z",
+      "firstSeen": "2020-02-21T06:36:14.000Z",
+      "lastSeen": "2026-11-14T07:27:00.000Z",
       "articleIds": [
-        "5d31e84656ca95df",
-        "f52fc350385cb211",
-        "a7d0df830217f793",
-        "07b10ba357f43b6c",
-        "ef2ff6f004fef991",
-        "5bdc5e6b09bd983c",
-        "1fe6c63b0363ef50",
-        "62295864756c4a32"
+        "e39e802bc6fc5c6c",
+        "7482059e8feb089c",
+        "70bd8739af1678af",
+        "2ea58fe6d3832d71",
+        "02ab276b39463efa",
+        "50d8c94d3fbbf6f4",
+        "81ec892a649a998f",
+        "86fbfc5297f75fd2"
       ],
       "tags": [
         "hackernews",
         "archive",
-        "react",
-        "devto",
-        "webdev"
+        "architecture",
+        "azure",
+        "devto"
       ],
-      "score": 173.4
+      "score": 170.2
     },
     {
       "id": "grpc-a0713c",
@@ -889,37 +920,6 @@
       "score": 162.7
     },
     {
-      "id": "azure-3758c2",
-      "name": "Azure",
-      "quadrant": "Platforms",
-      "ring": "Trial",
-      "description": "For the past 5 minutes all of our Microsoft Cloud connections are down. Anyone else? The Status page won&#x27;t even load.",
-      "articleCount": 17,
-      "recentCount": 4,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-02-21T06:36:14.000Z",
-      "lastSeen": "2026-11-12T18:17:13.000Z",
-      "articleIds": [
-        "7482059e8feb089c",
-        "70bd8739af1678af",
-        "2ea58fe6d3832d71",
-        "02ab276b39463efa",
-        "50d8c94d3fbbf6f4",
-        "81ec892a649a998f",
-        "86fbfc5297f75fd2",
-        "f17baa51dbdd3b32"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "azure",
-        "devto",
-        "architecture"
-      ],
-      "score": 155.2
-    },
-    {
       "id": "github-actions-1c2ae8",
       "name": "GitHub Actions",
       "quadrant": "Tools",
@@ -948,7 +948,38 @@
         "architecture",
         "github"
       ],
-      "score": 141.3
+      "score": 141.4
+    },
+    {
+      "id": "bigquery-ee620c",
+      "name": "BigQuery",
+      "quadrant": "Platforms",
+      "ring": "Trial",
+      "description": "As enterprises move AI agents from experimental prototypes into production, data and platform teams are discovering that deploying an agent is only half the battle — you also need to see how it…",
+      "articleCount": 10,
+      "recentCount": 7,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-10-13T06:08:18.000Z",
+      "lastSeen": "2026-11-13T17:00:00.000Z",
+      "articleIds": [
+        "a324048b9a561e00",
+        "cf4f434cd34df996",
+        "9e3006c02e11ed54",
+        "f1280b003fab5afa",
+        "dbb09eb09bdf73eb",
+        "50dcc273211cdf95",
+        "3090d38083de5252",
+        "35d2052d52fd4dc8"
+      ],
+      "tags": [
+        "cloud",
+        "data analytics",
+        "bigquery",
+        "databases",
+        "hackernews"
+      ],
+      "score": 140.2
     },
     {
       "id": "spring-boot-b43dbc",
@@ -977,6 +1008,35 @@
         "archive"
       ],
       "score": 136
+    },
+    {
+      "id": "grafana-418c13",
+      "name": "Grafana",
+      "quadrant": "Tools",
+      "ring": "Adopt",
+      "description": "We’ve made updates to Pyroscope, our open source continuous profiling database, that make it easier to profile your applications, find performance bottlenecks, and optimize your code, whether you're…",
+      "articleCount": 8,
+      "recentCount": 7,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-10-28T14:57:10.000Z",
+      "lastSeen": "2026-11-13T17:14:29.000Z",
+      "articleIds": [
+        "1c4499e0c33136bc",
+        "cea589efa9324ca0",
+        "9621e800a7bb4532",
+        "649ad2b494211d8d",
+        "67826e3f3312b1b9",
+        "e11f6903b56d39d8",
+        "902b879b9c1341e7",
+        "2133b52541cf467f"
+      ],
+      "tags": [
+        "observability",
+        "hackernews",
+        "archive"
+      ],
+      "score": 132.1
     },
     {
       "id": "rag-53ff2c",
@@ -1041,32 +1101,35 @@
       "score": 123.5
     },
     {
-      "id": "grafana-418c13",
-      "name": "Grafana",
+      "id": "vllm-e33a0a",
+      "name": "vLLM",
       "quadrant": "Tools",
-      "ring": "Adopt",
-      "description": "3 release, we introduced the first phase of our biggest visual refresh since Grafana 7.",
-      "articleCount": 7,
+      "ring": "Assess",
+      "description": "The same Gemma 4 E2B, prompts, load sweep and GSM8K and BFCL questions through the same serving engines on an 8 GB RTX 3050, a Tesla T4, an NVIDIA L4 and one TPU v5e chip. Answers hold on every chip;…",
+      "articleCount": 9,
       "recentCount": 6,
       "previousCount": 0,
       "trend": "up",
-      "firstSeen": "2020-10-28T14:57:10.000Z",
-      "lastSeen": "2026-11-12T17:01:40.000Z",
+      "firstSeen": "2024-08-25T18:50:53.000Z",
+      "lastSeen": "2026-11-13T13:52:45.000Z",
       "articleIds": [
-        "cea589efa9324ca0",
-        "9621e800a7bb4532",
-        "649ad2b494211d8d",
-        "67826e3f3312b1b9",
-        "e11f6903b56d39d8",
-        "902b879b9c1341e7",
-        "2133b52541cf467f"
+        "845a4a3d593ab023",
+        "e3595568af9a9395",
+        "ecf7a899a16f8d25",
+        "285f83056600dcf1",
+        "5093dd3be101e179",
+        "2e0a96f111eac47e",
+        "7ad39bce8f404d38",
+        "4fe3f14b92a19e4f"
       ],
       "tags": [
-        "observability",
         "hackernews",
-        "archive"
+        "gemma",
+        "devto",
+        "archive",
+        "vllm"
       ],
-      "score": 117.1
+      "score": 119.1
     },
     {
       "id": "figma-1e4ff5",
@@ -1130,66 +1193,34 @@
       "score": 113
     },
     {
-      "id": "bigquery-ee620c",
-      "name": "BigQuery",
-      "quadrant": "Platforms",
+      "id": "github-copilot-507317",
+      "name": "GitHub Copilot",
+      "quadrant": "Tools",
       "ring": "Trial",
-      "description": "To solve this hallucination problem, we introduced measures in BigQuery, which are now generally available.",
-      "articleCount": 8,
+      "description": "I'm not particularly fond of command-line tools, so spending eleven development sessions working...",
+      "articleCount": 7,
       "recentCount": 5,
       "previousCount": 0,
       "trend": "up",
-      "firstSeen": "2020-10-13T06:08:18.000Z",
-      "lastSeen": "2026-11-10T17:00:00.000Z",
+      "firstSeen": "2024-10-29T04:55:39.000Z",
+      "lastSeen": "2026-11-10T22:18:23.000Z",
       "articleIds": [
-        "9e3006c02e11ed54",
-        "f1280b003fab5afa",
-        "dbb09eb09bdf73eb",
-        "50dcc273211cdf95",
-        "3090d38083de5252",
-        "35d2052d52fd4dc8",
-        "99f99488ba901b92",
-        "64f8c88e2b9b060a"
+        "a458d7a17ee3094a",
+        "c7433ec470cb8f9b",
+        "5cecc12e376b047e",
+        "0e7b16327df7de13",
+        "2f372b9bf7ce4173",
+        "0c5daae38cdd970e",
+        "4209b820b5453870"
       ],
       "tags": [
-        "cloud",
-        "data analytics",
-        "bigquery",
+        "devto",
+        "devtools",
+        "github copilot",
         "hackernews",
         "archive"
       ],
-      "score": 110.2
-    },
-    {
-      "id": "vllm-e33a0a",
-      "name": "vLLM",
-      "quadrant": "Tools",
-      "ring": "Assess",
-      "description": "Hannes Hapke shares how Dataiku’s open-source Kiji Inspector applies Sparse Autoencoders (SAEs) directly to decision tokens to expose why agents pick specific tools. Moving past superficial…",
-      "articleCount": 8,
-      "recentCount": 5,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2024-08-25T18:50:53.000Z",
-      "lastSeen": "2026-11-12T11:00:00.000Z",
-      "articleIds": [
-        "e3595568af9a9395",
-        "ecf7a899a16f8d25",
-        "285f83056600dcf1",
-        "5093dd3be101e179",
-        "2e0a96f111eac47e",
-        "7ad39bce8f404d38",
-        "4fe3f14b92a19e4f",
-        "8a2d6229d5ce32ed"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "architecture",
-        "gemma",
-        "devto"
-      ],
-      "score": 104.1
+      "score": 103.1
     },
     {
       "id": "webassembly-733ad6",
@@ -1307,6 +1338,37 @@
       "score": 95
     },
     {
+      "id": "mongodb-260d17",
+      "name": "MongoDB",
+      "quadrant": "Platforms",
+      "ring": "Trial",
+      "description": "DocumentDB 1.0 is the first generally available release of the open source, MIT-licensed document database built on PostgreSQL, with compatibility for the MongoDB wire protocol. Most MongoDB drivers,…",
+      "articleCount": 11,
+      "recentCount": 1,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-04-29T08:45:12.000Z",
+      "lastSeen": "2026-11-14T06:37:00.000Z",
+      "articleIds": [
+        "e09a9beaaee6ba56",
+        "35d2052d52fd4dc8",
+        "143f038a62611c21",
+        "a351b10a839bf4b8",
+        "a0c7f0ba67f88eab",
+        "c72c2ed69aa74817",
+        "d3b19d1e67d74753",
+        "fc560819eb8299ca"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "architecture",
+        "mongodb",
+        "nosql"
+      ],
+      "score": 89.3
+    },
+    {
       "id": "kotlin-9d8cf0",
       "name": "Kotlin",
       "quadrant": "Languages & Frameworks",
@@ -1365,35 +1427,6 @@
         "open source"
       ],
       "score": 89.1
-    },
-    {
-      "id": "github-copilot-507317",
-      "name": "GitHub Copilot",
-      "quadrant": "Tools",
-      "ring": "Trial",
-      "description": "In this article, we’ll look at how this porting was done and the learnings along the way.",
-      "articleCount": 6,
-      "recentCount": 4,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2024-10-29T04:55:39.000Z",
-      "lastSeen": "2026-11-10T16:30:55.000Z",
-      "articleIds": [
-        "c7433ec470cb8f9b",
-        "5cecc12e376b047e",
-        "0e7b16327df7de13",
-        "2f372b9bf7ce4173",
-        "0c5daae38cdd970e",
-        "4209b820b5453870"
-      ],
-      "tags": [
-        "devtools",
-        "github copilot",
-        "hackernews",
-        "archive",
-        "architecture"
-      ],
-      "score": 88.1
     },
     {
       "id": "pytorch-7527fb",
@@ -1570,34 +1603,6 @@
         "argo cd"
       ],
       "score": 71.8
-    },
-    {
-      "id": "mongodb-260d17",
-      "name": "MongoDB",
-      "quadrant": "Platforms",
-      "ring": "Trial",
-      "description": "Hey HN, cofounder of Artie here. I’ve been working on real-time database replication using CDC (Postgres&#x2F;MongoDB into Snowflake, BigQuery, Redshift) with my wife for the last three years. Last…",
-      "articleCount": 10,
-      "recentCount": 0,
-      "previousCount": 0,
-      "trend": "steady",
-      "firstSeen": "2020-04-29T08:45:12.000Z",
-      "lastSeen": "2026-06-09T17:47:17.000Z",
-      "articleIds": [
-        "35d2052d52fd4dc8",
-        "143f038a62611c21",
-        "a351b10a839bf4b8",
-        "a0c7f0ba67f88eab",
-        "c72c2ed69aa74817",
-        "d3b19d1e67d74753",
-        "fc560819eb8299ca",
-        "7e162f58ed160837"
-      ],
-      "tags": [
-        "hackernews",
-        "archive"
-      ],
-      "score": 70.3
     },
     {
       "id": "angular-f5ec47",
@@ -2223,7 +2228,7 @@
     }
   ],
   "stats": {
-    "articles": 4573,
+    "articles": 4641,
     "sources": 33,
     "technologies": 77
   }
