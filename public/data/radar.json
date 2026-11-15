@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T12:13:32.459Z",
+  "generatedAt": "2026-11-15T12:45:55.916Z",
   "periodDays": 60,
   "items": [
     {
@@ -38,22 +38,22 @@
       "name": "AI agents",
       "quadrant": "Techniques",
       "ring": "Assess",
-      "description": "Anthropic has unveiled a self-hosted version of its platform for building and running AI agents. Self-hosted Claude Managed Agents, as The post Anthropic now lets you self-host Claude Managed Agents.…",
-      "articleCount": 108,
-      "recentCount": 77,
+      "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+      "articleCount": 112,
+      "recentCount": 81,
       "previousCount": 2,
       "trend": "up",
       "firstSeen": "2024-01-29T18:28:18.000Z",
-      "lastSeen": "2026-11-13T21:29:30.000Z",
+      "lastSeen": "2026-11-15T12:44:44.170Z",
       "articleIds": [
+        "404dff4b1ceac471",
+        "c9133540fb04ea26",
+        "6eef346347792f9a",
+        "d612bad3941ece78",
         "9cbf355d13ac2c93",
         "d11365f0dd8c900d",
         "09e5e80125ce2409",
-        "376ee9c71902f3cb",
-        "1c4499e0c33136bc",
-        "d14fac5804e6adb9",
-        "a324048b9a561e00",
-        "2be0f84ec0637bb5"
+        "376ee9c71902f3cb"
       ],
       "tags": [
         "hackernews",
@@ -62,29 +62,29 @@
         "cloud",
         "cloud-native"
       ],
-      "score": 1354.6
+      "score": 1414.6
     },
     {
       "id": "anthropic-claude-cc3f96",
       "name": "Anthropic Claude",
       "quadrant": "Tools",
       "ring": "Trial",
-      "description": "Anthropic has unveiled a self-hosted version of its platform for building and running AI agents. Self-hosted Claude Managed Agents, as The post Anthropic now lets you self-host Claude Managed Agents.…",
-      "articleCount": 96,
-      "recentCount": 60,
+      "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+      "articleCount": 101,
+      "recentCount": 65,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2023-08-12T00:08:13.000Z",
-      "lastSeen": "2026-11-13T21:29:30.000Z",
+      "lastSeen": "2026-11-15T12:44:44.170Z",
       "articleIds": [
+        "6a36938791d14140",
+        "c9133540fb04ea26",
+        "9881c978a1b722de",
+        "2c427693e910b36a",
+        "37af78eb2164da18",
         "9cbf355d13ac2c93",
         "81cd24c26e707d6f",
-        "ec453d1217c21859",
-        "f7cfdfd7bcc39abd",
-        "22bcd83804c6c356",
-        "44da454e7900959c",
-        "9f0b516152c12ca0",
-        "e9ab5dca6955aaf6"
+        "ec453d1217c21859"
       ],
       "tags": [
         "hackernews",
@@ -93,7 +93,38 @@
         "python",
         "cloud-native"
       ],
-      "score": 1135
+      "score": 1210
+    },
+    {
+      "id": "kubernetes-74afb9",
+      "name": "Kubernetes",
+      "quadrant": "Platforms",
+      "ring": "Adopt",
+      "description": "Kubernetes is an orchestration platform that manages the deployment and maintenance of containerized applications, particularly on multiple machines.",
+      "articleCount": 86,
+      "recentCount": 23,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-01-11T13:41:19.000Z",
+      "lastSeen": "2026-11-14T16:30:57.000Z",
+      "articleIds": [
+        "28e05e36f3f47187",
+        "a937fed613c013ed",
+        "607d54da354520de",
+        "28c4cffca6ee3859",
+        "015f7477846e000c",
+        "3727b1cabb45ee61",
+        "2671d73f776305cd",
+        "99891112daa923ea"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "cloud-native",
+        "reading-list",
+        "blog"
+      ],
+      "score": 744.6
     },
     {
       "id": "event-driven-architecture-e0d623",
@@ -122,37 +153,6 @@
         "archive"
       ],
       "score": 743.6
-    },
-    {
-      "id": "kubernetes-74afb9",
-      "name": "Kubernetes",
-      "quadrant": "Platforms",
-      "ring": "Adopt",
-      "description": "Distributed AI training workloads impose complex scheduling requirements that Kubernetes’s built-in scheduler can’t meet. Kubernetes schedules pods individually and independently, but distributed…",
-      "articleCount": 85,
-      "recentCount": 22,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-01-11T13:41:19.000Z",
-      "lastSeen": "2026-11-12T12:00:00.000Z",
-      "articleIds": [
-        "a937fed613c013ed",
-        "607d54da354520de",
-        "28c4cffca6ee3859",
-        "015f7477846e000c",
-        "3727b1cabb45ee61",
-        "2671d73f776305cd",
-        "99891112daa923ea",
-        "592021ac783a2090"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "cloud-native",
-        "reading-list",
-        "blog"
-      ],
-      "score": 729.6
     },
     {
       "id": "go-422077",
@@ -190,22 +190,22 @@
       "name": "AWS",
       "quadrant": "Platforms",
       "ring": "Adopt",
-      "description": "Learn how Thermo Fisher Scientific built an AI-powered patient-matching platform on AWS, modernizing its clinical trial recruitment data foundation and using AWS Countdown Premium to de-risk the…",
-      "articleCount": 67,
-      "recentCount": 24,
+      "description": "This week, Amazon Web Services released AWS Emulator, a local copy of AWS that coding agents can test against. It The post AWS Emulator proves agents need a verification loop. Realism is the hard…",
+      "articleCount": 68,
+      "recentCount": 25,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-01-28T20:05:18.000Z",
-      "lastSeen": "2026-11-13T20:26:58.000Z",
+      "lastSeen": "2026-11-14T17:30:00.000Z",
       "articleIds": [
+        "0e8b8d7c8ce4a07e",
         "27674296406cc6c6",
         "aa04d052c89c07b4",
         "c5bf4443a1247ac3",
         "d90593ab4f290146",
         "232301c2fd8ad5b2",
         "00db8bb1bba80204",
-        "53d5cdba12bea358",
-        "70a69d3bb5822802"
+        "53d5cdba12bea358"
       ],
       "tags": [
         "hackernews",
@@ -214,7 +214,7 @@
         "cloud",
         "ai"
       ],
-      "score": 640.4
+      "score": 655.4
     },
     {
       "id": "rust-1d3fbd",
@@ -222,8 +222,8 @@
       "quadrant": "Languages & Frameworks",
       "ring": "Trial",
       "description": "We’ve made updates to Pyroscope, our open source continuous profiling database, that make it easier to profile your applications, find performance bottlenecks, and optimize your code, whether you're…",
-      "articleCount": 71,
-      "recentCount": 20,
+      "articleCount": 73,
+      "recentCount": 22,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-01-15T00:22:16.000Z",
@@ -231,12 +231,12 @@
       "articleIds": [
         "1c4499e0c33136bc",
         "4f31dbe9014ddf9a",
+        "98e71d034f4ded13",
         "b8c82d5c01fe377a",
+        "ab0d1799a3ff5919",
         "601b9533788c06e0",
         "629d650b4735fe61",
-        "53d5cdba12bea358",
-        "edcddc610a9e2407",
-        "c7433ec470cb8f9b"
+        "53d5cdba12bea358"
       ],
       "tags": [
         "hackernews",
@@ -245,7 +245,7 @@
         "ai",
         "architecture"
       ],
-      "score": 624.4
+      "score": 654.4
     },
     {
       "id": "python-0fceff",
@@ -253,21 +253,21 @@
       "quadrant": "Languages & Frameworks",
       "ring": "Adopt",
       "description": "We’ve made updates to Pyroscope, our open source continuous profiling database, that make it easier to profile your applications, find performance bottlenecks, and optimize your code, whether you're…",
-      "articleCount": 79,
-      "recentCount": 12,
+      "articleCount": 80,
+      "recentCount": 13,
       "previousCount": 3,
       "trend": "up",
       "firstSeen": "2020-01-13T16:40:35.000Z",
-      "lastSeen": "2026-11-13T17:14:29.000Z",
+      "lastSeen": "2026-11-15T04:39:25.000Z",
       "articleIds": [
+        "5ec3910099d55c90",
         "1c4499e0c33136bc",
         "911951d150ec1098",
         "5a0301f89f46d275",
         "8363ca58553c4aa2",
         "baaf713b11e387f5",
         "714506c910e56a4b",
-        "f851d0d2f31f8c6a",
-        "e9e37faea4d91eef"
+        "f851d0d2f31f8c6a"
       ],
       "tags": [
         "hackernews",
@@ -276,7 +276,7 @@
         "python",
         "ai"
       ],
-      "score": 604.5
+      "score": 619.5
     },
     {
       "id": "google-cloud-c47ea8",
@@ -345,31 +345,62 @@
       "name": "Gemini",
       "quadrant": "Tools",
       "ring": "Trial",
-      "description": "Release: llm-gemini 0.37 Google launched Gemini 4 Hydrogen today - the lowest cost member of the Gemini 4 family. It's actually not too far off the price of its much bigger siblings, Carbon and…",
-      "articleCount": 40,
-      "recentCount": 30,
+      "description": "The Gemini Decisions API scores a fixed set of answers in one pass and returns probabilities. An ADK triage agent built on it, a 48-ticket benchmark against Gemini 3.8 Flash, Gemini 4 Hydrogen,…",
+      "articleCount": 41,
+      "recentCount": 31,
       "previousCount": 1,
       "trend": "up",
       "firstSeen": "2024-12-05T07:03:29.000Z",
-      "lastSeen": "2026-11-12T22:55:19.000Z",
+      "lastSeen": "2026-11-13T23:45:04.000Z",
       "articleIds": [
+        "c430603e3588ef20",
         "9f0b516152c12ca0",
         "f6a41a4da0e4df3e",
         "20b69209b0cb442b",
         "d40fca9fd5e12c4b",
         "8fdb0296ea11e78c",
         "64338ecad904c5f5",
-        "ae101ce5b72b61e2",
-        "624a305adfa41ec6"
+        "ae101ce5b72b61e2"
       ],
       "tags": [
         "hackernews",
         "cloud",
         "archive",
-        "ai & machine learning",
-        "ai"
+        "ai",
+        "ai & machine learning"
       ],
-      "score": 528.2
+      "score": 543.2
+    },
+    {
+      "id": "openai-api-a8a7c5",
+      "name": "OpenAI API",
+      "quadrant": "Tools",
+      "ring": "Trial",
+      "description": "Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for…",
+      "articleCount": 40,
+      "recentCount": 14,
+      "previousCount": 1,
+      "trend": "up",
+      "firstSeen": "2023-01-10T11:25:15.000Z",
+      "lastSeen": "2026-11-14T23:59:28.000Z",
+      "articleIds": [
+        "f9a3c449e5989b1d",
+        "81cd24c26e707d6f",
+        "a4357c87a4347d6d",
+        "f7cfdfd7bcc39abd",
+        "624a305adfa41ec6",
+        "ac992cc25d49f443",
+        "65f8a2e3eddbdfe5",
+        "af85c795f169cc0c"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "ai",
+        "reading-list",
+        "security"
+      ],
+      "score": 384.3
     },
     {
       "id": "redis-b60889",
@@ -400,6 +431,37 @@
       "score": 371.3
     },
     {
+      "id": "claude-code-dfaa85",
+      "name": "Claude Code",
+      "quadrant": "Tools",
+      "ring": "Assess",
+      "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+      "articleCount": 31,
+      "recentCount": 18,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2025-12-21T12:57:10.000Z",
+      "lastSeen": "2026-11-15T12:44:44.170Z",
+      "articleIds": [
+        "6a36938791d14140",
+        "c9133540fb04ea26",
+        "ec453d1217c21859",
+        "44da454e7900959c",
+        "e9ab5dca6955aaf6",
+        "d1aa340a643527c9",
+        "2cac4253f10e065c",
+        "baaf713b11e387f5"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "ai",
+        "python",
+        "github-trending"
+      ],
+      "score": 361.8
+    },
+    {
       "id": "sre-d53ce4",
       "name": "SRE",
       "quadrant": "Techniques",
@@ -428,68 +490,6 @@
         "general"
       ],
       "score": 359.9
-    },
-    {
-      "id": "openai-api-a8a7c5",
-      "name": "OpenAI API",
-      "quadrant": "Tools",
-      "ring": "Trial",
-      "description": "AI is becoming more capable at handling everyday tasks, but benefiting from that progress depends increasingly on where people live, what language they speak, and how much control they have over the…",
-      "articleCount": 38,
-      "recentCount": 12,
-      "previousCount": 1,
-      "trend": "up",
-      "firstSeen": "2023-01-10T11:25:15.000Z",
-      "lastSeen": "2026-11-13T16:54:46.000Z",
-      "articleIds": [
-        "81cd24c26e707d6f",
-        "f7cfdfd7bcc39abd",
-        "624a305adfa41ec6",
-        "ac992cc25d49f443",
-        "65f8a2e3eddbdfe5",
-        "af85c795f169cc0c",
-        "2396c16836f4db23",
-        "8ceada5f95028093"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "ai",
-        "reading-list",
-        "security"
-      ],
-      "score": 354.3
-    },
-    {
-      "id": "claude-code-dfaa85",
-      "name": "Claude Code",
-      "quadrant": "Tools",
-      "ring": "Assess",
-      "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
-      "articleCount": 29,
-      "recentCount": 16,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2025-12-21T12:57:10.000Z",
-      "lastSeen": "2026-11-13T13:07:31.013Z",
-      "articleIds": [
-        "ec453d1217c21859",
-        "44da454e7900959c",
-        "e9ab5dca6955aaf6",
-        "d1aa340a643527c9",
-        "2cac4253f10e065c",
-        "baaf713b11e387f5",
-        "2396c16836f4db23",
-        "9d38e7e45a37e612"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "ai",
-        "python",
-        "cloud-native"
-      ],
-      "score": 331.8
     },
     {
       "id": "docker-0be35d",
@@ -710,22 +710,22 @@
       "name": "Cloudflare",
       "quadrant": "Platforms",
       "ring": "Trial",
-      "description": "Kitesurf, our experimental browser engine for AI agents, is now open source. Inspect the code, run it locally, or deploy your own instance on Cloudflare Workers.",
-      "articleCount": 20,
-      "recentCount": 11,
+      "description": "Cloudflare recently made Application Services for Private Origins generally available, allowing public traffic to reach applications hosted on private networks without exposing their IP addresses or…",
+      "articleCount": 21,
+      "recentCount": 12,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-09-17T13:10:26.000Z",
-      "lastSeen": "2026-11-13T20:20:21.000Z",
+      "lastSeen": "2026-11-15T06:18:00.000Z",
       "articleIds": [
+        "aa6457d959ee12ae",
         "09e5e80125ce2409",
         "4766c254790f5422",
         "813e40fce5f80ae4",
         "1e25c4d1d22c66b1",
         "804af6cb982454d2",
         "5720b59a680a066d",
-        "b2982d30c3500929",
-        "ffae9ae80732c0e4"
+        "b2982d30c3500929"
       ],
       "tags": [
         "hackernews",
@@ -734,38 +734,38 @@
         "infra",
         "reading-list"
       ],
-      "score": 237.6
+      "score": 252.6
     },
     {
       "id": "javascript-818045",
       "name": "JavaScript",
       "quadrant": "Languages & Frameworks",
       "ring": "Adopt",
-      "description": "Browse tools.simonwillison.net by tag I've been wanting a better way to browse my collection of vibe-coded tools (244 and counting) for a while. I had a few Fable 5.2 credits left over before my…",
-      "articleCount": 25,
-      "recentCount": 6,
+      "description": "Release: datasette-vega 0.7 A new release of Datasette's longest untouched plugin, for rendering charts (using Vega-Lite ) against data in a table or custom query. The last release was in July 2018!…",
+      "articleCount": 26,
+      "recentCount": 7,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-02-25T20:20:24.000Z",
-      "lastSeen": "2026-11-12T13:46:11.084Z",
+      "lastSeen": "2026-11-14T17:09:09.000Z",
       "articleIds": [
+        "5acb9d3d7e18f6cd",
         "666779e4f744bdb5",
         "c5d1a9eb33834e11",
         "d4ff1513463b1c16",
         "5175b6a2b765750a",
         "3ff0584fedeacb03",
         "2382673acb375df8",
-        "4a1062c5804c5122",
-        "6fe620417d621168"
+        "4a1062c5804c5122"
       ],
       "tags": [
         "hackernews",
         "archive",
-        "javascript",
         "ai",
-        "python"
+        "python",
+        "javascript"
       ],
-      "score": 225.7
+      "score": 240.7
     },
     {
       "id": "ruby-on-rails-9e1b81",
@@ -2228,7 +2228,7 @@
     }
   ],
   "stats": {
-    "articles": 4641,
+    "articles": 4700,
     "sources": 33,
     "technologies": 77
   }
