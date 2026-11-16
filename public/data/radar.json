@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T12:45:55.916Z",
+  "generatedAt": "2026-11-16T13:41:05.532Z",
   "periodDays": 60,
   "items": [
     {
@@ -38,53 +38,53 @@
       "name": "AI agents",
       "quadrant": "Techniques",
       "ring": "Assess",
-      "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
-      "articleCount": 112,
-      "recentCount": 81,
+      "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+      "articleCount": 116,
+      "recentCount": 85,
       "previousCount": 2,
       "trend": "up",
       "firstSeen": "2024-01-29T18:28:18.000Z",
-      "lastSeen": "2026-11-15T12:44:44.170Z",
+      "lastSeen": "2026-11-16T13:39:45.860Z",
       "articleIds": [
+        "14832d8209b1a065",
+        "758d215cf94ec88b",
+        "32b076595ed25f11",
+        "be65df09c87fa70a",
         "404dff4b1ceac471",
         "c9133540fb04ea26",
         "6eef346347792f9a",
-        "d612bad3941ece78",
-        "9cbf355d13ac2c93",
-        "d11365f0dd8c900d",
-        "09e5e80125ce2409",
-        "376ee9c71902f3cb"
+        "d612bad3941ece78"
       ],
       "tags": [
         "hackernews",
         "archive",
         "reading-list",
         "cloud",
-        "cloud-native"
+        "ai"
       ],
-      "score": 1414.6
+      "score": 1474.6
     },
     {
       "id": "anthropic-claude-cc3f96",
       "name": "Anthropic Claude",
       "quadrant": "Tools",
       "ring": "Trial",
-      "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
-      "articleCount": 101,
-      "recentCount": 65,
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude…",
+      "articleCount": 108,
+      "recentCount": 72,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2023-08-12T00:08:13.000Z",
-      "lastSeen": "2026-11-15T12:44:44.170Z",
+      "lastSeen": "2026-11-16T13:39:45.860Z",
       "articleIds": [
+        "52adf762d4075bfa",
+        "45b453e349d12cc9",
+        "32b076595ed25f11",
+        "4b4d48f19f03e283",
+        "3bc6cdb34c17f840",
+        "3cfbe696a36e7c3b",
         "6a36938791d14140",
-        "c9133540fb04ea26",
-        "9881c978a1b722de",
-        "2c427693e910b36a",
-        "37af78eb2164da18",
-        "9cbf355d13ac2c93",
-        "81cd24c26e707d6f",
-        "ec453d1217c21859"
+        "c9133540fb04ea26"
       ],
       "tags": [
         "hackernews",
@@ -93,7 +93,7 @@
         "python",
         "cloud-native"
       ],
-      "score": 1210
+      "score": 1315
     },
     {
       "id": "kubernetes-74afb9",
@@ -155,57 +155,26 @@
       "score": 743.6
     },
     {
-      "id": "go-422077",
-      "name": "Go",
-      "quadrant": "Languages & Frameworks",
-      "ring": "Adopt",
-      "description": "Every year, the JetBrains Developer Ecosystem survey gives us a snapshot of how developers work. This year, 28,945 developers took part between May and July 2026, and 1,836 of them named Go as one of…",
-      "articleCount": 102,
-      "recentCount": 4,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-01-02T21:19:39.000Z",
-      "lastSeen": "2026-11-10T07:56:41.000Z",
-      "articleIds": [
-        "2cb87251db30d865",
-        "71aaa2946db119b3",
-        "611eaa424a2ea349",
-        "aed4d9c60c01ceb3",
-        "65b385bddf2e78e7",
-        "4a08bb9007f6545a",
-        "e357c371be6ff428",
-        "153e991e6f74e8fb"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "devtools",
-        "goland",
-        "go"
-      ],
-      "score": 669.8
-    },
-    {
       "id": "aws-1a683c",
       "name": "AWS",
       "quadrant": "Platforms",
       "ring": "Adopt",
-      "description": "This week, Amazon Web Services released AWS Emulator, a local copy of AWS that coding agents can test against. It The post AWS Emulator proves agents need a verification loop. Realism is the hard…",
-      "articleCount": 68,
-      "recentCount": 25,
+      "description": "The article describes an architecture for agentic AI in regulated utility operations. Agents reason and propose actions, but a deterministic policy gate and a governed tool gateway control execution,…",
+      "articleCount": 71,
+      "recentCount": 28,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-01-28T20:05:18.000Z",
-      "lastSeen": "2026-11-14T17:30:00.000Z",
+      "lastSeen": "2026-11-16T11:00:00.000Z",
       "articleIds": [
+        "758d215cf94ec88b",
+        "b6aadf66e4294a9b",
+        "2cc96b8af33cdbe2",
         "0e8b8d7c8ce4a07e",
         "27674296406cc6c6",
         "aa04d052c89c07b4",
         "c5bf4443a1247ac3",
-        "d90593ab4f290146",
-        "232301c2fd8ad5b2",
-        "00db8bb1bba80204",
-        "53d5cdba12bea358"
+        "d90593ab4f290146"
       ],
       "tags": [
         "hackernews",
@@ -214,7 +183,38 @@
         "cloud",
         "ai"
       ],
-      "score": 655.4
+      "score": 700.4
+    },
+    {
+      "id": "go-422077",
+      "name": "Go",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Adopt",
+      "description": "1,200 hot takes, 14 “random” languages, zero opinions about C#, and one model that argued both sides of Go’s error handling. We asked 12 AI models for their most controversial opinion about…",
+      "articleCount": 103,
+      "recentCount": 5,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-01-02T21:19:39.000Z",
+      "lastSeen": "2026-11-15T17:02:29.000Z",
+      "articleIds": [
+        "564eb3e6002e7dc8",
+        "2cb87251db30d865",
+        "71aaa2946db119b3",
+        "611eaa424a2ea349",
+        "aed4d9c60c01ceb3",
+        "65b385bddf2e78e7",
+        "4a08bb9007f6545a",
+        "e357c371be6ff428"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "devtools",
+        "goland",
+        "go"
+      ],
+      "score": 684.8
     },
     {
       "id": "rust-1d3fbd",
@@ -252,62 +252,62 @@
       "name": "Python",
       "quadrant": "Languages & Frameworks",
       "ring": "Adopt",
-      "description": "We’ve made updates to Pyroscope, our open source continuous profiling database, that make it easier to profile your applications, find performance bottlenecks, and optimize your code, whether you're…",
-      "articleCount": 80,
-      "recentCount": 13,
+      "description": "1,200 hot takes, 14 “random” languages, zero opinions about C#, and one model that argued both sides of Go’s error handling. We asked 12 AI models for their most controversial opinion about…",
+      "articleCount": 82,
+      "recentCount": 15,
       "previousCount": 3,
       "trend": "up",
       "firstSeen": "2020-01-13T16:40:35.000Z",
-      "lastSeen": "2026-11-15T04:39:25.000Z",
+      "lastSeen": "2026-11-15T17:02:29.000Z",
       "articleIds": [
+        "564eb3e6002e7dc8",
+        "b4eae06ead2ef3f5",
         "5ec3910099d55c90",
         "1c4499e0c33136bc",
         "911951d150ec1098",
         "5a0301f89f46d275",
         "8363ca58553c4aa2",
-        "baaf713b11e387f5",
-        "714506c910e56a4b",
-        "f851d0d2f31f8c6a"
+        "baaf713b11e387f5"
       ],
       "tags": [
         "hackernews",
         "archive",
         "devto",
         "python",
-        "ai"
+        "devtools"
       ],
-      "score": 619.5
+      "score": 649.5
     },
     {
       "id": "google-cloud-c47ea8",
       "name": "Google Cloud",
       "quadrant": "Platforms",
       "ring": "Adopt",
-      "description": "Google Cloud has made date-based versioning of the Compute Engine API generally available, replacing the single mutable /v1 surface with immutable quarterly snapshots such as 2026-09-01, selected per…",
-      "articleCount": 45,
-      "recentCount": 33,
+      "description": "Across Europe, organizations handling sensitive workloads in regulated sectors — such as financial services, healthcare, critical infrastructure, and the public sector — are trying to modernize their…",
+      "articleCount": 47,
+      "recentCount": 35,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-02-23T15:07:24.000Z",
-      "lastSeen": "2026-11-14T07:27:00.000Z",
+      "lastSeen": "2026-11-16T08:05:00.000Z",
       "articleIds": [
+        "2580dd5f3bd0668b",
+        "9e42f9e3e1ff29f3",
         "e39e802bc6fc5c6c",
         "2be0f84ec0637bb5",
         "232301c2fd8ad5b2",
         "c20431e651bd693a",
         "ae101ce5b72b61e2",
-        "55ea60e6066a8a04",
-        "2af3888a7b8b85a9",
-        "fa2da1956d62f757"
+        "55ea60e6066a8a04"
       ],
       "tags": [
         "cloud",
         "hackernews",
         "archive",
-        "google cloud",
-        "architecture"
+        "security & identity",
+        "google cloud"
       ],
-      "score": 587.5
+      "score": 617.5
     },
     {
       "id": "postgresql-2ee91e",
@@ -345,22 +345,22 @@
       "name": "Gemini",
       "quadrant": "Tools",
       "ring": "Trial",
-      "description": "The Gemini Decisions API scores a fixed set of answers in one pass and returns probabilities. An ADK triage agent built on it, a 48-ticket benchmark against Gemini 3.8 Flash, Gemini 4 Hydrogen,…",
-      "articleCount": 41,
-      "recentCount": 31,
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude…",
+      "articleCount": 42,
+      "recentCount": 32,
       "previousCount": 1,
       "trend": "up",
       "firstSeen": "2024-12-05T07:03:29.000Z",
-      "lastSeen": "2026-11-13T23:45:04.000Z",
+      "lastSeen": "2026-11-16T13:39:45.860Z",
       "articleIds": [
+        "52adf762d4075bfa",
         "c430603e3588ef20",
         "9f0b516152c12ca0",
         "f6a41a4da0e4df3e",
         "20b69209b0cb442b",
         "d40fca9fd5e12c4b",
         "8fdb0296ea11e78c",
-        "64338ecad904c5f5",
-        "ae101ce5b72b61e2"
+        "64338ecad904c5f5"
       ],
       "tags": [
         "hackernews",
@@ -369,7 +369,38 @@
         "ai",
         "ai & machine learning"
       ],
-      "score": 543.2
+      "score": 558.2
+    },
+    {
+      "id": "claude-code-dfaa85",
+      "name": "Claude Code",
+      "quadrant": "Tools",
+      "ring": "Assess",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude…",
+      "articleCount": 34,
+      "recentCount": 21,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2025-12-21T12:57:10.000Z",
+      "lastSeen": "2026-11-16T13:39:45.860Z",
+      "articleIds": [
+        "52adf762d4075bfa",
+        "45b453e349d12cc9",
+        "32b076595ed25f11",
+        "6a36938791d14140",
+        "c9133540fb04ea26",
+        "ec453d1217c21859",
+        "44da454e7900959c",
+        "e9ab5dca6955aaf6"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "ai",
+        "github-trending",
+        "open-source"
+      ],
+      "score": 406.8
     },
     {
       "id": "openai-api-a8a7c5",
@@ -403,6 +434,36 @@
       "score": 384.3
     },
     {
+      "id": "sre-d53ce4",
+      "name": "SRE",
+      "quadrant": "Techniques",
+      "ring": "Trial",
+      "description": "View on sreweekly.com A message from our sponsor, Incident.io: Your agent is only as useful as the tools it can reach, and only as safe as the limits you set. Join incident.io’s engineering team for…",
+      "articleCount": 55,
+      "recentCount": 3,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-01-10T13:12:14.000Z",
+      "lastSeen": "2026-11-16T02:53:30.000Z",
+      "articleIds": [
+        "b1d5b5a38d4cec74",
+        "f113e5aea16ede5b",
+        "afccc9d04b54f526",
+        "4f3be424decb50fd",
+        "3b0eb852b9af2d2d",
+        "64e59e259df48eec",
+        "81ec892a649a998f",
+        "22fe681919644ca0"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "reading-list",
+        "general"
+      ],
+      "score": 374.9
+    },
+    {
       "id": "redis-b60889",
       "name": "Redis",
       "quadrant": "Platforms",
@@ -431,96 +492,35 @@
       "score": 371.3
     },
     {
-      "id": "claude-code-dfaa85",
-      "name": "Claude Code",
-      "quadrant": "Tools",
-      "ring": "Assess",
-      "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
-      "articleCount": 31,
-      "recentCount": 18,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2025-12-21T12:57:10.000Z",
-      "lastSeen": "2026-11-15T12:44:44.170Z",
-      "articleIds": [
-        "6a36938791d14140",
-        "c9133540fb04ea26",
-        "ec453d1217c21859",
-        "44da454e7900959c",
-        "e9ab5dca6955aaf6",
-        "d1aa340a643527c9",
-        "2cac4253f10e065c",
-        "baaf713b11e387f5"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "ai",
-        "python",
-        "github-trending"
-      ],
-      "score": 361.8
-    },
-    {
-      "id": "sre-d53ce4",
-      "name": "SRE",
-      "quadrant": "Techniques",
-      "ring": "Trial",
-      "description": "View on sreweekly.com A message from our sponsor, Archestra: AI chaos in your org? Archestra is an open-source enterprise AI platform used by Fortune 50s that organizes your AI: LLM proxy, MCP…",
-      "articleCount": 54,
-      "recentCount": 2,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-01-10T13:12:14.000Z",
-      "lastSeen": "2026-11-08T19:40:16.000Z",
-      "articleIds": [
-        "f113e5aea16ede5b",
-        "afccc9d04b54f526",
-        "4f3be424decb50fd",
-        "3b0eb852b9af2d2d",
-        "64e59e259df48eec",
-        "81ec892a649a998f",
-        "22fe681919644ca0",
-        "341aa6979a63b852"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "reading-list",
-        "general"
-      ],
-      "score": 359.9
-    },
-    {
       "id": "docker-0be35d",
       "name": "Docker",
       "quadrant": "Platforms",
       "ring": "Adopt",
-      "description": "aws-emulator Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so. It's written in Rust by a…",
-      "articleCount": 44,
-      "recentCount": 4,
+      "description": "Modern Docker Management, Designed for Everyone",
+      "articleCount": 45,
+      "recentCount": 5,
       "previousCount": 1,
       "trend": "up",
       "firstSeen": "2020-01-11T06:17:45.000Z",
-      "lastSeen": "2026-11-11T21:18:30.000Z",
+      "lastSeen": "2026-11-16T13:39:45.860Z",
       "articleIds": [
+        "1004f5b1d037c0c2",
         "53d5cdba12bea358",
         "3a35a01b31fba168",
         "8ef031c71685a374",
         "dbb0af5604c5dd43",
         "97a02e0388e5e957",
         "75ea510f1ce22d95",
-        "a0bcda0457f3506d",
-        "85636a3069312e10"
+        "a0bcda0457f3506d"
       ],
       "tags": [
         "hackernews",
         "archive",
         "containers",
         "products",
-        "ai"
+        "go"
       ],
-      "score": 321.3
+      "score": 336.3
     },
     {
       "id": "apache-kafka-0d516b",
@@ -644,6 +644,37 @@
       "score": 283.2
     },
     {
+      "id": "javascript-818045",
+      "name": "JavaScript",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Adopt",
+      "description": "Release: datasette 1.0a43 I've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone , which is now 53% complete. The biggest 1.0 item in this release is streaming…",
+      "articleCount": 28,
+      "recentCount": 9,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-02-25T20:20:24.000Z",
+      "lastSeen": "2026-11-15T23:20:27.000Z",
+      "articleIds": [
+        "3bc6cdb34c17f840",
+        "9ae934d441da1a71",
+        "5acb9d3d7e18f6cd",
+        "666779e4f744bdb5",
+        "c5d1a9eb33834e11",
+        "d4ff1513463b1c16",
+        "5175b6a2b765750a",
+        "3ff0584fedeacb03"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "ai",
+        "python",
+        "javascript"
+      ],
+      "score": 270.7
+    },
+    {
       "id": "observability-3f4219",
       "name": "Observability",
       "quadrant": "Techniques",
@@ -737,37 +768,6 @@
       "score": 252.6
     },
     {
-      "id": "javascript-818045",
-      "name": "JavaScript",
-      "quadrant": "Languages & Frameworks",
-      "ring": "Adopt",
-      "description": "Release: datasette-vega 0.7 A new release of Datasette's longest untouched plugin, for rendering charts (using Vega-Lite ) against data in a table or custom query. The last release was in July 2018!…",
-      "articleCount": 26,
-      "recentCount": 7,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-02-25T20:20:24.000Z",
-      "lastSeen": "2026-11-14T17:09:09.000Z",
-      "articleIds": [
-        "5acb9d3d7e18f6cd",
-        "666779e4f744bdb5",
-        "c5d1a9eb33834e11",
-        "d4ff1513463b1c16",
-        "5175b6a2b765750a",
-        "3ff0584fedeacb03",
-        "2382673acb375df8",
-        "4a1062c5804c5122"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "ai",
-        "python",
-        "javascript"
-      ],
-      "score": 240.7
-    },
-    {
       "id": "ruby-on-rails-9e1b81",
       "name": "Ruby on Rails",
       "quadrant": "Languages & Frameworks",
@@ -775,7 +775,7 @@
       "description": "When DHH took the stage at Rails World 2026 and talked openly about going \"pencils down\" on...",
       "articleCount": 27,
       "recentCount": 4,
-      "previousCount": 1,
+      "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-03-27T15:28:09.000Z",
       "lastSeen": "2026-11-12T15:30:50.000Z",
@@ -830,6 +830,37 @@
       "score": 188.4
     },
     {
+      "id": "azure-3758c2",
+      "name": "Azure",
+      "quadrant": "Platforms",
+      "ring": "Trial",
+      "description": "Day 83 of DevOps, Day 33 of Azure. Both tasks today were made of parts that are each correct on their...",
+      "articleCount": 19,
+      "recentCount": 6,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-02-21T06:36:14.000Z",
+      "lastSeen": "2026-11-15T13:47:01.000Z",
+      "articleIds": [
+        "5e50d6c9946750f3",
+        "e39e802bc6fc5c6c",
+        "7482059e8feb089c",
+        "70bd8739af1678af",
+        "2ea58fe6d3832d71",
+        "02ab276b39463efa",
+        "50d8c94d3fbbf6f4",
+        "81ec892a649a998f"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "azure",
+        "devto",
+        "devops"
+      ],
+      "score": 185.2
+    },
+    {
       "id": "opentelemetry-31e074",
       "name": "OpenTelemetry",
       "quadrant": "Tools",
@@ -861,37 +892,6 @@
       "score": 175.9
     },
     {
-      "id": "azure-3758c2",
-      "name": "Azure",
-      "quadrant": "Platforms",
-      "ring": "Trial",
-      "description": "Google Cloud has made date-based versioning of the Compute Engine API generally available, replacing the single mutable /v1 surface with immutable quarterly snapshots such as 2026-09-01, selected per…",
-      "articleCount": 18,
-      "recentCount": 5,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-02-21T06:36:14.000Z",
-      "lastSeen": "2026-11-14T07:27:00.000Z",
-      "articleIds": [
-        "e39e802bc6fc5c6c",
-        "7482059e8feb089c",
-        "70bd8739af1678af",
-        "2ea58fe6d3832d71",
-        "02ab276b39463efa",
-        "50d8c94d3fbbf6f4",
-        "81ec892a649a998f",
-        "86fbfc5297f75fd2"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "architecture",
-        "azure",
-        "devto"
-      ],
-      "score": 170.2
-    },
-    {
       "id": "grpc-a0713c",
       "name": "gRPC",
       "quadrant": "Languages & Frameworks",
@@ -918,6 +918,37 @@
         "archive"
       ],
       "score": 162.7
+    },
+    {
+      "id": "cursor-e33632",
+      "name": "Cursor",
+      "quadrant": "Tools",
+      "ring": "Assess",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude…",
+      "articleCount": 12,
+      "recentCount": 8,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2024-10-29T04:55:39.000Z",
+      "lastSeen": "2026-11-16T13:39:45.860Z",
+      "articleIds": [
+        "52adf762d4075bfa",
+        "45b453e349d12cc9",
+        "86932b5c72e9eeb7",
+        "2396c16836f4db23",
+        "649ad2b494211d8d",
+        "974ef3bd3bfd8c31",
+        "357a441926bce029",
+        "7fb652c9ef37fd7e"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "reading-list",
+        "cloud-native",
+        "ai"
+      ],
+      "score": 156.5
     },
     {
       "id": "github-actions-1c2ae8",
@@ -1039,6 +1070,37 @@
       "score": 132.1
     },
     {
+      "id": "continuous-delivery-9bbcb6",
+      "name": "Continuous delivery",
+      "quadrant": "Techniques",
+      "ring": "Adopt",
+      "description": "AI coding agents don’t have to run only on a developer’s machine. You can also make them part of your CI/CD workflows to review code, investigate failed builds, update documentation, or handle other…",
+      "articleCount": 12,
+      "recentCount": 4,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-01-11T13:41:19.000Z",
+      "lastSeen": "2026-11-16T09:28:51.000Z",
+      "articleIds": [
+        "32b076595ed25f11",
+        "607d54da354520de",
+        "28c4cffca6ee3859",
+        "dc17eeba94f57013",
+        "d1ad754d5491cb2a",
+        "34ed90baf39f843d",
+        "d03aead9c9a295f7",
+        "08a1f24f90d139ae"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "devtools",
+        "ai",
+        "ai-agent"
+      ],
+      "score": 128
+    },
+    {
       "id": "rag-53ff2c",
       "name": "RAG",
       "quadrant": "Techniques",
@@ -1068,37 +1130,6 @@
         "ai"
       ],
       "score": 128
-    },
-    {
-      "id": "cursor-e33632",
-      "name": "Cursor",
-      "quadrant": "Tools",
-      "ring": "Assess",
-      "description": "Coding agents are pretty good at working in parallel: one writes a new API endpoint, another updates the tests, while The post Google’s coding agents now /swarm for one developer. Cursor’s go…",
-      "articleCount": 10,
-      "recentCount": 6,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2024-10-29T04:55:39.000Z",
-      "lastSeen": "2026-11-12T21:22:46.000Z",
-      "articleIds": [
-        "86932b5c72e9eeb7",
-        "2396c16836f4db23",
-        "649ad2b494211d8d",
-        "974ef3bd3bfd8c31",
-        "357a441926bce029",
-        "7fb652c9ef37fd7e",
-        "71294fa980648795",
-        "cd1743a0b788fdba"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "reading-list",
-        "cloud-native",
-        "ai"
-      ],
-      "score": 123.5
     },
     {
       "id": "vllm-e33a0a",
@@ -1132,6 +1163,68 @@
       "score": 119.1
     },
     {
+      "id": "github-copilot-507317",
+      "name": "GitHub Copilot",
+      "quadrant": "Tools",
+      "ring": "Trial",
+      "description": "GitHub engineers rebuilt the diff view in the Copilot app to handle a pull request with 2,200 files, over a million changed lines and 400 inline comments. The design separates fixed-height code rows…",
+      "articleCount": 8,
+      "recentCount": 6,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2024-10-29T04:55:39.000Z",
+      "lastSeen": "2026-11-16T10:32:00.000Z",
+      "articleIds": [
+        "6ee10b36182aa094",
+        "a458d7a17ee3094a",
+        "c7433ec470cb8f9b",
+        "5cecc12e376b047e",
+        "0e7b16327df7de13",
+        "2f372b9bf7ce4173",
+        "0c5daae38cdd970e",
+        "4209b820b5453870"
+      ],
+      "tags": [
+        "architecture",
+        "devto",
+        "devtools",
+        "github copilot",
+        "hackernews"
+      ],
+      "score": 118.1
+    },
+    {
+      "id": "webassembly-733ad6",
+      "name": "WebAssembly",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Assess",
+      "description": "Release: datasette-maplibre 0.1a0 The first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap , the free vector map server…",
+      "articleCount": 13,
+      "recentCount": 3,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-10-30T17:11:50.000Z",
+      "lastSeen": "2026-11-15T23:58:36.000Z",
+      "articleIds": [
+        "4b4d48f19f03e283",
+        "ecf7a899a16f8d25",
+        "3ff0584fedeacb03",
+        "879ddd985d909a26",
+        "296932ba01470214",
+        "beba2fca9a3fade0",
+        "c7f3e6635a93b286",
+        "24d4774eb3195eab"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "architecture",
+        "ai",
+        "python"
+      ],
+      "score": 115.9
+    },
+    {
       "id": "figma-1e4ff5",
       "name": "Figma",
       "quadrant": "Tools",
@@ -1162,96 +1255,34 @@
       "score": 114.1
     },
     {
-      "id": "continuous-delivery-9bbcb6",
-      "name": "Continuous delivery",
-      "quadrant": "Techniques",
-      "ring": "Adopt",
-      "description": "In a recent post, LinkedIn revealed it has replaced Argo CD with its own GitOps engine. This new system deploys applications across over 250 Kubernetes clusters. It supports more than 4,000 services…",
-      "articleCount": 11,
-      "recentCount": 3,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-01-11T13:41:19.000Z",
-      "lastSeen": "2026-11-12T09:00:00.000Z",
-      "articleIds": [
-        "607d54da354520de",
-        "28c4cffca6ee3859",
-        "dc17eeba94f57013",
-        "d1ad754d5491cb2a",
-        "34ed90baf39f843d",
-        "d03aead9c9a295f7",
-        "08a1f24f90d139ae",
-        "d419f068cd4b8dd8"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "architecture",
-        "argo cd",
-        "continuous deployment"
-      ],
-      "score": 113
-    },
-    {
-      "id": "github-copilot-507317",
-      "name": "GitHub Copilot",
-      "quadrant": "Tools",
+      "id": "php-5b44b8",
+      "name": "PHP",
+      "quadrant": "Languages & Frameworks",
       "ring": "Trial",
-      "description": "I'm not particularly fond of command-line tools, so spending eleven development sessions working...",
+      "description": "1,200 hot takes, 14 “random” languages, zero opinions about C#, and one model that argued both sides of Go’s error handling. We asked 12 AI models for their most controversial opinion about…",
       "articleCount": 7,
       "recentCount": 5,
       "previousCount": 0,
       "trend": "up",
-      "firstSeen": "2024-10-29T04:55:39.000Z",
-      "lastSeen": "2026-11-10T22:18:23.000Z",
+      "firstSeen": "2021-01-22T09:03:06.000Z",
+      "lastSeen": "2026-11-15T17:02:29.000Z",
       "articleIds": [
-        "a458d7a17ee3094a",
-        "c7433ec470cb8f9b",
-        "5cecc12e376b047e",
-        "0e7b16327df7de13",
-        "2f372b9bf7ce4173",
-        "0c5daae38cdd970e",
-        "4209b820b5453870"
+        "564eb3e6002e7dc8",
+        "ca61db4ce015f9bf",
+        "373429d3d655c6fb",
+        "0301e14693da4304",
+        "abe4459bf83dc714",
+        "e647315ecccedd98",
+        "02811246f5aeb94b"
       ],
       "tags": [
-        "devto",
+        "hackernews",
         "devtools",
-        "github copilot",
-        "hackernews",
-        "archive"
-      ],
-      "score": 103.1
-    },
-    {
-      "id": "webassembly-733ad6",
-      "name": "WebAssembly",
-      "quadrant": "Languages & Frameworks",
-      "ring": "Assess",
-      "description": "In this episode, Edoardo Vacchi discusses the evolving landscape of WebAssembly on the backend, running Java workloads on GPUs using TornadoVM, and optimizing distributed AI inference using llm-d and…",
-      "articleCount": 12,
-      "recentCount": 2,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-10-30T17:11:50.000Z",
-      "lastSeen": "2026-11-09T11:00:00.000Z",
-      "articleIds": [
-        "ecf7a899a16f8d25",
-        "3ff0584fedeacb03",
-        "879ddd985d909a26",
-        "296932ba01470214",
-        "beba2fca9a3fade0",
-        "c7f3e6635a93b286",
-        "24d4774eb3195eab",
-        "989bdfb68df65506"
-      ],
-      "tags": [
-        "hackernews",
         "archive",
-        "architecture",
-        "the infoq podcast",
-        "tornadovm"
+        "llm-biases",
+        "cloud-native"
       ],
-      "score": 100.9
+      "score": 104.1
     },
     {
       "id": "domain-driven-design-da83b7",
@@ -1338,6 +1369,37 @@
       "score": 95
     },
     {
+      "id": "c-9629f5",
+      "name": "C#",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Adopt",
+      "description": "1,200 hot takes, 14 “random” languages, zero opinions about C#, and one model that argued both sides of Go’s error handling. We asked 12 AI models for their most controversial opinion about…",
+      "articleCount": 9,
+      "recentCount": 2,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-06-04T07:13:24.000Z",
+      "lastSeen": "2026-11-15T17:02:29.000Z",
+      "articleIds": [
+        "564eb3e6002e7dc8",
+        "a197f131019b1a5d",
+        "20ff783189919795",
+        "01806b42a84856fe",
+        "da7dcd250770164d",
+        "4fd4bf489b898e61",
+        "298900729089ac0c",
+        "4006c6ab02aa2227"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "devtools",
+        "llm-biases",
+        "net-tools"
+      ],
+      "score": 90.4
+    },
+    {
       "id": "mongodb-260d17",
       "name": "MongoDB",
       "quadrant": "Platforms",
@@ -1400,35 +1462,6 @@
       "score": 89.2
     },
     {
-      "id": "php-5b44b8",
-      "name": "PHP",
-      "quadrant": "Languages & Frameworks",
-      "ring": "Trial",
-      "description": "At KubeCon + CloudNativeCon North America 2026 this week, Chainguard co-founder and CTO Matt Moore defended the company’s decision to The post Chainguard defends its choice to break the PHP security…",
-      "articleCount": 6,
-      "recentCount": 4,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2021-01-22T09:03:06.000Z",
-      "lastSeen": "2026-11-12T17:03:25.000Z",
-      "articleIds": [
-        "ca61db4ce015f9bf",
-        "373429d3d655c6fb",
-        "0301e14693da4304",
-        "abe4459bf83dc714",
-        "e647315ecccedd98",
-        "02811246f5aeb94b"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "cloud-native",
-        "containers",
-        "open source"
-      ],
-      "score": 89.1
-    },
-    {
       "id": "pytorch-7527fb",
       "name": "PyTorch",
       "quadrant": "Languages & Frameworks",
@@ -1485,35 +1518,34 @@
       "score": 81
     },
     {
-      "id": "c-9629f5",
-      "name": "C#",
-      "quadrant": "Languages & Frameworks",
-      "ring": "Adopt",
-      "description": "ReSharper 2026.2 brought Junie to Visual Studio as ReSharper’s first coding agent. In 2026.3, you can also pick Claude Agent or Codex in the same tool window. All three agents can use ReSharper’s…",
-      "articleCount": 8,
-      "recentCount": 1,
+      "id": "clickhouse-584d9d",
+      "name": "ClickHouse",
+      "quadrant": "Platforms",
+      "ring": "Assess",
+      "description": "I benchmarked ClickHouse 26.10's new apply_string_filters_during_scan setting against 26.9: a selective LIKE query's peak memory dropped from 37.6MB to 1.5MB, but a plain WHERE equality got none of…",
+      "articleCount": 7,
+      "recentCount": 3,
       "previousCount": 0,
       "trend": "up",
-      "firstSeen": "2020-06-04T07:13:24.000Z",
-      "lastSeen": "2026-11-10T21:43:46.000Z",
+      "firstSeen": "2024-03-26T14:59:45.000Z",
+      "lastSeen": "2026-11-12T11:00:00.000Z",
       "articleIds": [
-        "a197f131019b1a5d",
-        "20ff783189919795",
-        "01806b42a84856fe",
-        "da7dcd250770164d",
-        "4fd4bf489b898e61",
-        "298900729089ac0c",
-        "4006c6ab02aa2227",
-        "bd200967b69c5299"
+        "c24b64a8a88648bd",
+        "731b359b01ad1869",
+        "3167edcfb8d550bf",
+        "0635d636791bd0bb",
+        "129d470389b55656",
+        "da75e4b8c4847403",
+        "9f1d11cc45f3ba19"
       ],
       "tags": [
         "hackernews",
         "archive",
-        "devtools",
-        "net-tools",
-        "agentic-ai"
+        "clickhouse",
+        "database",
+        "performance"
       ],
-      "score": 75.4
+      "score": 79.9
     },
     {
       "id": "ruby-1c14db",
@@ -1687,35 +1719,6 @@
       "score": 65.1
     },
     {
-      "id": "clickhouse-584d9d",
-      "name": "ClickHouse",
-      "quadrant": "Platforms",
-      "ring": "Assess",
-      "description": "If you have built anything that needs both a system of record and fast analytics, you know the shape of The post Postgres and ClickHouse can share tables.",
-      "articleCount": 6,
-      "recentCount": 2,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2024-03-26T14:59:45.000Z",
-      "lastSeen": "2026-11-10T06:14:51.000Z",
-      "articleIds": [
-        "731b359b01ad1869",
-        "3167edcfb8d550bf",
-        "0635d636791bd0bb",
-        "129d470389b55656",
-        "da75e4b8c4847403",
-        "9f1d11cc45f3ba19"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "cloud-native",
-        "ai agents",
-        "data"
-      ],
-      "score": 64.9
-    },
-    {
       "id": "cqrs-c7a9ee",
       "name": "CQRS",
       "quadrant": "Techniques",
@@ -1770,6 +1773,34 @@
       "score": 61.2
     },
     {
+      "id": "design-systems-aefcbd",
+      "name": "Design systems",
+      "quadrant": "Techniques",
+      "ring": "Trial",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "articleCount": 5,
+      "recentCount": 1,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2022-08-16T21:03:09.000Z",
+      "lastSeen": "2026-11-07T14:06:27.124Z",
+      "articleIds": [
+        "0d415288aaf69d6e",
+        "88aa4fee784901e8",
+        "80421401d011c0f3",
+        "48d95afaedd16884",
+        "6a8e72271a499cad"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "typescript",
+        "github-trending",
+        "open-source"
+      ],
+      "score": 58
+    },
+    {
       "id": "snowflake-91fe08",
       "name": "Snowflake",
       "quadrant": "Platforms",
@@ -1796,34 +1827,6 @@
         "data analytics"
       ],
       "score": 56.2
-    },
-    {
-      "id": "design-systems-aefcbd",
-      "name": "Design systems",
-      "quadrant": "Techniques",
-      "ring": "Trial",
-      "description": "An open source design system that's fully customizable and agent ready",
-      "articleCount": 5,
-      "recentCount": 1,
-      "previousCount": 1,
-      "trend": "steady",
-      "firstSeen": "2022-08-16T21:03:09.000Z",
-      "lastSeen": "2026-11-07T14:06:27.124Z",
-      "articleIds": [
-        "0d415288aaf69d6e",
-        "88aa4fee784901e8",
-        "80421401d011c0f3",
-        "48d95afaedd16884",
-        "6a8e72271a499cad"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "typescript",
-        "github-trending",
-        "open-source"
-      ],
-      "score": 54
     },
     {
       "id": "vercel-940045",
@@ -2228,7 +2231,7 @@
     }
   ],
   "stats": {
-    "articles": 4700,
+    "articles": 4780,
     "sources": 33,
     "technologies": 77
   }
