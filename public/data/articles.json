@@ -1,5 +1,1775 @@
 [
   {
+    "id": "bc04379fb948516a",
+    "title": "Modeling Software’s Business Impact",
+    "url": "https://oreilly.com/radar?p=20247",
+    "source": "reading",
+    "sourceName": "Oreilly.com",
+    "author": "James Shore",
+    "publishedAt": "2026-11-18T13:58:47.055Z",
+    "fetchedAt": "2026-11-18T13:58:47.055Z",
+    "summary": "The following article was originally published on James Shore’s Successful Software blog and is being republished here with the author’s permission. Are your teams working on the right thing? It doesn’t matter how fast they are if they’re running in the wrong direction. This is part 4 of my series on assessing AI’s impact on […]",
+    "technologies": [],
+    "tags": [
+      "reading-list",
+      "commentary"
+    ],
+    "engagement": 0,
+    "enriched": false
+  },
+  {
+    "id": "6096cc3a83ecce40",
+    "title": "HKUDS/CLI-Anything",
+    "url": "https://github.com/HKUDS/CLI-Anything",
+    "source": "github",
+    "sourceName": "GitHub Trending",
+    "publishedAt": "2026-11-18T13:58:44.671Z",
+    "fetchedAt": "2026-11-18T13:58:44.671Z",
+    "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+    "technologies": [],
+    "tags": [
+      "python",
+      "github-trending",
+      "open-source"
+    ],
+    "engagement": 384,
+    "enriched": false
+  },
+  {
+    "id": "d393800a98520761",
+    "title": "appwrite/appwrite",
+    "url": "https://github.com/appwrite/appwrite",
+    "source": "github",
+    "sourceName": "GitHub Trending",
+    "publishedAt": "2026-11-18T13:58:44.671Z",
+    "fetchedAt": "2026-11-18T13:58:44.671Z",
+    "summary": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more",
+    "technologies": [],
+    "tags": [
+      "typescript",
+      "github-trending",
+      "open-source"
+    ],
+    "engagement": 239,
+    "enriched": false
+  },
+  {
+    "id": "b7a6e8b9a3875109",
+    "title": "astral-sh/uv",
+    "url": "https://github.com/astral-sh/uv",
+    "source": "github",
+    "sourceName": "GitHub Trending",
+    "publishedAt": "2026-11-18T13:58:44.671Z",
+    "fetchedAt": "2026-11-18T13:58:44.671Z",
+    "summary": "An extremely fast Python package and project manager, written in Rust.",
+    "technologies": [
+      {
+        "name": "Python",
+        "quadrant": "Languages & Frameworks",
+        "ring": "Adopt"
+      },
+      {
+        "name": "Rust",
+        "quadrant": "Languages & Frameworks",
+        "ring": "Trial"
+      }
+    ],
+    "tags": [
+      "rust",
+      "github-trending",
+      "open-source"
+    ],
+    "engagement": 260,
+    "enriched": false
+  },
+  {
+    "id": "2ecf0a57a84a79c7",
+    "title": "jquery/jquery",
+    "url": "https://github.com/jquery/jquery",
+    "source": "github",
+    "sourceName": "GitHub Trending",
+    "publishedAt": "2026-11-18T13:58:44.671Z",
+    "fetchedAt": "2026-11-18T13:58:44.671Z",
+    "summary": "jQuery JavaScript Library",
+    "technologies": [
+      {
+        "name": "JavaScript",
+        "quadrant": "Languages & Frameworks",
+        "ring": "Adopt"
+      }
+    ],
+    "tags": [
+      "javascript",
+      "github-trending",
+      "open-source"
+    ],
+    "engagement": 268,
+    "enriched": false
+  },
+  {
+    "id": "c668885413064aa1",
+    "title": "openvinotoolkit/openvino",
+    "url": "https://github.com/openvinotoolkit/openvino",
+    "source": "github",
+    "sourceName": "GitHub Trending",
+    "publishedAt": "2026-11-18T13:58:44.671Z",
+    "fetchedAt": "2026-11-18T13:58:44.671Z",
+    "summary": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+    "technologies": [],
+    "tags": [
+      "c++",
+      "github-trending",
+      "open-source"
+    ],
+    "engagement": 18,
+    "enriched": false
+  },
+  {
+    "id": "a48dbad7d935b571",
+    "title": "Can Peer Review Survive AI-Generated Text? [pdf]",
+    "url": "https://sas.upenn.edu/~jesusfv/Peer_Review.pdf",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "torutofu",
+    "publishedAt": "2026-11-18T13:51:03.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.368Z",
+    "summary": "Hacker News discussion with 0 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 4,
+    "enriched": false
+  },
+  {
+    "id": "6f1f534f50e217c1",
+    "title": "“Collaboration over competition”: Hugging Face hands model inference traffic to OpenRouter",
+    "url": "https://thenewstack.io/hugging-face-openrouter-inference",
+    "source": "rss",
+    "sourceName": "The New Stack",
+    "author": "Paul Sawers",
+    "publishedAt": "2026-11-18T13:39:13.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.641Z",
+    "summary": "Hugging Face and OpenRouter have announced a partnership that promises to make AI model inference faster and more reliable for The post “Collaboration over competition”: Hugging Face hands model inference traffic to OpenRouter appeared first on The New Stack.",
+    "technologies": [
+      {
+        "name": "Hugging Face",
+        "quadrant": "Languages & Frameworks",
+        "ring": "Trial"
+      }
+    ],
+    "tags": [
+      "cloud-native",
+      "ai",
+      "ai infrastructure",
+      "large language models",
+      "open source",
+      "reading-list"
+    ],
+    "engagement": 0,
+    "enriched": false,
+    "outcome": "Hugging Face and OpenRouter have announced a partnership that promises to make AI model inference faster and more reliable for The post “Collaboration over competition”: Hugging Face hands model inference traffic to OpenRouter appeared first on The New Stack."
+  },
+  {
+    "id": "04ea7dca74f4d708",
+    "title": "Quad9 Is Leaving France: Why DNS Resolvers Are the Wrong Place to Fight Piracy",
+    "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "ritzaco",
+    "publishedAt": "2026-11-18T13:18:02.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.368Z",
+    "summary": "Hacker News discussion with 4 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 74,
+    "enriched": false
+  },
+  {
+    "id": "703b5267159bf4cf",
+    "title": "Kubernetes Under the Hood: What Actually Happens When You Run kubectl apply",
+    "url": "https://dev.to/smtahosin/kubernetes-under-the-hood-what-actually-happens-when-you-run-kubectl-apply-5cog",
+    "source": "devto",
+    "sourceName": "DEV Community",
+    "author": "S M Tahosin",
+    "publishedAt": "2026-11-18T13:09:55.000Z",
+    "fetchedAt": "2026-11-18T13:58:42.845Z",
+    "summary": "A visual, 10-minute deep dive into Kubernetes control plane internals. Learn how kube-apiserver processes admission webhooks, how etcd maintains Raft quorum, how controllers reconcile state with Informers, how kube-scheduler scores nodes, and what the Kubelet pause container actually does.",
+    "technologies": [
+      {
+        "name": "Kubernetes",
+        "quadrant": "Platforms",
+        "ring": "Adopt"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "devops",
+      "cloud",
+      "architecture",
+      "devto"
+    ],
+    "engagement": 11,
+    "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fi.imgur.com%2FOWOiQCB.png",
+    "enriched": false,
+    "topics": [
+      "architecture"
+    ]
+  },
+  {
+    "id": "9c3de6e8b48ee449",
+    "title": "Optimizing Kubernetes admission control: Where Kyverno’s CEL admission cost actually goes",
+    "url": "https://cncf.io/blog/2026/11/18/optimizing-kubernetes-admission-control-where-kyvernos-cel-admission-cost-actually-goes",
+    "source": "rss",
+    "sourceName": "CNCF Blog",
+    "author": "Raunak Madan (Software Engineer Intern, Nirmata)",
+    "publishedAt": "2026-11-18T12:30:00.000Z",
+    "fetchedAt": "2026-11-18T13:58:46.294Z",
+    "summary": "Kyverno’s CEL (Common Expression Language)-based engines exist to evaluate policy expressions. So when we profiled the admission path, we expected to find the bulk of the cost in CEL evaluation. It was not there. About 86%...",
+    "technologies": [
+      {
+        "name": "Kubernetes",
+        "quadrant": "Platforms",
+        "ring": "Adopt"
+      }
+    ],
+    "tags": [
+      "cloud-native",
+      "blog",
+      "reading-list"
+    ],
+    "engagement": 0,
+    "enriched": false,
+    "outcome": "So when we profiled the admission path, we expected to find the bulk of the cost in CEL evaluation."
+  },
+  {
+    "id": "2aee1a01b3b8732b",
+    "title": "Evidence (YC S21) Is Hiring",
+    "url": "https://ycombinator.com/companies/evidence/jobs/1xb9PpP-founding-gtm-lead",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "amcaskill",
+    "publishedAt": "2026-11-18T12:00:16.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.368Z",
+    "summary": "Hacker News discussion with 0 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 0,
+    "enriched": false
+  },
+  {
+    "id": "7320a2f0d567d0f9",
+    "title": "Show HN: Type Fighter 2",
+    "url": "https://typefighter2.com/",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "torumitch",
+    "publishedAt": "2026-11-18T11:11:53.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.368Z",
+    "summary": "Type Fighter II is an arcade inspired game for people learning to touch type. Free, no account, and progress stays local. You can try on mobile, best with a physical keyboard.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 31,
+    "enriched": false
+  },
+  {
+    "id": "8425d2a0c9af8b3a",
+    "title": "Presentation: Behind Booking.com's AI Evolution: The Unpolished Story",
+    "url": "https://infoq.com/presentations/bookingcom-ml-data-platform-evolution",
+    "source": "rss",
+    "sourceName": "InfoQ",
+    "author": "Jabez Eliezer Manuel",
+    "publishedAt": "2026-11-18T11:00:00.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.893Z",
+    "summary": "Jabez Eliezer Manuel discusses the 20-year evolution of Booking.com’s data management and ML platforms. He explains how they scaled MySQL topologies, sunset Hadoop for cloud architecture, and built high-throughput model serving and feature stores operating at 400B predictions per day. He also shares insights on personalization, interleaved experimentation, and their new agentic AI foundation. By Jabez Eliezer Manuel",
+    "technologies": [
+      {
+        "name": "AI agents",
+        "quadrant": "Techniques",
+        "ring": "Assess"
+      },
+      {
+        "name": "MySQL",
+        "quadrant": "Platforms",
+        "ring": "Trial"
+      }
+    ],
+    "tags": [
+      "architecture",
+      "case study",
+      "transcripts",
+      "ai architecture",
+      "machine learning"
+    ],
+    "engagement": 0,
+    "enriched": false,
+    "topics": [
+      "architecture"
+    ]
+  },
+  {
+    "id": "7925d53e7e824e0d",
+    "title": "Vercel Releases UI SDK for Agents to Compose UI from Reusable Behaviors",
+    "url": "https://infoq.com/news/2026/11/vercel-ui-sdk",
+    "source": "rss",
+    "sourceName": "InfoQ",
+    "author": "Daniel Dominguez",
+    "publishedAt": "2026-11-18T10:12:00.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.893Z",
+    "summary": "Vercel has released UI SDK in beta, an Apache 2.0 TypeScript library of more than 50 UI behaviors in @ui-sdk/core, with adapters for React, Vue, Svelte, Solid, and Web Components, so agents can compose accessible components and operate them through a documented agent bridge. By Daniel Dominguez",
+    "technologies": [
+      {
+        "name": "Vercel",
+        "quadrant": "Platforms",
+        "ring": "Trial"
+      },
+      {
+        "name": "React",
+        "quadrant": "Languages & Frameworks",
+        "ring": "Adopt"
+      },
+      {
+        "name": "Svelte",
+        "quadrant": "Languages & Frameworks",
+        "ring": "Trial"
+      },
+      {
+        "name": "TypeScript",
+        "quadrant": "Languages & Frameworks",
+        "ring": "Adopt"
+      },
+      {
+        "name": "Vue",
+        "quadrant": "Languages & Frameworks",
+        "ring": "Trial"
+      }
+    ],
+    "tags": [
+      "architecture",
+      "ai coding",
+      "software development",
+      "agents",
+      "github",
+      "ai coding agents"
+    ],
+    "engagement": 0,
+    "enriched": false
+  },
+  {
+    "id": "814baa6f479f5a35",
+    "title": "Codeberg.org Not Reachable",
+    "url": "https://social.anoxinon.de/@codebergstatus/117636437840688845",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "hans_castorp",
+    "publishedAt": "2026-11-18T10:02:17.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.368Z",
+    "summary": "Hacker News discussion with 242 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 738,
+    "enriched": false
+  },
+  {
+    "id": "23a6e8d38fa0e0cc",
+    "title": "Energy-Based Reasoners: 385x more efficient inference",
+    "url": "https://energy-based-reasoners.github.io/",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "frenchmajesty",
+    "publishedAt": "2026-11-18T09:29:32.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.368Z",
+    "summary": "Hacker News discussion with 25 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 217,
+    "enriched": false
+  },
+  {
+    "id": "3c7261e577de1bda",
+    "title": "AWS PrivateLink Tunnel Endpoints Open a Whole CIDR Range to Another Account",
+    "url": "https://infoq.com/news/2026/11/aws-privatelink-tunnel-endpoints",
+    "source": "rss",
+    "sourceName": "InfoQ",
+    "author": "Steef-Jan Wiggers",
+    "publishedAt": "2026-11-18T09:29:00.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.894Z",
+    "summary": "AWS has detailed tunnel endpoints, a PrivateLink endpoint type that gives a consumer VPC access to an entire network segment in another account rather than one resource at a time, over an overlapping address space and with consumer-initiated connections only. The consumer must wrap traffic in GENEVE; only TCP and DNS pass, and access logs cannot attribute traffic to a workload behind the endpoint. By Steef-Jan Wiggers",
+    "technologies": [
+      {
+        "name": "AWS",
+        "quadrant": "Platforms",
+        "ring": "Adopt"
+      }
+    ],
+    "tags": [
+      "architecture",
+      "aws",
+      "networking",
+      "cloud",
+      "development",
+      "architecture & design"
+    ],
+    "engagement": 0,
+    "enriched": false
+  },
+  {
+    "id": "a0ac13adbe9c8f52",
+    "title": "Yelp Migrates Cassandra to EKS by Moving EBS Volumes",
+    "url": "https://infoq.com/news/2026/11/kubernetes-cassandra-eks",
+    "source": "rss",
+    "sourceName": "InfoQ",
+    "author": "Claudio Masolo",
+    "publishedAt": "2026-11-18T09:00:00.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.894Z",
+    "summary": "Yelp has moved its Cassandra fleet from legacy self-managed Kubernetes clusters to Amazon EKS by re-pointing existing EBS volumes at new pods, rather than streaming data between nodes. By Claudio Masolo",
+    "technologies": [
+      {
+        "name": "Kubernetes",
+        "quadrant": "Platforms",
+        "ring": "Adopt"
+      }
+    ],
+    "tags": [
+      "architecture",
+      "kubernetes",
+      "cloud migration",
+      "cassandra",
+      "development",
+      "devops"
+    ],
+    "engagement": 0,
+    "enriched": false
+  },
+  {
+    "id": "754c549b43c8b3b4",
+    "title": "Is Coding with AI Actually Faster and Cheaper?",
+    "url": "https://dev.to/sylwia-lask/is-coding-with-ai-actually-faster-and-cheaper-2810",
+    "source": "devto",
+    "sourceName": "DEV Community",
+    "author": "Sylwia Laskowska",
+    "publishedAt": "2026-11-18T08:32:45.000Z",
+    "fetchedAt": "2026-11-18T13:58:42.843Z",
+    "summary": "How has AI actually changed the way we work? Are coding agents really making us remarkably faster?...",
+    "technologies": [],
+    "tags": [
+      "ai",
+      "programming",
+      "productivity",
+      "agents",
+      "devto"
+    ],
+    "engagement": 144,
+    "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fh2u8fbzz30f3587urp83.png",
+    "enriched": false,
+    "outcome": "Are coding agents really making us remarkably faster?..."
+  },
+  {
+    "id": "f1feb2e4bb485c20",
+    "title": "AI is killing All About Berlin",
+    "url": "https://nicolasbouliane.com/blog/death-by-ai",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "grey-area",
+    "publishedAt": "2026-11-18T06:47:26.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.368Z",
+    "summary": "Hacker News discussion with 516 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 1576,
+    "enriched": false
+  },
+  {
+    "id": "735e35b0009ef2df",
+    "title": "Part 6: The Walkthrough That Only Worked on My Machine",
+    "url": "https://dev.to/ndcodes/part-6-the-walkthrough-that-only-worked-on-my-machine-15e8",
+    "source": "devto",
+    "sourceName": "DEV Community",
+    "author": "Nnamdi Felix Ibe",
+    "publishedAt": "2026-11-18T06:43:15.000Z",
+    "fetchedAt": "2026-11-18T13:58:42.845Z",
+    "summary": "This is Part 6 of a series building an HL7 v2-to-FHIR R4 interoperability service in public. The...",
+    "technologies": [],
+    "tags": [
+      "discuss",
+      "ai",
+      "programming",
+      "career",
+      "devto"
+    ],
+    "engagement": 16,
+    "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F3f1ropjeo5nj9o1j3vxo.png",
+    "enriched": false
+  },
+  {
+    "id": "1740a57369fc7c92",
+    "title": "Interviewed at a YC startup, found out they used my LinkedIn without permission",
+    "url": "https://reddit.com/r/recruitinghell/comments/1xyr6ml/interviewed_at_a_yc_startup_spent_30_hours",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "throwawaysleep",
+    "publishedAt": "2026-11-18T05:11:30.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.369Z",
+    "summary": "Hacker News discussion with 117 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 671,
+    "enriched": false
+  },
+  {
+    "id": "3ede266c56e21b63",
+    "title": "Why is Gemini 4 Carbon taking so long?",
+    "url": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "deenadz",
+    "publishedAt": "2026-11-18T04:14:04.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.368Z",
+    "summary": "Hacker News discussion with 91 comments.",
+    "technologies": [
+      {
+        "name": "Gemini",
+        "quadrant": "Tools",
+        "ring": "Trial"
+      }
+    ],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 360,
+    "enriched": false
+  },
+  {
+    "id": "d021019fd8304ea4",
+    "title": "Claude was trained on protein sequences at scale",
+    "url": "https://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "gmays",
+    "publishedAt": "2026-11-18T03:47:43.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.368Z",
+    "summary": "Hacker News discussion with 43 comments.",
+    "technologies": [
+      {
+        "name": "Anthropic Claude",
+        "quadrant": "Tools",
+        "ring": "Trial"
+      }
+    ],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 190,
+    "enriched": false
+  },
+  {
+    "id": "3bffc55adac8c4d3",
+    "title": "ID.me terms required for IRS sign-in",
+    "url": "https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "DeepLogin",
+    "publishedAt": "2026-11-18T00:51:45.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.368Z",
+    "summary": "Hacker News discussion with 203 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 810,
+    "enriched": false
+  },
+  {
+    "id": "695d1f9a1cf63d53",
+    "title": "Google's AI answers reducing search traffic by 40%",
+    "url": "https://revscope.co/blog/search-seo-geo-2026",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "slashdev",
+    "publishedAt": "2026-11-18T00:17:58.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.368Z",
+    "summary": "Hacker News discussion with 411 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 1376,
+    "enriched": false
+  },
+  {
+    "id": "c37683fd36fe13c9",
+    "title": "How to Build Durable Agentic Systems with Google Antigravity: From Instructions to Loops",
+    "url": "https://cloud.google.com/blog/topics/developers-practitioners/how-to-build-durable-agentic-systems-with-google-antigravity-from-instructions-to-loops",
+    "source": "rss",
+    "sourceName": "Google Cloud Blog",
+    "publishedAt": "2026-11-18T00:11:00.000Z",
+    "fetchedAt": "2026-11-18T13:58:45.175Z",
+    "summary": "I watched the discussion on agentic loops grow louder over the past few months. But for me, the reality is simpler: prompt engineering has shifted from individual tasks to systems design, and the harness around the model (not the model itself) is now my primary constraint in software engineering. In this article, I'll show you how to build and verify those harnesses so you can move from single-turn instructions to durable agentic loops in Google Antigravity. Not all tasks are equal You can categorize the work that we give to our agents into five distinct tiers, scaling from a quick question up through Agile tasks, stories, and epics to a continuous system: A simple question: This does not require an agent; an assistant can answer it. A task / idea: This is one where a single prompt can zero-shot it. Use Google AI Studio to quickly transform ideas to functional prototypes. An app / larger feature / story: The kind of work that required weekly planning and splitting into subtasks before AI. Use loops for execution and full-featured agents, like Google Antigravity. This tier is also where your steering moves upstream: You lock in the spec, the plan, and the executable tests before…",
+    "technologies": [
+      {
+        "name": "AI agents",
+        "quadrant": "Techniques",
+        "ring": "Assess"
+      },
+      {
+        "name": "Prompt engineering",
+        "quadrant": "Techniques",
+        "ring": "Trial"
+      }
+    ],
+    "tags": [
+      "cloud",
+      "developers & practitioners"
+    ],
+    "engagement": 0,
+    "enriched": false
+  },
+  {
+    "id": "ab05688991353395",
+    "title": "Archive Team is archiving the Apple Support Community",
+    "url": "https://wiki.archiveteam.org/index.php/Apple_Discussions",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "digitaldragon",
+    "publishedAt": "2026-11-17T23:32:58.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.368Z",
+    "summary": "Hacker News discussion with 87 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 405,
+    "enriched": false
+  },
+  {
+    "id": "1f0a78839277701c",
+    "title": "Microsoft's ONNX Runtime has disappeared from GitHub",
+    "url": "https://github.com/microsoft/onnxruntime",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "nvader",
+    "publishedAt": "2026-11-17T23:18:49.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.368Z",
+    "summary": "Hacker News discussion with 80 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 541,
+    "enriched": false
+  },
+  {
+    "id": "c60558e98558e0e7",
+    "title": "External sandboxes for coding agents",
+    "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents",
+    "source": "rss",
+    "sourceName": "Simon Willison",
+    "publishedAt": "2026-11-17T22:52:29.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.665Z",
+    "summary": "External sandboxes for coding agents I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine. I worked on this project with Prime Radiant , the AI research lab behind Superpowers and other projects . My post on the Prime Radiant blog introduces the external sandbox pattern, where code executed by the agent runs inside a dedicated sandbox while the agent itself lives outside of that sandbox. To demonstrate this pattern we've released three sandbox server implementations: external-sandbox-v86 runs a Node.js server which then uses v86 to run Alpine Linux inside WebAssembly. external-sandbox-container is a Python web server which runs the sandbox in Alpine Linux inside an Apple Containers instance. external-sandbox-quicksand is another Python web server, this time using Microsoft's Quicksand sandboxing library, which bundles QEMU and Alpine Linux in a Python package! Each of these implementations offers the same localhost API. You can then configure Pi, Claude Code, or Codex to send API calls to that…",
+    "technologies": [
+      {
+        "name": "Python",
+        "quadrant": "Languages & Frameworks",
+        "ring": "Adopt"
+      },
+      {
+        "name": "Anthropic Claude",
+        "quadrant": "Tools",
+        "ring": "Trial"
+      },
+      {
+        "name": "Claude Code",
+        "quadrant": "Tools",
+        "ring": "Assess"
+      },
+      {
+        "name": "WebAssembly",
+        "quadrant": "Languages & Frameworks",
+        "ring": "Assess"
+      }
+    ],
+    "tags": [
+      "ai",
+      "python"
+    ],
+    "engagement": 0,
+    "enriched": false
+  },
+  {
+    "id": "5cbc55e1b429d883",
+    "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+    "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol",
+    "source": "rss",
+    "sourceName": "Simon Willison",
+    "publishedAt": "2026-11-17T22:38:52.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.666Z",
+    "summary": "GPT‑6.2 Astra and GPT‑6.2 Sol OpenAI: We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. They're available in the API as gpt-6.2-astra and gpt-6.2-sol . I shipped LLM 0.38 with support for the new models. 6.2 Astra is 80% of the price of 6 Astra - $8/MTok input and $40/MTok output, the same price as Claude Fable 5.2 (which was also 80% of its predecessor). 6 Astra and Fable 5 were both $10/$50. The cached price is an even bigger discount - $0.40/million compared to $1/million for the older model. This is great news for longer running agentic sessions. GPT-6.2 Sol is the same $2/$10 price as 6.1 Sol and 6 Sol - which are half the price of GPT-5.6 Sol ($4/$20). Here are the pelicans for GPT-6.2 Sol and for GPT-6.2 Astra . The 6.2 Astra max pelican looks like this: I have a full comparison grid here , but here's how the high/xhigh/max pelicans compare with the previous Sol and Astra releases: I also ran my most recent benchmark prompt against the two models, using \"Ultra' effort levels in the Codex CLI: Make a three js animation where yonkers stands up as a big mech (cool stand up…",
+    "technologies": [
+      {
+        "name": "OpenAI API",
+        "quadrant": "Tools",
+        "ring": "Trial"
+      },
+      {
+        "name": "AI agents",
+        "quadrant": "Techniques",
+        "ring": "Assess"
+      },
+      {
+        "name": "Anthropic Claude",
+        "quadrant": "Tools",
+        "ring": "Trial"
+      }
+    ],
+    "tags": [
+      "ai",
+      "python"
+    ],
+    "engagement": 0,
+    "enriched": false
+  },
+  {
+    "id": "e3aff3a0a9722cb7",
+    "title": "Your AI coding agent could cost 5x more depending on the harness, benchmark finds",
+    "url": "https://thenewstack.io/coding-agent-harness-costs",
+    "source": "rss",
+    "sourceName": "The New Stack",
+    "author": "Amanda Caswell",
+    "publishedAt": "2026-11-17T22:13:52.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.641Z",
+    "summary": "The same AI model can cost up to five times more to run depending on the coding agent harness it’s The post Your AI coding agent could cost 5x more depending on the harness, benchmark finds appeared first on The New Stack.",
+    "technologies": [],
+    "tags": [
+      "cloud-native",
+      "ai agents",
+      "developer tools",
+      "finops",
+      "reading-list"
+    ],
+    "engagement": 0,
+    "enriched": false,
+    "outcome": "The same AI model can cost up to five times more to run depending on the coding agent harness it’s The post Your AI coding agent could cost 5x more depending on the harness, benchmark finds appeared first on The New Stack."
+  },
+  {
+    "id": "6e090bb95c89cabb",
+    "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+    "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "judahmeek",
+    "publishedAt": "2026-11-17T21:16:12.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.368Z",
+    "summary": "Hacker News discussion with 325 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 890,
+    "enriched": false,
+    "topics": [
+      "scalability"
+    ]
+  },
+  {
+    "id": "86aeaafbc09d8884",
+    "title": "Java4Shell: RCE in OpenJDK when processing Base64",
+    "url": "https://calif.io/java4shell",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "werrett",
+    "publishedAt": "2026-11-17T21:11:28.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.368Z",
+    "summary": "Hacker News discussion with 276 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 1594,
+    "enriched": false
+  },
+  {
+    "id": "fafbabaecc68bed8",
+    "title": "How Shopify Orchestrates AI-Powered Mobile App Development Without Overloading Developers' Machines",
+    "url": "https://infoq.com/news/2026/11/shopify-remote-ai-dev",
+    "source": "rss",
+    "sourceName": "InfoQ",
+    "author": "Sergio De Simone",
+    "publishedAt": "2026-11-17T21:00:00.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.894Z",
+    "summary": "To prevent AI development workflows from exhausting developer machines' resources, Shopify built Remote Dev, a remote mobile development environment that enables AI agents to independently build, test and maintain iOS and Android applications and in parallel. By Sergio De Simone",
+    "technologies": [
+      {
+        "name": "AI agents",
+        "quadrant": "Techniques",
+        "ring": "Assess"
+      }
+    ],
+    "tags": [
+      "architecture",
+      "android",
+      "orchestration",
+      "ai coding agents",
+      "mobile",
+      "xcode"
+    ],
+    "engagement": 0,
+    "enriched": false
+  },
+  {
+    "id": "340c2ff0827fd3fe",
+    "title": "Quad9’s withdrawal from France: A canary in the coal mine",
+    "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france",
+    "source": "rss",
+    "sourceName": "Cloudflare Blog",
+    "author": "Patrick Nemeroff",
+    "publishedAt": "2026-11-17T20:24:27.000Z",
+    "fetchedAt": "2026-11-18T13:58:42.726Z",
+    "summary": "Quad9's forced withdrawal from France highlights the dangers of mandating DNS-level blocking. We explore why forcing public resolvers to act as content filters is technically flawed and threatens the open Internet.",
+    "technologies": [
+      {
+        "name": "Canary releases",
+        "quadrant": "Techniques",
+        "ring": "Trial"
+      }
+    ],
+    "tags": [
+      "infra",
+      "security",
+      "1.1.1.1",
+      "dns",
+      "policy & legal",
+      "privacy",
+      "reading-list",
+      "hackernews"
+    ],
+    "engagement": 1437,
+    "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M7NJ9YQG0JNP2HSE7YEGCHJB.png",
+    "enriched": false
+  },
+  {
+    "id": "f8c13411174c3f0d",
+    "title": "OpenAI’s own tests show GPT-6.2 Astra is twice as likely to hide coding failures",
+    "url": "https://thenewstack.io/astra-hides-coding-failures",
+    "source": "rss",
+    "sourceName": "The New Stack",
+    "author": "Amanda Caswell",
+    "publishedAt": "2026-11-17T19:59:04.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.641Z",
+    "summary": "OpenAI’s new GPT-6.2 Astra is nearly twice as likely as its predecessor to leave users unaware of problems that prevented The post OpenAI’s own tests show GPT-6.2 Astra is twice as likely to hide coding failures appeared first on The New Stack.",
+    "technologies": [
+      {
+        "name": "OpenAI API",
+        "quadrant": "Tools",
+        "ring": "Trial"
+      }
+    ],
+    "tags": [
+      "cloud-native",
+      "ai agents",
+      "ai engineering",
+      "ai models",
+      "reading-list"
+    ],
+    "engagement": 0,
+    "enriched": false,
+    "problem": "2 Astra is nearly twice as likely as its predecessor to leave users unaware of problems that prevented The post OpenAI’s own tests show GPT-6."
+  },
+  {
+    "id": "6f099656459b9bfa",
+    "title": "jQuery 4.1.0",
+    "url": "https://github.com/jquery/jquery/releases/tag/4.1.0",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "petecooper",
+    "publishedAt": "2026-11-17T19:50:40.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.368Z",
+    "summary": "Hacker News discussion with 179 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 705,
+    "enriched": false
+  },
+  {
+    "id": "aa7b1d783c6b1d0c",
+    "title": "350 years ago, Ole Rømer discovered that light has a finite speed",
+    "url": "https://sciencenorway.no/culture-history-history-of-science/350-years-ago-this-man-discovered-that-light-has-a-finite-speed/2737969",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "dxs",
+    "publishedAt": "2026-11-17T19:25:27.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.369Z",
+    "summary": "Hacker News discussion with 120 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 603,
+    "enriched": false
+  },
+  {
+    "id": "48e48b6fd53c7882",
+    "title": "Microsoft’s new coding model promises near-Opus performance at 5% of the cost",
+    "url": "https://thenewstack.io/microsoft-mai-code-2",
+    "source": "rss",
+    "sourceName": "The New Stack",
+    "author": "Frederic Lardinois",
+    "publishedAt": "2026-11-17T19:14:48.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.641Z",
+    "summary": "At its Ignite conference in San Francisco on Tuesday, Microsoft announced a number of new AI models, including two new The post Microsoft’s new coding model promises near-Opus performance at 5% of the cost appeared first on The New Stack.",
+    "technologies": [],
+    "tags": [
+      "cloud-native",
+      "ai",
+      "ai models",
+      "developer tools",
+      "reading-list"
+    ],
+    "engagement": 0,
+    "enriched": false,
+    "outcome": "At its Ignite conference in San Francisco on Tuesday, Microsoft announced a number of new AI models, including two new The post Microsoft’s new coding model promises near-Opus performance at 5% of the cost appeared first on The New Stack."
+  },
+  {
+    "id": "12ee9dc57f5880ed",
+    "title": "Sky’s the Limit: The Cloud9 × JetBrains Global Hackathon Is Back",
+    "url": "https://blog.jetbrains.com/blog/2026/11/17/sky-s-the-limit-the-cloud9-jetbrains-global-hackathon-is-back",
+    "source": "rss",
+    "sourceName": "JetBrains Blog",
+    "author": "Roman Prokashev",
+    "publishedAt": "2026-11-17T19:02:41.000Z",
+    "fetchedAt": "2026-11-18T13:58:45.352Z",
+    "summary": "Sky’s the Limit is back! Join Cloud9 and JetBrains for the next edition of our global hackathon. Last year, around 2,300 participants registered, and we received 180 project submissions, ranging from coaching tools and scouting assistants to games for fans. You can read about the results and winning projects here. This year, we’d love to […]",
+    "technologies": [],
+    "tags": [
+      "devtools"
+    ],
+    "engagement": 0,
+    "enriched": false
+  },
+  {
+    "id": "3e72391ba79d2c26",
+    "title": "Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos",
+    "url": "https://news.ycombinator.com/item?id=50536468",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "yonasb",
+    "publishedAt": "2026-11-17T19:01:43.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.368Z",
+    "summary": "We’re Yonas and Daniel and we’re building StarSling ( https:&#x2F;&#x2F;starsling.dev ), fast GitHub Actions runners with AI agents that ship PRs to continuously improve your tests and workflows. Every CI job gets its own ephemeral sandbox on the fastest Zen 5 machines and NVMe Disk with unlimited…",
+    "technologies": [
+      {
+        "name": "AI agents",
+        "quadrant": "Techniques",
+        "ring": "Assess"
+      },
+      {
+        "name": "GitHub Actions",
+        "quadrant": "Tools",
+        "ring": "Adopt"
+      }
+    ],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 164,
+    "enriched": false
+  },
+  {
+    "id": "7265b41f1a45fef2",
+    "title": "Solid 2.0",
+    "url": "https://solidjs.com/blog/solid-2-0-the-long-hold",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "pier25",
+    "publishedAt": "2026-11-17T18:56:17.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.369Z",
+    "summary": "Hacker News discussion with 107 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 552,
+    "enriched": false
+  },
+  {
+    "id": "8f7e7d5ab126fdf9",
+    "title": "Microsoft’s ARM-based Cobalt 200 chips go GA. Why it matters for AI agents.",
+    "url": "https://thenewstack.io/microsoft-cobalt-200-ga",
+    "source": "rss",
+    "sourceName": "The New Stack",
+    "author": "Frederic Lardinois",
+    "publishedAt": "2026-11-17T18:42:11.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.641Z",
+    "summary": "Microsoft is making its Cobalt 200 virtual machines generally available, with CPU improvements aimed at the sandboxes, tools, and code The post Microsoft’s ARM-based Cobalt 200 chips go GA. Why it matters for AI agents. appeared first on The New Stack.",
+    "technologies": [
+      {
+        "name": "AI agents",
+        "quadrant": "Techniques",
+        "ring": "Assess"
+      }
+    ],
+    "tags": [
+      "cloud-native",
+      "ai",
+      "ai infrastructure",
+      "reading-list"
+    ],
+    "engagement": 0,
+    "enriched": false
+  },
+  {
+    "id": "82aaae6fc61f1aed",
+    "title": "Simplifying multicloud networking to Azure with partner Cross-Cloud Interconnect",
+    "url": "https://cloud.google.com/blog/products/networking/cross-cloud-interconnect-for-microsoft-azure",
+    "source": "rss",
+    "sourceName": "Google Cloud Blog",
+    "publishedAt": "2026-11-17T18:35:00.000Z",
+    "fetchedAt": "2026-11-18T13:58:45.175Z",
+    "summary": "As AI changes how businesses build and run applications, more enterprises are spreading their models, data and applications across multiple clouds. To make that work, they need fast, private connections between those environments. Historically, connecting multiple clouds has meant ordering physical connections from each provider, setting up networking on both sides, and coordinating across multiple teams. That process could take weeks or even months. We wanted to make that much simpler. Today, we're extending partner Cross-Cloud Interconnect to Microsoft Azure, now available in preview. The service is jointly supported by Google Cloud and Microsoft, and gives you a private, high-bandwidth connection between your Google Cloud and Azure environments that’s set up programmatically in minutes, with no physical infrastructure to manage. \"Google Cloud partner Cross-Cloud Interconnect simplifies multi-cloud networking with a direct cloud-native approach. By removing traditional infrastructure complexity, it provides a reliable, scalable foundation for connecting workloads across different cloud environments.\" - Ralf Huebenthal, Global Head of IT & Digital Platforms, Nestlé “Walmart runs…",
+    "technologies": [
+      {
+        "name": "Azure",
+        "quadrant": "Platforms",
+        "ring": "Trial"
+      },
+      {
+        "name": "Google Cloud",
+        "quadrant": "Platforms",
+        "ring": "Adopt"
+      }
+    ],
+    "tags": [
+      "cloud",
+      "hybrid & multicloud",
+      "infrastructure modernization",
+      "partners",
+      "networking"
+    ],
+    "engagement": 0,
+    "enriched": false
+  },
+  {
+    "id": "0818b59eab9ac65f",
+    "title": "Phrack 73",
+    "url": "https://phrack.org/issues/73/introduction_md",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "notmine1337",
+    "publishedAt": "2026-11-17T18:31:25.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.368Z",
+    "summary": "Hacker News discussion with 59 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 546,
+    "enriched": false
+  },
+  {
+    "id": "dfa52e89374f249c",
+    "title": "Maintainers don’t need more AI bug reports. They need fixes.",
+    "url": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes",
+    "source": "rss",
+    "sourceName": "GitHub Blog",
+    "author": "Ashley Wolf",
+    "publishedAt": "2026-11-17T18:29:29.000Z",
+    "fetchedAt": "2026-11-18T13:58:42.784Z",
+    "summary": "In the Codename MDASH pilot, GitHub and Microsoft turned thousands of raw AI findings into 99 checked, private reports with suggested fixes for six widely used open source projects. Maintainers have already fixed more than half. The post Maintainers don’t need more AI bug reports. They need fixes. appeared first on The GitHub Blog.",
+    "technologies": [],
+    "tags": [
+      "devtools",
+      "maintainers",
+      "open source",
+      "ai security",
+      "github security lab"
+    ],
+    "engagement": 0,
+    "enriched": false
+  },
+  {
+    "id": "23791fed6fa0ce2c",
+    "title": "MAI Code 2 and Code 2 Flash",
+    "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "lemonish97",
+    "publishedAt": "2026-11-17T18:25:13.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.368Z",
+    "summary": "Hacker News discussion with 156 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 696,
+    "enriched": false
+  },
+  {
+    "id": "964aca3f2d3b92c6",
+    "title": "Building the Agent Host Protocol for sessions that continue across devices",
+    "url": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices",
+    "source": "rss",
+    "sourceName": "GitHub Blog",
+    "author": "Connor Peet",
+    "publishedAt": "2026-11-17T18:20:40.000Z",
+    "fetchedAt": "2026-11-18T13:58:42.784Z",
+    "summary": "Discover how we built the open Agent Host Protocol to keep your agent sessions accessible across editors, apps, phones, and the cloud. The post Building the Agent Host Protocol for sessions that continue across devices appeared first on The GitHub Blog.",
+    "technologies": [],
+    "tags": [
+      "devtools",
+      "engineering",
+      "engineering principles",
+      "github copilot",
+      "vs code",
+      "reading-list"
+    ],
+    "engagement": 0,
+    "enriched": false,
+    "approach": "Discover how we built the open Agent Host Protocol to keep your agent sessions accessible across editors, apps, phones, and the cloud."
+  },
+  {
+    "id": "84256b4008a08ab2",
+    "title": "35 premium tools free for a year—now with OpenRouter, LangChain, Sentry, TextExpander, and Ploy 💥",
+    "url": "https://lennysnewsletter.com/p/35-premium-tools-free-for-a-yearnow",
+    "source": "reading",
+    "sourceName": "Lennysnewsletter.com",
+    "author": "Lenny Rachitsky",
+    "publishedAt": "2026-11-17T18:02:02.000Z",
+    "fetchedAt": "2026-11-18T13:59:32.214Z",
+    "summary": "Over $40,000 in value, exclusively for Lenny’s Newsletter subscribers",
+    "technologies": [
+      {
+        "name": "LangChain",
+        "quadrant": "Languages & Frameworks",
+        "ring": "Assess"
+      },
+      {
+        "name": "Sentry",
+        "quadrant": "Tools",
+        "ring": "Trial"
+      }
+    ],
+    "tags": [
+      "reading-list"
+    ],
+    "engagement": 0,
+    "image": "https://substackcdn.com/image/fetch/$s_!_4Bo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e03312c-6e52-4564-9749-ae529a239aff_1456x970.png",
+    "enriched": false
+  },
+  {
+    "id": "2bd70fc46c2610a5",
+    "title": "Day 85: A Task That Always Changes and Two Halves",
+    "url": "https://dev.to/ndcodes/day-85-one-direction-and-two-halves-5cic",
+    "source": "devto",
+    "sourceName": "DEV Community",
+    "author": "Nnamdi Felix Ibe",
+    "publishedAt": "2026-11-17T18:00:00.000Z",
+    "fetchedAt": "2026-11-18T13:58:42.845Z",
+    "summary": "Day 85 of DevOps, Day 35 of Azure. Both tasks today reported a state that is a word rather than a...",
+    "technologies": [
+      {
+        "name": "Azure",
+        "quadrant": "Platforms",
+        "ring": "Trial"
+      }
+    ],
+    "tags": [
+      "devops",
+      "ansible",
+      "azure",
+      "automation",
+      "devto"
+    ],
+    "engagement": 18,
+    "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6rhxkde03ureqtmjemy2.jpg",
+    "enriched": false
+  },
+  {
+    "id": "2722a52f92b90e36",
+    "title": "Apple Services Down",
+    "url": "https://developer.apple.com/system-status",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "willy_k",
+    "publishedAt": "2026-11-17T17:47:14.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.369Z",
+    "summary": "Hacker News discussion with 393 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 1486,
+    "enriched": false
+  },
+  {
+    "id": "549a77347d5e1e5f",
+    "title": "GPT‑6.2 Astra and Sol",
+    "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "jasondavies",
+    "publishedAt": "2026-11-17T17:46:43.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.368Z",
+    "summary": "Hacker News discussion with 814 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 2930,
+    "enriched": false
+  },
+  {
+    "id": "30252d70fede2016",
+    "title": "Replit’s agent swarms built an app monitoring platform in 2 days on a $3K budget. Now, it’s offering them to customers.",
+    "url": "https://thenewstack.io/replit-missions-agent-swarms",
+    "source": "rss",
+    "sourceName": "The New Stack",
+    "author": "Paul Sawers",
+    "publishedAt": "2026-11-17T17:37:13.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.641Z",
+    "summary": "Agent swarms are all the rage, as companies set about finding ways to coordinate multiple AI agents to tackle complex The post Replit’s agent swarms built an app monitoring platform in 2 days on a $3K budget. Now, it’s offering them to customers. appeared first on The New Stack.",
+    "technologies": [
+      {
+        "name": "AI agents",
+        "quadrant": "Techniques",
+        "ring": "Assess"
+      }
+    ],
+    "tags": [
+      "cloud-native",
+      "ai",
+      "ai agents",
+      "ai engineering",
+      "developer tools",
+      "reading-list"
+    ],
+    "engagement": 0,
+    "enriched": false,
+    "approach": "Agent swarms are all the rage, as companies set about finding ways to coordinate multiple AI agents to tackle complex The post Replit’s agent swarms built an app monitoring platform in 2 days on a $3K budget."
+  },
+  {
+    "id": "565a6bdff784f6aa",
+    "title": "Thinking On or Off? Gemma 4 E2B on an 8 GB RTX 3050",
+    "url": "https://dev.to/gde/thinking-on-or-off-gemma-4-e2b-on-an-8-gb-rtx-3050-30e0",
+    "source": "devto",
+    "sourceName": "DEV Community",
+    "author": "xbill",
+    "publishedAt": "2026-11-17T17:13:33.000Z",
+    "fetchedAt": "2026-11-18T13:58:42.845Z",
+    "summary": "Gemma 4 E2B on a local RTX 3050 with thinking off and on, two QAT 4-bit builds, with and without a drafter, on all 1,319 GSM8K problems and the 30 problems of AIME 2025. Thinking doubled the time and moved no score beyond chance; the drafter cut the time by 1.55 to 2.04 times and changed no score.",
+    "technologies": [],
+    "tags": [
+      "gemma",
+      "llm",
+      "benchmark",
+      "ai",
+      "devto"
+    ],
+    "engagement": 24,
+    "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2Fxbill9%2Fgemma4-dev%2Fmain%2Fdocs%2Fgemma4-e2b-thinking-3050%2Fdevto-cover.6b0d9ada.jpg",
+    "enriched": false,
+    "problem": "Gemma 4 E2B on a local RTX 3050 with thinking off and on, two QAT 4-bit builds, with and without a drafter, on all 1,319 GSM8K problems and the 30 problems of AIME 2025.",
+    "outcome": "Thinking doubled the time and moved no score beyond chance; the drafter cut the time by 1."
+  },
+  {
+    "id": "3da82e8464b9048f",
+    "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
+    "url": "https://ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "louiereederson",
+    "publishedAt": "2026-11-17T17:12:06.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.368Z",
+    "summary": "Hacker News discussion with 271 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 1158,
+    "enriched": false
+  },
+  {
+    "id": "9dc9285371a95c0c",
+    "title": "Engineering AI Discover",
+    "url": "https://netflixtechblog.com/engineering-ai-discover-e244944cdc38",
+    "source": "rss",
+    "sourceName": "Netflix Tech Blog",
+    "author": "Netflix Technology Blog",
+    "publishedAt": "2026-11-17T17:01:02.000Z",
+    "fetchedAt": "2026-11-18T13:58:42.892Z",
+    "summary": "Engineering AI Discover",
+    "technologies": [],
+    "tags": [
+      "scale",
+      "streaming",
+      "ai-agent",
+      "artificial-intelligence",
+      "harness-engineering",
+      "recommendation-system",
+      "reading-list",
+      "llm"
+    ],
+    "engagement": 0,
+    "enriched": false
+  },
+  {
+    "id": "66207e9d38c89c75",
+    "title": "Google Cloud is a Leader in the 2026 Gartner Magic Quadrant for AI Application Development Platforms",
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-is-a-leader-in-the-2026-gartner-magic-quadrant",
+    "source": "rss",
+    "sourceName": "Google Cloud Blog",
+    "publishedAt": "2026-11-17T17:00:00.000Z",
+    "fetchedAt": "2026-11-18T13:58:45.175Z",
+    "summary": "For the third time in a row, Google Cloud is recognized as a Leader in the 2026 Gartner Magic Quadrant for AI Application Development Platforms, positioned highest overall on the Ability to Execute axis.1 These days, it’s very clear to us that organizations are looking for AI to handle actual day-to-day work, stay strictly within compliance guardrails, and deliver measurable ROI. In the last year, nearly 500 Google Cloud customers each processed more than one trillion tokens. And a lot of that volume came from heavily regulated sectors like global banking, healthcare, and telecommunications. Our customers choose Gemini because it delivers an open enterprise platform built for this level of production scale, by: Unifying the agent experience across everyday workflows Providing unrestricted model choice without vendor lock-in Practicing cost discipline before bills spiral, not after Governing agents through a single, centralized control plane 1. Gemini delivers one universal agent across the enterprise In October, we announced a unified Gemini experience. The same Gemini you collaborate with every day is now your enterprise agent to get real work done. Instead of navigating…",
+    "technologies": [
+      {
+        "name": "Gemini",
+        "quadrant": "Tools",
+        "ring": "Trial"
+      },
+      {
+        "name": "Google Cloud",
+        "quadrant": "Platforms",
+        "ring": "Adopt"
+      }
+    ],
+    "tags": [
+      "cloud",
+      "ai & machine learning"
+    ],
+    "engagement": 0,
+    "enriched": false
+  },
+  {
+    "id": "cc93e0ff14b6a8c3",
+    "title": "The visual evolution of Looker: Modern design for enterprise data storytelling",
+    "url": "https://cloud.google.com/blog/products/business-intelligence/modern-data-visualizations-and-custom-charts-in-looker",
+    "source": "rss",
+    "sourceName": "Google Cloud Blog",
+    "publishedAt": "2026-11-17T17:00:00.000Z",
+    "fetchedAt": "2026-11-18T13:58:45.175Z",
+    "summary": "Over the past year, we’ve focused on making Looker easier to use for every business user. We started by redesigning the exploration experience with drag-and-drop workspaces, streamlined field pickers, and conversational analytics to make it easier to start from a blank canvas. The next step is elevating how your data is seen and interpreted. This November, we are rolling out a major update for Looker’s visual language that brings new native chart types and dashboard controls to your dashboards, Explores, and feeds into your generative Data Apps. Everything runs on Looker's governed semantic foundation and context from Knowledge Catalog. Here's what's new: See the state of the business at a glance KPI visualizations: Display core metrics with explicit period-over-period delta indicators, percentage trends, and directional status at a glance. Displaying core business metrics and period-over-period trends with a KPI visualization. Bullet charts and gauges: Stack actual performance against targets, quotas, and qualitative threshold bands in space-efficient layouts. Tracking actual performance against targets with a Radial gauge chart. Compact numbers: Automatically render high-volume…",
+    "technologies": [],
+    "tags": [
+      "cloud",
+      "data analytics",
+      "business intelligence"
+    ],
+    "engagement": 0,
+    "enriched": false
+  },
+  {
+    "id": "709ca2affc8dbdcc",
+    "title": "Congratulations to our 2026 Google Cloud Partner All-stars",
+    "url": "https://cloud.google.com/blog/topics/partners/2026-google-cloud-partner-all-stars-winners",
+    "source": "rss",
+    "sourceName": "Google Cloud Blog",
+    "publishedAt": "2026-11-17T17:00:00.000Z",
+    "fetchedAt": "2026-11-18T13:58:45.176Z",
+    "summary": "The Google Cloud partner ecosystem plays an essential role in driving customer success. As we enter a transformative new era, our partners are instrumental in helping move AI from early pilots into true production-grade deployment. Closing that gap takes far more than technology alone. It requires skilled practitioners who can rethink workflows, navigate organizational change, and deliver impact. Operating across every industry and region, the Google Cloud partner ecosystem is driving this transformation forward. At the end of each year, we are honored to celebrate our Partner All-stars who consistently go above and beyond for our customers. The Google Cloud Partner All-stars program recognizes outstanding talent across five distinct disciplines: AI Leadership (New for 2026) Our AI Leadership All-stars are the trusted experts leading the transition to an AI-driven workplace. They help businesses completely rethink their operations from top to bottom. By guiding enterprise-wide transformations, they make it easier for organizations to adapt, innovate, and successfully adopt these new tools. Sales This year’s Sales All-stars are at the cutting edge of customer change. These…",
+    "technologies": [
+      {
+        "name": "Google Cloud",
+        "quadrant": "Platforms",
+        "ring": "Adopt"
+      }
+    ],
+    "tags": [
+      "cloud",
+      "partners"
+    ],
+    "engagement": 0,
+    "enriched": false
+  },
+  {
+    "id": "6da16a20c2c7b18b",
+    "title": "The Value of Human Expertise in The Software Factory",
+    "url": "https://oreilly.com/radar/the-value-of-human-expertise-in-the-software-factory",
+    "source": "reading",
+    "sourceName": "Oreilly.com",
+    "author": "Louise Cox",
+    "publishedAt": "2026-11-17T16:55:03.000Z",
+    "fetchedAt": "2026-11-18T13:58:47.055Z",
+    "summary": "“Any sufficiently advanced technology is indistinguishable from magic.” – Arthur C. Clarke Most developers now write less code by hand. Gergely Orosz recently posted that modern software engineering is no longer done without LLMs and will no longer be done without them. Some miss writing code, while others question how much of the code that […]",
+    "technologies": [],
+    "tags": [
+      "reading-list",
+      "ai & ml",
+      "commentary"
+    ],
+    "engagement": 0,
+    "enriched": false
+  },
+  {
+    "id": "1471a03a2b87c99c",
+    "title": "Find the log line that matters faster with full-text search in Grafana Cloud Logs",
+    "url": "https://grafana.com/blog/find-the-log-line-that-matters-faster-with-full-text-search-in-grafana-cloud-logs",
+    "source": "rss",
+    "sourceName": "Grafana Labs",
+    "author": "Jason Nochlin",
+    "publishedAt": "2026-11-17T16:53:32.000Z",
+    "fetchedAt": "2026-11-18T13:58:45.580Z",
+    "summary": "A support ticket comes in with one clue: a transaction ID. The answer is somewhere in your logs, but you don't know which service logged it, which pod handled it, or which day it happened. So you write the query you always write, {service=\"payments\"} |= \"txn-123456\", widen the time range to the last two weeks, and wait. Then the query times out. Loki was originally built around a simple idea: index labels, not log content, and store compressed logs cheaply in object storage. That design keeps storage costs low and operations light, and it's why teams keep choosing Loki and Grafana Cloud Logs, the fully managed log aggregation system powered by Loki, as their log volumes grow. For most queries, this model works very well. But when you search for a highly unique value, like a request ID, job ID, user ID, or device ID, labels can only narrow the search so far. Loki still has to read a lot of raw log data to find a handful of matching lines. At terabyte and petabyte scale, that process can be slow and costly. To fix that, we built full-text search for Grafana Cloud Logs, a capability based on the Logline technology Grafana Labs acquired in April 2026. Full-text search, now generally…",
+    "technologies": [
+      {
+        "name": "Grafana",
+        "quadrant": "Tools",
+        "ring": "Adopt"
+      }
+    ],
+    "tags": [
+      "observability"
+    ],
+    "engagement": 0,
+    "enriched": false,
+    "approach": "Loki was originally built around a simple idea: index labels, not log content, and store compressed logs cheaply in object storage.",
+    "outcome": "That design keeps storage costs low and operations light, and it's why teams keep choosing Loki and Grafana Cloud Logs, the fully managed log aggregation system powered by Loki, as their log volumes grow."
+  },
+  {
+    "id": "afe6109fc01db2e3",
+    "title": "Rust Doesn't Have a Garbage Collector. It Has Something Stranger.",
+    "url": "https://dev.to/smtahosin/rust-doesnt-have-a-garbage-collector-it-has-something-stranger-2oan",
+    "source": "devto",
+    "sourceName": "DEV Community",
+    "author": "S M Tahosin",
+    "publishedAt": "2026-11-17T16:53:04.000Z",
+    "fetchedAt": "2026-11-18T13:58:42.844Z",
+    "summary": "A visual guide to how Rust's compiler proves your memory is safe before your program ever runs. No garbage collector, no manual free(), no runtime cost.",
+    "technologies": [
+      {
+        "name": "Rust",
+        "quadrant": "Languages & Frameworks",
+        "ring": "Trial"
+      }
+    ],
+    "tags": [
+      "rust",
+      "beginners",
+      "programming",
+      "discuss",
+      "devto"
+    ],
+    "engagement": 12,
+    "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fiili.io%2FnMfghGa.png",
+    "enriched": false,
+    "outcome": "No garbage collector, no manual free(), no runtime cost."
+  },
+  {
+    "id": "5b158888670aa71b",
+    "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+    "url": "https://simonwillison.net/2026/Nov/17/datasette-lite",
+    "source": "rss",
+    "sourceName": "Simon Willison",
+    "publishedAt": "2026-11-17T16:48:33.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.666Z",
+    "summary": "Datasette Lite is my port of the Datasette Python application to run directly in the browser using WebAssembly and Pyodide . I've released a complete rewrite of Datasette Lite using service workers, and it's now almost indistinguishable from the real server-side application. You can now do all of the following, using a carefully crafted URL to lite.datasette.io : Load client-side Datasette to browse any SQLite database, JSON file, CSV file or SQL script Select a released version of Datasette to load from PyPI Load a specific commit, tag, or branch name from the Datasette GitHub repository Pick from over 100 versions of SQLite to use with Datasette Install additional Datasette plugins from PyPI or URLs to wheel files, including JavaScript visualization tools The ability to load specific Datasette references, plugins, and SQLite versions makes this a fantastic tool for linking to demos of work-in-progress features or bug reproductions, without needing to spin up a full web server to serve that demo. As an example, consider the following URL:…",
+    "technologies": [
+      {
+        "name": "Python",
+        "quadrant": "Languages & Frameworks",
+        "ring": "Adopt"
+      },
+      {
+        "name": "JavaScript",
+        "quadrant": "Languages & Frameworks",
+        "ring": "Adopt"
+      },
+      {
+        "name": "WebAssembly",
+        "quadrant": "Languages & Frameworks",
+        "ring": "Assess"
+      }
+    ],
+    "tags": [
+      "ai",
+      "python"
+    ],
+    "engagement": 0,
+    "enriched": false,
+    "approach": "You can now do all of the following, using a carefully crafted URL to lite."
+  },
+  {
+    "id": "f006871e2ded22bd",
+    "title": "Why Thinking More Can Make an LLM Dumb",
+    "url": "https://blog.bytebytego.com/p/why-thinking-more-can-make-an-llm",
+    "source": "rss",
+    "sourceName": "ByteByteGo",
+    "author": "ByteByteGo",
+    "publishedAt": "2026-11-17T16:31:11.000Z",
+    "fetchedAt": "2026-11-18T13:58:46.408Z",
+    "summary": "In this article, we’ll try to understand why thinking longer can make an LLM dumber.",
+    "technologies": [],
+    "tags": [
+      "architecture"
+    ],
+    "engagement": 0,
+    "image": "https://substackcdn.com/image/fetch/$s_!_LMN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff39276da-349a-4337-8d56-57682f8a9fff_2048x1152.png",
+    "enriched": false
+  },
+  {
+    "id": "464f8a9f4a4e6d13",
+    "title": "The Hidden Cost of PostgreSQL JSONB Columns Under High Write Load",
+    "url": "https://dev.to/johnnylemonny/the-hidden-cost-of-postgresql-jsonb-columns-under-high-write-load-2fil",
+    "source": "devto",
+    "sourceName": "DEV Community",
+    "author": "𝗝𝗼𝗵𝗻",
+    "publishedAt": "2026-11-17T16:30:00.000Z",
+    "fetchedAt": "2026-11-18T13:58:42.845Z",
+    "summary": "Updating a single key inside a PostgreSQL JSONB column rewrites the entire blob, triggers TOAST churn, and bloats WAL. Here is the benchmark and the hybrid schema fix.",
+    "technologies": [
+      {
+        "name": "PostgreSQL",
+        "quadrant": "Platforms",
+        "ring": "Adopt"
+      }
+    ],
+    "tags": [
+      "postgres",
+      "database",
+      "performance",
+      "backend",
+      "devto"
+    ],
+    "engagement": 57,
+    "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fpfwejj2hj85xbwhabekp.jpg",
+    "enriched": false
+  },
+  {
+    "id": "f44164034d1ab5d3",
+    "title": "CoreWeave connects custom training loops to model serving",
+    "url": "https://thenewstack.io/coreweave-forge-training-loops",
+    "source": "rss",
+    "sourceName": "The New Stack",
+    "author": "Urvashi Chowdhary",
+    "publishedAt": "2026-11-17T16:30:00.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.641Z",
+    "summary": "Production traffic shows failures that benchmarks or pre-deployment evaluations can’t fully reveal. It tells you which edge cases matter and The post CoreWeave connects custom training loops to model serving appeared first on The New Stack.",
+    "technologies": [],
+    "tags": [
+      "cloud-native",
+      "ai engineering",
+      "ai infrastructure",
+      "ai operations",
+      "sponsor-coreweave",
+      "sponsored-post-contributed",
+      "reading-list"
+    ],
+    "engagement": 0,
+    "enriched": false
+  },
+  {
+    "id": "6c265f6b8d49da68",
+    "title": "Inference engineering for software engineers",
+    "url": "https://newsletter.pragmaticengineer.com/p/inference-engineering-for-software-engineers",
+    "source": "reading",
+    "sourceName": "Newsletter.pragmaticengineer.com",
+    "author": "Gergely Orosz",
+    "publishedAt": "2026-11-17T16:11:23.000Z",
+    "fetchedAt": "2026-11-18T13:59:30.538Z",
+    "summary": "When is the right time to drop APIs provided by the frontier AI labs, and what about choosing models & providers, caching, dedicated GPUs, KV cache concerns, and more? A practical deepdive",
+    "technologies": [],
+    "tags": [
+      "reading-list"
+    ],
+    "engagement": 0,
+    "image": "https://substackcdn.com/image/fetch/$s_!k1yV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8fecea03-44c9-44ef-8f85-fc46e4e4f69a_910x1062.png",
+    "enriched": false
+  },
+  {
+    "id": "8996249a38002945",
+    "title": "How Rakbank built centralized observability at scale with Amazon OpenSearch Service",
+    "url": "https://aws.amazon.com/blogs/architecture/how-rakbank-built-centralized-observability-at-scale-with-amazon-opensearch-service",
+    "source": "rss",
+    "sourceName": "AWS Architecture Blog",
+    "author": "Georges Hamieh",
+    "publishedAt": "2026-11-17T16:03:22.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.289Z",
+    "summary": "Rakbank re-platformed logging for its retail digital banking workloads on a cross-account, Multi-AZ Amazon OpenSearch Service design that ingests ~150 GB/day through Fluent Bit, using hot/UltraWarm/cold tiering and Amazon S3 archival for 7-year compliance retention and ~55% cost savings over an all-hot cluster.",
+    "technologies": [
+      {
+        "name": "OpenSearch",
+        "quadrant": "Platforms",
+        "ring": "Assess"
+      },
+      {
+        "name": "Observability",
+        "quadrant": "Techniques",
+        "ring": "Adopt"
+      }
+    ],
+    "tags": [
+      "cloud",
+      "advanced (300)",
+      "amazon opensearch service",
+      "customer solutions",
+      "reading-list"
+    ],
+    "engagement": 0,
+    "enriched": false
+  },
+  {
+    "id": "2479b75faf7e02fc",
+    "title": "AI agents open 17 million pull requests a month. I built a gate that rejects the ones that lie.",
+    "url": "https://dev.to/aws-builders/ai-agents-open-17-million-pull-requests-a-month-i-built-a-gate-that-rejects-the-ones-that-lie-46n7",
+    "source": "devto",
+    "sourceName": "DEV Community",
+    "author": "Sarvar Nadaf",
+    "publishedAt": "2026-11-17T15:45:44.000Z",
+    "fetchedAt": "2026-11-18T13:58:42.844Z",
+    "summary": "AI agents now open pull requests on their own. I gave Amazon Nova Pro a real GitHub bug, then built a deterministic Python gate that rejects it when it cannot prove the fix. No model grades the model.",
+    "technologies": [
+      {
+        "name": "AI agents",
+        "quadrant": "Techniques",
+        "ring": "Assess"
+      },
+      {
+        "name": "Python",
+        "quadrant": "Languages & Frameworks",
+        "ring": "Adopt"
+      }
+    ],
+    "tags": [
+      "ai",
+      "aws",
+      "devops",
+      "discuss",
+      "devto"
+    ],
+    "engagement": 88,
+    "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2Fsimplynadaf%2Fai-fix-verifier%2Fmain%2Fdocs%2Fgithub-cover.png",
+    "enriched": false,
+    "approach": "I gave Amazon Nova Pro a real GitHub bug, then built a deterministic Python gate that rejects it when it cannot prove the fix."
+  },
+  {
+    "id": "654cd43c84086147",
+    "title": "Highly classified US national security communications network goes down",
+    "url": "https://cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "monkeydust",
+    "publishedAt": "2026-11-17T15:38:28.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.368Z",
+    "summary": "https:&#x2F;&#x2F;www.reuters.com&#x2F;technology&#x2F;highly-classified-us-nati...",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 2051,
+    "enriched": false
+  },
+  {
+    "id": "90309880d44db7fb",
+    "title": "Kotlin Toolchain 0.14: Agentic Development and iOS Publishing",
+    "url": "https://blog.jetbrains.com/kotlin/2026/11/kotlin-toolchain-0-14-agentic-development-and-ios-publishing",
+    "source": "rss",
+    "sourceName": "JetBrains Blog",
+    "author": "Kirill Likhodedov",
+    "publishedAt": "2026-11-17T15:25:05.000Z",
+    "fetchedAt": "2026-11-18T13:58:45.352Z",
+    "summary": "The Kotlin Toolchain helps you build and ship multiplatform apps faster, with less setup and configuration. Its CLI provides a unified workflow for building, running, testing, and publishing apps for Android, iOS, desktop, and web, whether you’re developing with AI agents or writing code yourself. Kotlin Toolchain 0.14 makes it easier to publish iOS apps […]",
+    "technologies": [
+      {
+        "name": "Kotlin",
+        "quadrant": "Languages & Frameworks",
+        "ring": "Trial"
+      },
+      {
+        "name": "AI agents",
+        "quadrant": "Techniques",
+        "ring": "Assess"
+      }
+    ],
+    "tags": [
+      "devtools",
+      "multiplatform",
+      "releases",
+      "kotlin-toolchain"
+    ],
+    "engagement": 0,
+    "enriched": false,
+    "outcome": "The Kotlin Toolchain helps you build and ship multiplatform apps faster, with less setup and configuration."
+  },
+  {
+    "id": "715137d9352475f8",
+    "title": "What is the best harness for each model?",
+    "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "Edward40",
+    "publishedAt": "2026-11-17T14:53:43.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.368Z",
+    "summary": "Hacker News discussion with 129 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 658,
+    "enriched": false
+  },
+  {
+    "id": "534d1dcd1dc8fbec",
+    "title": "We don't need more apps, we need better open source",
+    "url": "https://jordankrueger.com/blog/better-open-source-not-more-apps",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "pandemicsoul",
+    "publishedAt": "2026-11-17T14:45:36.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.369Z",
+    "summary": "Hacker News discussion with 246 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 843,
+    "enriched": false
+  },
+  {
+    "id": "890c57ba47bf0a05",
+    "title": "Deterministic Simulation Testing",
+    "url": "https://martinfowler.com/articles/deterministic-simulation-testing.html",
+    "source": "rss",
+    "sourceName": "Martin Fowler",
+    "author": "Martin Fowler",
+    "publishedAt": "2026-11-17T14:33:00.000Z",
+    "fetchedAt": "2026-11-18T13:58:42.899Z",
+    "summary": "Distributed systems are hard to test because partial failures overlap with live traffic and the same fault can produce different execution traces on different runs. Unmesh Joshi describes how deterministic simulation testing addresses this by replacing real clocks, networks, and storage with simulated components driven by a single-threaded execution loop. This allows simulating both hard failures and routine slowdowns—such as network and disk latency spikes—and more importantly makes every execution reproducible. This article explains the technique using a quorum key-value store as a running example, with code from Tickloom, a Java implementation of the approach. more…",
+    "technologies": [
+      {
+        "name": "Java",
+        "quadrant": "Languages & Frameworks",
+        "ring": "Adopt"
+      }
+    ],
+    "tags": [
+      "architecture",
+      "reading-list"
+    ],
+    "engagement": 0,
+    "enriched": false,
+    "problem": "Distributed systems are hard to test because partial failures overlap with live traffic and the same fault can produce different execution traces on different runs.",
+    "approach": "This article explains the technique using a quorum key-value store as a running example, with code from Tickloom, a Java implementation of the approach.",
+    "outcome": "This allows simulating both hard failures and routine slowdowns—such as network and disk latency spikes—and more importantly makes every execution reproducible.",
+    "topics": [
+      "architecture"
+    ]
+  },
+  {
     "id": "3429c7218e4f7d01",
     "title": "affaan-m/ECC",
     "url": "https://github.com/affaan-m/ECC",
@@ -78,7 +1848,7 @@
       "github-trending",
       "open-source"
     ],
-    "engagement": 196,
+    "engagement": 315,
     "enriched": false
   },
   {
@@ -125,8 +1895,31 @@
       "github-trending",
       "open-source"
     ],
-    "engagement": 1007,
+    "engagement": 2322,
     "enriched": false
+  },
+  {
+    "id": "97ccc75ebb8e9808",
+    "title": "DEVengers Weekly #1: The MCP Reality Check, Career Moats, and 25 Weeks on the Radar 🚀",
+    "url": "https://dev.to/devengers/devengers-weekly-1-the-mcp-reality-check-career-moats-and-25-weeks-on-the-radar-23ec",
+    "source": "devto",
+    "sourceName": "DEV Community",
+    "author": "Dhruv Jani",
+    "publishedAt": "2026-11-17T14:18:20.000Z",
+    "fetchedAt": "2026-11-18T13:58:42.844Z",
+    "summary": "Welcome to Issue #1 of DEVengers Weekly — our community-run digest spotlighting the developers,...",
+    "technologies": [],
+    "tags": [
+      "devengers",
+      "newsletter",
+      "opensource",
+      "discuss",
+      "devto"
+    ],
+    "engagement": 105,
+    "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F1hfp6oxm2afnbjw9zfke.png",
+    "enriched": false,
+    "problem": "Welcome to Issue #1 of DEVengers Weekly — our community-run digest spotlighting the developers,..."
   },
   {
     "id": "51ac6b135f222bcd",
@@ -163,6 +1956,43 @@
     ],
     "engagement": 30,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fw37imp3hsp5cxou17rum.jpg",
+    "enriched": false
+  },
+  {
+    "id": "2840a699d32884e3",
+    "title": "COLD RELIC: A Case Study in Impersonation and Compromise",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/cold-relic-a-case-study-in-impersonation-and-compromise",
+    "source": "rss",
+    "sourceName": "Google Cloud Blog",
+    "publishedAt": "2026-11-17T14:00:00.000Z",
+    "fetchedAt": "2026-11-18T13:58:45.176Z",
+    "summary": "Written by: Josh Murchie, John Wolfram, Joseph Spero, Peter Ukhanov, Fernando Tomlinson, Jr., Wesley Shields Introduction Over the past year, Mandiant has responded to a series of linked intrusions demonstrating how Russian cyber espionage group COLD RELIC (formerly tracked as COLDRIVER and UNC4057; also known as Star Blizzard, Callisto, and Gossamer Bear) turns a single cloud compromise into a springboard for ongoing third party compromise and espionage. Most recently, Mandiant investigated a 2026 compromise at a US-based organization where COLD RELIC directly weaponized data, the corporate staff directory, and identities stolen during a late-2025 compromise, which Mandiant also investigated, at a separate US-based organization. COLD RELIC is a Russian state-sponsored threat group that the US Department of Justice (DOJ) has assessed operates within Russia's Federal Security Service (FSB). The group is known for implementing sophisticated phishing and malware campaigns with the aim to gain access to information of strategic or political relevance to the Russian government, as well as to leverage compromised access to target compromised individuals’ broader social and professional…",
+    "technologies": [],
+    "tags": [
+      "cloud",
+      "threat intelligence"
+    ],
+    "engagement": 0,
+    "enriched": false
+  },
+  {
+    "id": "3cce43f954f0120d",
+    "title": "PhpStorm Light: Experimenting With a Lighter Version of PhpStorm",
+    "url": "https://blog.jetbrains.com/phpstorm/2026/11/phpstorm-light-experimenting-with-a-lighter-version-of-phpstorm",
+    "source": "rss",
+    "sourceName": "JetBrains Blog",
+    "author": "Hanna Yakush",
+    "publishedAt": "2026-11-17T13:59:39.000Z",
+    "fetchedAt": "2026-11-18T13:58:45.352Z",
+    "summary": "You may have never heard of PhpStorm Light, or you may be using it and wondering if this Early Access build is ever going to make its way into a major release. In this post, we explain what PhpStorm Light is, what we’ve learned from this experiment, and what’s happening next. What is PhpStorm Light? […]",
+    "technologies": [],
+    "tags": [
+      "devtools",
+      "eap",
+      "news",
+      "phpstorm"
+    ],
+    "engagement": 0,
     "enriched": false
   },
   {
@@ -285,37 +2115,6 @@
     "enriched": false
   },
   {
-    "id": "e85ad3aaa3e68fb0",
-    "title": "Microsoft Releases .NET 11: C# 15 Union Types, Native AOT CLI Host, and CoreCLR by Default in MAUI",
-    "url": "https://infoq.com/news/2026/11/dotnet-11-release",
-    "source": "rss",
-    "sourceName": "InfoQ",
-    "author": "Almir Vuk",
-    "publishedAt": "2026-11-17T11:50:00.000Z",
-    "fetchedAt": "2026-11-17T14:25:01.235Z",
-    "summary": "Microsoft has released .NET 11, a Standard Term Support release with two years of support. It ships C# 15 with union types and closed hierarchies, a Native AOT CLI host, a preview of Runtime Async, Zstandard compression, asynchronous validation and OpenAPI 3.2 in ASP.NET Core, CoreCLR as the default runtime in .NET MAUI, and EF Core 11 with experimental vector search. By Almir Vuk",
-    "technologies": [
-      {
-        "name": "C#",
-        "quadrant": "Languages & Frameworks",
-        "ring": "Adopt"
-      }
-    ],
-    "tags": [
-      "architecture",
-      ".net",
-      ".net 11",
-      ".net 9",
-      ".net 10",
-      "development"
-    ],
-    "engagement": 0,
-    "enriched": false,
-    "topics": [
-      "architecture"
-    ]
-  },
-  {
     "id": "a589afa528f05332",
     "title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
     "url": "https://nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
@@ -323,13 +2122,13 @@
     "sourceName": "Hacker News",
     "author": "donohoe",
     "publishedAt": "2026-11-17T11:45:51.000Z",
-    "fetchedAt": "2026-11-17T14:25:01.288Z",
-    "summary": "Hacker News discussion with 153 comments.",
+    "fetchedAt": "2026-11-18T13:58:43.369Z",
+    "summary": "Hacker News discussion with 627 comments.",
     "technologies": [],
     "tags": [
       "hackernews"
     ],
-    "engagement": 614,
+    "engagement": 2513,
     "enriched": false
   },
   {
@@ -370,6 +2169,28 @@
       "devtools"
     ],
     "engagement": 0,
+    "enriched": false
+  },
+  {
+    "id": "de91ab777bca8228",
+    "title": "Could I Still Do This From Scratch?",
+    "url": "https://dev.to/dannwaneri/could-i-still-do-this-from-scratch-427h",
+    "source": "devto",
+    "sourceName": "DEV Community",
+    "author": "Daniel Nwaneri",
+    "publishedAt": "2026-11-17T11:26:15.000Z",
+    "fetchedAt": "2026-11-18T13:58:42.844Z",
+    "summary": "The thing that every dev I know is quietly worrying about is not AI taking their job. It's losing the...",
+    "technologies": [],
+    "tags": [
+      "ai",
+      "programming",
+      "career",
+      "discuss",
+      "devto"
+    ],
+    "engagement": 115,
+    "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6sw7q891msu9qonbawld.webp",
     "enriched": false
   },
   {
@@ -458,6 +2279,57 @@
       "hackernews"
     ],
     "engagement": 288,
+    "enriched": false
+  },
+  {
+    "id": "e85ad3aaa3e68fb0",
+    "title": "Microsoft Releases .NET 11: C# 15 Union Types, Native AOT CLI Host, and CoreCLR by Default in MAUI",
+    "url": "https://infoq.com/news/2026/11/dotnet-11-release",
+    "source": "rss",
+    "sourceName": "InfoQ",
+    "author": "Almir Vuk",
+    "publishedAt": "2026-11-17T10:20:00.000Z",
+    "fetchedAt": "2026-11-17T14:25:01.235Z",
+    "summary": "Microsoft has released .NET 11, a Standard Term Support release with two years of support. It ships C# 15 with union types and closed hierarchies, a Native AOT CLI host, a preview of Runtime Async, Zstandard compression, asynchronous validation and OpenAPI 3.2 in ASP.NET Core, CoreCLR as the default runtime in .NET MAUI, and EF Core 11 with experimental vector search. By Almir Vuk",
+    "technologies": [
+      {
+        "name": "C#",
+        "quadrant": "Languages & Frameworks",
+        "ring": "Adopt"
+      }
+    ],
+    "tags": [
+      "architecture",
+      ".net",
+      ".net 11",
+      ".net 9",
+      ".net 10",
+      "development"
+    ],
+    "engagement": 0,
+    "enriched": false,
+    "topics": [
+      "architecture"
+    ]
+  },
+  {
+    "id": "9a96c68ec1c0783a",
+    "title": "The Arrogance of Having Outgrown Arrogance",
+    "url": "https://a-thedeveloper.vercel.app/blog/the-arrogance-of-having-outgrown-arrogance",
+    "source": "devto",
+    "sourceName": "DEV Community",
+    "author": "Adam - The Developer ✨",
+    "publishedAt": "2026-11-17T09:48:19.000Z",
+    "fetchedAt": "2026-11-18T13:58:42.845Z",
+    "summary": "A few days ago, I met up with a happily retired principal engineer for a chat. He wasn't a complete...",
+    "technologies": [],
+    "tags": [
+      "career",
+      "learning",
+      "devto"
+    ],
+    "engagement": 31,
+    "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6cisr6fmvj637a8gj6ln.jpg",
     "enriched": false
   },
   {
@@ -554,6 +2426,36 @@
     "approach": "In May 2025, we introduced a portfolio of sovereign cloud offerings for customers to match their desired level of control to each workload."
   },
   {
+    "id": "7cc7177ed17b6141",
+    "title": "From exposed secrets to managed credentials: Reducing credential risk across the application lifecycle",
+    "url": "https://hashicorp.com/blog/from-exposed-secrets-to-managed-credentials",
+    "source": "rss",
+    "sourceName": "HashiCorp Blog",
+    "author": "Aubrey Johnson",
+    "publishedAt": "2026-11-17T08:00:00.000Z",
+    "fetchedAt": "2026-11-18T13:58:45.287Z",
+    "summary": "A recent software supply chain attack affecting tens of thousands of GitHub repositories highlights a security problem that is easy to underestimate: a credential does not stop being exposed simply because it has been deleted from the latest version of the code. Researchers uncovered a campaign in which attackers inserted a malicious GitHub Actions workflow into repositories they had permission to modify. Designed to look like a routine security audit, the workflow instead searched for and exfiltrated credentials. It targeted secrets available to GitHub Actions, but also searched repository files and complete Git history for credentials associated with cloud providers and AI services. That meant credentials developers had previously committed and later removed could still be discovered. The incident is another reminder that responding to exposed credentials requires more than cleaning up source code. Organizations need to understand where credentials have been exposed, remediate those credentials and ultimately improve how they are managed. HCP Vault Radar and HashiCorp Vault can help teams address different parts of that lifecycle, moving from discovering exposed secrets to…",
+    "technologies": [
+      {
+        "name": "Vault",
+        "quadrant": "Tools",
+        "ring": "Trial"
+      },
+      {
+        "name": "GitHub Actions",
+        "quadrant": "Tools",
+        "ring": "Adopt"
+      }
+    ],
+    "tags": [
+      "infra",
+      "reading-list"
+    ],
+    "engagement": 0,
+    "enriched": false,
+    "problem": "A recent software supply chain attack affecting tens of thousands of GitHub repositories highlights a security problem that is easy to underestimate: a credential does not stop being exposed simply because it has been deleted from the latest version of the code."
+  },
+  {
     "id": "ae3ee0f483ed9177",
     "title": "Quoting Go Proverbs",
     "url": "https://simonwillison.net/2026/Nov/17/go-proverbs",
@@ -574,6 +2476,34 @@
       "python"
     ],
     "engagement": 0,
+    "enriched": false
+  },
+  {
+    "id": "3a773908682a5e59",
+    "title": "Five Palaces, One Model: Testing Google’s Gemini 4 Hydrogen in AI Studio",
+    "url": "https://dev.to/amananandrai/i-built-5-interactive-3d-palaces-with-googles-new-gemini-4-hydrogen-in-ai-studio-5g8h",
+    "source": "devto",
+    "sourceName": "DEV Community",
+    "author": "amananandrai",
+    "publishedAt": "2026-11-17T05:41:54.000Z",
+    "fetchedAt": "2026-11-18T13:58:42.844Z",
+    "summary": "Last week Google shipped Gemini 4 Hydrogen, and within hours my X timeline was nothing but 3D scenes,...",
+    "technologies": [
+      {
+        "name": "Gemini",
+        "quadrant": "Tools",
+        "ring": "Trial"
+      }
+    ],
+    "tags": [
+      "gemini",
+      "ai",
+      "threejs",
+      "webdev",
+      "devto"
+    ],
+    "engagement": 28,
+    "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgd1nbe96vq66xm41mz8t.jpg",
     "enriched": false
   },
   {
@@ -608,6 +2538,28 @@
       "hackernews"
     ],
     "engagement": 337,
+    "enriched": false
+  },
+  {
+    "id": "877869262495b03e",
+    "title": "How we scaled metrics aggregation by moving durable state into storage",
+    "url": "https://datadoghq.com/blog/engineering/how-we-scaled-metrics-aggregation",
+    "source": "reading",
+    "sourceName": "Datadoghq.com",
+    "publishedAt": "2026-11-17T00:00:00.000Z",
+    "fetchedAt": "2026-11-18T13:59:11.324Z",
+    "summary": "Learn how Datadog evolved metrics aggregation from fixed partition ownership to transferable state and, ultimately, storage-side reconciliation.",
+    "technologies": [
+      {
+        "name": "Datadog",
+        "quadrant": "Tools",
+        "ring": "Trial"
+      }
+    ],
+    "tags": [
+      "reading-list"
+    ],
+    "engagement": 0,
     "enriched": false
   },
   {
@@ -654,7 +2606,7 @@
     "tags": [
       "hackernews"
     ],
-    "engagement": 866,
+    "engagement": 1236,
     "enriched": false
   },
   {
@@ -671,7 +2623,29 @@
     "tags": [
       "hackernews"
     ],
-    "engagement": 1722,
+    "engagement": 1941,
+    "enriched": false
+  },
+  {
+    "id": "6a189e13432b9497",
+    "title": "My AI agent kept quoting a number I had already corrected. What has yours remembered wrong?",
+    "url": "https://dev.to/heinrichneb/my-ai-agent-kept-quoting-a-number-i-had-already-corrected-what-has-yours-remembered-wrong-34d0",
+    "source": "devto",
+    "sourceName": "DEV Community",
+    "author": "Heinrich Neb",
+    "publishedAt": "2026-11-16T22:55:58.000Z",
+    "fetchedAt": "2026-11-18T13:58:42.845Z",
+    "summary": "In August my coding agent kept telling me that one kind of article on this site draws about four...",
+    "technologies": [],
+    "tags": [
+      "discuss",
+      "ai",
+      "agents",
+      "productivity",
+      "devto"
+    ],
+    "engagement": 63,
+    "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4cwto9v5xn9emamdwcf0.jpg",
     "enriched": false
   },
   {
@@ -717,7 +2691,7 @@
     "tags": [
       "hackernews"
     ],
-    "engagement": 1195,
+    "engagement": 1410,
     "enriched": false
   },
   {
@@ -795,7 +2769,7 @@
     "tags": [
       "hackernews"
     ],
-    "engagement": 2377,
+    "engagement": 2965,
     "enriched": false
   },
   {
@@ -823,13 +2797,13 @@
     "sourceName": "Hacker News",
     "author": "sebg",
     "publishedAt": "2026-11-16T20:22:18.000Z",
-    "fetchedAt": "2026-11-17T14:25:01.286Z",
-    "summary": "Hacker News discussion with 120 comments.",
+    "fetchedAt": "2026-11-18T13:58:43.369Z",
+    "summary": "Hacker News discussion with 143 comments.",
     "technologies": [],
     "tags": [
       "hackernews"
     ],
-    "engagement": 512,
+    "engagement": 631,
     "enriched": false
   },
   {
@@ -856,7 +2830,7 @@
       "discuss",
       "devto"
     ],
-    "engagement": 12,
+    "engagement": 35,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fi.imgur.com%2FoLZVOCF.png",
     "enriched": false,
     "topics": [
@@ -927,7 +2901,30 @@
     "tags": [
       "hackernews"
     ],
-    "engagement": 2148,
+    "engagement": 2244,
+    "enriched": false
+  },
+  {
+    "id": "3234d56fb13127ec",
+    "title": "DuckDB 2.0 goes client-server and adds an Agent Mode for coding agents",
+    "url": "https://thenewstack.io/duckdb-storage-compatibility-agents",
+    "source": "rss",
+    "sourceName": "The New Stack",
+    "author": "Jennifer Riggins",
+    "publishedAt": "2026-11-16T18:22:41.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.641Z",
+    "summary": "DuckDB has always been the database you don’t have to set up: Import it into your code and start querying. The post DuckDB 2.0 goes client-server and adds an Agent Mode for coding agents appeared first on The New Stack.",
+    "technologies": [],
+    "tags": [
+      "cloud-native",
+      "ai agents",
+      "databases",
+      "open source",
+      "podcast",
+      "sponsor-amazon-web-services-aws",
+      "reading-list"
+    ],
+    "engagement": 0,
     "enriched": false
   },
   {
@@ -938,13 +2935,13 @@
     "sourceName": "Hacker News",
     "author": "zero_shift",
     "publishedAt": "2026-11-16T18:17:17.000Z",
-    "fetchedAt": "2026-11-17T14:25:01.287Z",
-    "summary": "Hacker News discussion with 233 comments.",
+    "fetchedAt": "2026-11-18T13:58:43.369Z",
+    "summary": "Hacker News discussion with 261 comments.",
     "technologies": [],
     "tags": [
       "hackernews"
     ],
-    "engagement": 842,
+    "engagement": 914,
     "enriched": false
   },
   {
@@ -1020,7 +3017,7 @@
       "ai",
       "devto"
     ],
-    "engagement": 37,
+    "engagement": 43,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2Fxbill9%2Fgemma4-dev%2Fmain%2Fdocs%2Fgemini-high-vs-low%2Fdevto-cover.8e6eb323.jpg",
     "enriched": false,
     "problem": "Seven models on the 15 problems of AIME 2025 I at their lowest and highest thinking settings, under a hard budget."
@@ -1060,7 +3057,7 @@
       "react",
       "devto"
     ],
-    "engagement": 65,
+    "engagement": 71,
     "enriched": false,
     "problem": "This is a submission for the Presage SmartSpectra SDK Challenge What I..."
   },
@@ -1094,6 +3091,24 @@
     ]
   },
   {
+    "id": "74fb3ad5930774ae",
+    "title": "HCP introduces IBMid support and new enterprise governance capabilities",
+    "url": "https://hashicorp.com/blog/hcp-introduces-ibmid-support-and-new-enterprise-governance-capabilities",
+    "source": "rss",
+    "sourceName": "HashiCorp Blog",
+    "author": "Trevor Powell",
+    "publishedAt": "2026-11-16T17:00:00.000Z",
+    "fetchedAt": "2026-11-18T13:58:45.287Z",
+    "summary": "Over the past quarter, the HashiCorp Cloud Platform (HCP) team has continued investing in the foundations that help organizations securely adopt and operate HashiCorp products at scale. These updates focus on four pillars of the HCP experience: identity, governance, access management, and lifecycle administration, making it easier to manage access, enforce organizational standards, and streamline day-to-day operations. The recent platform enhancements include: IBMid to Sign in to HCP Services Enterprise constraints for centralized governance Streamlined user onboarding and access assignment Self-service HCP account removal Self-service organization deletion IBMid to Sign in to HCP Services What's new: We are introducing the general availability of IBMid as a sign-in method for HCP accounts. IBMid sign-in gives users additional authentication options, including Google, GitHub, and email-based authentication. It also provides a single identity across IBM products, expanded multi-factor authentication (MFA) options, and easier access to IBM support. If you already have an IBMid whose email address matches the one on your HCP account, you can use it to sign in today. If you don't have…",
+    "technologies": [],
+    "tags": [
+      "infra",
+      "reading-list"
+    ],
+    "engagement": 0,
+    "enriched": false
+  },
+  {
     "id": "77e2dbf5755e2a13",
     "title": "Killed by Acronyms",
     "url": "https://dev.to/felixcoutinho/killed-by-acronyms-33a1",
@@ -1101,7 +3116,7 @@
     "sourceName": "DEV Community",
     "author": "Felix Coutinho",
     "publishedAt": "2026-11-16T16:55:21.000Z",
-    "fetchedAt": "2026-11-17T14:25:00.566Z",
+    "fetchedAt": "2026-11-18T13:58:42.844Z",
     "summary": "Speaking the same language doesn't mean understanding each other. If English isn't your first...",
     "technologies": [],
     "tags": [
@@ -1110,7 +3125,7 @@
       "english",
       "devto"
     ],
-    "engagement": 11,
+    "engagement": 15,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fq6rtxa52pbp5llzqnjmg.jpg",
     "enriched": false
   },
@@ -1174,7 +3189,7 @@
     "tags": [
       "hackernews"
     ],
-    "engagement": 586,
+    "engagement": 636,
     "enriched": false
   },
   {
@@ -1209,7 +3224,7 @@
     "tags": [
       "hackernews"
     ],
-    "engagement": 1129,
+    "engagement": 1385,
     "enriched": false
   },
   {
@@ -1269,7 +3284,8 @@
       "hibernate orm",
       "java",
       "tornadovm",
-      "hibernate reactive"
+      "hibernate reactive",
+      "open jdk"
     ],
     "engagement": 0,
     "enriched": false
@@ -1299,7 +3315,7 @@
     "sourceName": "DEV Community",
     "author": "Chris Jarvis",
     "publishedAt": "2026-11-16T15:16:18.000Z",
-    "fetchedAt": "2026-11-17T14:25:00.566Z",
+    "fetchedAt": "2026-11-18T13:58:42.844Z",
     "summary": "I have an eye doctor appointment Tuesday. If my eyes are dilated, I can't use the the computer for...",
     "technologies": [],
     "tags": [
@@ -1308,7 +3324,7 @@
       "productivity",
       "devto"
     ],
-    "engagement": 24,
+    "engagement": 46,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8kma4mzti23n1udlnt8w.jpg",
     "enriched": false
   },
@@ -1320,7 +3336,7 @@
     "sourceName": "DEV Community",
     "author": "FrancisTRᴅᴇᴠ",
     "publishedAt": "2026-11-16T14:55:10.000Z",
-    "fetchedAt": "2026-11-17T14:25:00.565Z",
+    "fetchedAt": "2026-11-18T13:58:42.843Z",
     "summary": "This post was inspired by @mellen months ago when they made a post on MLH: What does MLH...",
     "technologies": [],
     "tags": [
@@ -1330,7 +3346,7 @@
       "jokes",
       "devto"
     ],
-    "engagement": 252,
+    "engagement": 417,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F0kixqo2mpzv9f8gn1vjk.gif",
     "enriched": false
   },
@@ -1389,7 +3405,7 @@
     "sourceName": "DEV Community",
     "author": "Raju Dandigam",
     "publishedAt": "2026-11-16T14:28:00.000Z",
-    "fetchedAt": "2026-11-17T14:25:00.567Z",
+    "fetchedAt": "2026-11-18T13:58:42.845Z",
     "summary": "An await finishes. The application returns a result. The trace contains a completed tool span. The...",
     "technologies": [],
     "tags": [
@@ -1399,8 +3415,25 @@
       "mcp",
       "devto"
     ],
-    "engagement": 60,
+    "engagement": 85,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6zu7ib42pk3njwji1klp.jpg",
+    "enriched": false
+  },
+  {
+    "id": "0b7a064f393a601d",
+    "title": "My Emacs 31 contributions",
+    "url": "https://xenodium.com/my-emacs-31-contributions",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "xenodium",
+    "publishedAt": "2026-11-16T14:26:10.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.368Z",
+    "summary": "Hacker News discussion with 6 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 78,
     "enriched": false
   },
   {
@@ -1462,13 +3495,13 @@
     "sourceName": "Hacker News",
     "author": "dverlaeckt80",
     "publishedAt": "2026-11-16T13:51:38.000Z",
-    "fetchedAt": "2026-11-17T14:25:01.286Z",
-    "summary": "Hacker News discussion with 155 comments.",
+    "fetchedAt": "2026-11-18T13:58:43.369Z",
+    "summary": "Hacker News discussion with 157 comments.",
     "technologies": [],
     "tags": [
       "hackernews"
     ],
-    "engagement": 689,
+    "engagement": 722,
     "enriched": false
   },
   {
@@ -1618,7 +3651,7 @@
       "github-trending",
       "open-source"
     ],
-    "engagement": 1175,
+    "engagement": 1529,
     "enriched": false
   },
   {
@@ -1628,7 +3661,7 @@
     "source": "github",
     "sourceName": "GitHub Trending",
     "publishedAt": "2026-11-16T13:39:45.860Z",
-    "fetchedAt": "2026-11-17T14:25:00.514Z",
+    "fetchedAt": "2026-11-18T13:58:44.671Z",
     "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
     "technologies": [],
     "tags": [
@@ -1636,7 +3669,31 @@
       "github-trending",
       "open-source"
     ],
-    "engagement": 772,
+    "engagement": 1062,
+    "enriched": false
+  },
+  {
+    "id": "ca4a8dd162908ceb",
+    "title": "sveltejs/svelte",
+    "url": "https://github.com/sveltejs/svelte",
+    "source": "github",
+    "sourceName": "GitHub Trending",
+    "publishedAt": "2026-11-16T13:39:45.860Z",
+    "fetchedAt": "2026-11-16T13:39:45.860Z",
+    "summary": "web development for the rest of us",
+    "technologies": [
+      {
+        "name": "Svelte",
+        "quadrant": "Languages & Frameworks",
+        "ring": "Trial"
+      }
+    ],
+    "tags": [
+      "javascript",
+      "github-trending",
+      "open-source"
+    ],
+    "engagement": 694,
     "enriched": false
   },
   {
@@ -1664,30 +3721,6 @@
     "enriched": false
   },
   {
-    "id": "ca4a8dd162908ceb",
-    "title": "sveltejs/svelte",
-    "url": "https://github.com/sveltejs/svelte",
-    "source": "github",
-    "sourceName": "GitHub Trending",
-    "publishedAt": "2026-11-16T13:39:45.860Z",
-    "fetchedAt": "2026-11-16T13:39:45.860Z",
-    "summary": "web development for the rest of us",
-    "technologies": [
-      {
-        "name": "Svelte",
-        "quadrant": "Languages & Frameworks",
-        "ring": "Trial"
-      }
-    ],
-    "tags": [
-      "javascript",
-      "github-trending",
-      "open-source"
-    ],
-    "engagement": 533,
-    "enriched": false
-  },
-  {
     "id": "cb381b007fd71935",
     "title": "Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savings",
     "url": "https://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w",
@@ -1701,7 +3734,7 @@
     "tags": [
       "hackernews"
     ],
-    "engagement": 1994,
+    "engagement": 2068,
     "enriched": false
   },
   {
@@ -1730,13 +3763,13 @@
     "sourceName": "Hacker News",
     "author": "Bender",
     "publishedAt": "2026-11-16T13:18:22.000Z",
-    "fetchedAt": "2026-11-17T14:25:01.287Z",
-    "summary": "Hacker News discussion with 289 comments.",
+    "fetchedAt": "2026-11-18T13:58:43.369Z",
+    "summary": "Hacker News discussion with 345 comments.",
     "technologies": [],
     "tags": [
       "hackernews"
     ],
-    "engagement": 958,
+    "engagement": 1133,
     "enriched": false,
     "topics": [
       "reliability"
@@ -2313,7 +4346,7 @@
     "tags": [
       "hackernews"
     ],
-    "engagement": 1183,
+    "engagement": 1211,
     "enriched": false
   },
   {
@@ -2324,7 +4357,7 @@
     "sourceName": "DEV Community",
     "author": "Cesar Aguirre",
     "publishedAt": "2026-11-16T05:00:00.000Z",
-    "fetchedAt": "2026-11-17T14:25:00.566Z",
+    "fetchedAt": "2026-11-18T13:58:42.844Z",
     "summary": "Inspired by @sylwia-lask 's post on what to blame, here are 10 things every coder has blamed, or at...",
     "technologies": [],
     "tags": [
@@ -2334,7 +4367,7 @@
       "watercooler",
       "devto"
     ],
-    "engagement": 47,
+    "engagement": 61,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fphwr5sjem2j6ayg6otes.png",
     "enriched": false
   },
@@ -2363,7 +4396,7 @@
     "sourceName": "DEV Community",
     "author": "Web Developer Hyper",
     "publishedAt": "2026-11-16T04:34:39.000Z",
-    "fetchedAt": "2026-11-17T14:25:00.566Z",
+    "fetchedAt": "2026-11-18T13:58:42.844Z",
     "summary": "Intro AI Avatar is a free app where your VRoid (VRM) avatar cheers you with all its...",
     "technologies": [],
     "tags": [
@@ -2373,7 +4406,7 @@
       "security",
       "devto"
     ],
-    "engagement": 75,
+    "engagement": 89,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F1p4kxontmb681a8hynvf.png",
     "enriched": false
   },
@@ -2418,7 +4451,7 @@
     "tags": [
       "hackernews"
     ],
-    "engagement": 1827,
+    "engagement": 1847,
     "enriched": false
   },
   {
@@ -2429,13 +4462,13 @@
     "sourceName": "Hacker News",
     "author": "zaik",
     "publishedAt": "2026-11-16T02:04:48.000Z",
-    "fetchedAt": "2026-11-17T14:25:01.287Z",
-    "summary": "Hacker News discussion with 177 comments.",
+    "fetchedAt": "2026-11-18T13:58:43.369Z",
+    "summary": "Hacker News discussion with 178 comments.",
     "technologies": [],
     "tags": [
       "hackernews"
     ],
-    "engagement": 962,
+    "engagement": 968,
     "enriched": false
   },
   {
@@ -2564,7 +4597,7 @@
     "tags": [
       "hackernews"
     ],
-    "engagement": 1636,
+    "engagement": 1657,
     "enriched": false
   },
   {
@@ -2690,13 +4723,13 @@
     "sourceName": "Hacker News",
     "author": "hspeiser",
     "publishedAt": "2026-11-15T22:11:43.000Z",
-    "fetchedAt": "2026-11-17T14:25:01.287Z",
-    "summary": "Hacker News discussion with 201 comments.",
+    "fetchedAt": "2026-11-18T13:58:43.369Z",
+    "summary": "Hacker News discussion with 203 comments.",
     "technologies": [],
     "tags": [
       "hackernews"
     ],
-    "engagement": 779,
+    "engagement": 785,
     "enriched": false
   },
   {
@@ -2752,13 +4785,13 @@
     "sourceName": "Hacker News",
     "author": "coinfused",
     "publishedAt": "2026-11-15T19:42:13.000Z",
-    "fetchedAt": "2026-11-17T14:25:01.287Z",
+    "fetchedAt": "2026-11-18T13:58:43.369Z",
     "summary": "Hacker News discussion with 76 comments.",
     "technologies": [],
     "tags": [
       "hackernews"
     ],
-    "engagement": 618,
+    "engagement": 626,
     "enriched": false
   },
   {
@@ -2769,13 +4802,13 @@
     "sourceName": "Hacker News",
     "author": "bcye",
     "publishedAt": "2026-11-15T19:26:22.000Z",
-    "fetchedAt": "2026-11-17T14:25:01.287Z",
-    "summary": "Hacker News discussion with 85 comments.",
+    "fetchedAt": "2026-11-18T13:58:43.369Z",
+    "summary": "Hacker News discussion with 89 comments.",
     "technologies": [],
     "tags": [
       "hackernews"
     ],
-    "engagement": 632,
+    "engagement": 642,
     "enriched": false
   },
   {
@@ -2815,7 +4848,7 @@
     "tags": [
       "hackernews"
     ],
-    "engagement": 1193,
+    "engagement": 1206,
     "enriched": false,
     "topics": [
       "reliability"
@@ -2836,6 +4869,23 @@
       "hackernews"
     ],
     "engagement": 675,
+    "enriched": false
+  },
+  {
+    "id": "a27d5a8549c3cf65",
+    "title": "IPv6 delegation, an unusually subtle failure mode",
+    "url": "https://savyasacheejha.com/posts/why-odhcpd",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "genghizkhan",
+    "publishedAt": "2026-11-15T18:06:13.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.368Z",
+    "summary": "Hacker News discussion with 10 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 45,
     "enriched": false
   },
   {
@@ -2919,7 +4969,7 @@
     "sourceName": "DEV Community",
     "author": "Giorgi Kobaidze",
     "publishedAt": "2026-11-15T16:16:45.000Z",
-    "fetchedAt": "2026-11-17T14:25:00.567Z",
+    "fetchedAt": "2026-11-18T13:58:42.845Z",
     "summary": "Table of Contents What to Expect From This Article A Short History of LTS and STS Why...",
     "technologies": [],
     "tags": [
@@ -2929,8 +4979,25 @@
       "performance",
       "devto"
     ],
-    "engagement": 34,
+    "engagement": 36,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fky3slfsx0hys3fqnx2v5.jpeg",
+    "enriched": false
+  },
+  {
+    "id": "09e485ef2bdcfbfc",
+    "title": "When AI Knows More Than It Can Offer",
+    "url": "https://medium.com/@smoking2man/when-ai-knows-more-than-it-can-offer-how-training-turns-an-intelligent-assistant-into-a-generator-7e700f05163e",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "Aldus551",
+    "publishedAt": "2026-11-15T15:59:23.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.368Z",
+    "summary": "Hacker News discussion with 1 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 12,
     "enriched": false
   },
   {
@@ -2941,7 +5008,7 @@
     "sourceName": "DEV Community",
     "author": "xbill",
     "publishedAt": "2026-11-15T15:44:53.000Z",
-    "fetchedAt": "2026-11-17T14:25:00.567Z",
+    "fetchedAt": "2026-11-18T13:58:42.845Z",
     "summary": "A step by step guide to mainline Linux kernel development with a coding agent in a closed loop: the kernel's own AGENTS.md, a few markdown runbooks, a build and install script, and the boot and system logs fed back to the agent after every change. The same loop runs on an Intel laptop, two Windows-on-ARM laptops and a Pixel 3a.",
     "technologies": [],
     "tags": [
@@ -2951,7 +5018,7 @@
       "claude",
       "devto"
     ],
-    "engagement": 38,
+    "engagement": 40,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2Fxbill9%2Fkernel_vibe_coding%2Fmain%2Farticles%2Fkernel-agent-loop%2Fdevto-cover.313239af.jpg",
     "enriched": false
   },
@@ -2986,7 +5053,7 @@
     "sourceName": "DEV Community",
     "author": "Raju Dandigam",
     "publishedAt": "2026-11-15T15:05:00.000Z",
-    "fetchedAt": "2026-11-17T14:25:00.567Z",
+    "fetchedAt": "2026-11-18T13:58:42.845Z",
     "summary": "The browser showed JFK. The database already contained BOS. That was the state of a synthetic trip...",
     "technologies": [],
     "tags": [
@@ -2996,7 +5063,7 @@
       "react",
       "devto"
     ],
-    "engagement": 40,
+    "engagement": 45,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Faz2z3292x0i1gwckyonq.jpg",
     "enriched": false
   },
@@ -3053,7 +5120,7 @@
       "beginners",
       "devto"
     ],
-    "engagement": 95,
+    "engagement": 96,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fu044z1s0ehmhm7bs190t.png",
     "enriched": false
   },
@@ -3071,7 +5138,7 @@
     "tags": [
       "hackernews"
     ],
-    "engagement": 2603,
+    "engagement": 2621,
     "enriched": false
   },
   {
@@ -3098,7 +5165,7 @@
       "automation",
       "devto"
     ],
-    "engagement": 19,
+    "engagement": 20,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Flu2uf8at6q2n6n45lblx.jpg",
     "enriched": false
   },
@@ -3269,7 +5336,7 @@
     "sourceName": "DEV Community",
     "author": "nyaomaru",
     "publishedAt": "2026-11-15T10:01:42.000Z",
-    "fetchedAt": "2026-11-17T14:25:00.566Z",
+    "fetchedAt": "2026-11-18T13:58:42.844Z",
     "summary": "Hoi hoi! 👋 Last week, we launched the Necoz organization here on DEV! ...",
     "technologies": [],
     "tags": [
@@ -3279,7 +5346,7 @@
       "github",
       "devto"
     ],
-    "engagement": 162,
+    "engagement": 168,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6gxz9dnt2ges3ky0jtpb.gif",
     "enriched": false
   },
@@ -3386,6 +5453,23 @@
       "architecture",
       "caching"
     ]
+  },
+  {
+    "id": "32e5884fe4a1008d",
+    "title": "A Perfect SimCity",
+    "url": "https://jeffquast.com/post/a-perfect-simcity",
+    "source": "hackernews",
+    "sourceName": "Hacker News",
+    "author": "mariuz",
+    "publishedAt": "2026-11-15T05:54:22.000Z",
+    "fetchedAt": "2026-11-18T13:58:43.368Z",
+    "summary": "Hacker News discussion with 21 comments.",
+    "technologies": [],
+    "tags": [
+      "hackernews"
+    ],
+    "engagement": 136,
+    "enriched": false
   },
   {
     "id": "0237c2ed4dfc16bc",
@@ -3503,7 +5587,7 @@
     "sourceName": "DEV Community",
     "author": "Earl Grey",
     "publishedAt": "2026-11-15T04:00:28.000Z",
-    "fetchedAt": "2026-11-17T14:25:00.565Z",
+    "fetchedAt": "2026-11-18T13:58:42.843Z",
     "summary": "A 1969 Mission Control console for kids. Built in one day for NASA Space Apps 2026. TL;DR: For NASA...",
     "technologies": [],
     "tags": [
@@ -3513,7 +5597,7 @@
       "showdev",
       "devto"
     ],
-    "engagement": 104,
+    "engagement": 115,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fytd9i1woob1euwni30yg.png",
     "enriched": false
   },
@@ -4771,7 +6855,7 @@
     "sourceName": "DEV Community",
     "author": "Hemapriya Kanagala",
     "publishedAt": "2026-11-13T18:28:11.000Z",
-    "fetchedAt": "2026-11-17T14:25:00.565Z",
+    "fetchedAt": "2026-11-18T13:58:42.843Z",
     "summary": "TL;DR Welcome back to Dev Opportunity Radar! 💙 This is a weekly series where I share...",
     "technologies": [],
     "tags": [
@@ -4781,7 +6865,7 @@
       "resources",
       "devto"
     ],
-    "engagement": 127,
+    "engagement": 148,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Feluyt5yj92wt1rnvwy68.jpeg",
     "enriched": false
   },
@@ -4929,7 +7013,7 @@
     "sourceName": "DEV Community",
     "author": "Earl Grey",
     "publishedAt": "2026-11-13T17:48:25.000Z",
-    "fetchedAt": "2026-11-17T14:25:00.567Z",
+    "fetchedAt": "2026-11-18T13:58:42.844Z",
     "summary": "What breaks a month after a hackathon, and what a fellow DEV writer caught in the verifiers. TL;DR:...",
     "technologies": [],
     "tags": [
@@ -4939,7 +7023,7 @@
       "opensource",
       "devto"
     ],
-    "engagement": 99,
+    "engagement": 116,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fo095420vidmninm8id0y.png",
     "enriched": false
   },
@@ -5018,7 +7102,7 @@
       "react",
       "devto"
     ],
-    "engagement": 39,
+    "engagement": 43,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8ukmm68nr5ws1x9u0s8c.jpg",
     "enriched": false
   },
@@ -5269,7 +7353,7 @@
       "ai",
       "devto"
     ],
-    "engagement": 67,
+    "engagement": 72,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2Fxbill9%2Fgemma4-dev%2Fmain%2Fdocs%2Ftokenlab-free%2Fdevto-cover.aff96a99.jpg",
     "enriched": false
   },
@@ -5769,7 +7853,7 @@
     "sourceName": "DEV Community",
     "author": "Debbie O'Brien",
     "publishedAt": "2026-11-13T13:02:11.000Z",
-    "fetchedAt": "2026-11-16T13:39:44.754Z",
+    "fetchedAt": "2026-11-18T13:58:42.845Z",
     "summary": "I ran Liquid AI's LFM3-1.7B in the browser with WebGPU and built Grading Buddy, an offline study app that answers only from notes I've checked.",
     "technologies": [],
     "tags": [
@@ -5779,7 +7863,7 @@
       "webgpu",
       "devto"
     ],
-    "engagement": 13,
+    "engagement": 14,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Foaqj5wqwvf6s7vfl3z2g.png",
     "enriched": false
   },
@@ -5807,7 +7891,7 @@
       "discuss",
       "devto"
     ],
-    "engagement": 154,
+    "engagement": 155,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwovas3nfon0xbfg4jnjt.webp",
     "enriched": false
   },
@@ -5943,7 +8027,7 @@
     "sourceName": "DEV Community",
     "author": "Akhouri Anmol Kumar",
     "publishedAt": "2026-11-13T11:05:50.000Z",
-    "fetchedAt": "2026-11-17T14:25:00.566Z",
+    "fetchedAt": "2026-11-18T13:58:42.844Z",
     "summary": "On December 1, 2026 at 9:00 AM CET, remove.bg — the site that turned \"one-click background removal\"...",
     "technologies": [],
     "tags": [
@@ -5953,7 +8037,7 @@
       "webassembly",
       "devto"
     ],
-    "engagement": 357,
+    "engagement": 380,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ffppaetfto55zr1p16o7g.png",
     "enriched": false
   },
@@ -6019,7 +8103,7 @@
     "sourceName": "DEV Community",
     "author": "Alex Georgiev",
     "publishedAt": "2026-11-13T11:00:00.000Z",
-    "fetchedAt": "2026-11-16T13:39:44.754Z",
+    "fetchedAt": "2026-11-18T13:58:42.845Z",
     "summary": "I measured git history drop against the classic worktree-and-rebase way of removing a commit: 1.4s vs 0.03s at 20 descendants, 26.5s vs 0.36s at 400.",
     "technologies": [],
     "tags": [
@@ -6029,7 +8113,7 @@
       "cli",
       "devto"
     ],
-    "engagement": 15,
+    "engagement": 22,
     "enriched": false
   },
   {
@@ -6390,7 +8474,7 @@
     "sourceName": "DEV Community",
     "author": "Earl Grey",
     "publishedAt": "2026-11-12T23:13:28.000Z",
-    "fetchedAt": "2026-11-17T14:25:00.566Z",
+    "fetchedAt": "2026-11-18T13:58:42.844Z",
     "summary": "Waitlisted once. Applied again anyway. TL;DR: In one day I sent four applications: three AI...",
     "technologies": [],
     "tags": [
@@ -6400,7 +8484,7 @@
       "discuss",
       "devto"
     ],
-    "engagement": 143,
+    "engagement": 160,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6v1imq7yz3dr9u8h3b5a.png",
     "enriched": false
   },
@@ -7253,7 +9337,7 @@
       "productivity",
       "devto"
     ],
-    "engagement": 165,
+    "engagement": 173,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fa20dm7o9oqkdd8zvyns3.jpg",
     "enriched": false,
     "problem": "Why attaching dozens of Model Context Protocol (MCP) tools degrades LLM reasoning, inflates API bills, and how small, focused TypeScript micro-tools fix the problem."
@@ -7352,7 +9436,7 @@
     "sourceName": "DEV Community",
     "author": "Julien Avezou",
     "publishedAt": "2026-11-12T15:35:00.000Z",
-    "fetchedAt": "2026-11-17T14:25:00.565Z",
+    "fetchedAt": "2026-11-18T13:58:42.843Z",
     "summary": "AI is getting better every day. As a software engineer, this is a topic that is often top of mind,...",
     "technologies": [],
     "tags": [
@@ -7362,7 +9446,7 @@
       "discuss",
       "devto"
     ],
-    "engagement": 116,
+    "engagement": 131,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6csfx8i2kft82mrqhcj6.png",
     "enriched": false
   },
@@ -7390,7 +9474,7 @@
       "ai",
       "devto"
     ],
-    "engagement": 188,
+    "engagement": 189,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqb9kfsla99mu47xwg4z0.jpg",
     "enriched": false
   },
@@ -7901,7 +9985,7 @@
     "source": "github",
     "sourceName": "GitHub Trending",
     "publishedAt": "2026-11-12T13:46:11.084Z",
-    "fetchedAt": "2026-11-12T16:05:11.432Z",
+    "fetchedAt": "2026-11-18T13:58:44.671Z",
     "summary": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
     "technologies": [],
     "tags": [
@@ -7909,7 +9993,7 @@
       "github-trending",
       "open-source"
     ],
-    "engagement": 79,
+    "engagement": 199,
     "enriched": false
   },
   {
@@ -8114,7 +10198,7 @@
     "sourceName": "DEV Community",
     "author": "Sᴛᴀʀ⭐",
     "publishedAt": "2026-11-12T11:18:53.000Z",
-    "fetchedAt": "2026-11-17T14:25:00.565Z",
+    "fetchedAt": "2026-11-18T13:58:42.843Z",
     "summary": "I still can't believe it! I just noticed the Trusted Member badge on my DEV.to profile, and I'm...",
     "technologies": [],
     "tags": [
@@ -8123,7 +10207,7 @@
       "beginners",
       "devto"
     ],
-    "engagement": 195,
+    "engagement": 197,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F0v96j6gqp3b93fmbm5wh.jpg",
     "enriched": false
   },
@@ -8371,7 +10455,7 @@
     "sourceName": "DEV Community",
     "author": "Hadil Ben Abdallah",
     "publishedAt": "2026-11-12T09:16:54.000Z",
-    "fetchedAt": "2026-11-16T13:39:44.754Z",
+    "fetchedAt": "2026-11-18T13:58:42.845Z",
     "summary": "Enterprise SSO for B2B SaaS often becomes a requirement as your product attracts larger customers. A...",
     "technologies": [],
     "tags": [
@@ -8381,7 +10465,7 @@
       "webdev",
       "devto"
     ],
-    "engagement": 44,
+    "engagement": 81,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwhh1rudvficvzrc37724.png",
     "enriched": false
   },
@@ -8436,7 +10520,7 @@
     "sourceName": "DEV Community",
     "author": "Sylwia Laskowska",
     "publishedAt": "2026-11-12T08:14:36.000Z",
-    "fetchedAt": "2026-11-17T14:25:00.565Z",
+    "fetchedAt": "2026-11-18T13:58:42.843Z",
     "summary": "What exactly is MCP? Is it some mysterious technology that requires secret knowledge to implement?...",
     "technologies": [],
     "tags": [
@@ -8446,7 +10530,7 @@
       "typescript",
       "devto"
     ],
-    "engagement": 594,
+    "engagement": 608,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4ajaeuift6x1wfndpe9s.png",
     "enriched": false
   },
@@ -8854,7 +10938,7 @@
     "sourceName": "DEV Community",
     "author": "frank coyle",
     "publishedAt": "2026-11-11T20:51:14.000Z",
-    "fetchedAt": "2026-11-17T14:25:00.566Z",
+    "fetchedAt": "2026-11-18T13:58:42.844Z",
     "summary": "The failure nobody demos The agent demo always works. The customer asks for a refund, the...",
     "technologies": [],
     "tags": [
@@ -8864,7 +10948,7 @@
       "architecture",
       "devto"
     ],
-    "engagement": 58,
+    "engagement": 63,
     "enriched": false
   },
   {
@@ -8891,7 +10975,7 @@
       "devops",
       "devto"
     ],
-    "engagement": 40,
+    "engagement": 41,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnrwyuy74ezp32ehk1o31.png",
     "enriched": false
   },
@@ -9270,7 +11354,7 @@
       "opensource",
       "devto"
     ],
-    "engagement": 204,
+    "engagement": 210,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnmpfwlsvrtynp0s1lm59.gif",
     "enriched": false
   },
@@ -9643,7 +11727,7 @@
     "sourceName": "DEV Community",
     "author": "Daniel Nwaneri",
     "publishedAt": "2026-11-11T15:59:00.000Z",
-    "fetchedAt": "2026-11-16T13:39:44.753Z",
+    "fetchedAt": "2026-11-18T13:58:42.844Z",
     "summary": "If you’ve been in the software industry for any length of time, you’ve probably heard people talking...",
     "technologies": [],
     "tags": [
@@ -9653,7 +11737,7 @@
       "discuss",
       "devto"
     ],
-    "engagement": 77,
+    "engagement": 85,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnjh8nx84adsifberdyfi.jpg",
     "enriched": false
   },
@@ -18064,7 +20148,7 @@
       "ai",
       "devto"
     ],
-    "engagement": 203,
+    "engagement": 216,
     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fg9n66rugp217ye18xdzh.png",
     "enriched": false,
     "problem": "The results are in for the final week of our Hacktoberfest DEV Challenges!"
@@ -23984,14 +26068,14 @@
     "enriched": false
   },
   {
-    "id": "969a61ee51f1fde2",
-    "title": "🐾 DEV Pet Corner #4: Show Us Your Pets!",
-    "url": "https://dev.to/hemapriya_kanagala/dev-pet-corner-4-show-us-your-pets-55jh",
+    "id": "7464aaca5345aa80",
+    "title": "🐾 DEV Pet Corner #6: Show Us Your Pets!",
+    "url": "https://dev.to/hemapriya_kanagala/dev-pet-corner-6-show-us-your-pets-2gd3",
     "source": "devto",
     "sourceName": "DEV Community",
     "author": "Hemapriya Kanagala",
     "publishedAt": "2026-11-01T17:53:50.000Z",
-    "fetchedAt": "2026-11-07T14:06:27.307Z",
+    "fetchedAt": "2026-11-18T13:58:42.844Z",
     "summary": "TL;DR DEV Pet Corner is back for another Sunday! It's a weekly series where we take a little break...",
     "technologies": [],
     "tags": [
@@ -24001,8 +26085,8 @@
       "pets",
       "devto"
     ],
-    "engagement": 159,
-    "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fuonbff781lc6lq68fu5f.jpeg",
+    "engagement": 160,
+    "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F5ug693cnxbxgmrdi76g0.jpeg",
     "enriched": false
   },
   {
