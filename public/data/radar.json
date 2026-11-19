@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T13:59:51.879Z",
+  "generatedAt": "2026-11-19T14:28:31.022Z",
   "periodDays": 60,
   "items": [
     {
@@ -38,22 +38,22 @@
       "name": "AI agents",
       "quadrant": "Techniques",
       "ring": "Assess",
-      "description": "Jabez Eliezer Manuel discusses the 20-year evolution of Booking.com’s data management and ML platforms. He explains how they scaled MySQL topologies, sunset Hadoop for cloud architecture, and built…",
-      "articleCount": 132,
-      "recentCount": 101,
+      "description": "Agentic AI can speed up velocity, but the gains vanish within months as code complexity grows. Healthy code makes AI perform better and costs fewer tokens. Safeguarding means keeping code health high…",
+      "articleCount": 139,
+      "recentCount": 108,
       "previousCount": 2,
       "trend": "up",
       "firstSeen": "2024-01-29T18:28:18.000Z",
-      "lastSeen": "2026-11-18T11:00:00.000Z",
+      "lastSeen": "2026-11-19T11:09:00.000Z",
       "articleIds": [
+        "2f3a7341bfdc539d",
+        "9f61c5979bc1e501",
+        "0f9be8abc3972160",
+        "dbf7233003822774",
+        "1e6b15e0e8457b12",
+        "d3413347688b5b5e",
         "8425d2a0c9af8b3a",
-        "c37683fd36fe13c9",
-        "5cbc55e1b429d883",
-        "fafbabaecc68bed8",
-        "3e72391ba79d2c26",
-        "8f7e7d5ab126fdf9",
-        "30252d70fede2016",
-        "2479b75faf7e02fc"
+        "c37683fd36fe13c9"
       ],
       "tags": [
         "hackernews",
@@ -62,29 +62,29 @@
         "cloud",
         "ai"
       ],
-      "score": 1714.6
+      "score": 1819.6
     },
     {
       "id": "anthropic-claude-cc3f96",
       "name": "Anthropic Claude",
       "quadrant": "Tools",
       "ring": "Trial",
-      "description": "External sandboxes for coding agents I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake…",
-      "articleCount": 115,
-      "recentCount": 79,
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "articleCount": 121,
+      "recentCount": 85,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2023-08-12T00:08:13.000Z",
-      "lastSeen": "2026-11-18T03:47:43.000Z",
+      "lastSeen": "2026-11-19T14:27:08.668Z",
       "articleIds": [
+        "14f321c495182c59",
+        "48e0c27112eedb35",
+        "25c96fa5a216b598",
+        "852fd3414b70a7cc",
+        "630b41be4a2bc539",
+        "fa1fc755432b0137",
         "d021019fd8304ea4",
-        "c60558e98558e0e7",
-        "5cbc55e1b429d883",
-        "3429c7218e4f7d01",
-        "c6524b3bb676a860",
-        "069078b2b4e3b49a",
-        "35612161c8c95c8e",
-        "52adf762d4075bfa"
+        "c60558e98558e0e7"
       ],
       "tags": [
         "hackernews",
@@ -93,7 +93,7 @@
         "python",
         "reading-list"
       ],
-      "score": 1420
+      "score": 1510
     },
     {
       "id": "kubernetes-74afb9",
@@ -127,54 +127,57 @@
       "score": 804.6
     },
     {
-      "id": "event-driven-architecture-e0d623",
-      "name": "Event-driven architecture",
-      "quadrant": "Techniques",
+      "id": "rust-1d3fbd",
+      "name": "Rust",
+      "quadrant": "Languages & Frameworks",
       "ring": "Trial",
-      "description": "I built OS3-RNode as a tiny RNode-compatible LoRa modem firmware for CH32V003 + E22-900M22S. It is based on a small deterministic event-driven core, with no scheduler, no threads, and bounded…",
-      "articleCount": 122,
-      "recentCount": 0,
-      "previousCount": 2,
-      "trend": "down",
-      "firstSeen": "2020-01-13T15:27:07.000Z",
-      "lastSeen": "2026-10-23T03:18:52.000Z",
+      "description": "Nicholas Matsakis shares why AI makes Rust the ideal choice for modern production systems, skipping steep adoption hurdles via compiler guardrails. He discusses Symposium - an open-source,…",
+      "articleCount": 82,
+      "recentCount": 31,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-01-15T00:22:16.000Z",
+      "lastSeen": "2026-11-19T11:00:00.000Z",
       "articleIds": [
-        "f39569829c56503d",
-        "f6970837347785e5",
-        "80465ed9e3232124",
-        "dd02846d87df72d9",
-        "d19f3aef4c230b67",
-        "3f362f5a627e1e63",
-        "d51d6c120db0819d",
-        "0947f81572fb343b"
+        "4021143fd68821aa",
+        "4c638f96948b260f",
+        "7421f918d6a1f827",
+        "569017a70fd8b933",
+        "b7a6e8b9a3875109",
+        "afe6109fc01db2e3",
+        "66c2e2d879f10b6b",
+        "36cf899b1962ca45"
       ],
       "tags": [
         "hackernews",
-        "archive"
+        "archive",
+        "rust",
+        "architecture",
+        "devto"
       ],
-      "score": 743.6
+      "score": 789.4
     },
     {
       "id": "aws-1a683c",
       "name": "AWS",
       "quadrant": "Platforms",
       "ring": "Adopt",
-      "description": "AWS has detailed tunnel endpoints, a PrivateLink endpoint type that gives a consumer VPC access to an entire network segment in another account rather than one resource at a time, over an overlapping…",
-      "articleCount": 73,
-      "recentCount": 30,
+      "description": "Learn how Aderant modernized the data pipeline behind its Stridyn legal analytics platform with Apache Iceberg, AWS Lambda, and AWS Glue, moving from 15-minute batch cycles to an event-driven…",
+      "articleCount": 76,
+      "recentCount": 33,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-01-28T20:05:18.000Z",
-      "lastSeen": "2026-11-18T09:29:00.000Z",
+      "lastSeen": "2026-11-19T00:36:23.000Z",
       "articleIds": [
+        "b98325dcc025edb1",
+        "27208382ec0736e5",
+        "42d84d76bc289195",
         "3c7261e577de1bda",
         "53cb83ab3e8f92a3",
         "758d215cf94ec88b",
         "b6aadf66e4294a9b",
-        "2cc96b8af33cdbe2",
-        "0e8b8d7c8ce4a07e",
-        "27674296406cc6c6",
-        "aa04d052c89c07b4"
+        "2cc96b8af33cdbe2"
       ],
       "tags": [
         "hackernews",
@@ -183,60 +186,29 @@
         "reading-list",
         "architecture"
       ],
-      "score": 730.4
-    },
-    {
-      "id": "rust-1d3fbd",
-      "name": "Rust",
-      "quadrant": "Languages & Frameworks",
-      "ring": "Trial",
-      "description": "An extremely fast Python package and project manager, written in Rust.",
-      "articleCount": 78,
-      "recentCount": 27,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-01-15T00:22:16.000Z",
-      "lastSeen": "2026-11-18T13:58:44.671Z",
-      "articleIds": [
-        "b7a6e8b9a3875109",
-        "afe6109fc01db2e3",
-        "66c2e2d879f10b6b",
-        "36cf899b1962ca45",
-        "52130f2cae05c3d1",
-        "1c4499e0c33136bc",
-        "4f31dbe9014ddf9a",
-        "98e71d034f4ded13"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "rust",
-        "devto",
-        "ai"
-      ],
-      "score": 729.4
+      "score": 775.4
     },
     {
       "id": "python-0fceff",
       "name": "Python",
       "quadrant": "Languages & Frameworks",
       "ring": "Adopt",
-      "description": "An extremely fast Python package and project manager, written in Rust.",
-      "articleCount": 87,
-      "recentCount": 20,
+      "description": "The PSF end-of-year fundraiser With my Python Software Foundation board director hat on: we've launched our end-of-year fundraiser for the non-profit that supports Python development and the Python…",
+      "articleCount": 90,
+      "recentCount": 23,
       "previousCount": 2,
       "trend": "up",
       "firstSeen": "2020-01-13T16:40:35.000Z",
-      "lastSeen": "2026-11-18T13:58:44.671Z",
+      "lastSeen": "2026-11-18T14:44:48.000Z",
       "articleIds": [
+        "358ebcd58de33063",
+        "fa1fc755432b0137",
         "b7a6e8b9a3875109",
         "c60558e98558e0e7",
         "5b158888670aa71b",
         "2479b75faf7e02fc",
         "3b3dc99588734f14",
-        "564eb3e6002e7dc8",
-        "b4eae06ead2ef3f5",
-        "5ec3910099d55c90"
+        "611c6fd9a527ae9b"
       ],
       "tags": [
         "hackernews",
@@ -245,7 +217,69 @@
         "devto",
         "ai"
       ],
-      "score": 724.5
+      "score": 769.5
+    },
+    {
+      "id": "event-driven-architecture-e0d623",
+      "name": "Event-driven architecture",
+      "quadrant": "Techniques",
+      "ring": "Trial",
+      "description": "Learn how Aderant modernized the data pipeline behind its Stridyn legal analytics platform with Apache Iceberg, AWS Lambda, and AWS Glue, moving from 15-minute batch cycles to an event-driven…",
+      "articleCount": 123,
+      "recentCount": 1,
+      "previousCount": 2,
+      "trend": "down",
+      "firstSeen": "2020-01-13T15:27:07.000Z",
+      "lastSeen": "2026-11-19T00:36:23.000Z",
+      "articleIds": [
+        "b98325dcc025edb1",
+        "f39569829c56503d",
+        "f6970837347785e5",
+        "80465ed9e3232124",
+        "dd02846d87df72d9",
+        "d19f3aef4c230b67",
+        "3f362f5a627e1e63",
+        "d51d6c120db0819d"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "cloud",
+        "advanced (300)",
+        "aws lambda"
+      ],
+      "score": 758.6
+    },
+    {
+      "id": "gemini-90e14d",
+      "name": "Gemini",
+      "quadrant": "Tools",
+      "ring": "Trial",
+      "description": "AI is building AI At Anthropic, Claude now writes more than 80% of the code the company merges. At Google, an AI agent called AlphaEvolve found a way to make Gemini train faster. At OpenAI, an…",
+      "articleCount": 52,
+      "recentCount": 42,
+      "previousCount": 1,
+      "trend": "up",
+      "firstSeen": "2024-12-05T07:03:29.000Z",
+      "lastSeen": "2026-11-19T11:45:40.000Z",
+      "articleIds": [
+        "48e0c27112eedb35",
+        "14a22af93bc05685",
+        "c3c7756f62d48d7a",
+        "b2c084a412751371",
+        "3ede266c56e21b63",
+        "66207e9d38c89c75",
+        "9581e50f8c99056e",
+        "d3bb1c99802a8cca"
+      ],
+      "tags": [
+        "hackernews",
+        "cloud",
+        "archive",
+        "ai",
+        "ai & machine learning"
+      ],
+      "score": 708.7
     },
     {
       "id": "go-422077",
@@ -310,37 +344,6 @@
       "score": 677.5
     },
     {
-      "id": "gemini-90e14d",
-      "name": "Gemini",
-      "quadrant": "Tools",
-      "ring": "Trial",
-      "description": "For the third time in a row, Google Cloud is recognized as a Leader in the 2026 Gartner Magic Quadrant for AI Application Development Platforms, positioned highest overall on the Ability to Execute…",
-      "articleCount": 48,
-      "recentCount": 38,
-      "previousCount": 1,
-      "trend": "up",
-      "firstSeen": "2024-12-05T07:03:29.000Z",
-      "lastSeen": "2026-11-18T04:14:04.000Z",
-      "articleIds": [
-        "3ede266c56e21b63",
-        "66207e9d38c89c75",
-        "9581e50f8c99056e",
-        "d3bb1c99802a8cca",
-        "3a773908682a5e59",
-        "11db346f783483f1",
-        "52adf762d4075bfa",
-        "c430603e3588ef20"
-      ],
-      "tags": [
-        "cloud",
-        "hackernews",
-        "archive",
-        "ai",
-        "ai & machine learning"
-      ],
-      "score": 648.2
-    },
-    {
       "id": "postgresql-2ee91e",
       "name": "PostgreSQL",
       "quadrant": "Platforms",
@@ -376,62 +379,93 @@
       "name": "Claude Code",
       "quadrant": "Tools",
       "ring": "Assess",
-      "description": "External sandboxes for coding agents I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake…",
-      "articleCount": 39,
-      "recentCount": 26,
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "articleCount": 41,
+      "recentCount": 28,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2025-12-21T12:57:10.000Z",
-      "lastSeen": "2026-11-17T22:52:29.000Z",
+      "lastSeen": "2026-11-19T14:27:08.668Z",
       "articleIds": [
+        "14f321c495182c59",
+        "fa1fc755432b0137",
         "c60558e98558e0e7",
         "3429c7218e4f7d01",
         "c6524b3bb676a860",
         "069078b2b4e3b49a",
         "35612161c8c95c8e",
-        "52adf762d4075bfa",
-        "45b453e349d12cc9",
-        "32b076595ed25f11"
+        "52adf762d4075bfa"
       ],
       "tags": [
         "hackernews",
         "archive",
-        "ai",
-        "python",
-        "github-trending"
+        "github-trending",
+        "open-source",
+        "ai"
       ],
-      "score": 481.8
+      "score": 511.8
     },
     {
       "id": "openai-api-a8a7c5",
       "name": "OpenAI API",
       "quadrant": "Tools",
       "ring": "Trial",
-      "description": "GPT‑6.2 Astra and GPT‑6.2 Sol OpenAI: We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. They're…",
-      "articleCount": 42,
-      "recentCount": 16,
+      "description": "AI is building AI At Anthropic, Claude now writes more than 80% of the code the company merges. At Google, an AI agent called AlphaEvolve found a way to make Gemini train faster. At OpenAI, an…",
+      "articleCount": 45,
+      "recentCount": 19,
       "previousCount": 1,
       "trend": "up",
       "firstSeen": "2023-01-10T11:25:15.000Z",
-      "lastSeen": "2026-11-17T22:38:52.000Z",
+      "lastSeen": "2026-11-19T11:45:40.000Z",
       "articleIds": [
+        "48e0c27112eedb35",
+        "7ca9d8009ca31804",
+        "fe05268132b2514d",
         "5cbc55e1b429d883",
         "f8c13411174c3f0d",
         "f9a3c449e5989b1d",
         "81cd24c26e707d6f",
-        "a4357c87a4347d6d",
-        "f7cfdfd7bcc39abd",
-        "624a305adfa41ec6",
-        "ac992cc25d49f443"
+        "a4357c87a4347d6d"
       ],
       "tags": [
         "hackernews",
         "archive",
         "ai",
-        "cloud-native",
-        "ai agents"
+        "reading-list",
+        "cloud-native"
       ],
-      "score": 414.3
+      "score": 459.3
+    },
+    {
+      "id": "sre-d53ce4",
+      "name": "SRE",
+      "quadrant": "Techniques",
+      "ring": "Trial",
+      "description": "Groundcover, the eBPF-based observability startup, has introduced Investigations, giving agents and engineers one place to collaborate on incident response in The post Groundcover Investigations lets…",
+      "articleCount": 57,
+      "recentCount": 5,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-01-10T13:12:14.000Z",
+      "lastSeen": "2026-11-19T14:00:00.000Z",
+      "articleIds": [
+        "799e27214d566530",
+        "975d195914cc7864",
+        "b1d5b5a38d4cec74",
+        "f113e5aea16ede5b",
+        "afccc9d04b54f526",
+        "4f3be424decb50fd",
+        "3b0eb852b9af2d2d",
+        "64e59e259df48eec"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "reading-list",
+        "observability",
+        "general"
+      ],
+      "score": 404.9
     },
     {
       "id": "redis-b60889",
@@ -465,88 +499,88 @@
       "score": 390.3
     },
     {
-      "id": "sre-d53ce4",
-      "name": "SRE",
-      "quadrant": "Techniques",
-      "ring": "Trial",
-      "description": "Google has announced a completely rewritten second edition of Site Reliability Engineering: How Google Runs Production Systems, ten years after the original book was published by O'Reilly Media. The…",
-      "articleCount": 56,
-      "recentCount": 4,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-01-10T13:12:14.000Z",
-      "lastSeen": "2026-11-17T09:00:00.000Z",
-      "articleIds": [
-        "975d195914cc7864",
-        "b1d5b5a38d4cec74",
-        "f113e5aea16ede5b",
-        "afccc9d04b54f526",
-        "4f3be424decb50fd",
-        "3b0eb852b9af2d2d",
-        "64e59e259df48eec",
-        "81ec892a649a998f"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "reading-list",
-        "general",
-        "architecture"
-      ],
-      "score": 389.9
-    },
-    {
       "id": "docker-0be35d",
       "name": "Docker",
       "quadrant": "Platforms",
       "ring": "Adopt",
-      "description": "Give AI coding agents live web access with the Firecrawl kit for Docker Sandboxes. Learn to search, scrape, and crawl websites with network controls.",
-      "articleCount": 46,
-      "recentCount": 6,
+      "description": "Learn how Docker AI Governance secures agentic AI with sandbox policies, MCP tool governance, and audit visibility to support controlled AI agent workflows.",
+      "articleCount": 47,
+      "recentCount": 7,
       "previousCount": 1,
       "trend": "up",
       "firstSeen": "2020-01-11T06:17:45.000Z",
-      "lastSeen": "2026-11-16T14:00:00.000Z",
+      "lastSeen": "2026-11-18T14:00:00.000Z",
       "articleIds": [
+        "d3413347688b5b5e",
         "de0206a657a44693",
         "1004f5b1d037c0c2",
         "53d5cdba12bea358",
         "3a35a01b31fba168",
         "8ef031c71685a374",
         "dbb0af5604c5dd43",
-        "97a02e0388e5e957",
-        "75ea510f1ce22d95"
+        "97a02e0388e5e957"
       ],
       "tags": [
         "hackernews",
         "archive",
         "containers",
         "community",
-        "security"
+        "agentic ai"
       ],
-      "score": 351.6
+      "score": 366.6
+    },
+    {
+      "id": "observability-3f4219",
+      "name": "Observability",
+      "quadrant": "Techniques",
+      "ring": "Adopt",
+      "description": "Groundcover, the eBPF-based observability startup, has introduced Investigations, giving agents and engineers one place to collaborate on incident response in The post Groundcover Investigations lets…",
+      "articleCount": 32,
+      "recentCount": 16,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-10-08T12:32:56.000Z",
+      "lastSeen": "2026-11-19T14:00:00.000Z",
+      "articleIds": [
+        "799e27214d566530",
+        "5cbdec76c3653574",
+        "42d84d76bc289195",
+        "8996249a38002945",
+        "2ac8ce26c4d37e50",
+        "48145b108142466c",
+        "a324048b9a561e00",
+        "5b498fce51fa1178"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "reading-list",
+        "observability",
+        "cloud-native"
+      ],
+      "score": 355.5
     },
     {
       "id": "java-081fb5",
       "name": "Java",
       "quadrant": "Languages & Frameworks",
       "ring": "Adopt",
-      "description": "This article explains the technique using a quorum key-value store as a running example, with code from Tickloom, a Java implementation of the approach.",
-      "articleCount": 41,
-      "recentCount": 7,
+      "description": "Java4Shell is a critical memory-corruption flaw in OpenJDK's Base64 decoder that can lead to remote code execution. Cloudflare has released six WAF managed rules for paid plans that logs matching…",
+      "articleCount": 42,
+      "recentCount": 8,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-01-13T20:39:08.000Z",
-      "lastSeen": "2026-11-17T14:33:00.000Z",
+      "lastSeen": "2026-11-18T14:52:10.000Z",
       "articleIds": [
+        "af17318c693b84ad",
         "890c57ba47bf0a05",
         "2ab0e4d1739d8c55",
         "8c2af936a1ddae0c",
         "8bb9b1bbd3d2ad72",
         "d2ab14a5ea188b3a",
         "ecf7a899a16f8d25",
-        "4daf6dadf9c46066",
-        "d6dcabee6d291ef3"
+        "4daf6dadf9c46066"
       ],
       "tags": [
         "hackernews",
@@ -555,7 +589,38 @@
         "java",
         "tornadovm"
       ],
-      "score": 330.2
+      "score": 345.2
+    },
+    {
+      "id": "typescript-19862f",
+      "name": "TypeScript",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Adopt",
+      "description": "Hoi hoi! 👋 I'm @nyaomaru, a frontend engineer who loves TypeScript and gambas, not crabs! 🦐 And...",
+      "articleCount": 29,
+      "recentCount": 14,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2021-05-07T12:42:22.000Z",
+      "lastSeen": "2026-11-18T17:27:52.000Z",
+      "articleIds": [
+        "7421f918d6a1f827",
+        "7925d53e7e824e0d",
+        "e6b61badd188738a",
+        "a26f08e053aa1f16",
+        "af1718a415eac7ae",
+        "65f8a2e3eddbdfe5",
+        "95c23a9afeb3554e",
+        "edcddc610a9e2407"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "typescript",
+        "architecture",
+        "devto"
+      ],
+      "score": 322.6
     },
     {
       "id": "javascript-818045",
@@ -587,68 +652,6 @@
         "javascript"
       ],
       "score": 315.7
-    },
-    {
-      "id": "observability-3f4219",
-      "name": "Observability",
-      "quadrant": "Techniques",
-      "ring": "Adopt",
-      "description": "Rakbank re-platformed logging for its retail digital banking workloads on a cross-account, Multi-AZ Amazon OpenSearch Service design that ingests ~150 GB/day through Fluent Bit, using…",
-      "articleCount": 29,
-      "recentCount": 13,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-10-08T12:32:56.000Z",
-      "lastSeen": "2026-11-17T16:03:22.000Z",
-      "articleIds": [
-        "8996249a38002945",
-        "2ac8ce26c4d37e50",
-        "48145b108142466c",
-        "a324048b9a561e00",
-        "5b498fce51fa1178",
-        "6f6c86a06e5ced76",
-        "51b69a0abc927c87",
-        "a678386f4bab26d0"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "reading-list",
-        "observability",
-        "cloud"
-      ],
-      "score": 310.5
-    },
-    {
-      "id": "typescript-19862f",
-      "name": "TypeScript",
-      "quadrant": "Languages & Frameworks",
-      "ring": "Adopt",
-      "description": "Vercel has released UI SDK in beta, an Apache 2.0 TypeScript library of more than 50 UI behaviors in @ui-sdk/core, with adapters for React, Vue, Svelte, Solid, and Web Components, so agents can…",
-      "articleCount": 28,
-      "recentCount": 13,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2021-05-07T12:42:22.000Z",
-      "lastSeen": "2026-11-18T10:12:00.000Z",
-      "articleIds": [
-        "7925d53e7e824e0d",
-        "e6b61badd188738a",
-        "a26f08e053aa1f16",
-        "af1718a415eac7ae",
-        "65f8a2e3eddbdfe5",
-        "95c23a9afeb3554e",
-        "edcddc610a9e2407",
-        "c7433ec470cb8f9b"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "typescript",
-        "architecture",
-        "web development"
-      ],
-      "score": 307.6
     },
     {
       "id": "apache-kafka-0d516b",
@@ -710,57 +713,26 @@
       "score": 283.2
     },
     {
-      "id": "serverless-d08ae9",
-      "name": "Serverless",
-      "quadrant": "Techniques",
-      "ring": "Trial",
-      "description": "Cloudflare has announced the general availability of Basin, a serverless analytics platform built on Apache Iceberg and R2 Object Storage. The managed service supports open data formats and…",
-      "articleCount": 35,
-      "recentCount": 3,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-01-02T21:19:39.000Z",
-      "lastSeen": "2026-11-10T19:14:00.000Z",
-      "articleIds": [
-        "804af6cb982454d2",
-        "5788376f314c8f0e",
-        "ffae9ae80732c0e4",
-        "f5d63d7af140ac7b",
-        "d82f7e4b64fe7d2f",
-        "a58f7e83552b9dea",
-        "0c94239ee76bf429",
-        "6f3a5ac7f92c5dd1"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "architecture",
-        "cloudflare",
-        "serverless"
-      ],
-      "score": 253
-    },
-    {
       "id": "cloudflare-a187f4",
       "name": "Cloudflare",
       "quadrant": "Platforms",
       "ring": "Trial",
-      "description": "Cloudflare recently made Application Services for Private Origins generally available, allowing public traffic to reach applications hosted on private networks without exposing their IP addresses or…",
-      "articleCount": 21,
-      "recentCount": 12,
+      "description": "On November 3, 2026 U.S. voters headed to the polls. Here’s what Cloudflare data across more than 1,400 protected sites tells us about Election Day Internet traffic and cyberattacks.",
+      "articleCount": 23,
+      "recentCount": 14,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-09-17T13:10:26.000Z",
-      "lastSeen": "2026-11-15T06:18:00.000Z",
+      "lastSeen": "2026-11-19T14:00:00.000Z",
       "articleIds": [
+        "a67e4808fe94719f",
+        "af17318c693b84ad",
         "aa6457d959ee12ae",
         "09e5e80125ce2409",
         "4766c254790f5422",
         "813e40fce5f80ae4",
         "1e25c4d1d22c66b1",
-        "804af6cb982454d2",
-        "5720b59a680a066d",
-        "b2982d30c3500929"
+        "804af6cb982454d2"
       ],
       "tags": [
         "hackernews",
@@ -769,38 +741,38 @@
         "infra",
         "reading-list"
       ],
-      "score": 252.6
+      "score": 282.6
     },
     {
-      "id": "azure-3758c2",
-      "name": "Azure",
-      "quadrant": "Platforms",
+      "id": "serverless-d08ae9",
+      "name": "Serverless",
+      "quadrant": "Techniques",
       "ring": "Trial",
-      "description": "As AI changes how businesses build and run applications, more enterprises are spreading their models, data and applications across multiple clouds. To make that work, they need fast, private…",
-      "articleCount": 21,
-      "recentCount": 8,
+      "description": "United Airlines built a near-real-time change data capture pipeline that replicates reference data from Amazon Aurora MySQL to open Apache Iceberg tables using AWS DMS, Amazon Kinesis Data Streams,…",
+      "articleCount": 36,
+      "recentCount": 4,
       "previousCount": 0,
       "trend": "up",
-      "firstSeen": "2020-02-21T06:36:14.000Z",
-      "lastSeen": "2026-11-17T18:35:00.000Z",
+      "firstSeen": "2020-01-02T21:19:39.000Z",
+      "lastSeen": "2026-11-18T20:37:39.000Z",
       "articleIds": [
-        "82aaae6fc61f1aed",
-        "2bd70fc46c2610a5",
-        "5e50d6c9946750f3",
-        "e39e802bc6fc5c6c",
-        "7482059e8feb089c",
-        "70bd8739af1678af",
-        "2ea58fe6d3832d71",
-        "02ab276b39463efa"
+        "27208382ec0736e5",
+        "804af6cb982454d2",
+        "5788376f314c8f0e",
+        "ffae9ae80732c0e4",
+        "f5d63d7af140ac7b",
+        "d82f7e4b64fe7d2f",
+        "a58f7e83552b9dea",
+        "0c94239ee76bf429"
       ],
       "tags": [
         "hackernews",
         "archive",
-        "azure",
-        "devto",
-        "cloud"
+        "cloud",
+        "reading-list",
+        "architecture"
       ],
-      "score": 215.2
+      "score": 268
     },
     {
       "id": "ruby-on-rails-9e1b81",
@@ -808,21 +780,21 @@
       "quadrant": "Languages & Frameworks",
       "ring": "Trial",
       "description": "When DHH took the stage at Rails World 2026 and talked openly about going \"pencils down\" on...",
-      "articleCount": 27,
-      "recentCount": 4,
+      "articleCount": 28,
+      "recentCount": 5,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-03-27T15:28:09.000Z",
-      "lastSeen": "2026-11-12T15:30:50.000Z",
+      "lastSeen": "2026-11-19T05:09:11.000Z",
       "articleIds": [
+        "f82d195d3e1b5c14",
         "f26787f9c3fd2513",
         "d9c11c6e1d8b98a4",
         "678573bae444375c",
         "da2a962c46f1dd4a",
         "0571853de0b43b90",
         "1ea424ac5eb204f6",
-        "421c5b8d030adbdb",
-        "a2a623cbe12118b8"
+        "421c5b8d030adbdb"
       ],
       "tags": [
         "hackernews",
@@ -831,29 +803,60 @@
         "devto",
         "ruby"
       ],
-      "score": 214.7
+      "score": 230.3
+    },
+    {
+      "id": "azure-3758c2",
+      "name": "Azure",
+      "quadrant": "Platforms",
+      "ring": "Trial",
+      "description": "Day 86 of DevOps, Day 36 of Azure. Both tasks today were about a setting whose scope is not where you...",
+      "articleCount": 22,
+      "recentCount": 9,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-02-21T06:36:14.000Z",
+      "lastSeen": "2026-11-18T18:00:00.000Z",
+      "articleIds": [
+        "63a8162b8a509f5b",
+        "82aaae6fc61f1aed",
+        "2bd70fc46c2610a5",
+        "5e50d6c9946750f3",
+        "e39e802bc6fc5c6c",
+        "7482059e8feb089c",
+        "70bd8739af1678af",
+        "2ea58fe6d3832d71"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "azure",
+        "devto",
+        "devops"
+      ],
+      "score": 230.2
     },
     {
       "id": "react-58fd63",
       "name": "React",
       "quadrant": "Languages & Frameworks",
       "ring": "Adopt",
-      "description": "Vercel has released UI SDK in beta, an Apache 2.0 TypeScript library of more than 50 UI behaviors in @ui-sdk/core, with adapters for React, Vue, Svelte, Solid, and Web Components, so agents can…",
-      "articleCount": 23,
-      "recentCount": 5,
+      "description": "Discord’s CTO Stanislav Vishnevskiy recently announced rewriting its desktop and mobile clients in Rust, moving away from Electron and React Native. The project eliminates layers of abstraction to…",
+      "articleCount": 24,
+      "recentCount": 6,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-02-11T08:28:41.000Z",
-      "lastSeen": "2026-11-18T10:12:00.000Z",
+      "lastSeen": "2026-11-19T03:12:00.000Z",
       "articleIds": [
+        "4c638f96948b260f",
         "7925d53e7e824e0d",
         "fb9f28a732b1b6f2",
         "5d31e84656ca95df",
         "f52fc350385cb211",
         "a7d0df830217f793",
         "07b10ba357f43b6c",
-        "ef2ff6f004fef991",
-        "5bdc5e6b09bd983c"
+        "ef2ff6f004fef991"
       ],
       "tags": [
         "hackernews",
@@ -862,7 +865,38 @@
         "devto",
         "webdev"
       ],
-      "score": 203.4
+      "score": 218.4
+    },
+    {
+      "id": "cursor-e33632",
+      "name": "Cursor",
+      "quadrant": "Tools",
+      "ring": "Assess",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "articleCount": 15,
+      "recentCount": 11,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2024-10-29T04:55:39.000Z",
+      "lastSeen": "2026-11-19T14:27:08.668Z",
+      "articleIds": [
+        "14f321c495182c59",
+        "3429c7218e4f7d01",
+        "1fb256ce62b78d40",
+        "52adf762d4075bfa",
+        "45b453e349d12cc9",
+        "86932b5c72e9eeb7",
+        "2396c16836f4db23",
+        "649ad2b494211d8d"
+      ],
+      "tags": [
+        "github-trending",
+        "open-source",
+        "hackernews",
+        "archive",
+        "reading-list"
+      ],
+      "score": 201.9
     },
     {
       "id": "opentelemetry-31e074",
@@ -896,35 +930,35 @@
       "score": 190.9
     },
     {
-      "id": "cursor-e33632",
-      "name": "Cursor",
-      "quadrant": "Tools",
+      "id": "webassembly-733ad6",
+      "name": "WebAssembly",
+      "quadrant": "Languages & Frameworks",
       "ring": "Assess",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "articleCount": 14,
-      "recentCount": 10,
+      "description": "Summary: NetWasm, an ahead-of-time compiler from C# to WebAssembly, has reworked exception handling, bounds-check elimination, SIMD and division in its 0.10 series. Across more than 2000 benchmark…",
+      "articleCount": 17,
+      "recentCount": 7,
       "previousCount": 0,
       "trend": "up",
-      "firstSeen": "2024-10-29T04:55:39.000Z",
-      "lastSeen": "2026-11-17T14:25:00.514Z",
+      "firstSeen": "2020-10-30T17:11:50.000Z",
+      "lastSeen": "2026-11-19T09:00:00.000Z",
       "articleIds": [
-        "3429c7218e4f7d01",
-        "1fb256ce62b78d40",
-        "52adf762d4075bfa",
-        "45b453e349d12cc9",
-        "86932b5c72e9eeb7",
-        "2396c16836f4db23",
-        "649ad2b494211d8d",
-        "974ef3bd3bfd8c31"
+        "f25b9ef13637c8d3",
+        "c60558e98558e0e7",
+        "5b158888670aa71b",
+        "764198fc49a3e15f",
+        "4b4d48f19f03e283",
+        "ecf7a899a16f8d25",
+        "3ff0584fedeacb03",
+        "879ddd985d909a26"
       ],
       "tags": [
         "hackernews",
         "archive",
-        "github-trending",
-        "open-source",
-        "reading-list"
+        "ai",
+        "python",
+        "architecture"
       ],
-      "score": 186.9
+      "score": 175.9
     },
     {
       "id": "github-actions-1c2ae8",
@@ -986,35 +1020,33 @@
       "score": 162.7
     },
     {
-      "id": "webassembly-733ad6",
-      "name": "WebAssembly",
-      "quadrant": "Languages & Frameworks",
-      "ring": "Assess",
-      "description": "External sandboxes for coding agents I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake…",
-      "articleCount": 16,
-      "recentCount": 6,
+      "id": "grafana-418c13",
+      "name": "Grafana",
+      "quadrant": "Tools",
+      "ring": "Adopt",
+      "description": "If you couldn't make it to San Francisco for ObservabilityCON 2026, don’t worry. We’re bringing the highlights of ObservabilityCON to five more international destinations in 2027. It’s your chance to…",
+      "articleCount": 10,
+      "recentCount": 9,
       "previousCount": 0,
       "trend": "up",
-      "firstSeen": "2020-10-30T17:11:50.000Z",
-      "lastSeen": "2026-11-17T22:52:29.000Z",
+      "firstSeen": "2020-10-28T14:57:10.000Z",
+      "lastSeen": "2026-11-18T17:48:45.000Z",
       "articleIds": [
-        "c60558e98558e0e7",
-        "5b158888670aa71b",
-        "764198fc49a3e15f",
-        "4b4d48f19f03e283",
-        "ecf7a899a16f8d25",
-        "3ff0584fedeacb03",
-        "879ddd985d909a26",
-        "296932ba01470214"
+        "45b50aaed42501f7",
+        "1471a03a2b87c99c",
+        "1c4499e0c33136bc",
+        "cea589efa9324ca0",
+        "9621e800a7bb4532",
+        "649ad2b494211d8d",
+        "67826e3f3312b1b9",
+        "e11f6903b56d39d8"
       ],
       "tags": [
+        "observability",
         "hackernews",
-        "archive",
-        "ai",
-        "python",
-        "architecture"
+        "archive"
       ],
-      "score": 160.9
+      "score": 162.1
     },
     {
       "id": "spring-boot-b43dbc",
@@ -1048,33 +1080,35 @@
       "score": 155
     },
     {
-      "id": "grafana-418c13",
-      "name": "Grafana",
-      "quadrant": "Tools",
+      "id": "continuous-delivery-9bbcb6",
+      "name": "Continuous delivery",
+      "quadrant": "Techniques",
       "ring": "Adopt",
-      "description": "Loki was originally built around a simple idea: index labels, not log content, and store compressed logs cheaply in object storage.",
-      "articleCount": 9,
-      "recentCount": 8,
+      "description": "The open-source agent for CI/CD reliability.",
+      "articleCount": 13,
+      "recentCount": 5,
       "previousCount": 0,
       "trend": "up",
-      "firstSeen": "2020-10-28T14:57:10.000Z",
-      "lastSeen": "2026-11-17T16:53:32.000Z",
+      "firstSeen": "2020-01-11T13:41:19.000Z",
+      "lastSeen": "2026-11-19T14:27:08.668Z",
       "articleIds": [
-        "1471a03a2b87c99c",
-        "1c4499e0c33136bc",
-        "cea589efa9324ca0",
-        "9621e800a7bb4532",
-        "649ad2b494211d8d",
-        "67826e3f3312b1b9",
-        "e11f6903b56d39d8",
-        "902b879b9c1341e7"
+        "a9bca652f0af0729",
+        "32b076595ed25f11",
+        "607d54da354520de",
+        "28c4cffca6ee3859",
+        "dc17eeba94f57013",
+        "d1ad754d5491cb2a",
+        "34ed90baf39f843d",
+        "d03aead9c9a295f7"
       ],
       "tags": [
-        "observability",
         "hackernews",
-        "archive"
+        "archive",
+        "python",
+        "github-trending",
+        "open-source"
       ],
-      "score": 147.1
+      "score": 143
     },
     {
       "id": "rag-53ff2c",
@@ -1139,6 +1173,130 @@
       "score": 140.2
     },
     {
+      "id": "c-9629f5",
+      "name": "C#",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Adopt",
+      "description": "Microsoft has released ASP.NET Core in .NET 11. The update adds C# union type support in JSON bodies, asynchronous validation for Minimal APIs, OpenAPI 3.2 by default, and SignalR authentication…",
+      "articleCount": 12,
+      "recentCount": 5,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-06-04T07:13:24.000Z",
+      "lastSeen": "2026-11-19T11:27:00.000Z",
+      "articleIds": [
+        "112e78025d35209b",
+        "f25b9ef13637c8d3",
+        "e85ad3aaa3e68fb0",
+        "564eb3e6002e7dc8",
+        "a197f131019b1a5d",
+        "20ff783189919795",
+        "01806b42a84856fe",
+        "da7dcd250770164d"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "architecture",
+        ".net",
+        "development"
+      ],
+      "score": 135.4
+    },
+    {
+      "id": "github-copilot-507317",
+      "name": "GitHub Copilot",
+      "quadrant": "Tools",
+      "ring": "Trial",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "articleCount": 9,
+      "recentCount": 7,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2024-10-29T04:55:39.000Z",
+      "lastSeen": "2026-11-19T14:27:08.668Z",
+      "articleIds": [
+        "14f321c495182c59",
+        "6ee10b36182aa094",
+        "a458d7a17ee3094a",
+        "c7433ec470cb8f9b",
+        "5cecc12e376b047e",
+        "0e7b16327df7de13",
+        "2f372b9bf7ce4173",
+        "0c5daae38cdd970e"
+      ],
+      "tags": [
+        "architecture",
+        "devto",
+        "devtools",
+        "github copilot",
+        "hackernews"
+      ],
+      "score": 134.1
+    },
+    {
+      "id": "php-5b44b8",
+      "name": "PHP",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Trial",
+      "description": "1,200 hot takes, 14 “random” languages, zero opinions about C#, and one model that argued both sides of Go’s error handling. We asked 12 AI models for their most controversial opinion about…",
+      "articleCount": 9,
+      "recentCount": 7,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2021-01-22T09:03:06.000Z",
+      "lastSeen": "2026-11-19T14:09:50.000Z",
+      "articleIds": [
+        "1b5f416ea2effcc2",
+        "8826e959b6dc424b",
+        "564eb3e6002e7dc8",
+        "ca61db4ce015f9bf",
+        "373429d3d655c6fb",
+        "0301e14693da4304",
+        "abe4459bf83dc714",
+        "e647315ecccedd98"
+      ],
+      "tags": [
+        "hackernews",
+        "devtools",
+        "archive",
+        "llm-biases",
+        "cloud-native"
+      ],
+      "score": 134.1
+    },
+    {
+      "id": "mysql-6a6a63",
+      "name": "MySQL",
+      "quadrant": "Platforms",
+      "ring": "Trial",
+      "description": "United Airlines built a near-real-time change data capture pipeline that replicates reference data from Amazon Aurora MySQL to open Apache Iceberg tables using AWS DMS, Amazon Kinesis Data Streams,…",
+      "articleCount": 16,
+      "recentCount": 2,
+      "previousCount": 1,
+      "trend": "up",
+      "firstSeen": "2020-05-06T01:22:28.000Z",
+      "lastSeen": "2026-11-18T20:37:39.000Z",
+      "articleIds": [
+        "27208382ec0736e5",
+        "8425d2a0c9af8b3a",
+        "df5005d2e4212e29",
+        "779c19c585db62f7",
+        "0c94239ee76bf429",
+        "46d914759636449e",
+        "c2c6db9de7f69935",
+        "c8ae618d0c7e0e8f"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "cloud",
+        "amazon data firehose",
+        "customer solutions"
+      ],
+      "score": 131
+    },
+    {
       "id": "figma-1e4ff5",
       "name": "Figma",
       "quadrant": "Tools",
@@ -1168,37 +1326,6 @@
         "artificial intelligence"
       ],
       "score": 129.1
-    },
-    {
-      "id": "continuous-delivery-9bbcb6",
-      "name": "Continuous delivery",
-      "quadrant": "Techniques",
-      "ring": "Adopt",
-      "description": "AI coding agents don’t have to run only on a developer’s machine. You can also make them part of your CI/CD workflows to review code, investigate failed builds, update documentation, or handle other…",
-      "articleCount": 12,
-      "recentCount": 4,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-01-11T13:41:19.000Z",
-      "lastSeen": "2026-11-16T09:28:51.000Z",
-      "articleIds": [
-        "32b076595ed25f11",
-        "607d54da354520de",
-        "28c4cffca6ee3859",
-        "dc17eeba94f57013",
-        "d1ad754d5491cb2a",
-        "34ed90baf39f843d",
-        "d03aead9c9a295f7",
-        "08a1f24f90d139ae"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "devtools",
-        "ai",
-        "ai-agent"
-      ],
-      "score": 128
     },
     {
       "id": "vllm-e33a0a",
@@ -1232,99 +1359,6 @@
       "score": 119.1
     },
     {
-      "id": "github-copilot-507317",
-      "name": "GitHub Copilot",
-      "quadrant": "Tools",
-      "ring": "Trial",
-      "description": "GitHub engineers rebuilt the diff view in the Copilot app to handle a pull request with 2,200 files, over a million changed lines and 400 inline comments. The design separates fixed-height code rows…",
-      "articleCount": 8,
-      "recentCount": 6,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2024-10-29T04:55:39.000Z",
-      "lastSeen": "2026-11-16T10:32:00.000Z",
-      "articleIds": [
-        "6ee10b36182aa094",
-        "a458d7a17ee3094a",
-        "c7433ec470cb8f9b",
-        "5cecc12e376b047e",
-        "0e7b16327df7de13",
-        "2f372b9bf7ce4173",
-        "0c5daae38cdd970e",
-        "4209b820b5453870"
-      ],
-      "tags": [
-        "architecture",
-        "devto",
-        "devtools",
-        "github copilot",
-        "hackernews"
-      ],
-      "score": 118.1
-    },
-    {
-      "id": "mysql-6a6a63",
-      "name": "MySQL",
-      "quadrant": "Platforms",
-      "ring": "Trial",
-      "description": "Jabez Eliezer Manuel discusses the 20-year evolution of Booking.com’s data management and ML platforms. He explains how they scaled MySQL topologies, sunset Hadoop for cloud architecture, and built…",
-      "articleCount": 15,
-      "recentCount": 1,
-      "previousCount": 1,
-      "trend": "steady",
-      "firstSeen": "2020-05-06T01:22:28.000Z",
-      "lastSeen": "2026-11-18T11:00:00.000Z",
-      "articleIds": [
-        "8425d2a0c9af8b3a",
-        "df5005d2e4212e29",
-        "779c19c585db62f7",
-        "0c94239ee76bf429",
-        "46d914759636449e",
-        "c2c6db9de7f69935",
-        "c8ae618d0c7e0e8f",
-        "72e270dfa70f4f00"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "architecture",
-        "case study",
-        "transcripts"
-      ],
-      "score": 112
-    },
-    {
-      "id": "c-9629f5",
-      "name": "C#",
-      "quadrant": "Languages & Frameworks",
-      "ring": "Adopt",
-      "description": "Microsoft has released .NET 11, a Standard Term Support release with two years of support. It ships C# 15 with union types and closed hierarchies, a Native AOT CLI host, a preview of Runtime Async,…",
-      "articleCount": 10,
-      "recentCount": 3,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-06-04T07:13:24.000Z",
-      "lastSeen": "2026-11-17T10:20:00.000Z",
-      "articleIds": [
-        "e85ad3aaa3e68fb0",
-        "564eb3e6002e7dc8",
-        "a197f131019b1a5d",
-        "20ff783189919795",
-        "01806b42a84856fe",
-        "da7dcd250770164d",
-        "4fd4bf489b898e61",
-        "298900729089ac0c"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "devtools",
-        "architecture",
-        ".net"
-      ],
-      "score": 105.4
-    },
-    {
       "id": "kotlin-9d8cf0",
       "name": "Kotlin",
       "quadrant": "Languages & Frameworks",
@@ -1354,36 +1388,6 @@
         "releases"
       ],
       "score": 104.2
-    },
-    {
-      "id": "php-5b44b8",
-      "name": "PHP",
-      "quadrant": "Languages & Frameworks",
-      "ring": "Trial",
-      "description": "1,200 hot takes, 14 “random” languages, zero opinions about C#, and one model that argued both sides of Go’s error handling. We asked 12 AI models for their most controversial opinion about…",
-      "articleCount": 7,
-      "recentCount": 5,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2021-01-22T09:03:06.000Z",
-      "lastSeen": "2026-11-15T17:02:29.000Z",
-      "articleIds": [
-        "564eb3e6002e7dc8",
-        "ca61db4ce015f9bf",
-        "373429d3d655c6fb",
-        "0301e14693da4304",
-        "abe4459bf83dc714",
-        "e647315ecccedd98",
-        "02811246f5aeb94b"
-      ],
-      "tags": [
-        "hackernews",
-        "devtools",
-        "archive",
-        "llm-biases",
-        "cloud-native"
-      ],
-      "score": 104.1
     },
     {
       "id": "domain-driven-design-da83b7",
@@ -1471,6 +1475,35 @@
         "nosql"
       ],
       "score": 89.3
+    },
+    {
+      "id": "gitlab-ci-11e4cb",
+      "name": "GitLab CI",
+      "quadrant": "Tools",
+      "ring": "Trial",
+      "description": "According to the JetBrains Developer Ecosystem Report 2026, GitHub is the most popular place to host code. It is used by 85.1% of developers for personal projects and by 56.0% for professional…",
+      "articleCount": 6,
+      "recentCount": 3,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2022-01-01T21:55:00.000Z",
+      "lastSeen": "2026-11-19T10:52:13.000Z",
+      "articleIds": [
+        "95ee2054ec802b5c",
+        "5c4fbe651718d4da",
+        "e69ace39708c9465",
+        "40c88859fc853276",
+        "44918245fb330790",
+        "b89dbe8c44087592"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "devtools",
+        "architecture",
+        "gitlab"
+      ],
+      "score": 81.2
     },
     {
       "id": "pytorch-7527fb",
@@ -1757,34 +1790,6 @@
       "score": 68.9
     },
     {
-      "id": "gitlab-ci-11e4cb",
-      "name": "GitLab CI",
-      "quadrant": "Tools",
-      "ring": "Trial",
-      "description": "Hacker News discussion with 195 comments.",
-      "articleCount": 5,
-      "recentCount": 2,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2022-01-01T21:55:00.000Z",
-      "lastSeen": "2026-11-16T23:00:34.000Z",
-      "articleIds": [
-        "5c4fbe651718d4da",
-        "e69ace39708c9465",
-        "40c88859fc853276",
-        "44918245fb330790",
-        "b89dbe8c44087592"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "architecture",
-        "gitlab",
-        "ai coding agents"
-      ],
-      "score": 66.2
-    },
-    {
       "id": "terraform-9acce5",
       "name": "Terraform",
       "quadrant": "Tools",
@@ -2029,6 +2034,31 @@
       "score": 49.3
     },
     {
+      "id": "canary-releases-608ff5",
+      "name": "Canary releases",
+      "quadrant": "Techniques",
+      "ring": "Trial",
+      "description": "At Red Canary, storing large amounts of small data is a big deal. Their Linux Endpoint Detection and Response (EDR) The post S3 vs. ScyllaDB for tiny telemetry: What Red Canary learned the hard way…",
+      "articleCount": 2,
+      "recentCount": 2,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2026-11-17T20:24:27.000Z",
+      "lastSeen": "2026-11-18T15:00:00.000Z",
+      "articleIds": [
+        "b9cc428b2b885722",
+        "340c2ff0827fd3fe"
+      ],
+      "tags": [
+        "reading-list",
+        "cloud-native",
+        "databases",
+        "finops",
+        "storage"
+      ],
+      "score": 48.5
+    },
+    {
       "id": "edge-computing-d841c4",
       "name": "Edge computing",
       "quadrant": "Techniques",
@@ -2202,30 +2232,6 @@
       "score": 34.5
     },
     {
-      "id": "canary-releases-608ff5",
-      "name": "Canary releases",
-      "quadrant": "Techniques",
-      "ring": "Trial",
-      "description": "Quad9's forced withdrawal from France highlights the dangers of mandating DNS-level blocking. We explore why forcing public resolvers to act as content filters is technically flawed and threatens the…",
-      "articleCount": 1,
-      "recentCount": 1,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2026-11-17T20:24:27.000Z",
-      "lastSeen": "2026-11-17T20:24:27.000Z",
-      "articleIds": [
-        "340c2ff0827fd3fe"
-      ],
-      "tags": [
-        "infra",
-        "security",
-        "1.1.1.1",
-        "dns",
-        "policy & legal"
-      ],
-      "score": 33.3
-    },
-    {
       "id": "firebase-8ccc31",
       "name": "Firebase",
       "quadrant": "Platforms",
@@ -2272,7 +2278,7 @@
     }
   ],
   "stats": {
-    "articles": 4953,
+    "articles": 5052,
     "sources": 35,
     "technologies": 78
   }
