@@ -1,27 +1,27 @@
 {
-  "lastRun": "2026-11-19T14:28:31.039Z",
-  "lastRunMs": 84070,
+  "lastRun": "2026-11-20T14:02:46.159Z",
+  "lastRunMs": 63618,
   "llmUsed": false,
-  "newArticles": 100,
-  "totalArticles": 5052,
+  "newArticles": 92,
+  "totalArticles": 5144,
   "sources": [
     {
       "name": "RSS / Atom feeds",
       "kind": "rss",
-      "fetched": 97,
-      "kept": 449
+      "fetched": 125,
+      "kept": 492
     },
     {
       "name": "Hacker News",
       "kind": "hackernews",
       "fetched": 70,
-      "kept": 4300
+      "kept": 4336
     },
     {
       "name": "DEV Community",
       "kind": "devto",
       "fetched": 60,
-      "kept": 185
+      "kept": 195
     },
     {
       "name": "Reddit",
@@ -38,8 +38,8 @@
     {
       "name": "Reading list",
       "kind": "reading",
-      "fetched": 61,
-      "kept": 44
+      "fetched": 65,
+      "kept": 47
     }
   ]
 }

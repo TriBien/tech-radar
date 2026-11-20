@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T14:28:31.022Z",
+  "generatedAt": "2026-11-20T14:02:46.143Z",
   "periodDays": 60,
   "items": [
     {
@@ -7,124 +7,217 @@
       "name": "Microservices",
       "quadrant": "Techniques",
       "ring": "Trial",
-      "description": "Standard Network Policies limit you to applying policies at the namespace level, but ClusterNetworkPolicy (CNP) lets you apply granular networking policies across an entire cluster. When you use CNP,…",
-      "articleCount": 1165,
-      "recentCount": 6,
+      "description": "Earlier this year, we presented the technical case for Envoy networking in the agentic AI era, examining how autonomous AI agents fundamentally challenge traditional Layer 7 networking assumptions.",
+      "articleCount": 1166,
+      "recentCount": 7,
       "previousCount": 6,
       "trend": "steady",
       "firstSeen": "2020-01-02T21:19:39.000Z",
-      "lastSeen": "2026-11-10T19:06:42.000Z",
+      "lastSeen": "2026-11-18T17:00:00.000Z",
       "articleIds": [
+        "4e8436e1217aa3a8",
         "38fad54e41670a9d",
         "99891112daa923ea",
         "0615186de1ed79ff",
         "722024a858e7b733",
         "a678386f4bab26d0",
         "183f4fef4907f717",
-        "f39569829c56503d",
-        "97a02e0388e5e957"
+        "f39569829c56503d"
       ],
       "tags": [
         "hackernews",
         "archive",
         "cloud",
         "developers & practitioners",
-        "reading-list"
+        "containers & kubernetes"
       ],
-      "score": 7058.8
+      "score": 7073.8
     },
     {
       "id": "ai-agents-ac421d",
       "name": "AI agents",
       "quadrant": "Techniques",
       "ring": "Assess",
-      "description": "Agentic AI can speed up velocity, but the gains vanish within months as code complexity grows. Healthy code makes AI perform better and costs fewer tokens. Safeguarding means keeping code health high…",
-      "articleCount": 139,
-      "recentCount": 108,
+      "description": "Google has announced it is donating Agent Substrate and gVisor to the Cloud Native Computing Foundation (CNCF), placing two important components of its AI agent infrastructure under vendor-neutral…",
+      "articleCount": 152,
+      "recentCount": 121,
       "previousCount": 2,
       "trend": "up",
       "firstSeen": "2024-01-29T18:28:18.000Z",
-      "lastSeen": "2026-11-19T11:09:00.000Z",
+      "lastSeen": "2026-11-20T12:00:00.000Z",
       "articleIds": [
-        "2f3a7341bfdc539d",
-        "9f61c5979bc1e501",
-        "0f9be8abc3972160",
-        "dbf7233003822774",
-        "1e6b15e0e8457b12",
-        "d3413347688b5b5e",
-        "8425d2a0c9af8b3a",
-        "c37683fd36fe13c9"
+        "2f1c4b1cd7c653f0",
+        "aaea869639c9fd9b",
+        "a46c3ad918ad3649",
+        "84db2c6bfcd72c47",
+        "643802172908998c",
+        "d3701af5a61a4f9d",
+        "87ef0774c1e38e16",
+        "8399b72c7f207b8b"
       ],
       "tags": [
         "hackernews",
-        "archive",
-        "reading-list",
         "cloud",
+        "reading-list",
+        "archive",
         "ai"
       ],
-      "score": 1819.6
+      "score": 2014.6
     },
     {
       "id": "anthropic-claude-cc3f96",
       "name": "Anthropic Claude",
       "quadrant": "Tools",
       "ring": "Trial",
-      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "articleCount": 121,
-      "recentCount": 85,
+      "description": "I love using AI as a writing tool. But like I wrote in “Why Does AI Write Like Yoda?,” it’s not because AI is a good writer. In fact, it’s pretty bad at writing, and I edit absolutely everything it…",
+      "articleCount": 127,
+      "recentCount": 91,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2023-08-12T00:08:13.000Z",
-      "lastSeen": "2026-11-19T14:27:08.668Z",
+      "lastSeen": "2026-11-20T11:43:53.000Z",
       "articleIds": [
+        "abcce9a7a0a7a088",
+        "be373132dcb8b869",
+        "04da227b0cee83ba",
+        "bab1a902faa13f54",
+        "87ef0774c1e38e16",
         "14f321c495182c59",
         "48e0c27112eedb35",
-        "25c96fa5a216b598",
-        "852fd3414b70a7cc",
-        "630b41be4a2bc539",
-        "fa1fc755432b0137",
-        "d021019fd8304ea4",
-        "c60558e98558e0e7"
+        "25c96fa5a216b598"
       ],
       "tags": [
         "hackernews",
-        "archive",
         "ai",
+        "archive",
         "python",
         "reading-list"
       ],
-      "score": 1510
+      "score": 1600.5
     },
     {
       "id": "kubernetes-74afb9",
       "name": "Kubernetes",
       "quadrant": "Platforms",
       "ring": "Adopt",
-      "description": "A visual, 10-minute deep dive into Kubernetes control plane internals. Learn how kube-apiserver processes admission webhooks, how etcd maintains Raft quorum, how controllers reconcile state with…",
-      "articleCount": 90,
-      "recentCount": 27,
+      "description": "We built GKE Dataplane V2 to meet the performance, scalability, and security demands of modern cloud-native workloads.",
+      "articleCount": 93,
+      "recentCount": 30,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-01-11T13:41:19.000Z",
-      "lastSeen": "2026-11-18T13:09:55.000Z",
+      "lastSeen": "2026-11-19T17:00:00.000Z",
       "articleIds": [
+        "13030d4f70c57c15",
+        "4e8436e1217aa3a8",
+        "eb37c8732473b682",
         "703b5267159bf4cf",
         "9c3de6e8b48ee449",
         "a0ac13adbe9c8f52",
         "72fd99be97872cb4",
-        "28e05e36f3f47187",
-        "a937fed613c013ed",
-        "607d54da354520de",
-        "28c4cffca6ee3859"
+        "28e05e36f3f47187"
       ],
       "tags": [
         "hackernews",
         "archive",
+        "cloud",
         "cloud-native",
-        "reading-list",
-        "kubernetes"
+        "reading-list"
       ],
-      "score": 804.6
+      "score": 849.6
+    },
+    {
+      "id": "aws-1a683c",
+      "name": "AWS",
+      "quadrant": "Platforms",
+      "ring": "Adopt",
+      "description": "AWS has released AWS Emulator, a free, CC0-licensed local stand-in for more than 200 of its services, generated from its public API models and aimed at the test loops of coding agents. AWS says…",
+      "articleCount": 79,
+      "recentCount": 36,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-01-28T20:05:18.000Z",
+      "lastSeen": "2026-11-20T06:53:00.000Z",
+      "articleIds": [
+        "c98bd844250aac2c",
+        "f6bc24b76b401704",
+        "03e9dbed5d4c5185",
+        "b98325dcc025edb1",
+        "27208382ec0736e5",
+        "42d84d76bc289195",
+        "3c7261e577de1bda",
+        "53cb83ab3e8f92a3"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "reading-list",
+        "cloud",
+        "architecture"
+      ],
+      "score": 820.4
+    },
+    {
+      "id": "google-cloud-c47ea8",
+      "name": "Google Cloud",
+      "quadrant": "Platforms",
+      "ring": "Adopt",
+      "description": "Welcome to The Blueprint, our ongoing series where we highlight how Google Cloud customers are tackling unique and common challenges across industries using the latest AI and cloud technologies.",
+      "articleCount": 60,
+      "recentCount": 48,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-02-23T15:07:24.000Z",
+      "lastSeen": "2026-11-19T23:00:00.000Z",
+      "articleIds": [
+        "0d1f901b2b85b36c",
+        "84db2c6bfcd72c47",
+        "13030d4f70c57c15",
+        "643802172908998c",
+        "8399b72c7f207b8b",
+        "bd80e2c450d45376",
+        "4e8436e1217aa3a8",
+        "eb37c8732473b682"
+      ],
+      "tags": [
+        "cloud",
+        "hackernews",
+        "archive",
+        "ai & machine learning",
+        "security & identity"
+      ],
+      "score": 812.5
+    },
+    {
+      "id": "gemini-90e14d",
+      "name": "Gemini",
+      "quadrant": "Tools",
+      "ring": "Trial",
+      "description": "Hacker News discussion with 226 comments.",
+      "articleCount": 58,
+      "recentCount": 48,
+      "previousCount": 1,
+      "trend": "up",
+      "firstSeen": "2024-12-05T07:03:29.000Z",
+      "lastSeen": "2026-11-19T23:35:35.000Z",
+      "articleIds": [
+        "ed33061e28b05b70",
+        "23033a3e00ff08a2",
+        "84db2c6bfcd72c47",
+        "8399b72c7f207b8b",
+        "48e0c27112eedb35",
+        "14a22af93bc05685",
+        "c3c7756f62d48d7a",
+        "a0696e9dfff15fe8"
+      ],
+      "tags": [
+        "cloud",
+        "hackernews",
+        "archive",
+        "ai",
+        "ai & machine learning"
+      ],
+      "score": 798.8
     },
     {
       "id": "rust-1d3fbd",
@@ -156,37 +249,6 @@
         "devto"
       ],
       "score": 789.4
-    },
-    {
-      "id": "aws-1a683c",
-      "name": "AWS",
-      "quadrant": "Platforms",
-      "ring": "Adopt",
-      "description": "Learn how Aderant modernized the data pipeline behind its Stridyn legal analytics platform with Apache Iceberg, AWS Lambda, and AWS Glue, moving from 15-minute batch cycles to an event-driven…",
-      "articleCount": 76,
-      "recentCount": 33,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-01-28T20:05:18.000Z",
-      "lastSeen": "2026-11-19T00:36:23.000Z",
-      "articleIds": [
-        "b98325dcc025edb1",
-        "27208382ec0736e5",
-        "42d84d76bc289195",
-        "3c7261e577de1bda",
-        "53cb83ab3e8f92a3",
-        "758d215cf94ec88b",
-        "b6aadf66e4294a9b",
-        "2cc96b8af33cdbe2"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "cloud",
-        "reading-list",
-        "architecture"
-      ],
-      "score": 775.4
     },
     {
       "id": "python-0fceff",
@@ -251,37 +313,6 @@
       "score": 758.6
     },
     {
-      "id": "gemini-90e14d",
-      "name": "Gemini",
-      "quadrant": "Tools",
-      "ring": "Trial",
-      "description": "AI is building AI At Anthropic, Claude now writes more than 80% of the code the company merges. At Google, an AI agent called AlphaEvolve found a way to make Gemini train faster. At OpenAI, an…",
-      "articleCount": 52,
-      "recentCount": 42,
-      "previousCount": 1,
-      "trend": "up",
-      "firstSeen": "2024-12-05T07:03:29.000Z",
-      "lastSeen": "2026-11-19T11:45:40.000Z",
-      "articleIds": [
-        "48e0c27112eedb35",
-        "14a22af93bc05685",
-        "c3c7756f62d48d7a",
-        "b2c084a412751371",
-        "3ede266c56e21b63",
-        "66207e9d38c89c75",
-        "9581e50f8c99056e",
-        "d3bb1c99802a8cca"
-      ],
-      "tags": [
-        "hackernews",
-        "cloud",
-        "archive",
-        "ai",
-        "ai & machine learning"
-      ],
-      "score": 708.7
-    },
-    {
       "id": "go-422077",
       "name": "Go",
       "quadrant": "Languages & Frameworks",
@@ -313,119 +344,88 @@
       "score": 699.8
     },
     {
-      "id": "google-cloud-c47ea8",
-      "name": "Google Cloud",
-      "quadrant": "Platforms",
-      "ring": "Adopt",
-      "description": "As AI changes how businesses build and run applications, more enterprises are spreading their models, data and applications across multiple clouds. To make that work, they need fast, private…",
-      "articleCount": 51,
-      "recentCount": 39,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-02-23T15:07:24.000Z",
-      "lastSeen": "2026-11-17T18:35:00.000Z",
-      "articleIds": [
-        "82aaae6fc61f1aed",
-        "66207e9d38c89c75",
-        "709ca2affc8dbdcc",
-        "d3bb1c99802a8cca",
-        "2580dd5f3bd0668b",
-        "9e42f9e3e1ff29f3",
-        "e39e802bc6fc5c6c",
-        "2be0f84ec0637bb5"
-      ],
-      "tags": [
-        "cloud",
-        "hackernews",
-        "archive",
-        "security & identity",
-        "ai & machine learning"
-      ],
-      "score": 677.5
-    },
-    {
       "id": "postgresql-2ee91e",
       "name": "PostgreSQL",
       "quadrant": "Platforms",
       "ring": "Adopt",
-      "description": "Updating a single key inside a PostgreSQL JSONB column rewrites the entire blob, triggers TOAST churn, and bloats WAL. Here is the benchmark and the hybrid schema fix.",
-      "articleCount": 74,
-      "recentCount": 14,
+      "description": "PostgreSQL 19 Released Most years PostgreSQL ships a new release in September, but this year's release came two months later thanks mainly to the flurry of issues that the PostgreSQL team needed to…",
+      "articleCount": 78,
+      "recentCount": 18,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-01-31T06:42:05.000Z",
-      "lastSeen": "2026-11-17T16:30:00.000Z",
+      "lastSeen": "2026-11-20T03:45:45.000Z",
       "articleIds": [
+        "1975cf687ca4c6c8",
+        "29fc9a19e60fa1cc",
+        "4ba1303d2ee21d77",
+        "6970d4f37384506f",
         "464f8a9f4a4e6d13",
         "1af2072ae985eb57",
         "e09a9beaaee6ba56",
-        "5b3e85fd4334d620",
-        "5e43bafddf4ea295",
-        "ed0816bfc3352e85",
-        "592021ac783a2090",
-        "9f99b6297214ae52"
+        "5b3e85fd4334d620"
       ],
       "tags": [
         "hackernews",
         "archive",
-        "database",
         "cloud",
-        "databases"
+        "databases",
+        "database"
       ],
-      "score": 591.3
+      "score": 651.3
     },
     {
       "id": "claude-code-dfaa85",
       "name": "Claude Code",
       "quadrant": "Tools",
       "ring": "Assess",
-      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "articleCount": 41,
-      "recentCount": 28,
+      "description": "For AI agents to work together effectively, they need a way to communicate and divvy up tasks — much as The post A “headless Slack”: Vercel’s new message board lets Claude Code and Codex agents work…",
+      "articleCount": 42,
+      "recentCount": 29,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2025-12-21T12:57:10.000Z",
-      "lastSeen": "2026-11-19T14:27:08.668Z",
+      "lastSeen": "2026-11-19T16:58:48.000Z",
       "articleIds": [
+        "87ef0774c1e38e16",
         "14f321c495182c59",
         "fa1fc755432b0137",
         "c60558e98558e0e7",
         "3429c7218e4f7d01",
         "c6524b3bb676a860",
         "069078b2b4e3b49a",
-        "35612161c8c95c8e",
-        "52adf762d4075bfa"
+        "35612161c8c95c8e"
       ],
       "tags": [
         "hackernews",
         "archive",
+        "ai",
         "github-trending",
-        "open-source",
-        "ai"
+        "open-source"
       ],
-      "score": 511.8
+      "score": 526.8
     },
     {
       "id": "openai-api-a8a7c5",
       "name": "OpenAI API",
       "quadrant": "Tools",
       "ring": "Trial",
-      "description": "AI is building AI At Anthropic, Claude now writes more than 80% of the code the company merges. At Google, an AI agent called AlphaEvolve found a way to make Gemini train faster. At OpenAI, an…",
-      "articleCount": 45,
-      "recentCount": 19,
+      "description": "Token fraud is here and it’s BAD (YouTube) Claire Vo runs ChatPRD , an AI platform that helps product managers \"turn an idea into a spec\". The product has been live since the GPT-4 era, and Claire…",
+      "articleCount": 46,
+      "recentCount": 20,
       "previousCount": 1,
       "trend": "up",
       "firstSeen": "2023-01-10T11:25:15.000Z",
-      "lastSeen": "2026-11-19T11:45:40.000Z",
+      "lastSeen": "2026-11-20T02:49:57.000Z",
       "articleIds": [
+        "e486efe85b2a356a",
         "48e0c27112eedb35",
         "7ca9d8009ca31804",
         "fe05268132b2514d",
         "5cbc55e1b429d883",
         "f8c13411174c3f0d",
         "f9a3c449e5989b1d",
-        "81cd24c26e707d6f",
-        "a4357c87a4347d6d"
+        "81cd24c26e707d6f"
       ],
       "tags": [
         "hackernews",
@@ -434,7 +434,38 @@
         "reading-list",
         "cloud-native"
       ],
-      "score": 459.3
+      "score": 474.3
+    },
+    {
+      "id": "docker-0be35d",
+      "name": "Docker",
+      "quadrant": "Platforms",
+      "ring": "Adopt",
+      "description": "Docker publishes fixed images for both Java4Shell and the NGINX HTTP/2 in the Docker Hardened Images (DHI) catalog.",
+      "articleCount": 50,
+      "recentCount": 10,
+      "previousCount": 1,
+      "trend": "up",
+      "firstSeen": "2020-01-11T06:17:45.000Z",
+      "lastSeen": "2026-11-19T17:38:08.000Z",
+      "articleIds": [
+        "255162949aea4d29",
+        "d3701af5a61a4f9d",
+        "235ff79475e5e279",
+        "d3413347688b5b5e",
+        "de0206a657a44693",
+        "1004f5b1d037c0c2",
+        "53d5cdba12bea358",
+        "3a35a01b31fba168"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "containers",
+        "agentic ai",
+        "community"
+      ],
+      "score": 411.6
     },
     {
       "id": "sre-d53ce4",
@@ -499,57 +530,26 @@
       "score": 390.3
     },
     {
-      "id": "docker-0be35d",
-      "name": "Docker",
-      "quadrant": "Platforms",
-      "ring": "Adopt",
-      "description": "Learn how Docker AI Governance secures agentic AI with sandbox policies, MCP tool governance, and audit visibility to support controlled AI agent workflows.",
-      "articleCount": 47,
-      "recentCount": 7,
-      "previousCount": 1,
-      "trend": "up",
-      "firstSeen": "2020-01-11T06:17:45.000Z",
-      "lastSeen": "2026-11-18T14:00:00.000Z",
-      "articleIds": [
-        "d3413347688b5b5e",
-        "de0206a657a44693",
-        "1004f5b1d037c0c2",
-        "53d5cdba12bea358",
-        "3a35a01b31fba168",
-        "8ef031c71685a374",
-        "dbb0af5604c5dd43",
-        "97a02e0388e5e957"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "containers",
-        "community",
-        "agentic ai"
-      ],
-      "score": 366.6
-    },
-    {
       "id": "observability-3f4219",
       "name": "Observability",
       "quadrant": "Techniques",
       "ring": "Adopt",
-      "description": "Groundcover, the eBPF-based observability startup, has introduced Investigations, giving agents and engineers one place to collaborate on incident response in The post Groundcover Investigations lets…",
-      "articleCount": 32,
-      "recentCount": 16,
+      "description": "Cloud SLAs promise uptime statistically, not absolutely. This article shows how to treat observability as a control plane that detects regional degradation, triggers automated failover, and confirms…",
+      "articleCount": 33,
+      "recentCount": 17,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-10-08T12:32:56.000Z",
-      "lastSeen": "2026-11-19T14:00:00.000Z",
+      "lastSeen": "2026-11-20T09:00:00.000Z",
       "articleIds": [
+        "72629c5f62e8758d",
         "799e27214d566530",
         "5cbdec76c3653574",
         "42d84d76bc289195",
         "8996249a38002945",
         "2ac8ce26c4d37e50",
         "48145b108142466c",
-        "a324048b9a561e00",
-        "5b498fce51fa1178"
+        "a324048b9a561e00"
       ],
       "tags": [
         "hackernews",
@@ -558,7 +558,7 @@
         "observability",
         "cloud-native"
       ],
-      "score": 355.5
+      "score": 370.5
     },
     {
       "id": "java-081fb5",
@@ -654,6 +654,37 @@
       "score": 315.7
     },
     {
+      "id": "cloudflare-a187f4",
+      "name": "Cloudflare",
+      "quadrant": "Platforms",
+      "ring": "Trial",
+      "description": "Five memory corruption bugs in nginx, called nginx2root, can let an unauthenticated attacker run code on a server. Here’s how they work, and why origins behind Cloudflare's proxy are shielded from…",
+      "articleCount": 24,
+      "recentCount": 15,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-09-17T13:10:26.000Z",
+      "lastSeen": "2026-11-20T01:58:29.000Z",
+      "articleIds": [
+        "ff4da9032d2d0257",
+        "a67e4808fe94719f",
+        "af17318c693b84ad",
+        "aa6457d959ee12ae",
+        "09e5e80125ce2409",
+        "4766c254790f5422",
+        "813e40fce5f80ae4",
+        "1e25c4d1d22c66b1"
+      ],
+      "tags": [
+        "security",
+        "hackernews",
+        "archive",
+        "infra",
+        "reading-list"
+      ],
+      "score": 297.6
+    },
+    {
       "id": "apache-kafka-0d516b",
       "name": "Apache Kafka",
       "quadrant": "Platforms",
@@ -713,73 +744,73 @@
       "score": 283.2
     },
     {
-      "id": "cloudflare-a187f4",
-      "name": "Cloudflare",
-      "quadrant": "Platforms",
-      "ring": "Trial",
-      "description": "On November 3, 2026 U.S. voters headed to the polls. Here’s what Cloudflare data across more than 1,400 protected sites tells us about Election Day Internet traffic and cyberattacks.",
-      "articleCount": 23,
-      "recentCount": 14,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-09-17T13:10:26.000Z",
-      "lastSeen": "2026-11-19T14:00:00.000Z",
-      "articleIds": [
-        "a67e4808fe94719f",
-        "af17318c693b84ad",
-        "aa6457d959ee12ae",
-        "09e5e80125ce2409",
-        "4766c254790f5422",
-        "813e40fce5f80ae4",
-        "1e25c4d1d22c66b1",
-        "804af6cb982454d2"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "security",
-        "infra",
-        "reading-list"
-      ],
-      "score": 282.6
-    },
-    {
       "id": "serverless-d08ae9",
       "name": "Serverless",
       "quadrant": "Techniques",
       "ring": "Trial",
-      "description": "United Airlines built a near-real-time change data capture pipeline that replicates reference data from Amazon Aurora MySQL to open Apache Iceberg tables using AWS DMS, Amazon Kinesis Data Streams,…",
-      "articleCount": 36,
-      "recentCount": 4,
+      "description": "Country Road Group replaced Microsoft BizTalk with a pattern-driven, serverless integration platform on AWS. Learn how its Strategic Integration Platform works across four processing lanes, and get…",
+      "articleCount": 37,
+      "recentCount": 5,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-01-02T21:19:39.000Z",
-      "lastSeen": "2026-11-18T20:37:39.000Z",
+      "lastSeen": "2026-11-19T23:07:30.000Z",
       "articleIds": [
+        "f6bc24b76b401704",
         "27208382ec0736e5",
         "804af6cb982454d2",
         "5788376f314c8f0e",
         "ffae9ae80732c0e4",
         "f5d63d7af140ac7b",
         "d82f7e4b64fe7d2f",
-        "a58f7e83552b9dea",
-        "0c94239ee76bf429"
+        "a58f7e83552b9dea"
       ],
       "tags": [
         "hackernews",
         "archive",
         "cloud",
         "reading-list",
-        "architecture"
+        "customer solutions"
       ],
-      "score": 268
+      "score": 283
+    },
+    {
+      "id": "azure-3758c2",
+      "name": "Azure",
+      "quadrant": "Platforms",
+      "ring": "Trial",
+      "description": "Day 87 of DevOps, Day 37 of Azure. Both tasks today turned on a name that is not the name the system...",
+      "articleCount": 23,
+      "recentCount": 10,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-02-21T06:36:14.000Z",
+      "lastSeen": "2026-11-19T18:00:00.000Z",
+      "articleIds": [
+        "2dee71714c03f68c",
+        "63a8162b8a509f5b",
+        "82aaae6fc61f1aed",
+        "2bd70fc46c2610a5",
+        "5e50d6c9946750f3",
+        "e39e802bc6fc5c6c",
+        "7482059e8feb089c",
+        "70bd8739af1678af"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "azure",
+        "devto",
+        "devops"
+      ],
+      "score": 245.2
     },
     {
       "id": "ruby-on-rails-9e1b81",
       "name": "Ruby on Rails",
       "quadrant": "Languages & Frameworks",
       "ring": "Trial",
-      "description": "When DHH took the stage at Rails World 2026 and talked openly about going \"pencils down\" on...",
+      "description": "Hacker News discussion with 180 comments.",
       "articleCount": 28,
       "recentCount": 5,
       "previousCount": 0,
@@ -803,38 +834,7 @@
         "devto",
         "ruby"
       ],
-      "score": 230.3
-    },
-    {
-      "id": "azure-3758c2",
-      "name": "Azure",
-      "quadrant": "Platforms",
-      "ring": "Trial",
-      "description": "Day 86 of DevOps, Day 36 of Azure. Both tasks today were about a setting whose scope is not where you...",
-      "articleCount": 22,
-      "recentCount": 9,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-02-21T06:36:14.000Z",
-      "lastSeen": "2026-11-18T18:00:00.000Z",
-      "articleIds": [
-        "63a8162b8a509f5b",
-        "82aaae6fc61f1aed",
-        "2bd70fc46c2610a5",
-        "5e50d6c9946750f3",
-        "e39e802bc6fc5c6c",
-        "7482059e8feb089c",
-        "70bd8739af1678af",
-        "2ea58fe6d3832d71"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "azure",
-        "devto",
-        "devops"
-      ],
-      "score": 230.2
+      "score": 230.8
     },
     {
       "id": "react-58fd63",
@@ -868,6 +868,37 @@
       "score": 218.4
     },
     {
+      "id": "opentelemetry-31e074",
+      "name": "OpenTelemetry",
+      "quadrant": "Tools",
+      "ring": "Trial",
+      "description": "OpenTelemetry conventions evolve, but queries still need to work across old, current, and Datadog-native telemetry. Learn how Datadog uses a knowledge graph and query-time translation to resolve…",
+      "articleCount": 21,
+      "recentCount": 7,
+      "previousCount": 1,
+      "trend": "up",
+      "firstSeen": "2022-02-24T16:43:59.000Z",
+      "lastSeen": "2026-11-19T00:00:00.000Z",
+      "articleIds": [
+        "7e1bc62efaf20692",
+        "2ac8ce26c4d37e50",
+        "e057b26766e0ae5c",
+        "51b69a0abc927c87",
+        "e4d02fd5d90b0b91",
+        "e11f6903b56d39d8",
+        "902b879b9c1341e7",
+        "f6970837347785e5"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "reading-list",
+        "observability",
+        "blog"
+      ],
+      "score": 205.9
+    },
+    {
       "id": "cursor-e33632",
       "name": "Cursor",
       "quadrant": "Tools",
@@ -899,35 +930,33 @@
       "score": 201.9
     },
     {
-      "id": "opentelemetry-31e074",
-      "name": "OpenTelemetry",
+      "id": "grafana-418c13",
+      "name": "Grafana",
       "quadrant": "Tools",
-      "ring": "Trial",
-      "description": "At Cloud Native Days Austria 2026, I presented a talk called How to Defeat OTel’s Silent Killer: The Performance Overhead, exploring a problem that is easy to overlook when building observability…",
-      "articleCount": 20,
-      "recentCount": 6,
-      "previousCount": 1,
+      "ring": "Adopt",
+      "description": "Grafana Labs does not have a headquarters office. Since its founding in 2014, it has been fully remote-first. It began with three co-founders living on different continents, and today our team spans…",
+      "articleCount": 12,
+      "recentCount": 11,
+      "previousCount": 0,
       "trend": "up",
-      "firstSeen": "2022-02-24T16:43:59.000Z",
-      "lastSeen": "2026-11-17T12:21:00.000Z",
+      "firstSeen": "2020-10-28T14:57:10.000Z",
+      "lastSeen": "2026-11-19T16:32:02.000Z",
       "articleIds": [
-        "2ac8ce26c4d37e50",
-        "e057b26766e0ae5c",
-        "51b69a0abc927c87",
-        "e4d02fd5d90b0b91",
-        "e11f6903b56d39d8",
-        "902b879b9c1341e7",
-        "f6970837347785e5",
-        "5e6f2b1a173b5593"
+        "54df28ed909d6766",
+        "f730f407846792af",
+        "45b50aaed42501f7",
+        "1471a03a2b87c99c",
+        "1c4499e0c33136bc",
+        "cea589efa9324ca0",
+        "9621e800a7bb4532",
+        "649ad2b494211d8d"
       ],
       "tags": [
-        "hackernews",
-        "archive",
         "observability",
-        "blog",
-        "reading-list"
+        "hackernews",
+        "archive"
       ],
-      "score": 190.9
+      "score": 192.1
     },
     {
       "id": "webassembly-733ad6",
@@ -1020,33 +1049,35 @@
       "score": 162.7
     },
     {
-      "id": "grafana-418c13",
-      "name": "Grafana",
-      "quadrant": "Tools",
+      "id": "continuous-delivery-9bbcb6",
+      "name": "Continuous delivery",
+      "quadrant": "Techniques",
       "ring": "Adopt",
-      "description": "If you couldn't make it to San Francisco for ObservabilityCON 2026, don’t worry. We’re bringing the highlights of ObservabilityCON to five more international destinations in 2027. It’s your chance to…",
-      "articleCount": 10,
-      "recentCount": 9,
+      "description": "The uncomfortable question A few days ago, a customer asked me a question that sounded simple: “Argo CD said the sync succeeded, so why didn’t our migration run?” They had pushed a release while a…",
+      "articleCount": 14,
+      "recentCount": 6,
       "previousCount": 0,
       "trend": "up",
-      "firstSeen": "2020-10-28T14:57:10.000Z",
-      "lastSeen": "2026-11-18T17:48:45.000Z",
+      "firstSeen": "2020-01-11T13:41:19.000Z",
+      "lastSeen": "2026-11-20T12:30:00.000Z",
       "articleIds": [
-        "45b50aaed42501f7",
-        "1471a03a2b87c99c",
-        "1c4499e0c33136bc",
-        "cea589efa9324ca0",
-        "9621e800a7bb4532",
-        "649ad2b494211d8d",
-        "67826e3f3312b1b9",
-        "e11f6903b56d39d8"
+        "45c588d62f9d478e",
+        "a9bca652f0af0729",
+        "32b076595ed25f11",
+        "607d54da354520de",
+        "28c4cffca6ee3859",
+        "dc17eeba94f57013",
+        "d1ad754d5491cb2a",
+        "34ed90baf39f843d"
       ],
       "tags": [
-        "observability",
         "hackernews",
-        "archive"
+        "archive",
+        "cloud-native",
+        "blog",
+        "reading-list"
       ],
-      "score": 162.1
+      "score": 159.4
     },
     {
       "id": "spring-boot-b43dbc",
@@ -1078,37 +1109,6 @@
         "hibernate orm"
       ],
       "score": 155
-    },
-    {
-      "id": "continuous-delivery-9bbcb6",
-      "name": "Continuous delivery",
-      "quadrant": "Techniques",
-      "ring": "Adopt",
-      "description": "The open-source agent for CI/CD reliability.",
-      "articleCount": 13,
-      "recentCount": 5,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-01-11T13:41:19.000Z",
-      "lastSeen": "2026-11-19T14:27:08.668Z",
-      "articleIds": [
-        "a9bca652f0af0729",
-        "32b076595ed25f11",
-        "607d54da354520de",
-        "28c4cffca6ee3859",
-        "dc17eeba94f57013",
-        "d1ad754d5491cb2a",
-        "34ed90baf39f843d",
-        "d03aead9c9a295f7"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "python",
-        "github-trending",
-        "open-source"
-      ],
-      "score": 143
     },
     {
       "id": "rag-53ff2c",
@@ -1232,7 +1232,7 @@
         "github copilot",
         "hackernews"
       ],
-      "score": 134.1
+      "score": 134.6
     },
     {
       "id": "php-5b44b8",
@@ -1477,6 +1477,65 @@
       "score": 89.3
     },
     {
+      "id": "prometheus-6c7ac5",
+      "name": "Prometheus",
+      "quadrant": "Tools",
+      "ring": "Adopt",
+      "description": "Cloud SLAs promise uptime statistically, not absolutely. This article shows how to treat observability as a control plane that detects regional degradation, triggers automated failover, and confirms…",
+      "articleCount": 8,
+      "recentCount": 2,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-05-11T11:51:46.000Z",
+      "lastSeen": "2026-11-20T09:00:00.000Z",
+      "articleIds": [
+        "72629c5f62e8758d",
+        "817a11c3933ae3cf",
+        "fc48b918699e18b0",
+        "15cc7391689554e7",
+        "c2b91a12d81c1077",
+        "feab8ece6f079a4c",
+        "220d12750128cbd6",
+        "40af4ae761ff6c99"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "architecture",
+        "routing",
+        "observability"
+      ],
+      "score": 87.1
+    },
+    {
+      "id": "vercel-940045",
+      "name": "Vercel",
+      "quadrant": "Platforms",
+      "ring": "Trial",
+      "description": "For AI agents to work together effectively, they need a way to communicate and divvy up tasks — much as The post A “headless Slack”: Vercel’s new message board lets Claude Code and Codex agents work…",
+      "articleCount": 5,
+      "recentCount": 4,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2024-02-13T16:51:42.000Z",
+      "lastSeen": "2026-11-19T16:58:48.000Z",
+      "articleIds": [
+        "87ef0774c1e38e16",
+        "7925d53e7e824e0d",
+        "1ceb56a3b3745da8",
+        "62fc65e226b5d24c",
+        "589d3e1cdecfd8ce"
+      ],
+      "tags": [
+        "cloud-native",
+        "ai agents",
+        "ai",
+        "developer tools",
+        "security"
+      ],
+      "score": 83.9
+    },
+    {
       "id": "gitlab-ci-11e4cb",
       "name": "GitLab CI",
       "quadrant": "Tools",
@@ -1620,6 +1679,33 @@
       "score": 79.9
     },
     {
+      "id": "accessibility-6c0a0c",
+      "name": "Accessibility",
+      "quadrant": "Techniques",
+      "ring": "Adopt",
+      "description": "Cognition gave its AI software engineer, Devin, a cloud Mac. Each Devin session gets a fresh macOS VM on Amazon EC2 Mac bare metal hosts, so Devin can build, run, and test iOS and macOS apps. Learn…",
+      "articleCount": 4,
+      "recentCount": 4,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2026-11-05T16:00:00.000Z",
+      "lastSeen": "2026-11-20T01:10:14.000Z",
+      "articleIds": [
+        "9e6e8f1a36f07820",
+        "6043cb0c299f3f0f",
+        "bb37d091250a6790",
+        "12fa902d826a4fb2"
+      ],
+      "tags": [
+        "devtools",
+        "maintainers",
+        "open source",
+        "accessibility",
+        "cloud"
+      ],
+      "score": 79.3
+    },
+    {
       "id": "svelte-65fe64",
       "name": "Svelte",
       "quadrant": "Languages & Frameworks",
@@ -1705,36 +1791,6 @@
       "score": 72.8
     },
     {
-      "id": "prometheus-6c7ac5",
-      "name": "Prometheus",
-      "quadrant": "Tools",
-      "ring": "Adopt",
-      "description": "The Prometheus monitoring system and time series database.",
-      "articleCount": 7,
-      "recentCount": 1,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-05-11T11:51:46.000Z",
-      "lastSeen": "2026-11-07T14:06:27.124Z",
-      "articleIds": [
-        "817a11c3933ae3cf",
-        "fc48b918699e18b0",
-        "15cc7391689554e7",
-        "c2b91a12d81c1077",
-        "feab8ece6f079a4c",
-        "220d12750128cbd6",
-        "40af4ae761ff6c99"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "go",
-        "github-trending",
-        "open-source"
-      ],
-      "score": 72.1
-    },
-    {
       "id": "gitops-a06b8f",
       "name": "GitOps",
       "quadrant": "Techniques",
@@ -1763,31 +1819,32 @@
       "score": 71.8
     },
     {
-      "id": "vercel-940045",
-      "name": "Vercel",
-      "quadrant": "Platforms",
+      "id": "datadog-6a61c9",
+      "name": "Datadog",
+      "quadrant": "Tools",
       "ring": "Trial",
-      "description": "Vercel has released UI SDK in beta, an Apache 2.0 TypeScript library of more than 50 UI behaviors in @ui-sdk/core, with adapters for React, Vue, Svelte, Solid, and Web Components, so agents can…",
-      "articleCount": 4,
+      "description": "OpenTelemetry conventions evolve, but queries still need to work across old, current, and Datadog-native telemetry. Learn how Datadog uses a knowledge graph and query-time translation to resolve…",
+      "articleCount": 5,
       "recentCount": 3,
       "previousCount": 0,
       "trend": "up",
-      "firstSeen": "2024-02-13T16:51:42.000Z",
-      "lastSeen": "2026-11-18T10:12:00.000Z",
+      "firstSeen": "2020-03-20T11:51:09.000Z",
+      "lastSeen": "2026-11-19T00:00:00.000Z",
       "articleIds": [
-        "7925d53e7e824e0d",
-        "1ceb56a3b3745da8",
-        "62fc65e226b5d24c",
-        "589d3e1cdecfd8ce"
+        "7e1bc62efaf20692",
+        "48145b108142466c",
+        "877869262495b03e",
+        "15cc7391689554e7",
+        "aa6753d3d06e24ab"
       ],
       "tags": [
+        "reading-list",
+        "hackernews",
+        "archive",
         "architecture",
-        "ai coding",
-        "software development",
-        "agents",
-        "github"
+        "observability"
       ],
-      "score": 68.9
+      "score": 71.6
     },
     {
       "id": "terraform-9acce5",
@@ -1845,6 +1902,32 @@
       "score": 65.1
     },
     {
+      "id": "canary-releases-608ff5",
+      "name": "Canary releases",
+      "quadrant": "Techniques",
+      "ring": "Trial",
+      "description": "Deploying containers safely at scale can mean assembling your own system: traffic-splitting logic, alarm evaluation, rollback automation, approval gates. It’s The post How Amazon ECS handles…",
+      "articleCount": 3,
+      "recentCount": 3,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2026-11-17T20:24:27.000Z",
+      "lastSeen": "2026-11-19T16:00:00.000Z",
+      "articleIds": [
+        "e1d0ce5f168bd0b6",
+        "b9cc428b2b885722",
+        "340c2ff0827fd3fe"
+      ],
+      "tags": [
+        "reading-list",
+        "cloud-native",
+        "sponsored-post-contributed",
+        "ci/cd",
+        "cloud services"
+      ],
+      "score": 63.5
+    },
+    {
       "id": "cqrs-c7a9ee",
       "name": "CQRS",
       "quadrant": "Techniques",
@@ -1873,6 +1956,32 @@
       "score": 61.7
     },
     {
+      "id": "argo-cd-6cd2c2",
+      "name": "Argo CD",
+      "quadrant": "Tools",
+      "ring": "Trial",
+      "description": "The uncomfortable question A few days ago, a customer asked me a question that sounded simple: “Argo CD said the sync succeeded, so why didn’t our migration run?” They had pushed a release while a…",
+      "articleCount": 3,
+      "recentCount": 3,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2026-11-11T16:00:00.000Z",
+      "lastSeen": "2026-11-20T12:30:00.000Z",
+      "articleIds": [
+        "45c588d62f9d478e",
+        "607d54da354520de",
+        "28c4cffca6ee3859"
+      ],
+      "tags": [
+        "cloud-native",
+        "blog",
+        "reading-list",
+        "architecture",
+        "argo cd"
+      ],
+      "score": 59
+    },
+    {
       "id": "design-systems-aefcbd",
       "name": "Design systems",
       "quadrant": "Techniques",
@@ -1899,33 +2008,6 @@
         "open-source"
       ],
       "score": 58
-    },
-    {
-      "id": "datadog-6a61c9",
-      "name": "Datadog",
-      "quadrant": "Tools",
-      "ring": "Trial",
-      "description": "Datadog is extending its Agent Observability platform with Online Experiments, allowing engineering teams to compare AI agent versions against real production traffic rather than relying exclusively…",
-      "articleCount": 4,
-      "recentCount": 2,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-03-20T11:51:09.000Z",
-      "lastSeen": "2026-11-17T12:00:00.000Z",
-      "articleIds": [
-        "48145b108142466c",
-        "877869262495b03e",
-        "15cc7391689554e7",
-        "aa6753d3d06e24ab"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "architecture",
-        "observability",
-        "aiops"
-      ],
-      "score": 56.6
     },
     {
       "id": "snowflake-91fe08",
@@ -2009,56 +2091,6 @@
       "score": 49.7
     },
     {
-      "id": "accessibility-6c0a0c",
-      "name": "Accessibility",
-      "quadrant": "Techniques",
-      "ring": "Adopt",
-      "description": "A visual, 10-minute deep dive into web accessibility architecture. Learn how browsers construct the Accessibility Tree from the DOM, why custom ARIA divs create more errors than native HTML, how CSS…",
-      "articleCount": 2,
-      "recentCount": 2,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2026-11-05T16:00:00.000Z",
-      "lastSeen": "2026-11-16T20:20:19.000Z",
-      "articleIds": [
-        "bb37d091250a6790",
-        "12fa902d826a4fb2"
-      ],
-      "tags": [
-        "a11y",
-        "webdev",
-        "frontend",
-        "discuss",
-        "devto"
-      ],
-      "score": 49.3
-    },
-    {
-      "id": "canary-releases-608ff5",
-      "name": "Canary releases",
-      "quadrant": "Techniques",
-      "ring": "Trial",
-      "description": "At Red Canary, storing large amounts of small data is a big deal. Their Linux Endpoint Detection and Response (EDR) The post S3 vs. ScyllaDB for tiny telemetry: What Red Canary learned the hard way…",
-      "articleCount": 2,
-      "recentCount": 2,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2026-11-17T20:24:27.000Z",
-      "lastSeen": "2026-11-18T15:00:00.000Z",
-      "articleIds": [
-        "b9cc428b2b885722",
-        "340c2ff0827fd3fe"
-      ],
-      "tags": [
-        "reading-list",
-        "cloud-native",
-        "databases",
-        "finops",
-        "storage"
-      ],
-      "score": 48.5
-    },
-    {
       "id": "edge-computing-d841c4",
       "name": "Edge computing",
       "quadrant": "Techniques",
@@ -2132,31 +2164,6 @@
         "jetbrains-ai"
       ],
       "score": 45.1
-    },
-    {
-      "id": "argo-cd-6cd2c2",
-      "name": "Argo CD",
-      "quadrant": "Tools",
-      "ring": "Trial",
-      "description": "In a recent post, LinkedIn revealed it has replaced Argo CD with its own GitOps engine. This new system deploys applications across over 250 Kubernetes clusters. It supports more than 4,000 services…",
-      "articleCount": 2,
-      "recentCount": 2,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2026-11-11T16:00:00.000Z",
-      "lastSeen": "2026-11-12T09:00:00.000Z",
-      "articleIds": [
-        "607d54da354520de",
-        "28c4cffca6ee3859"
-      ],
-      "tags": [
-        "architecture",
-        "argo cd",
-        "continuous deployment",
-        "kubernetes",
-        "linkedin"
-      ],
-      "score": 44
     },
     {
       "id": "opensearch-6867f5",
@@ -2278,7 +2285,7 @@
     }
   ],
   "stats": {
-    "articles": 5052,
+    "articles": 5144,
     "sources": 35,
     "technologies": 78
   }
