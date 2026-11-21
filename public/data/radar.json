@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T14:02:46.143Z",
+  "generatedAt": "2026-11-21T13:29:51.766Z",
   "periodDays": 60,
   "items": [
     {
@@ -7,53 +7,53 @@
       "name": "Microservices",
       "quadrant": "Techniques",
       "ring": "Trial",
-      "description": "Earlier this year, we presented the technical case for Envoy networking in the agentic AI era, examining how autonomous AI agents fundamentally challenge traditional Layer 7 networking assumptions.",
-      "articleCount": 1166,
+      "description": "As organizations scale their cloud footprint to thousands of autonomous agents and microservices, you can accidentally create an operational bottleneck with strict Identity and Access Management…",
+      "articleCount": 1167,
       "recentCount": 7,
-      "previousCount": 6,
+      "previousCount": 7,
       "trend": "steady",
       "firstSeen": "2020-01-02T21:19:39.000Z",
-      "lastSeen": "2026-11-18T17:00:00.000Z",
+      "lastSeen": "2026-11-20T17:00:00.000Z",
       "articleIds": [
+        "6b472cab2be32dc6",
         "4e8436e1217aa3a8",
         "38fad54e41670a9d",
         "99891112daa923ea",
         "0615186de1ed79ff",
         "722024a858e7b733",
         "a678386f4bab26d0",
-        "183f4fef4907f717",
-        "f39569829c56503d"
+        "183f4fef4907f717"
       ],
       "tags": [
         "hackernews",
         "archive",
         "cloud",
         "developers & practitioners",
-        "containers & kubernetes"
+        "security & identity"
       ],
-      "score": 7073.8
+      "score": 7079.8
     },
     {
       "id": "ai-agents-ac421d",
       "name": "AI agents",
       "quadrant": "Techniques",
       "ring": "Assess",
-      "description": "Google has announced it is donating Agent Substrate and gVisor to the Cloud Native Computing Foundation (CNCF), placing two important components of its AI agent infrastructure under vendor-neutral…",
-      "articleCount": 152,
-      "recentCount": 121,
+      "description": "Marcus Borg recounts an experiment to investigate if healthy code was cheaper for agents to review. Between a typical unhealthy pull request (CodeHealth 2.8) and a typical healthy one (9.7), that…",
+      "articleCount": 159,
+      "recentCount": 128,
       "previousCount": 2,
       "trend": "up",
       "firstSeen": "2024-01-29T18:28:18.000Z",
-      "lastSeen": "2026-11-20T12:00:00.000Z",
+      "lastSeen": "2026-11-20T18:38:00.000Z",
       "articleIds": [
+        "7c0fb66e77256ee4",
+        "86db41def98691de",
+        "347053b5b61d6f50",
+        "2a934542364cc04c",
+        "199f1e3927ae3562",
+        "c83e632654ef06e8",
         "2f1c4b1cd7c653f0",
-        "aaea869639c9fd9b",
-        "a46c3ad918ad3649",
-        "84db2c6bfcd72c47",
-        "643802172908998c",
-        "d3701af5a61a4f9d",
-        "87ef0774c1e38e16",
-        "8399b72c7f207b8b"
+        "aaea869639c9fd9b"
       ],
       "tags": [
         "hackernews",
@@ -62,29 +62,29 @@
         "archive",
         "ai"
       ],
-      "score": 2014.6
+      "score": 2119.6
     },
     {
       "id": "anthropic-claude-cc3f96",
       "name": "Anthropic Claude",
       "quadrant": "Tools",
       "ring": "Trial",
-      "description": "I love using AI as a writing tool. But like I wrote in “Why Does AI Write Like Yoda?,” it’s not because AI is a good writer. In fact, it’s pretty bad at writing, and I edit absolutely everything it…",
-      "articleCount": 127,
-      "recentCount": 91,
+      "description": "TL;DR Welcome back to Dev Opportunity Radar! 💙 This is a weekly series where I share...",
+      "articleCount": 132,
+      "recentCount": 96,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2023-08-12T00:08:13.000Z",
-      "lastSeen": "2026-11-20T11:43:53.000Z",
+      "lastSeen": "2026-11-20T18:28:13.000Z",
       "articleIds": [
+        "9b28ca537e0ec779",
+        "2a934542364cc04c",
+        "4506b9f639370308",
+        "b8e1839046bc97c6",
+        "fda5004e845ff961",
         "abcce9a7a0a7a088",
         "be373132dcb8b869",
-        "04da227b0cee83ba",
-        "bab1a902faa13f54",
-        "87ef0774c1e38e16",
-        "14f321c495182c59",
-        "48e0c27112eedb35",
-        "25c96fa5a216b598"
+        "04da227b0cee83ba"
       ],
       "tags": [
         "hackernews",
@@ -93,91 +93,29 @@
         "python",
         "reading-list"
       ],
-      "score": 1600.5
-    },
-    {
-      "id": "kubernetes-74afb9",
-      "name": "Kubernetes",
-      "quadrant": "Platforms",
-      "ring": "Adopt",
-      "description": "We built GKE Dataplane V2 to meet the performance, scalability, and security demands of modern cloud-native workloads.",
-      "articleCount": 93,
-      "recentCount": 30,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-01-11T13:41:19.000Z",
-      "lastSeen": "2026-11-19T17:00:00.000Z",
-      "articleIds": [
-        "13030d4f70c57c15",
-        "4e8436e1217aa3a8",
-        "eb37c8732473b682",
-        "703b5267159bf4cf",
-        "9c3de6e8b48ee449",
-        "a0ac13adbe9c8f52",
-        "72fd99be97872cb4",
-        "28e05e36f3f47187"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "cloud",
-        "cloud-native",
-        "reading-list"
-      ],
-      "score": 849.6
-    },
-    {
-      "id": "aws-1a683c",
-      "name": "AWS",
-      "quadrant": "Platforms",
-      "ring": "Adopt",
-      "description": "AWS has released AWS Emulator, a free, CC0-licensed local stand-in for more than 200 of its services, generated from its public API models and aimed at the test loops of coding agents. AWS says…",
-      "articleCount": 79,
-      "recentCount": 36,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-01-28T20:05:18.000Z",
-      "lastSeen": "2026-11-20T06:53:00.000Z",
-      "articleIds": [
-        "c98bd844250aac2c",
-        "f6bc24b76b401704",
-        "03e9dbed5d4c5185",
-        "b98325dcc025edb1",
-        "27208382ec0736e5",
-        "42d84d76bc289195",
-        "3c7261e577de1bda",
-        "53cb83ab3e8f92a3"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "reading-list",
-        "cloud",
-        "architecture"
-      ],
-      "score": 820.4
+      "score": 1675.5
     },
     {
       "id": "google-cloud-c47ea8",
       "name": "Google Cloud",
       "quadrant": "Platforms",
       "ring": "Adopt",
-      "description": "Welcome to The Blueprint, our ongoing series where we highlight how Google Cloud customers are tackling unique and common challenges across industries using the latest AI and cloud technologies.",
-      "articleCount": 60,
-      "recentCount": 48,
+      "description": "Cloud Scheduler, Workflows and Cloud Run sweep a project every day with zombiescan's 20 checks beside Google's idle-resource recommenders, store the findings in AlloyDB Express, and an ADK agent…",
+      "articleCount": 66,
+      "recentCount": 54,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-02-23T15:07:24.000Z",
-      "lastSeen": "2026-11-19T23:00:00.000Z",
+      "lastSeen": "2026-11-20T20:01:04.000Z",
       "articleIds": [
+        "6179dfa0a4920dc6",
+        "a7c069141e9e2a8d",
+        "6b472cab2be32dc6",
+        "86db41def98691de",
+        "347053b5b61d6f50",
+        "f1056207286b09b5",
         "0d1f901b2b85b36c",
-        "84db2c6bfcd72c47",
-        "13030d4f70c57c15",
-        "643802172908998c",
-        "8399b72c7f207b8b",
-        "bd80e2c450d45376",
-        "4e8436e1217aa3a8",
-        "eb37c8732473b682"
+        "84db2c6bfcd72c47"
       ],
       "tags": [
         "cloud",
@@ -186,91 +124,153 @@
         "ai & machine learning",
         "security & identity"
       ],
-      "score": 812.5
+      "score": 902.5
+    },
+    {
+      "id": "kubernetes-74afb9",
+      "name": "Kubernetes",
+      "quadrant": "Platforms",
+      "ring": "Adopt",
+      "description": "Google recently detailed how three interacting bugs across Google Kubernetes Engine (GKE), Private Service Connect, and the Linux kernel caused intermittent Kubernetes API connectivity failures,…",
+      "articleCount": 96,
+      "recentCount": 33,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-01-11T13:41:19.000Z",
+      "lastSeen": "2026-11-21T09:44:00.000Z",
+      "articleIds": [
+        "f04a0a78fd9db686",
+        "d5d4a69a615cdf63",
+        "13030d4f70c57c15",
+        "38eb19b09e495e4a",
+        "4e8436e1217aa3a8",
+        "eb37c8732473b682",
+        "703b5267159bf4cf",
+        "9c3de6e8b48ee449"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "cloud",
+        "cloud-native",
+        "reading-list"
+      ],
+      "score": 894.6
     },
     {
       "id": "gemini-90e14d",
       "name": "Gemini",
       "quadrant": "Tools",
       "ring": "Trial",
-      "description": "Hacker News discussion with 226 comments.",
-      "articleCount": 58,
-      "recentCount": 48,
+      "description": "At Vodafone, we used the agent directly in Dataform to build Dataform pipelines.",
+      "articleCount": 61,
+      "recentCount": 51,
       "previousCount": 1,
       "trend": "up",
       "firstSeen": "2024-12-05T07:03:29.000Z",
-      "lastSeen": "2026-11-19T23:35:35.000Z",
+      "lastSeen": "2026-11-20T17:00:00.000Z",
       "articleIds": [
+        "a7c069141e9e2a8d",
+        "de342ea9ec0e41c5",
+        "c83e632654ef06e8",
         "ed33061e28b05b70",
         "23033a3e00ff08a2",
         "84db2c6bfcd72c47",
         "8399b72c7f207b8b",
-        "48e0c27112eedb35",
-        "14a22af93bc05685",
-        "c3c7756f62d48d7a",
-        "a0696e9dfff15fe8"
+        "48e0c27112eedb35"
       ],
       "tags": [
         "cloud",
         "hackernews",
-        "archive",
         "ai",
+        "archive",
         "ai & machine learning"
       ],
-      "score": 798.8
+      "score": 843.8
+    },
+    {
+      "id": "aws-1a683c",
+      "name": "AWS",
+      "quadrant": "Platforms",
+      "ring": "Adopt",
+      "description": "Bee, an Amazon company, built a personal AI wearable with no mechanism for operators (Bee engineers, other Amazon employees, or AWS infrastructure operators) to access customer data.",
+      "articleCount": 80,
+      "recentCount": 37,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-01-28T20:05:18.000Z",
+      "lastSeen": "2026-11-20T18:49:05.000Z",
+      "articleIds": [
+        "62598cad61e434bd",
+        "c98bd844250aac2c",
+        "f6bc24b76b401704",
+        "03e9dbed5d4c5185",
+        "b98325dcc025edb1",
+        "27208382ec0736e5",
+        "42d84d76bc289195",
+        "3c7261e577de1bda"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "cloud",
+        "reading-list",
+        "customer solutions"
+      ],
+      "score": 835.4
     },
     {
       "id": "rust-1d3fbd",
       "name": "Rust",
       "quadrant": "Languages & Frameworks",
       "ring": "Trial",
-      "description": "Nicholas Matsakis shares why AI makes Rust the ideal choice for modern production systems, skipping steep adoption hurdles via compiler guardrails. He discusses Symposium - an open-source,…",
-      "articleCount": 82,
-      "recentCount": 31,
+      "description": "Hoi hoi! 😸 Happy Friday! Let's learn a tiny bit of Rust! 😸🍻 No complicated architecture. No giant...",
+      "articleCount": 83,
+      "recentCount": 32,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-01-15T00:22:16.000Z",
-      "lastSeen": "2026-11-19T11:00:00.000Z",
+      "lastSeen": "2026-11-20T16:21:37.000Z",
       "articleIds": [
+        "7af37c2d67a37bc0",
         "4021143fd68821aa",
         "4c638f96948b260f",
         "7421f918d6a1f827",
         "569017a70fd8b933",
         "b7a6e8b9a3875109",
         "afe6109fc01db2e3",
-        "66c2e2d879f10b6b",
-        "36cf899b1962ca45"
+        "66c2e2d879f10b6b"
       ],
       "tags": [
         "hackernews",
         "archive",
         "rust",
-        "architecture",
-        "devto"
+        "devto",
+        "architecture"
       ],
-      "score": 789.4
+      "score": 804.4
     },
     {
       "id": "python-0fceff",
       "name": "Python",
       "quadrant": "Languages & Frameworks",
       "ring": "Adopt",
-      "description": "The PSF end-of-year fundraiser With my Python Software Foundation board director hat on: we've launched our end-of-year fundraiser for the non-profit that supports Python development and the Python…",
-      "articleCount": 90,
-      "recentCount": 23,
+      "description": "🌟 Chapter 1: A New Mission from King Nyaomaru! Remember my previous adventures on...",
+      "articleCount": 91,
+      "recentCount": 24,
       "previousCount": 2,
       "trend": "up",
       "firstSeen": "2020-01-13T16:40:35.000Z",
-      "lastSeen": "2026-11-18T14:44:48.000Z",
+      "lastSeen": "2026-11-21T04:37:50.000Z",
       "articleIds": [
+        "2d1a82a1d0bb5c24",
         "358ebcd58de33063",
         "fa1fc755432b0137",
         "b7a6e8b9a3875109",
         "c60558e98558e0e7",
         "5b158888670aa71b",
         "2479b75faf7e02fc",
-        "3b3dc99588734f14",
-        "611c6fd9a527ae9b"
+        "3b3dc99588734f14"
       ],
       "tags": [
         "hackernews",
@@ -279,7 +279,7 @@
         "devto",
         "ai"
       ],
-      "score": 769.5
+      "score": 784.5
     },
     {
       "id": "event-driven-architecture-e0d623",
@@ -317,53 +317,53 @@
       "name": "Go",
       "quadrant": "Languages & Frameworks",
       "ring": "Adopt",
-      "description": "A little copying is better than a little dependency. &mdash; Go Proverbs , via Tags: go , programming",
-      "articleCount": 104,
-      "recentCount": 6,
+      "description": "Uber redesigned its Go-based translation cache to reduce its initial memory footprint by more than 90% while maintaining a cache hit rate above 99.9% and p99 disk-backed cache miss latency below 100…",
+      "articleCount": 106,
+      "recentCount": 8,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-01-02T21:19:39.000Z",
-      "lastSeen": "2026-11-17T06:16:26.000Z",
+      "lastSeen": "2026-11-20T14:38:00.000Z",
       "articleIds": [
+        "ecf7e2fdadafc569",
+        "a2b872517bf63b28",
         "ae3ee0f483ed9177",
         "564eb3e6002e7dc8",
         "2cb87251db30d865",
         "71aaa2946db119b3",
         "611eaa424a2ea349",
-        "aed4d9c60c01ceb3",
-        "65b385bddf2e78e7",
-        "4a08bb9007f6545a"
+        "aed4d9c60c01ceb3"
       ],
       "tags": [
         "hackernews",
         "archive",
         "devtools",
         "goland",
-        "ai"
+        "jetbrains-air"
       ],
-      "score": 699.8
+      "score": 729.8
     },
     {
       "id": "postgresql-2ee91e",
       "name": "PostgreSQL",
       "quadrant": "Platforms",
       "ring": "Adopt",
-      "description": "PostgreSQL 19 Released Most years PostgreSQL ships a new release in September, but this year's release came two months later thanks mainly to the flurry of issues that the PostgreSQL team needed to…",
-      "articleCount": 78,
-      "recentCount": 18,
+      "description": "In global maritime logistics, Marine Ports and Terminals play a significant role in the movement of container and cargo, within and beyond. Marine ports and terminals world-wide use a Terminal…",
+      "articleCount": 79,
+      "recentCount": 19,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-01-31T06:42:05.000Z",
-      "lastSeen": "2026-11-20T03:45:45.000Z",
+      "lastSeen": "2026-11-20T17:00:00.000Z",
       "articleIds": [
+        "f1056207286b09b5",
         "1975cf687ca4c6c8",
         "29fc9a19e60fa1cc",
         "4ba1303d2ee21d77",
         "6970d4f37384506f",
         "464f8a9f4a4e6d13",
         "1af2072ae985eb57",
-        "e09a9beaaee6ba56",
-        "5b3e85fd4334d620"
+        "e09a9beaaee6ba56"
       ],
       "tags": [
         "hackernews",
@@ -372,29 +372,29 @@
         "databases",
         "database"
       ],
-      "score": 651.3
+      "score": 666.3
     },
     {
       "id": "claude-code-dfaa85",
       "name": "Claude Code",
       "quadrant": "Tools",
       "ring": "Assess",
-      "description": "For AI agents to work together effectively, they need a way to communicate and divvy up tasks — much as The post A “headless Slack”: Vercel’s new message board lets Claude Code and Codex agents work…",
-      "articleCount": 42,
-      "recentCount": 29,
+      "description": "Anthropic says Claude writes and reviews roughly 90% of the code produced by the team building Claude Code, and the The post Anthropic says Claude writes and reviews 90% of its team’s code. The catch…",
+      "articleCount": 43,
+      "recentCount": 30,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2025-12-21T12:57:10.000Z",
-      "lastSeen": "2026-11-19T16:58:48.000Z",
+      "lastSeen": "2026-11-20T16:41:28.000Z",
       "articleIds": [
+        "4506b9f639370308",
         "87ef0774c1e38e16",
         "14f321c495182c59",
         "fa1fc755432b0137",
         "c60558e98558e0e7",
         "3429c7218e4f7d01",
         "c6524b3bb676a860",
-        "069078b2b4e3b49a",
-        "35612161c8c95c8e"
+        "069078b2b4e3b49a"
       ],
       "tags": [
         "hackernews",
@@ -403,7 +403,7 @@
         "github-trending",
         "open-source"
       ],
-      "score": 526.8
+      "score": 541.8
     },
     {
       "id": "openai-api-a8a7c5",
@@ -474,8 +474,8 @@
       "ring": "Trial",
       "description": "Groundcover, the eBPF-based observability startup, has introduced Investigations, giving agents and engineers one place to collaborate on incident response in The post Groundcover Investigations lets…",
       "articleCount": 57,
-      "recentCount": 5,
-      "previousCount": 0,
+      "recentCount": 4,
+      "previousCount": 1,
       "trend": "up",
       "firstSeen": "2020-01-10T13:12:14.000Z",
       "lastSeen": "2026-11-19T14:00:00.000Z",
@@ -496,7 +496,7 @@
         "observability",
         "general"
       ],
-      "score": 404.9
+      "score": 395.9
     },
     {
       "id": "redis-b60889",
@@ -534,62 +534,93 @@
       "name": "Observability",
       "quadrant": "Techniques",
       "ring": "Adopt",
-      "description": "Cloud SLAs promise uptime statistically, not absolutely. This article shows how to treat observability as a control plane that detects regional degradation, triggers automated failover, and confirms…",
-      "articleCount": 33,
-      "recentCount": 17,
+      "description": "Some of the best technical insights come from sharing what you've built and what you've learned along the way.",
+      "articleCount": 34,
+      "recentCount": 18,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-10-08T12:32:56.000Z",
-      "lastSeen": "2026-11-20T09:00:00.000Z",
+      "lastSeen": "2026-11-20T15:07:25.000Z",
       "articleIds": [
+        "199f1e3927ae3562",
         "72629c5f62e8758d",
         "799e27214d566530",
         "5cbdec76c3653574",
         "42d84d76bc289195",
         "8996249a38002945",
         "2ac8ce26c4d37e50",
-        "48145b108142466c",
-        "a324048b9a561e00"
+        "48145b108142466c"
       ],
       "tags": [
         "hackernews",
         "archive",
         "reading-list",
         "observability",
-        "cloud-native"
+        "cloud"
       ],
-      "score": 370.5
+      "score": 385.5
     },
     {
       "id": "java-081fb5",
       "name": "Java",
       "quadrant": "Languages & Frameworks",
       "ring": "Adopt",
-      "description": "Java4Shell is a critical memory-corruption flaw in OpenJDK's Base64 decoder that can lead to remote code execution. Cloudflare has released six WAF managed rules for paid plans that logs matching…",
-      "articleCount": 42,
-      "recentCount": 8,
+      "description": "This vulnerability allows malicious Base64 input to corrupt JVM process memory, potentially causing a crash or remote code execution.",
+      "articleCount": 44,
+      "recentCount": 10,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-01-13T20:39:08.000Z",
-      "lastSeen": "2026-11-18T14:52:10.000Z",
+      "lastSeen": "2026-11-20T16:58:43.000Z",
       "articleIds": [
+        "a2e5c7c91dc5a062",
+        "3bd5f993bb12333d",
         "af17318c693b84ad",
         "890c57ba47bf0a05",
         "2ab0e4d1739d8c55",
         "8c2af936a1ddae0c",
         "8bb9b1bbd3d2ad72",
-        "d2ab14a5ea188b3a",
-        "ecf7a899a16f8d25",
-        "4daf6dadf9c46066"
+        "d2ab14a5ea188b3a"
       ],
       "tags": [
         "hackernews",
         "archive",
+        "devtools",
         "architecture",
-        "java",
-        "tornadovm"
+        "security"
       ],
-      "score": 345.2
+      "score": 375.2
+    },
+    {
+      "id": "cloudflare-a187f4",
+      "name": "Cloudflare",
+      "quadrant": "Platforms",
+      "ring": "Trial",
+      "description": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to…",
+      "articleCount": 26,
+      "recentCount": 17,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-09-17T13:10:26.000Z",
+      "lastSeen": "2026-11-20T20:24:38.000Z",
+      "articleIds": [
+        "f93ea93941f60201",
+        "7066f202a884aec0",
+        "ff4da9032d2d0257",
+        "a67e4808fe94719f",
+        "af17318c693b84ad",
+        "aa6457d959ee12ae",
+        "09e5e80125ce2409",
+        "4766c254790f5422"
+      ],
+      "tags": [
+        "security",
+        "infra",
+        "reading-list",
+        "hackernews",
+        "archive"
+      ],
+      "score": 327.6
     },
     {
       "id": "typescript-19862f",
@@ -654,35 +685,35 @@
       "score": 315.7
     },
     {
-      "id": "cloudflare-a187f4",
-      "name": "Cloudflare",
-      "quadrant": "Platforms",
+      "id": "serverless-d08ae9",
+      "name": "Serverless",
+      "quadrant": "Techniques",
       "ring": "Trial",
-      "description": "Five memory corruption bugs in nginx, called nginx2root, can let an unauthenticated attacker run code on a server. Here’s how they work, and why origins behind Cloudflare's proxy are shielded from…",
-      "articleCount": 24,
-      "recentCount": 15,
+      "description": "As organizations move from reactive analytics to proactive systems of action powered by autonomous AI agents, data platforms face a new set of demands. Moving from human scale to agent scale changes…",
+      "articleCount": 38,
+      "recentCount": 6,
       "previousCount": 0,
       "trend": "up",
-      "firstSeen": "2020-09-17T13:10:26.000Z",
-      "lastSeen": "2026-11-20T01:58:29.000Z",
+      "firstSeen": "2020-01-02T21:19:39.000Z",
+      "lastSeen": "2026-11-20T17:00:00.000Z",
       "articleIds": [
-        "ff4da9032d2d0257",
-        "a67e4808fe94719f",
-        "af17318c693b84ad",
-        "aa6457d959ee12ae",
-        "09e5e80125ce2409",
-        "4766c254790f5422",
-        "813e40fce5f80ae4",
-        "1e25c4d1d22c66b1"
+        "347053b5b61d6f50",
+        "f6bc24b76b401704",
+        "27208382ec0736e5",
+        "804af6cb982454d2",
+        "5788376f314c8f0e",
+        "ffae9ae80732c0e4",
+        "f5d63d7af140ac7b",
+        "d82f7e4b64fe7d2f"
       ],
       "tags": [
-        "security",
         "hackernews",
         "archive",
-        "infra",
-        "reading-list"
+        "cloud",
+        "reading-list",
+        "data analytics"
       ],
-      "score": 297.6
+      "score": 298
     },
     {
       "id": "apache-kafka-0d516b",
@@ -744,57 +775,26 @@
       "score": 283.2
     },
     {
-      "id": "serverless-d08ae9",
-      "name": "Serverless",
-      "quadrant": "Techniques",
-      "ring": "Trial",
-      "description": "Country Road Group replaced Microsoft BizTalk with a pattern-driven, serverless integration platform on AWS. Learn how its Strategic Integration Platform works across four processing lanes, and get…",
-      "articleCount": 37,
-      "recentCount": 5,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-01-02T21:19:39.000Z",
-      "lastSeen": "2026-11-19T23:07:30.000Z",
-      "articleIds": [
-        "f6bc24b76b401704",
-        "27208382ec0736e5",
-        "804af6cb982454d2",
-        "5788376f314c8f0e",
-        "ffae9ae80732c0e4",
-        "f5d63d7af140ac7b",
-        "d82f7e4b64fe7d2f",
-        "a58f7e83552b9dea"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "cloud",
-        "reading-list",
-        "customer solutions"
-      ],
-      "score": 283
-    },
-    {
       "id": "azure-3758c2",
       "name": "Azure",
       "quadrant": "Platforms",
       "ring": "Trial",
-      "description": "Day 87 of DevOps, Day 37 of Azure. Both tasks today turned on a name that is not the name the system...",
-      "articleCount": 23,
-      "recentCount": 10,
+      "description": "Day 89 of DevOps, Day 39 of Azure. Both tasks today produced something that reads as broken and is...",
+      "articleCount": 24,
+      "recentCount": 11,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-02-21T06:36:14.000Z",
-      "lastSeen": "2026-11-19T18:00:00.000Z",
+      "lastSeen": "2026-11-21T09:00:00.000Z",
       "articleIds": [
+        "667491932bff3f7f",
         "2dee71714c03f68c",
         "63a8162b8a509f5b",
         "82aaae6fc61f1aed",
         "2bd70fc46c2610a5",
         "5e50d6c9946750f3",
         "e39e802bc6fc5c6c",
-        "7482059e8feb089c",
-        "70bd8739af1678af"
+        "7482059e8feb089c"
       ],
       "tags": [
         "hackernews",
@@ -803,38 +803,38 @@
         "devto",
         "devops"
       ],
-      "score": 245.2
+      "score": 260.2
     },
     {
       "id": "ruby-on-rails-9e1b81",
       "name": "Ruby on Rails",
       "quadrant": "Languages & Frameworks",
       "ring": "Trial",
-      "description": "Hacker News discussion with 180 comments.",
-      "articleCount": 28,
-      "recentCount": 5,
+      "description": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to…",
+      "articleCount": 29,
+      "recentCount": 6,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-03-27T15:28:09.000Z",
-      "lastSeen": "2026-11-19T05:09:11.000Z",
+      "lastSeen": "2026-11-20T20:24:38.000Z",
       "articleIds": [
+        "f93ea93941f60201",
         "f82d195d3e1b5c14",
         "f26787f9c3fd2513",
         "d9c11c6e1d8b98a4",
         "678573bae444375c",
         "da2a962c46f1dd4a",
         "0571853de0b43b90",
-        "1ea424ac5eb204f6",
-        "421c5b8d030adbdb"
+        "1ea424ac5eb204f6"
       ],
       "tags": [
         "hackernews",
         "archive",
         "ai",
         "devto",
-        "ruby"
+        "security"
       ],
-      "score": 230.8
+      "score": 245.8
     },
     {
       "id": "react-58fd63",
@@ -866,6 +866,35 @@
         "webdev"
       ],
       "score": 218.4
+    },
+    {
+      "id": "grafana-418c13",
+      "name": "Grafana",
+      "quadrant": "Tools",
+      "ring": "Adopt",
+      "description": "Some of the best technical insights come from sharing what you've built and what you've learned along the way.",
+      "articleCount": 13,
+      "recentCount": 12,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-10-28T14:57:10.000Z",
+      "lastSeen": "2026-11-20T15:07:25.000Z",
+      "articleIds": [
+        "199f1e3927ae3562",
+        "54df28ed909d6766",
+        "f730f407846792af",
+        "45b50aaed42501f7",
+        "1471a03a2b87c99c",
+        "1c4499e0c33136bc",
+        "cea589efa9324ca0",
+        "9621e800a7bb4532"
+      ],
+      "tags": [
+        "observability",
+        "hackernews",
+        "archive"
+      ],
+      "score": 207.1
     },
     {
       "id": "opentelemetry-31e074",
@@ -930,35 +959,6 @@
       "score": 201.9
     },
     {
-      "id": "grafana-418c13",
-      "name": "Grafana",
-      "quadrant": "Tools",
-      "ring": "Adopt",
-      "description": "Grafana Labs does not have a headquarters office. Since its founding in 2014, it has been fully remote-first. It began with three co-founders living on different continents, and today our team spans…",
-      "articleCount": 12,
-      "recentCount": 11,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-10-28T14:57:10.000Z",
-      "lastSeen": "2026-11-19T16:32:02.000Z",
-      "articleIds": [
-        "54df28ed909d6766",
-        "f730f407846792af",
-        "45b50aaed42501f7",
-        "1471a03a2b87c99c",
-        "1c4499e0c33136bc",
-        "cea589efa9324ca0",
-        "9621e800a7bb4532",
-        "649ad2b494211d8d"
-      ],
-      "tags": [
-        "observability",
-        "hackernews",
-        "archive"
-      ],
-      "score": 192.1
-    },
-    {
       "id": "webassembly-733ad6",
       "name": "WebAssembly",
       "quadrant": "Languages & Frameworks",
@@ -1019,6 +1019,37 @@
         "github"
       ],
       "score": 171.4
+    },
+    {
+      "id": "bigquery-ee620c",
+      "name": "BigQuery",
+      "quadrant": "Platforms",
+      "ring": "Trial",
+      "description": "At Vodafone, we used the agent directly in Dataform to build Dataform pipelines.",
+      "articleCount": 12,
+      "recentCount": 9,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-10-13T06:08:18.000Z",
+      "lastSeen": "2026-11-20T17:00:00.000Z",
+      "articleIds": [
+        "a7c069141e9e2a8d",
+        "347053b5b61d6f50",
+        "a324048b9a561e00",
+        "cf4f434cd34df996",
+        "9e3006c02e11ed54",
+        "f1280b003fab5afa",
+        "dbb09eb09bdf73eb",
+        "50dcc273211cdf95"
+      ],
+      "tags": [
+        "cloud",
+        "data analytics",
+        "bigquery",
+        "databases",
+        "hackernews"
+      ],
+      "score": 170.2
     },
     {
       "id": "grpc-a0713c",
@@ -1111,6 +1142,68 @@
       "score": 155
     },
     {
+      "id": "php-5b44b8",
+      "name": "PHP",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Trial",
+      "description": "phpAfterShell is a critical flaw in PHP's default session handler that can lead to code execution. Cloudflare WAF blocks it for all customers, including Free plans, and adds new rules for other PHP…",
+      "articleCount": 10,
+      "recentCount": 8,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2021-01-22T09:03:06.000Z",
+      "lastSeen": "2026-11-20T20:00:45.000Z",
+      "articleIds": [
+        "7066f202a884aec0",
+        "1b5f416ea2effcc2",
+        "8826e959b6dc424b",
+        "564eb3e6002e7dc8",
+        "ca61db4ce015f9bf",
+        "373429d3d655c6fb",
+        "0301e14693da4304",
+        "abe4459bf83dc714"
+      ],
+      "tags": [
+        "hackernews",
+        "security",
+        "php",
+        "reading-list",
+        "devtools"
+      ],
+      "score": 149.1
+    },
+    {
+      "id": "figma-1e4ff5",
+      "name": "Figma",
+      "quadrant": "Tools",
+      "ring": "Adopt",
+      "description": "Bringing scattered context onto the canvas helps teams connect the diagrams, designs, and technical decisions they need to build, all in one place. This workflow shows how Specs and the Figma agent…",
+      "articleCount": 9,
+      "recentCount": 8,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2024-06-22T18:28:32.000Z",
+      "lastSeen": "2026-11-20T22:17:00.000Z",
+      "articleIds": [
+        "c325f11bc00ffc00",
+        "a5b1adbe934421ba",
+        "5aea0d5ef48ff8c0",
+        "af85c795f169cc0c",
+        "bdea120a0c27b6dd",
+        "4ab695861299d0f8",
+        "fa8e611759ccc35e",
+        "547f134dd51fb496"
+      ],
+      "tags": [
+        "frontend",
+        "architecture",
+        "security",
+        "qcon ai new york 2026",
+        "artificial intelligence"
+      ],
+      "score": 144.1
+    },
+    {
       "id": "rag-53ff2c",
       "name": "RAG",
       "quadrant": "Techniques",
@@ -1140,37 +1233,6 @@
         "opensearch"
       ],
       "score": 143
-    },
-    {
-      "id": "bigquery-ee620c",
-      "name": "BigQuery",
-      "quadrant": "Platforms",
-      "ring": "Trial",
-      "description": "As enterprises move AI agents from experimental prototypes into production, data and platform teams are discovering that deploying an agent is only half the battle — you also need to see how it…",
-      "articleCount": 10,
-      "recentCount": 7,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-10-13T06:08:18.000Z",
-      "lastSeen": "2026-11-13T17:00:00.000Z",
-      "articleIds": [
-        "a324048b9a561e00",
-        "cf4f434cd34df996",
-        "9e3006c02e11ed54",
-        "f1280b003fab5afa",
-        "dbb09eb09bdf73eb",
-        "50dcc273211cdf95",
-        "3090d38083de5252",
-        "35d2052d52fd4dc8"
-      ],
-      "tags": [
-        "cloud",
-        "data analytics",
-        "bigquery",
-        "databases",
-        "hackernews"
-      ],
-      "score": 140.2
     },
     {
       "id": "c-9629f5",
@@ -1235,37 +1297,6 @@
       "score": 134.6
     },
     {
-      "id": "php-5b44b8",
-      "name": "PHP",
-      "quadrant": "Languages & Frameworks",
-      "ring": "Trial",
-      "description": "1,200 hot takes, 14 “random” languages, zero opinions about C#, and one model that argued both sides of Go’s error handling. We asked 12 AI models for their most controversial opinion about…",
-      "articleCount": 9,
-      "recentCount": 7,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2021-01-22T09:03:06.000Z",
-      "lastSeen": "2026-11-19T14:09:50.000Z",
-      "articleIds": [
-        "1b5f416ea2effcc2",
-        "8826e959b6dc424b",
-        "564eb3e6002e7dc8",
-        "ca61db4ce015f9bf",
-        "373429d3d655c6fb",
-        "0301e14693da4304",
-        "abe4459bf83dc714",
-        "e647315ecccedd98"
-      ],
-      "tags": [
-        "hackernews",
-        "devtools",
-        "archive",
-        "llm-biases",
-        "cloud-native"
-      ],
-      "score": 134.1
-    },
-    {
       "id": "mysql-6a6a63",
       "name": "MySQL",
       "quadrant": "Platforms",
@@ -1295,37 +1326,6 @@
         "customer solutions"
       ],
       "score": 131
-    },
-    {
-      "id": "figma-1e4ff5",
-      "name": "Figma",
-      "quadrant": "Tools",
-      "ring": "Adopt",
-      "description": "From autofill to AI agent approvals, every 1Password interaction counts. Here's how the design team uses Figma Make to design moments users trust.",
-      "articleCount": 8,
-      "recentCount": 7,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2024-06-22T18:28:32.000Z",
-      "lastSeen": "2026-11-16T18:03:00.000Z",
-      "articleIds": [
-        "a5b1adbe934421ba",
-        "5aea0d5ef48ff8c0",
-        "af85c795f169cc0c",
-        "bdea120a0c27b6dd",
-        "4ab695861299d0f8",
-        "fa8e611759ccc35e",
-        "547f134dd51fb496",
-        "c54df5a727998aba"
-      ],
-      "tags": [
-        "frontend",
-        "architecture",
-        "security",
-        "qcon ai new york 2026",
-        "artificial intelligence"
-      ],
-      "score": 129.1
     },
     {
       "id": "vllm-e33a0a",
@@ -1397,8 +1397,8 @@
       "description": "There&#x27;s extensive literature on several software architecture patterns and styles whose benefits are well known, but which are often ignored due to the cost of their boilerplatic layers and…",
       "articleCount": 15,
       "recentCount": 0,
-      "previousCount": 1,
-      "trend": "down",
+      "previousCount": 0,
+      "trend": "steady",
       "firstSeen": "2020-03-31T03:02:44.000Z",
       "lastSeen": "2026-09-22T01:44:58.000Z",
       "articleIds": [
@@ -1415,7 +1415,7 @@
         "hackernews",
         "archive"
       ],
-      "score": 99.7
+      "score": 101.7
     },
     {
       "id": "rabbitmq-a9b283",
@@ -1475,6 +1475,37 @@
         "nosql"
       ],
       "score": 89.3
+    },
+    {
+      "id": "ruby-1c14db",
+      "name": "Ruby",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Trial",
+      "description": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to…",
+      "articleCount": 9,
+      "recentCount": 2,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2021-06-07T16:56:34.000Z",
+      "lastSeen": "2026-11-20T20:24:38.000Z",
+      "articleIds": [
+        "f93ea93941f60201",
+        "da2a962c46f1dd4a",
+        "69002883c0918fe0",
+        "715acbd31754d63c",
+        "8f91c5fbef13984a",
+        "9552fd335aef4a17",
+        "1b595cea941eea15",
+        "43652ab88b0545b5"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "infra",
+        "security",
+        "managed rules"
+      ],
+      "score": 87.8
     },
     {
       "id": "prometheus-6c7ac5",
@@ -1760,37 +1791,6 @@
       "score": 76.2
     },
     {
-      "id": "ruby-1c14db",
-      "name": "Ruby",
-      "quadrant": "Languages & Frameworks",
-      "ring": "Trial",
-      "description": "RubyMine 2026.3 is out! This release brings JetBrains Air for working with your preferred coding agents, native access to WSL and Dev Container projects, and smarter Ruby and Rails support. You’ll…",
-      "articleCount": 8,
-      "recentCount": 1,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2021-06-07T16:56:34.000Z",
-      "lastSeen": "2026-11-05T13:47:45.000Z",
-      "articleIds": [
-        "da2a962c46f1dd4a",
-        "69002883c0918fe0",
-        "715acbd31754d63c",
-        "8f91c5fbef13984a",
-        "9552fd335aef4a17",
-        "1b595cea941eea15",
-        "43652ab88b0545b5",
-        "97192fec1c9ed9d5"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "devtools",
-        "ai",
-        "articles-2"
-      ],
-      "score": 72.8
-    },
-    {
       "id": "gitops-a06b8f",
       "name": "GitOps",
       "quadrant": "Techniques",
@@ -2038,6 +2038,32 @@
       "score": 56.2
     },
     {
+      "id": "opensearch-6867f5",
+      "name": "OpenSearch",
+      "quadrant": "Platforms",
+      "ring": "Assess",
+      "description": "This situation is more common than one might think: An AI agent calls the wrong API, gets a perfectly good The post “We are not querying like humans anymore”: OpenSearch’s Bianca Lewis on why AI…",
+      "articleCount": 3,
+      "recentCount": 3,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2026-11-16T14:37:00.000Z",
+      "lastSeen": "2026-11-20T19:37:08.000Z",
+      "articleIds": [
+        "5b2792c7cc46f8d1",
+        "8996249a38002945",
+        "779cc035a7f6f6f3"
+      ],
+      "tags": [
+        "reading-list",
+        "cloud-native",
+        "ai agents",
+        "ai models",
+        "ai strategy"
+      ],
+      "score": 54
+    },
+    {
       "id": "playwright-126a03",
       "name": "Playwright",
       "quadrant": "Tools",
@@ -2140,6 +2166,32 @@
       "score": 46.8
     },
     {
+      "id": "fine-tuning-3afd1a",
+      "name": "Fine-tuning",
+      "quadrant": "Techniques",
+      "ring": "Assess",
+      "description": "Some of the best technical insights come from sharing what you've built and what you've learned along the way.",
+      "articleCount": 3,
+      "recentCount": 2,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2024-10-01T21:44:57.000Z",
+      "lastSeen": "2026-11-20T15:07:25.000Z",
+      "articleIds": [
+        "199f1e3927ae3562",
+        "8cc30270a71dd03f",
+        "c6c22a35184c4150"
+      ],
+      "tags": [
+        "observability",
+        "internship",
+        "ai",
+        "learning",
+        "devto"
+      ],
+      "score": 45.4
+    },
+    {
       "id": "devex-e1cf23",
       "name": "DevEx",
       "quadrant": "Techniques",
@@ -2166,77 +2218,29 @@
       "score": 45.1
     },
     {
-      "id": "opensearch-6867f5",
-      "name": "OpenSearch",
-      "quadrant": "Platforms",
-      "ring": "Assess",
-      "description": "Rakbank re-platformed logging for its retail digital banking workloads on a cross-account, Multi-AZ Amazon OpenSearch Service design that ingests ~150 GB/day through Fluent Bit, using…",
-      "articleCount": 2,
-      "recentCount": 2,
+      "id": "zero-trust-d3f358",
+      "name": "Zero trust",
+      "quadrant": "Techniques",
+      "ring": "Trial",
+      "description": "As organizations scale their cloud footprint to thousands of autonomous agents and microservices, you can accidentally create an operational bottleneck with strict Identity and Access Management…",
+      "articleCount": 3,
+      "recentCount": 1,
       "previousCount": 0,
       "trend": "up",
-      "firstSeen": "2026-11-16T14:37:00.000Z",
-      "lastSeen": "2026-11-17T16:03:22.000Z",
+      "firstSeen": "2022-10-11T18:47:34.000Z",
+      "lastSeen": "2026-11-20T17:00:00.000Z",
       "articleIds": [
-        "8996249a38002945",
-        "779cc035a7f6f6f3"
+        "6b472cab2be32dc6",
+        "a492ab4dc54e0d47",
+        "04368f41d2e29c6a"
       ],
       "tags": [
+        "hackernews",
+        "archive",
         "cloud",
-        "advanced (300)",
-        "amazon opensearch service",
-        "customer solutions",
-        "reading-list"
+        "security & identity"
       ],
-      "score": 39
-    },
-    {
-      "id": "chaos-engineering-063cb0",
-      "name": "Chaos engineering",
-      "quadrant": "Techniques",
-      "ring": "Assess",
-      "description": "DistSim is an open-source distributed systems simulator. Each machine is a real Docker container with Ubuntu, a terminal, and full networking. You install services (Nginx, PostgreSQL, Redis, Kafka,…",
-      "articleCount": 5,
-      "recentCount": 0,
-      "previousCount": 0,
-      "trend": "steady",
-      "firstSeen": "2023-03-31T06:29:59.000Z",
-      "lastSeen": "2026-04-02T14:24:12.000Z",
-      "articleIds": [
-        "a0bcda0457f3506d",
-        "50cb40f44048ac50",
-        "372e75696602b8ae",
-        "da4cd30ccdf071bd",
-        "80eed6013521f2b8"
-      ],
-      "tags": [
-        "hackernews",
-        "archive"
-      ],
-      "score": 35.8
-    },
-    {
-      "id": "infrastructure-as-code-b92bb8",
-      "name": "Infrastructure as Code",
-      "quadrant": "Techniques",
-      "ring": "Adopt",
-      "description": "I built CleanCloud to solve a problem I kept seeing on teams I worked with: cloud accounts slowly filling up with orphaned, unowned, or inactive resources created by elastic systems and IaC — but…",
-      "articleCount": 3,
-      "recentCount": 0,
-      "previousCount": 0,
-      "trend": "steady",
-      "firstSeen": "2020-12-14T20:51:55.000Z",
-      "lastSeen": "2025-12-22T17:45:44.000Z",
-      "articleIds": [
-        "81ec892a649a998f",
-        "a1796bb8feee967a",
-        "d2f43d359ef1d2c4"
-      ],
-      "tags": [
-        "hackernews",
-        "archive"
-      ],
-      "score": 34.5
+      "score": 41.6
     },
     {
       "id": "firebase-8ccc31",
@@ -2285,7 +2289,7 @@
     }
   ],
   "stats": {
-    "articles": 5144,
+    "articles": 5214,
     "sources": 35,
     "technologies": 78
   }
