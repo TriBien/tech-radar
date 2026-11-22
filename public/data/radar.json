@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T13:29:51.766Z",
+  "generatedAt": "2026-11-22T13:23:29.290Z",
   "periodDays": 60,
   "items": [
     {
@@ -38,62 +38,93 @@
       "name": "AI agents",
       "quadrant": "Techniques",
       "ring": "Assess",
-      "description": "Marcus Borg recounts an experiment to investigate if healthy code was cheaper for agents to review. Between a typical unhealthy pull request (CodeHealth 2.8) and a typical healthy one (9.7), that…",
-      "articleCount": 159,
-      "recentCount": 128,
+      "description": "Agentic security firm Apiiro found that Claude Code has been exposing secrets in public repositories due to how it stores them in local file on developers' machines to implement \"Don't Ask Again\".…",
+      "articleCount": 163,
+      "recentCount": 132,
       "previousCount": 2,
       "trend": "up",
       "firstSeen": "2024-01-29T18:28:18.000Z",
-      "lastSeen": "2026-11-20T18:38:00.000Z",
+      "lastSeen": "2026-11-22T11:00:00.000Z",
       "articleIds": [
+        "694104882b280795",
+        "ce5b97d879cccbaf",
+        "eddb1c570cabee14",
+        "3d1bee2216f809ad",
         "7c0fb66e77256ee4",
         "86db41def98691de",
         "347053b5b61d6f50",
-        "2a934542364cc04c",
-        "199f1e3927ae3562",
-        "c83e632654ef06e8",
-        "2f1c4b1cd7c653f0",
-        "aaea869639c9fd9b"
+        "2a934542364cc04c"
       ],
       "tags": [
         "hackernews",
         "cloud",
         "reading-list",
         "archive",
-        "ai"
+        "architecture"
       ],
-      "score": 2119.6
+      "score": 2179.6
     },
     {
       "id": "anthropic-claude-cc3f96",
       "name": "Anthropic Claude",
       "quadrant": "Tools",
       "ring": "Trial",
-      "description": "TL;DR Welcome back to Dev Opportunity Radar! 💙 This is a weekly series where I share...",
-      "articleCount": 132,
-      "recentCount": 96,
-      "previousCount": 0,
+      "description": "Agentic security firm Apiiro found that Claude Code has been exposing secrets in public repositories due to how it stores them in local file on developers' machines to implement \"Don't Ask Again\".…",
+      "articleCount": 135,
+      "recentCount": 98,
+      "previousCount": 1,
       "trend": "up",
       "firstSeen": "2023-08-12T00:08:13.000Z",
-      "lastSeen": "2026-11-20T18:28:13.000Z",
+      "lastSeen": "2026-11-22T11:00:00.000Z",
       "articleIds": [
+        "694104882b280795",
+        "38c61351fe0dc3e7",
+        "b9dd3201c1d54826",
         "9b28ca537e0ec779",
         "2a934542364cc04c",
         "4506b9f639370308",
         "b8e1839046bc97c6",
-        "fda5004e845ff961",
-        "abcce9a7a0a7a088",
-        "be373132dcb8b869",
-        "04da227b0cee83ba"
+        "fda5004e845ff961"
       ],
       "tags": [
         "hackernews",
         "ai",
         "archive",
-        "python",
+        "reading-list",
+        "python"
+      ],
+      "score": 1711.5
+    },
+    {
+      "id": "kubernetes-74afb9",
+      "name": "Kubernetes",
+      "quadrant": "Platforms",
+      "ring": "Adopt",
+      "description": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that…",
+      "articleCount": 98,
+      "recentCount": 35,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-01-11T13:41:19.000Z",
+      "lastSeen": "2026-11-21T23:56:28.000Z",
+      "articleIds": [
+        "21bd1d482ae20679",
+        "667b97f6158615df",
+        "f04a0a78fd9db686",
+        "d5d4a69a615cdf63",
+        "13030d4f70c57c15",
+        "38eb19b09e495e4a",
+        "4e8436e1217aa3a8",
+        "eb37c8732473b682"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "cloud",
+        "cloud-native",
         "reading-list"
       ],
-      "score": 1675.5
+      "score": 924.6
     },
     {
       "id": "google-cloud-c47ea8",
@@ -127,35 +158,35 @@
       "score": 902.5
     },
     {
-      "id": "kubernetes-74afb9",
-      "name": "Kubernetes",
+      "id": "aws-1a683c",
+      "name": "AWS",
       "quadrant": "Platforms",
       "ring": "Adopt",
-      "description": "Google recently detailed how three interacting bugs across Google Kubernetes Engine (GKE), Private Service Connect, and the Linux kernel caused intermittent Kubernetes API connectivity failures,…",
-      "articleCount": 96,
-      "recentCount": 33,
+      "description": "AWS Lambda now runs Event Functions on EC2 G-series GPU instances through Lambda Managed Instances, with up to 48 concurrent invocations sharing one model per GPU, vLLM and SGLang base images that…",
+      "articleCount": 81,
+      "recentCount": 38,
       "previousCount": 0,
       "trend": "up",
-      "firstSeen": "2020-01-11T13:41:19.000Z",
-      "lastSeen": "2026-11-21T09:44:00.000Z",
+      "firstSeen": "2020-01-28T20:05:18.000Z",
+      "lastSeen": "2026-11-22T06:27:00.000Z",
       "articleIds": [
-        "f04a0a78fd9db686",
-        "d5d4a69a615cdf63",
-        "13030d4f70c57c15",
-        "38eb19b09e495e4a",
-        "4e8436e1217aa3a8",
-        "eb37c8732473b682",
-        "703b5267159bf4cf",
-        "9c3de6e8b48ee449"
+        "4aa756f501d5a80b",
+        "62598cad61e434bd",
+        "c98bd844250aac2c",
+        "f6bc24b76b401704",
+        "03e9dbed5d4c5185",
+        "b98325dcc025edb1",
+        "27208382ec0736e5",
+        "42d84d76bc289195"
       ],
       "tags": [
         "hackernews",
         "archive",
         "cloud",
-        "cloud-native",
-        "reading-list"
+        "reading-list",
+        "architecture"
       ],
-      "score": 894.6
+      "score": 850.4
     },
     {
       "id": "gemini-90e14d",
@@ -163,9 +194,9 @@
       "quadrant": "Tools",
       "ring": "Trial",
       "description": "At Vodafone, we used the agent directly in Dataform to build Dataform pipelines.",
-      "articleCount": 61,
+      "articleCount": 62,
       "recentCount": 51,
-      "previousCount": 1,
+      "previousCount": 2,
       "trend": "up",
       "firstSeen": "2024-12-05T07:03:29.000Z",
       "lastSeen": "2026-11-20T17:00:00.000Z",
@@ -173,11 +204,11 @@
         "a7c069141e9e2a8d",
         "de342ea9ec0e41c5",
         "c83e632654ef06e8",
+        "480c7f59bbc97a69",
         "ed33061e28b05b70",
         "23033a3e00ff08a2",
         "84db2c6bfcd72c47",
-        "8399b72c7f207b8b",
-        "48e0c27112eedb35"
+        "8399b72c7f207b8b"
       ],
       "tags": [
         "cloud",
@@ -186,91 +217,60 @@
         "archive",
         "ai & machine learning"
       ],
-      "score": 843.8
-    },
-    {
-      "id": "aws-1a683c",
-      "name": "AWS",
-      "quadrant": "Platforms",
-      "ring": "Adopt",
-      "description": "Bee, an Amazon company, built a personal AI wearable with no mechanism for operators (Bee engineers, other Amazon employees, or AWS infrastructure operators) to access customer data.",
-      "articleCount": 80,
-      "recentCount": 37,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-01-28T20:05:18.000Z",
-      "lastSeen": "2026-11-20T18:49:05.000Z",
-      "articleIds": [
-        "62598cad61e434bd",
-        "c98bd844250aac2c",
-        "f6bc24b76b401704",
-        "03e9dbed5d4c5185",
-        "b98325dcc025edb1",
-        "27208382ec0736e5",
-        "42d84d76bc289195",
-        "3c7261e577de1bda"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "cloud",
-        "reading-list",
-        "customer solutions"
-      ],
-      "score": 835.4
+      "score": 849.8
     },
     {
       "id": "rust-1d3fbd",
       "name": "Rust",
       "quadrant": "Languages & Frameworks",
       "ring": "Trial",
-      "description": "Hoi hoi! 😸 Happy Friday! Let's learn a tiny bit of Rust! 😸🍻 No complicated architecture. No giant...",
-      "articleCount": 83,
-      "recentCount": 32,
+      "description": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that…",
+      "articleCount": 86,
+      "recentCount": 35,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-01-15T00:22:16.000Z",
-      "lastSeen": "2026-11-20T16:21:37.000Z",
+      "lastSeen": "2026-11-22T04:10:09.000Z",
       "articleIds": [
+        "3400785e003329cf",
+        "21bd1d482ae20679",
+        "a34f45a76f7c5759",
         "7af37c2d67a37bc0",
         "4021143fd68821aa",
         "4c638f96948b260f",
         "7421f918d6a1f827",
-        "569017a70fd8b933",
-        "b7a6e8b9a3875109",
-        "afe6109fc01db2e3",
-        "66c2e2d879f10b6b"
+        "569017a70fd8b933"
       ],
       "tags": [
         "hackernews",
         "archive",
         "rust",
         "devto",
-        "architecture"
+        "ai"
       ],
-      "score": 804.4
+      "score": 849.4
     },
     {
       "id": "python-0fceff",
       "name": "Python",
       "quadrant": "Languages & Frameworks",
       "ring": "Adopt",
-      "description": "🌟 Chapter 1: A New Mission from King Nyaomaru! Remember my previous adventures on...",
-      "articleCount": 91,
+      "description": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that…",
+      "articleCount": 92,
       "recentCount": 24,
-      "previousCount": 2,
+      "previousCount": 3,
       "trend": "up",
       "firstSeen": "2020-01-13T16:40:35.000Z",
-      "lastSeen": "2026-11-21T04:37:50.000Z",
+      "lastSeen": "2026-11-21T23:56:28.000Z",
       "articleIds": [
+        "21bd1d482ae20679",
         "2d1a82a1d0bb5c24",
         "358ebcd58de33063",
         "fa1fc755432b0137",
         "b7a6e8b9a3875109",
         "c60558e98558e0e7",
         "5b158888670aa71b",
-        "2479b75faf7e02fc",
-        "3b3dc99588734f14"
+        "2479b75faf7e02fc"
       ],
       "tags": [
         "hackernews",
@@ -279,7 +279,7 @@
         "devto",
         "ai"
       ],
-      "score": 784.5
+      "score": 790.5
     },
     {
       "id": "event-driven-architecture-e0d623",
@@ -318,21 +318,21 @@
       "quadrant": "Languages & Frameworks",
       "ring": "Adopt",
       "description": "Uber redesigned its Go-based translation cache to reduce its initial memory footprint by more than 90% while maintaining a cache hit rate above 99.9% and p99 disk-backed cache miss latency below 100…",
-      "articleCount": 106,
-      "recentCount": 8,
+      "articleCount": 107,
+      "recentCount": 9,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-01-02T21:19:39.000Z",
-      "lastSeen": "2026-11-20T14:38:00.000Z",
+      "lastSeen": "2026-11-21T17:08:04.000Z",
       "articleIds": [
+        "1c83a91ee04f5665",
         "ecf7e2fdadafc569",
         "a2b872517bf63b28",
         "ae3ee0f483ed9177",
         "564eb3e6002e7dc8",
         "2cb87251db30d865",
         "71aaa2946db119b3",
-        "611eaa424a2ea349",
-        "aed4d9c60c01ceb3"
+        "611eaa424a2ea349"
       ],
       "tags": [
         "hackernews",
@@ -341,29 +341,29 @@
         "goland",
         "jetbrains-air"
       ],
-      "score": 729.8
+      "score": 744.8
     },
     {
       "id": "postgresql-2ee91e",
       "name": "PostgreSQL",
       "quadrant": "Platforms",
       "ring": "Adopt",
-      "description": "In global maritime logistics, Marine Ports and Terminals play a significant role in the movement of container and cargo, within and beyond. Marine ports and terminals world-wide use a Terminal…",
-      "articleCount": 79,
-      "recentCount": 19,
+      "description": "The PostgreSQL Global Development Group released PostgreSQL 19, introducing changes to database maintenance, query planning, replication, and application development. The release focuses on reducing…",
+      "articleCount": 81,
+      "recentCount": 21,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-01-31T06:42:05.000Z",
-      "lastSeen": "2026-11-20T17:00:00.000Z",
+      "lastSeen": "2026-11-22T12:54:00.000Z",
       "articleIds": [
+        "c35e61c5401c9755",
+        "1c83a91ee04f5665",
         "f1056207286b09b5",
         "1975cf687ca4c6c8",
         "29fc9a19e60fa1cc",
         "4ba1303d2ee21d77",
         "6970d4f37384506f",
-        "464f8a9f4a4e6d13",
-        "1af2072ae985eb57",
-        "e09a9beaaee6ba56"
+        "464f8a9f4a4e6d13"
       ],
       "tags": [
         "hackernews",
@@ -372,29 +372,29 @@
         "databases",
         "database"
       ],
-      "score": 666.3
+      "score": 696.3
     },
     {
       "id": "claude-code-dfaa85",
       "name": "Claude Code",
       "quadrant": "Tools",
       "ring": "Assess",
-      "description": "Anthropic says Claude writes and reviews roughly 90% of the code produced by the team building Claude Code, and the The post Anthropic says Claude writes and reviews 90% of its team’s code. The catch…",
-      "articleCount": 43,
-      "recentCount": 30,
+      "description": "Agentic security firm Apiiro found that Claude Code has been exposing secrets in public repositories due to how it stores them in local file on developers' machines to implement \"Don't Ask Again\".…",
+      "articleCount": 44,
+      "recentCount": 31,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2025-12-21T12:57:10.000Z",
-      "lastSeen": "2026-11-20T16:41:28.000Z",
+      "lastSeen": "2026-11-22T11:00:00.000Z",
       "articleIds": [
+        "694104882b280795",
         "4506b9f639370308",
         "87ef0774c1e38e16",
         "14f321c495182c59",
         "fa1fc755432b0137",
         "c60558e98558e0e7",
         "3429c7218e4f7d01",
-        "c6524b3bb676a860",
-        "069078b2b4e3b49a"
+        "c6524b3bb676a860"
       ],
       "tags": [
         "hackernews",
@@ -403,7 +403,7 @@
         "github-trending",
         "open-source"
       ],
-      "score": 541.8
+      "score": 556.8
     },
     {
       "id": "openai-api-a8a7c5",
@@ -442,21 +442,21 @@
       "quadrant": "Platforms",
       "ring": "Adopt",
       "description": "Docker publishes fixed images for both Java4Shell and the NGINX HTTP/2 in the Docker Hardened Images (DHI) catalog.",
-      "articleCount": 50,
-      "recentCount": 10,
+      "articleCount": 51,
+      "recentCount": 11,
       "previousCount": 1,
       "trend": "up",
       "firstSeen": "2020-01-11T06:17:45.000Z",
-      "lastSeen": "2026-11-19T17:38:08.000Z",
+      "lastSeen": "2026-11-21T16:31:20.000Z",
       "articleIds": [
+        "667b97f6158615df",
         "255162949aea4d29",
         "d3701af5a61a4f9d",
         "235ff79475e5e279",
         "d3413347688b5b5e",
         "de0206a657a44693",
         "1004f5b1d037c0c2",
-        "53d5cdba12bea358",
-        "3a35a01b31fba168"
+        "53d5cdba12bea358"
       ],
       "tags": [
         "hackernews",
@@ -465,7 +465,38 @@
         "agentic ai",
         "community"
       ],
-      "score": 411.6
+      "score": 426.6
+    },
+    {
+      "id": "observability-3f4219",
+      "name": "Observability",
+      "quadrant": "Techniques",
+      "ring": "Adopt",
+      "description": "A new AI model goes live for a small group of users. Some of them start seeing errors. The build The post Dynatrace just laid out its AI observability playbook at KubeCon. Here’s why it matters for…",
+      "articleCount": 35,
+      "recentCount": 19,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-10-08T12:32:56.000Z",
+      "lastSeen": "2026-11-21T16:08:55.000Z",
+      "articleIds": [
+        "e48a8462c2e58f81",
+        "199f1e3927ae3562",
+        "72629c5f62e8758d",
+        "799e27214d566530",
+        "5cbdec76c3653574",
+        "42d84d76bc289195",
+        "8996249a38002945",
+        "2ac8ce26c4d37e50"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "reading-list",
+        "observability",
+        "cloud-native"
+      ],
+      "score": 400.5
     },
     {
       "id": "sre-d53ce4",
@@ -528,37 +559,6 @@
         "opensearch"
       ],
       "score": 390.3
-    },
-    {
-      "id": "observability-3f4219",
-      "name": "Observability",
-      "quadrant": "Techniques",
-      "ring": "Adopt",
-      "description": "Some of the best technical insights come from sharing what you've built and what you've learned along the way.",
-      "articleCount": 34,
-      "recentCount": 18,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-10-08T12:32:56.000Z",
-      "lastSeen": "2026-11-20T15:07:25.000Z",
-      "articleIds": [
-        "199f1e3927ae3562",
-        "72629c5f62e8758d",
-        "799e27214d566530",
-        "5cbdec76c3653574",
-        "42d84d76bc289195",
-        "8996249a38002945",
-        "2ac8ce26c4d37e50",
-        "48145b108142466c"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "reading-list",
-        "observability",
-        "cloud"
-      ],
-      "score": 385.5
     },
     {
       "id": "java-081fb5",
@@ -837,6 +837,37 @@
       "score": 245.8
     },
     {
+      "id": "grafana-418c13",
+      "name": "Grafana",
+      "quadrant": "Tools",
+      "ring": "Adopt",
+      "description": "Grafana 13.3 introduces shared variables across dashboards and adds Notebooks to record investigations. Both features are in public preview and require feature toggles for self-managed installations.…",
+      "articleCount": 14,
+      "recentCount": 13,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-10-28T14:57:10.000Z",
+      "lastSeen": "2026-11-21T14:30:00.000Z",
+      "articleIds": [
+        "2b84abcafa79e8a1",
+        "199f1e3927ae3562",
+        "54df28ed909d6766",
+        "f730f407846792af",
+        "45b50aaed42501f7",
+        "1471a03a2b87c99c",
+        "1c4499e0c33136bc",
+        "cea589efa9324ca0"
+      ],
+      "tags": [
+        "observability",
+        "architecture",
+        "monitoring tools",
+        "monitoring",
+        "devops"
+      ],
+      "score": 222.1
+    },
+    {
       "id": "react-58fd63",
       "name": "React",
       "quadrant": "Languages & Frameworks",
@@ -866,35 +897,6 @@
         "webdev"
       ],
       "score": 218.4
-    },
-    {
-      "id": "grafana-418c13",
-      "name": "Grafana",
-      "quadrant": "Tools",
-      "ring": "Adopt",
-      "description": "Some of the best technical insights come from sharing what you've built and what you've learned along the way.",
-      "articleCount": 13,
-      "recentCount": 12,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-10-28T14:57:10.000Z",
-      "lastSeen": "2026-11-20T15:07:25.000Z",
-      "articleIds": [
-        "199f1e3927ae3562",
-        "54df28ed909d6766",
-        "f730f407846792af",
-        "45b50aaed42501f7",
-        "1471a03a2b87c99c",
-        "1c4499e0c33136bc",
-        "cea589efa9324ca0",
-        "9621e800a7bb4532"
-      ],
-      "tags": [
-        "observability",
-        "hackernews",
-        "archive"
-      ],
-      "score": 207.1
     },
     {
       "id": "opentelemetry-31e074",
@@ -964,8 +966,8 @@
       "quadrant": "Languages & Frameworks",
       "ring": "Assess",
       "description": "Summary: NetWasm, an ahead-of-time compiler from C# to WebAssembly, has reworked exception handling, bounds-check elimination, SIMD and division in its 0.10 series. Across more than 2000 benchmark…",
-      "articleCount": 17,
-      "recentCount": 7,
+      "articleCount": 18,
+      "recentCount": 8,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-10-30T17:11:50.000Z",
@@ -974,11 +976,11 @@
         "f25b9ef13637c8d3",
         "c60558e98558e0e7",
         "5b158888670aa71b",
+        "09f9438d13b924c1",
         "764198fc49a3e15f",
         "4b4d48f19f03e283",
         "ecf7a899a16f8d25",
-        "3ff0584fedeacb03",
-        "879ddd985d909a26"
+        "3ff0584fedeacb03"
       ],
       "tags": [
         "hackernews",
@@ -987,7 +989,7 @@
         "python",
         "architecture"
       ],
-      "score": 175.9
+      "score": 191.5
     },
     {
       "id": "github-actions-1c2ae8",
@@ -1266,35 +1268,35 @@
       "score": 135.4
     },
     {
-      "id": "github-copilot-507317",
-      "name": "GitHub Copilot",
+      "id": "vllm-e33a0a",
+      "name": "vLLM",
       "quadrant": "Tools",
-      "ring": "Trial",
-      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "articleCount": 9,
+      "ring": "Assess",
+      "description": "AWS Lambda now runs Event Functions on EC2 G-series GPU instances through Lambda Managed Instances, with up to 48 concurrent invocations sharing one model per GPU, vLLM and SGLang base images that…",
+      "articleCount": 10,
       "recentCount": 7,
       "previousCount": 0,
       "trend": "up",
-      "firstSeen": "2024-10-29T04:55:39.000Z",
-      "lastSeen": "2026-11-19T14:27:08.668Z",
+      "firstSeen": "2024-08-25T18:50:53.000Z",
+      "lastSeen": "2026-11-22T06:27:00.000Z",
       "articleIds": [
-        "14f321c495182c59",
-        "6ee10b36182aa094",
-        "a458d7a17ee3094a",
-        "c7433ec470cb8f9b",
-        "5cecc12e376b047e",
-        "0e7b16327df7de13",
-        "2f372b9bf7ce4173",
-        "0c5daae38cdd970e"
+        "4aa756f501d5a80b",
+        "845a4a3d593ab023",
+        "e3595568af9a9395",
+        "ecf7a899a16f8d25",
+        "285f83056600dcf1",
+        "5093dd3be101e179",
+        "2e0a96f111eac47e",
+        "7ad39bce8f404d38"
       ],
       "tags": [
+        "hackernews",
         "architecture",
+        "gemma",
         "devto",
-        "devtools",
-        "github copilot",
-        "hackernews"
+        "archive"
       ],
-      "score": 134.6
+      "score": 134.1
     },
     {
       "id": "mysql-6a6a63",
@@ -1328,35 +1330,35 @@
       "score": 131
     },
     {
-      "id": "vllm-e33a0a",
-      "name": "vLLM",
+      "id": "github-copilot-507317",
+      "name": "GitHub Copilot",
       "quadrant": "Tools",
-      "ring": "Assess",
-      "description": "The same Gemma 4 E2B, prompts, load sweep and GSM8K and BFCL questions through the same serving engines on an 8 GB RTX 3050, a Tesla T4, an NVIDIA L4 and one TPU v5e chip. Answers hold on every chip;…",
+      "ring": "Trial",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "articleCount": 9,
       "recentCount": 6,
-      "previousCount": 0,
+      "previousCount": 1,
       "trend": "up",
-      "firstSeen": "2024-08-25T18:50:53.000Z",
-      "lastSeen": "2026-11-13T13:52:45.000Z",
+      "firstSeen": "2024-10-29T04:55:39.000Z",
+      "lastSeen": "2026-11-19T14:27:08.668Z",
       "articleIds": [
-        "845a4a3d593ab023",
-        "e3595568af9a9395",
-        "ecf7a899a16f8d25",
-        "285f83056600dcf1",
-        "5093dd3be101e179",
-        "2e0a96f111eac47e",
-        "7ad39bce8f404d38",
-        "4fe3f14b92a19e4f"
+        "14f321c495182c59",
+        "6ee10b36182aa094",
+        "a458d7a17ee3094a",
+        "c7433ec470cb8f9b",
+        "5cecc12e376b047e",
+        "0e7b16327df7de13",
+        "2f372b9bf7ce4173",
+        "0c5daae38cdd970e"
       ],
       "tags": [
-        "hackernews",
-        "gemma",
+        "architecture",
         "devto",
-        "archive",
-        "vllm"
+        "devtools",
+        "github copilot",
+        "hackernews"
       ],
-      "score": 119.1
+      "score": 125.6
     },
     {
       "id": "kotlin-9d8cf0",
@@ -2289,7 +2291,7 @@
     }
   ],
   "stats": {
-    "articles": 5214,
+    "articles": 5260,
     "sources": 35,
     "technologies": 78
   }
