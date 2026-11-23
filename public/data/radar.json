@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T13:23:29.290Z",
+  "generatedAt": "2026-11-23T16:00:12.179Z",
   "periodDays": 60,
   "items": [
     {
@@ -38,53 +38,53 @@
       "name": "AI agents",
       "quadrant": "Techniques",
       "ring": "Assess",
-      "description": "Agentic security firm Apiiro found that Claude Code has been exposing secrets in public repositories due to how it stores them in local file on developers' machines to implement \"Don't Ask Again\".…",
-      "articleCount": 163,
-      "recentCount": 132,
+      "description": "Michael Stiefel spoke to Zhou Yu about using dynamic simulations to evaluate AI agents. One particular focus was conversational agents where actions depend on prior responses, and the…",
+      "articleCount": 168,
+      "recentCount": 137,
       "previousCount": 2,
       "trend": "up",
       "firstSeen": "2024-01-29T18:28:18.000Z",
-      "lastSeen": "2026-11-22T11:00:00.000Z",
+      "lastSeen": "2026-11-23T11:00:00.000Z",
       "articleIds": [
+        "6cefc99293f2c987",
         "694104882b280795",
         "ce5b97d879cccbaf",
         "eddb1c570cabee14",
         "3d1bee2216f809ad",
         "7c0fb66e77256ee4",
-        "86db41def98691de",
-        "347053b5b61d6f50",
-        "2a934542364cc04c"
+        "bf39c4dea8c6d353",
+        "86db41def98691de"
       ],
       "tags": [
         "hackernews",
-        "cloud",
         "reading-list",
+        "cloud",
         "archive",
         "architecture"
       ],
-      "score": 2179.6
+      "score": 2254.6
     },
     {
       "id": "anthropic-claude-cc3f96",
       "name": "Anthropic Claude",
       "quadrant": "Tools",
       "ring": "Trial",
-      "description": "Agentic security firm Apiiro found that Claude Code has been exposing secrets in public repositories due to how it stores them in local file on developers' machines to implement \"Don't Ask Again\".…",
-      "articleCount": 135,
-      "recentCount": 98,
+      "description": "Anthropic's experimental Code Mode lets Claude Code write JavaScript that chains, parallelizes, and filters Bash, Read, and Edit calls, with changes to how auto mode and hooks review those calls. By…",
+      "articleCount": 138,
+      "recentCount": 101,
       "previousCount": 1,
       "trend": "up",
       "firstSeen": "2023-08-12T00:08:13.000Z",
-      "lastSeen": "2026-11-22T11:00:00.000Z",
+      "lastSeen": "2026-11-23T12:17:00.000Z",
       "articleIds": [
+        "d67fad0acca14a59",
+        "8cc270b184708c4b",
+        "d596d85922814fc1",
         "694104882b280795",
         "38c61351fe0dc3e7",
         "b9dd3201c1d54826",
         "9b28ca537e0ec779",
-        "2a934542364cc04c",
-        "4506b9f639370308",
-        "b8e1839046bc97c6",
-        "fda5004e845ff961"
+        "2a934542364cc04c"
       ],
       "tags": [
         "hackernews",
@@ -93,7 +93,7 @@
         "reading-list",
         "python"
       ],
-      "score": 1711.5
+      "score": 1756.5
     },
     {
       "id": "kubernetes-74afb9",
@@ -120,9 +120,9 @@
       "tags": [
         "hackernews",
         "archive",
+        "reading-list",
         "cloud",
-        "cloud-native",
-        "reading-list"
+        "cloud-native"
       ],
       "score": 924.6
     },
@@ -156,6 +156,37 @@
         "security & identity"
       ],
       "score": 902.5
+    },
+    {
+      "id": "rust-1d3fbd",
+      "name": "Rust",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Trial",
+      "description": "Polars is a favorite among data scientists. It’s a high-performance, columnar DataFrame library written in Rust and powered by Apache Arrow. Unlike traditional single-threaded tools, Polars uses full…",
+      "articleCount": 87,
+      "recentCount": 36,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-01-15T00:22:16.000Z",
+      "lastSeen": "2026-11-23T12:42:50.000Z",
+      "articleIds": [
+        "aa7b42c2331ce3fc",
+        "3400785e003329cf",
+        "21bd1d482ae20679",
+        "a34f45a76f7c5759",
+        "7af37c2d67a37bc0",
+        "4021143fd68821aa",
+        "4c638f96948b260f",
+        "7421f918d6a1f827"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "rust",
+        "devto",
+        "ai"
+      ],
+      "score": 864.4
     },
     {
       "id": "aws-1a683c",
@@ -220,44 +251,13 @@
       "score": 849.8
     },
     {
-      "id": "rust-1d3fbd",
-      "name": "Rust",
-      "quadrant": "Languages & Frameworks",
-      "ring": "Trial",
-      "description": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that…",
-      "articleCount": 86,
-      "recentCount": 35,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-01-15T00:22:16.000Z",
-      "lastSeen": "2026-11-22T04:10:09.000Z",
-      "articleIds": [
-        "3400785e003329cf",
-        "21bd1d482ae20679",
-        "a34f45a76f7c5759",
-        "7af37c2d67a37bc0",
-        "4021143fd68821aa",
-        "4c638f96948b260f",
-        "7421f918d6a1f827",
-        "569017a70fd8b933"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "rust",
-        "devto",
-        "ai"
-      ],
-      "score": 849.4
-    },
-    {
       "id": "python-0fceff",
       "name": "Python",
       "quadrant": "Languages & Frameworks",
       "ring": "Adopt",
       "description": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that…",
-      "articleCount": 92,
-      "recentCount": 24,
+      "articleCount": 93,
+      "recentCount": 25,
       "previousCount": 3,
       "trend": "up",
       "firstSeen": "2020-01-13T16:40:35.000Z",
@@ -265,12 +265,12 @@
       "articleIds": [
         "21bd1d482ae20679",
         "2d1a82a1d0bb5c24",
+        "a2c05f8f369370e9",
         "358ebcd58de33063",
         "fa1fc755432b0137",
         "b7a6e8b9a3875109",
         "c60558e98558e0e7",
-        "5b158888670aa71b",
-        "2479b75faf7e02fc"
+        "5b158888670aa71b"
       ],
       "tags": [
         "hackernews",
@@ -279,7 +279,7 @@
         "devto",
         "ai"
       ],
-      "score": 790.5
+      "score": 805.5
     },
     {
       "id": "event-driven-architecture-e0d623",
@@ -349,8 +349,8 @@
       "quadrant": "Platforms",
       "ring": "Adopt",
       "description": "The PostgreSQL Global Development Group released PostgreSQL 19, introducing changes to database maintenance, query planning, replication, and application development. The release focuses on reducing…",
-      "articleCount": 81,
-      "recentCount": 21,
+      "articleCount": 82,
+      "recentCount": 22,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-01-31T06:42:05.000Z",
@@ -362,8 +362,8 @@
         "1975cf687ca4c6c8",
         "29fc9a19e60fa1cc",
         "4ba1303d2ee21d77",
-        "6970d4f37384506f",
-        "464f8a9f4a4e6d13"
+        "8f3e46c07bed8c82",
+        "6970d4f37384506f"
       ],
       "tags": [
         "hackernews",
@@ -372,29 +372,29 @@
         "databases",
         "database"
       ],
-      "score": 696.3
+      "score": 711.3
     },
     {
       "id": "claude-code-dfaa85",
       "name": "Claude Code",
       "quadrant": "Tools",
       "ring": "Assess",
-      "description": "Agentic security firm Apiiro found that Claude Code has been exposing secrets in public repositories due to how it stores them in local file on developers' machines to implement \"Don't Ask Again\".…",
-      "articleCount": 44,
-      "recentCount": 31,
+      "description": "Anthropic's experimental Code Mode lets Claude Code write JavaScript that chains, parallelizes, and filters Bash, Read, and Edit calls, with changes to how auto mode and hooks review those calls. By…",
+      "articleCount": 45,
+      "recentCount": 32,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2025-12-21T12:57:10.000Z",
-      "lastSeen": "2026-11-22T11:00:00.000Z",
+      "lastSeen": "2026-11-23T12:17:00.000Z",
       "articleIds": [
+        "d67fad0acca14a59",
         "694104882b280795",
         "4506b9f639370308",
         "87ef0774c1e38e16",
         "14f321c495182c59",
         "fa1fc755432b0137",
         "c60558e98558e0e7",
-        "3429c7218e4f7d01",
-        "c6524b3bb676a860"
+        "3429c7218e4f7d01"
       ],
       "tags": [
         "hackernews",
@@ -403,60 +403,60 @@
         "github-trending",
         "open-source"
       ],
-      "score": 556.8
+      "score": 571.8
     },
     {
       "id": "openai-api-a8a7c5",
       "name": "OpenAI API",
       "quadrant": "Tools",
       "ring": "Trial",
-      "description": "Token fraud is here and it’s BAD (YouTube) Claire Vo runs ChatPRD , an AI platform that helps product managers \"turn an idea into a spec\". The product has been live since the GPT-4 era, and Claire…",
-      "articleCount": 46,
-      "recentCount": 20,
+      "description": "An OpenAI model was told to prove a theorem itself. It was told again not to obtain another team’s solution. It agreed. Later, while still trying to finish the same theorem, it exposed a researcher’s…",
+      "articleCount": 48,
+      "recentCount": 22,
       "previousCount": 1,
       "trend": "up",
       "firstSeen": "2023-01-10T11:25:15.000Z",
-      "lastSeen": "2026-11-20T02:49:57.000Z",
+      "lastSeen": "2026-11-23T11:49:21.000Z",
       "articleIds": [
+        "4bd3b99688901542",
+        "d596d85922814fc1",
         "e486efe85b2a356a",
         "48e0c27112eedb35",
         "7ca9d8009ca31804",
         "fe05268132b2514d",
         "5cbc55e1b429d883",
-        "f8c13411174c3f0d",
-        "f9a3c449e5989b1d",
-        "81cd24c26e707d6f"
+        "f8c13411174c3f0d"
       ],
       "tags": [
         "hackernews",
         "archive",
-        "ai",
         "reading-list",
-        "cloud-native"
+        "ai",
+        "ai agents"
       ],
-      "score": 474.3
+      "score": 504.3
     },
     {
       "id": "docker-0be35d",
       "name": "Docker",
       "quadrant": "Platforms",
       "ring": "Adopt",
-      "description": "Docker publishes fixed images for both Java4Shell and the NGINX HTTP/2 in the Docker Hardened Images (DHI) catalog.",
-      "articleCount": 51,
-      "recentCount": 11,
+      "description": "Developing AI-powered enterprise applications involves challenges beyond vector storage and retrieval.",
+      "articleCount": 52,
+      "recentCount": 12,
       "previousCount": 1,
       "trend": "up",
       "firstSeen": "2020-01-11T06:17:45.000Z",
-      "lastSeen": "2026-11-21T16:31:20.000Z",
+      "lastSeen": "2026-11-23T13:00:01.000Z",
       "articleIds": [
+        "32cb4267a7382c38",
         "667b97f6158615df",
         "255162949aea4d29",
         "d3701af5a61a4f9d",
         "235ff79475e5e279",
         "d3413347688b5b5e",
         "de0206a657a44693",
-        "1004f5b1d037c0c2",
-        "53d5cdba12bea358"
+        "1004f5b1d037c0c2"
       ],
       "tags": [
         "hackernews",
@@ -465,7 +465,69 @@
         "agentic ai",
         "community"
       ],
-      "score": 426.6
+      "score": 441.6
+    },
+    {
+      "id": "java-081fb5",
+      "name": "Java",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Adopt",
+      "description": "This week's Java roundup for November 16th, 2026, features news highlighting: the Java4Shell RCE vulnerability; Oracle CSPUs; Lazy Constants targeted for JDK 28; the November 2026 edition of Azul…",
+      "articleCount": 48,
+      "recentCount": 14,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-01-13T20:39:08.000Z",
+      "lastSeen": "2026-11-23T15:30:00.000Z",
+      "articleIds": [
+        "d16f37079e281934",
+        "32cb4267a7382c38",
+        "a2e5c7c91dc5a062",
+        "3bd5f993bb12333d",
+        "d3baf30612c60a99",
+        "f2048b74f679becb",
+        "af17318c693b84ad",
+        "890c57ba47bf0a05"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "reading-list",
+        "architecture",
+        "devtools"
+      ],
+      "score": 435.2
+    },
+    {
+      "id": "sre-d53ce4",
+      "name": "SRE",
+      "quadrant": "Techniques",
+      "ring": "Trial",
+      "description": "View on sreweekly.com A message from our sponsor, JAMS Software: Our support team moved its on-call off PagerDuty in under an hour. JAMS Incident Management checks your PagerDuty account read-only,…",
+      "articleCount": 59,
+      "recentCount": 6,
+      "previousCount": 1,
+      "trend": "up",
+      "firstSeen": "2020-01-10T13:12:14.000Z",
+      "lastSeen": "2026-11-23T04:06:38.000Z",
+      "articleIds": [
+        "b13777cdcb4ecfa2",
+        "bf39c4dea8c6d353",
+        "799e27214d566530",
+        "975d195914cc7864",
+        "b1d5b5a38d4cec74",
+        "f113e5aea16ede5b",
+        "afccc9d04b54f526",
+        "4f3be424decb50fd"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "reading-list",
+        "general",
+        "observability"
+      ],
+      "score": 425.9
     },
     {
       "id": "observability-3f4219",
@@ -473,21 +535,21 @@
       "quadrant": "Techniques",
       "ring": "Adopt",
       "description": "A new AI model goes live for a small group of users. Some of them start seeing errors. The build The post Dynatrace just laid out its AI observability playbook at KubeCon. Here’s why it matters for…",
-      "articleCount": 35,
-      "recentCount": 19,
+      "articleCount": 36,
+      "recentCount": 20,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-10-08T12:32:56.000Z",
       "lastSeen": "2026-11-21T16:08:55.000Z",
       "articleIds": [
         "e48a8462c2e58f81",
+        "1b4cbeed06e09091",
         "199f1e3927ae3562",
         "72629c5f62e8758d",
         "799e27214d566530",
         "5cbdec76c3653574",
         "42d84d76bc289195",
-        "8996249a38002945",
-        "2ac8ce26c4d37e50"
+        "8996249a38002945"
       ],
       "tags": [
         "hackernews",
@@ -496,38 +558,7 @@
         "observability",
         "cloud-native"
       ],
-      "score": 400.5
-    },
-    {
-      "id": "sre-d53ce4",
-      "name": "SRE",
-      "quadrant": "Techniques",
-      "ring": "Trial",
-      "description": "Groundcover, the eBPF-based observability startup, has introduced Investigations, giving agents and engineers one place to collaborate on incident response in The post Groundcover Investigations lets…",
-      "articleCount": 57,
-      "recentCount": 4,
-      "previousCount": 1,
-      "trend": "up",
-      "firstSeen": "2020-01-10T13:12:14.000Z",
-      "lastSeen": "2026-11-19T14:00:00.000Z",
-      "articleIds": [
-        "799e27214d566530",
-        "975d195914cc7864",
-        "b1d5b5a38d4cec74",
-        "f113e5aea16ede5b",
-        "afccc9d04b54f526",
-        "4f3be424decb50fd",
-        "3b0eb852b9af2d2d",
-        "64e59e259df48eec"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "reading-list",
-        "observability",
-        "general"
-      ],
-      "score": 395.9
+      "score": 415.5
     },
     {
       "id": "redis-b60889",
@@ -561,57 +592,26 @@
       "score": 390.3
     },
     {
-      "id": "java-081fb5",
-      "name": "Java",
-      "quadrant": "Languages & Frameworks",
-      "ring": "Adopt",
-      "description": "This vulnerability allows malicious Base64 input to corrupt JVM process memory, potentially causing a crash or remote code execution.",
-      "articleCount": 44,
-      "recentCount": 10,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-01-13T20:39:08.000Z",
-      "lastSeen": "2026-11-20T16:58:43.000Z",
-      "articleIds": [
-        "a2e5c7c91dc5a062",
-        "3bd5f993bb12333d",
-        "af17318c693b84ad",
-        "890c57ba47bf0a05",
-        "2ab0e4d1739d8c55",
-        "8c2af936a1ddae0c",
-        "8bb9b1bbd3d2ad72",
-        "d2ab14a5ea188b3a"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "devtools",
-        "architecture",
-        "security"
-      ],
-      "score": 375.2
-    },
-    {
       "id": "cloudflare-a187f4",
       "name": "Cloudflare",
       "quadrant": "Platforms",
       "ring": "Trial",
-      "description": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to…",
-      "articleCount": 26,
-      "recentCount": 17,
+      "description": "At Cloudflare we’ve built tools to enable teams to extend our internal testing framework and build test tooling for networking protocols. This is the story of how this was used for DNS.",
+      "articleCount": 27,
+      "recentCount": 18,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-09-17T13:10:26.000Z",
-      "lastSeen": "2026-11-20T20:24:38.000Z",
+      "lastSeen": "2026-11-23T14:00:00.000Z",
       "articleIds": [
+        "9f50a7fbeba1dd18",
         "f93ea93941f60201",
         "7066f202a884aec0",
         "ff4da9032d2d0257",
         "a67e4808fe94719f",
         "af17318c693b84ad",
         "aa6457d959ee12ae",
-        "09e5e80125ce2409",
-        "4766c254790f5422"
+        "09e5e80125ce2409"
       ],
       "tags": [
         "security",
@@ -620,7 +620,38 @@
         "hackernews",
         "archive"
       ],
-      "score": 327.6
+      "score": 342.6
+    },
+    {
+      "id": "javascript-818045",
+      "name": "JavaScript",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Adopt",
+      "description": "Anthropic's experimental Code Mode lets Claude Code write JavaScript that chains, parallelizes, and filters Bash, Read, and Edit calls, with changes to how auto mode and hooks review those calls. By…",
+      "articleCount": 32,
+      "recentCount": 13,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-02-25T20:20:24.000Z",
+      "lastSeen": "2026-11-23T12:17:00.000Z",
+      "articleIds": [
+        "d67fad0acca14a59",
+        "2ecf0a57a84a79c7",
+        "5b158888670aa71b",
+        "bc9c4d86f68080a8",
+        "3bc6cdb34c17f840",
+        "9ae934d441da1a71",
+        "5acb9d3d7e18f6cd",
+        "666779e4f744bdb5"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "ai",
+        "python",
+        "javascript"
+      ],
+      "score": 330.7
     },
     {
       "id": "typescript-19862f",
@@ -629,8 +660,8 @@
       "ring": "Adopt",
       "description": "Hoi hoi! 👋 I'm @nyaomaru, a frontend engineer who loves TypeScript and gambas, not crabs! 🦐 And...",
       "articleCount": 29,
-      "recentCount": 14,
-      "previousCount": 0,
+      "recentCount": 13,
+      "previousCount": 1,
       "trend": "up",
       "firstSeen": "2021-05-07T12:42:22.000Z",
       "lastSeen": "2026-11-18T17:27:52.000Z",
@@ -651,38 +682,7 @@
         "architecture",
         "devto"
       ],
-      "score": 322.6
-    },
-    {
-      "id": "javascript-818045",
-      "name": "JavaScript",
-      "quadrant": "Languages & Frameworks",
-      "ring": "Adopt",
-      "description": "You can now do all of the following, using a carefully crafted URL to lite.",
-      "articleCount": 31,
-      "recentCount": 12,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-02-25T20:20:24.000Z",
-      "lastSeen": "2026-11-18T13:58:44.671Z",
-      "articleIds": [
-        "2ecf0a57a84a79c7",
-        "5b158888670aa71b",
-        "bc9c4d86f68080a8",
-        "3bc6cdb34c17f840",
-        "9ae934d441da1a71",
-        "5acb9d3d7e18f6cd",
-        "666779e4f744bdb5",
-        "c5d1a9eb33834e11"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "ai",
-        "python",
-        "javascript"
-      ],
-      "score": 315.7
+      "score": 313.6
     },
     {
       "id": "serverless-d08ae9",
@@ -690,8 +690,8 @@
       "quadrant": "Techniques",
       "ring": "Trial",
       "description": "As organizations move from reactive analytics to proactive systems of action powered by autonomous AI agents, data platforms face a new set of demands. Moving from human scale to agent scale changes…",
-      "articleCount": 38,
-      "recentCount": 6,
+      "articleCount": 39,
+      "recentCount": 7,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-01-02T21:19:39.000Z",
@@ -699,12 +699,12 @@
       "articleIds": [
         "347053b5b61d6f50",
         "f6bc24b76b401704",
+        "8f3e46c07bed8c82",
         "27208382ec0736e5",
         "804af6cb982454d2",
         "5788376f314c8f0e",
         "ffae9ae80732c0e4",
-        "f5d63d7af140ac7b",
-        "d82f7e4b64fe7d2f"
+        "f5d63d7af140ac7b"
       ],
       "tags": [
         "hackernews",
@@ -713,7 +713,7 @@
         "reading-list",
         "data analytics"
       ],
-      "score": 298
+      "score": 313
     },
     {
       "id": "apache-kafka-0d516b",
@@ -780,21 +780,21 @@
       "quadrant": "Platforms",
       "ring": "Trial",
       "description": "Day 89 of DevOps, Day 39 of Azure. Both tasks today produced something that reads as broken and is...",
-      "articleCount": 24,
-      "recentCount": 11,
+      "articleCount": 25,
+      "recentCount": 12,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-02-21T06:36:14.000Z",
       "lastSeen": "2026-11-21T09:00:00.000Z",
       "articleIds": [
         "667491932bff3f7f",
+        "f131cae5753ca721",
         "2dee71714c03f68c",
         "63a8162b8a509f5b",
         "82aaae6fc61f1aed",
         "2bd70fc46c2610a5",
         "5e50d6c9946750f3",
-        "e39e802bc6fc5c6c",
-        "7482059e8feb089c"
+        "e39e802bc6fc5c6c"
       ],
       "tags": [
         "hackernews",
@@ -803,7 +803,7 @@
         "devto",
         "devops"
       ],
-      "score": 260.2
+      "score": 275.2
     },
     {
       "id": "ruby-on-rails-9e1b81",
@@ -868,37 +868,6 @@
       "score": 222.1
     },
     {
-      "id": "react-58fd63",
-      "name": "React",
-      "quadrant": "Languages & Frameworks",
-      "ring": "Adopt",
-      "description": "Discord’s CTO Stanislav Vishnevskiy recently announced rewriting its desktop and mobile clients in Rust, moving away from Electron and React Native. The project eliminates layers of abstraction to…",
-      "articleCount": 24,
-      "recentCount": 6,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-02-11T08:28:41.000Z",
-      "lastSeen": "2026-11-19T03:12:00.000Z",
-      "articleIds": [
-        "4c638f96948b260f",
-        "7925d53e7e824e0d",
-        "fb9f28a732b1b6f2",
-        "5d31e84656ca95df",
-        "f52fc350385cb211",
-        "a7d0df830217f793",
-        "07b10ba357f43b6c",
-        "ef2ff6f004fef991"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "react",
-        "devto",
-        "webdev"
-      ],
-      "score": 218.4
-    },
-    {
       "id": "opentelemetry-31e074",
       "name": "OpenTelemetry",
       "quadrant": "Tools",
@@ -961,6 +930,37 @@
       "score": 201.9
     },
     {
+      "id": "react-58fd63",
+      "name": "React",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Adopt",
+      "description": "Discord’s CTO Stanislav Vishnevskiy recently announced rewriting its desktop and mobile clients in Rust, moving away from Electron and React Native. The project eliminates layers of abstraction to…",
+      "articleCount": 24,
+      "recentCount": 4,
+      "previousCount": 2,
+      "trend": "up",
+      "firstSeen": "2020-02-11T08:28:41.000Z",
+      "lastSeen": "2026-11-19T03:12:00.000Z",
+      "articleIds": [
+        "4c638f96948b260f",
+        "7925d53e7e824e0d",
+        "fb9f28a732b1b6f2",
+        "5d31e84656ca95df",
+        "f52fc350385cb211",
+        "a7d0df830217f793",
+        "07b10ba357f43b6c",
+        "ef2ff6f004fef991"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "react",
+        "devto",
+        "webdev"
+      ],
+      "score": 200.4
+    },
+    {
       "id": "webassembly-733ad6",
       "name": "WebAssembly",
       "quadrant": "Languages & Frameworks",
@@ -992,26 +992,57 @@
       "score": 191.5
     },
     {
+      "id": "continuous-delivery-9bbcb6",
+      "name": "Continuous delivery",
+      "quadrant": "Techniques",
+      "ring": "Adopt",
+      "description": "GitHub Actions is the default CI/CD tool for much of the industry, because it’s built into GitHub. But 2026 gave teams reasons to look around. On July 9, hosted runner jobs were delayed or failing…",
+      "articleCount": 16,
+      "recentCount": 8,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-01-11T13:41:19.000Z",
+      "lastSeen": "2026-11-23T07:56:19.000Z",
+      "articleIds": [
+        "edd5aaa8e830aea5",
+        "45c588d62f9d478e",
+        "8f3e46c07bed8c82",
+        "a9bca652f0af0729",
+        "32b076595ed25f11",
+        "607d54da354520de",
+        "28c4cffca6ee3859",
+        "dc17eeba94f57013"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "devtools",
+        "cloud-native",
+        "reading-list"
+      ],
+      "score": 189.4
+    },
+    {
       "id": "github-actions-1c2ae8",
       "name": "GitHub Actions",
       "quadrant": "Tools",
       "ring": "Adopt",
-      "description": "We’re Yonas and Daniel and we’re building StarSling ( https:&#x2F;&#x2F;starsling.dev ), fast GitHub Actions runners with AI agents that ship PRs to continuously improve your tests and workflows.…",
-      "articleCount": 16,
-      "recentCount": 6,
+      "description": "GitHub Actions is the default CI/CD tool for much of the industry, because it’s built into GitHub. But 2026 gave teams reasons to look around. On July 9, hosted runner jobs were delayed or failing…",
+      "articleCount": 17,
+      "recentCount": 7,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-05-30T08:08:26.000Z",
-      "lastSeen": "2026-11-17T19:01:43.000Z",
+      "lastSeen": "2026-11-23T07:56:19.000Z",
       "articleIds": [
+        "edd5aaa8e830aea5",
         "3e72391ba79d2c26",
         "7cc7177ed17b6141",
         "2f1463e50ee923f0",
         "531b0b0b55665264",
         "844d3a2b3f633acf",
         "cad7c5b8211d09ee",
-        "f6a4ed13b9a3943c",
-        "b596fef2ff18b9cb"
+        "f6a4ed13b9a3943c"
       ],
       "tags": [
         "hackernews",
@@ -1020,7 +1051,38 @@
         "architecture",
         "github"
       ],
-      "score": 171.4
+      "score": 186.4
+    },
+    {
+      "id": "rag-53ff2c",
+      "name": "RAG",
+      "quadrant": "Techniques",
+      "ring": "Trial",
+      "description": "RAG isn't dead, but unverified RAG should be. Here's what checking every sentence actually cost me on...",
+      "articleCount": 17,
+      "recentCount": 6,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2024-02-29T22:43:10.000Z",
+      "lastSeen": "2026-11-22T05:23:14.000Z",
+      "articleIds": [
+        "aabbf376e884767c",
+        "d3baf30612c60a99",
+        "779cc035a7f6f6f3",
+        "7a69c1b89eda0814",
+        "0c28609650f9611f",
+        "c175a20443394115",
+        "5af85f3d00cc1604",
+        "7fc6ddecbbaa583a"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "ai",
+        "rag",
+        "devto"
+      ],
+      "score": 173
     },
     {
       "id": "bigquery-ee620c",
@@ -1080,37 +1142,6 @@
         "archive"
       ],
       "score": 162.7
-    },
-    {
-      "id": "continuous-delivery-9bbcb6",
-      "name": "Continuous delivery",
-      "quadrant": "Techniques",
-      "ring": "Adopt",
-      "description": "The uncomfortable question A few days ago, a customer asked me a question that sounded simple: “Argo CD said the sync succeeded, so why didn’t our migration run?” They had pushed a release while a…",
-      "articleCount": 14,
-      "recentCount": 6,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-01-11T13:41:19.000Z",
-      "lastSeen": "2026-11-20T12:30:00.000Z",
-      "articleIds": [
-        "45c588d62f9d478e",
-        "a9bca652f0af0729",
-        "32b076595ed25f11",
-        "607d54da354520de",
-        "28c4cffca6ee3859",
-        "dc17eeba94f57013",
-        "d1ad754d5491cb2a",
-        "34ed90baf39f843d"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "cloud-native",
-        "blog",
-        "reading-list"
-      ],
-      "score": 159.4
     },
     {
       "id": "spring-boot-b43dbc",
@@ -1204,37 +1235,6 @@
         "artificial intelligence"
       ],
       "score": 144.1
-    },
-    {
-      "id": "rag-53ff2c",
-      "name": "RAG",
-      "quadrant": "Techniques",
-      "ring": "Trial",
-      "description": "Uber’s Legal Redlining Agent reviews contract changes in Microsoft Word using RAG, historical lawyer feedback, and deterministic policy rules. Built with LangGraph, OpenSearch, and Redis, the system…",
-      "articleCount": 15,
-      "recentCount": 4,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2024-02-29T22:43:10.000Z",
-      "lastSeen": "2026-11-16T14:37:00.000Z",
-      "articleIds": [
-        "779cc035a7f6f6f3",
-        "7a69c1b89eda0814",
-        "0c28609650f9611f",
-        "c175a20443394115",
-        "5af85f3d00cc1604",
-        "7fc6ddecbbaa583a",
-        "a37e45338944bc96",
-        "51de9e17a80a9041"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "architecture",
-        "software engineering",
-        "opensearch"
-      ],
-      "score": 143
     },
     {
       "id": "c-9629f5",
@@ -1365,31 +1365,31 @@
       "name": "Kotlin",
       "quadrant": "Languages & Frameworks",
       "ring": "Trial",
-      "description": "The Kotlin Toolchain helps you build and ship multiplatform apps faster, with less setup and configuration. Its CLI provides a unified workflow for building, running, testing, and publishing apps for…",
-      "articleCount": 10,
-      "recentCount": 3,
+      "description": "In July, we released the Kotlin Benchmark – a collection of 105 real repository-level tasks for evaluating AI coding agents’ work with Kotlin. Since then, we’ve updated it to be more representative…",
+      "articleCount": 11,
+      "recentCount": 4,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-08-27T15:16:29.000Z",
-      "lastSeen": "2026-11-17T15:25:05.000Z",
+      "lastSeen": "2026-11-23T14:13:29.000Z",
       "articleIds": [
+        "58df1ef0cea6cb85",
         "90309880d44db7fb",
         "4daf6dadf9c46066",
         "2e92d8d7a0a80330",
         "0a2f69eafd33c97e",
         "3caa640ef13c56e6",
         "fdb005862a3dc3b9",
-        "d16dc11dfb26031d",
-        "61cee726c05ff549"
+        "d16dc11dfb26031d"
       ],
       "tags": [
         "hackernews",
         "archive",
         "devtools",
-        "multiplatform",
-        "releases"
+        "kotlin",
+        "multiplatform"
       ],
-      "score": 104.2
+      "score": 119.2
     },
     {
       "id": "domain-driven-design-da83b7",
@@ -1766,33 +1766,6 @@
       "score": 77.7
     },
     {
-      "id": "vue-8d5789",
-      "name": "Vue",
-      "quadrant": "Languages & Frameworks",
-      "ring": "Trial",
-      "description": "Vercel has released UI SDK in beta, an Apache 2.0 TypeScript library of more than 50 UI behaviors in @ui-sdk/core, with adapters for React, Vue, Svelte, Solid, and Web Components, so agents can…",
-      "articleCount": 4,
-      "recentCount": 4,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2026-11-02T09:05:46.000Z",
-      "lastSeen": "2026-11-18T10:12:00.000Z",
-      "articleIds": [
-        "7925d53e7e824e0d",
-        "d4ff1513463b1c16",
-        "0a7574f349c317a9",
-        "a7d0df830217f793"
-      ],
-      "tags": [
-        "architecture",
-        "vue",
-        "javascript",
-        "devto",
-        "ai coding"
-      ],
-      "score": 76.2
-    },
-    {
       "id": "gitops-a06b8f",
       "name": "GitOps",
       "quadrant": "Techniques",
@@ -1847,6 +1820,33 @@
         "observability"
       ],
       "score": 71.6
+    },
+    {
+      "id": "vue-8d5789",
+      "name": "Vue",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Trial",
+      "description": "Vercel has released UI SDK in beta, an Apache 2.0 TypeScript library of more than 50 UI behaviors in @ui-sdk/core, with adapters for React, Vue, Svelte, Solid, and Web Components, so agents can…",
+      "articleCount": 4,
+      "recentCount": 3,
+      "previousCount": 1,
+      "trend": "up",
+      "firstSeen": "2026-11-02T09:05:46.000Z",
+      "lastSeen": "2026-11-18T10:12:00.000Z",
+      "articleIds": [
+        "7925d53e7e824e0d",
+        "d4ff1513463b1c16",
+        "0a7574f349c317a9",
+        "a7d0df830217f793"
+      ],
+      "tags": [
+        "architecture",
+        "vue",
+        "javascript",
+        "devto",
+        "ai coding"
+      ],
+      "score": 67.2
     },
     {
       "id": "terraform-9acce5",
@@ -2291,8 +2291,8 @@
     }
   ],
   "stats": {
-    "articles": 5260,
-    "sources": 35,
+    "articles": 5345,
+    "sources": 38,
     "technologies": 78
   }
 }
