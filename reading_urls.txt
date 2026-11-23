@@ -2,6 +2,7 @@ https://martinfowler.com/
 https://www.infoq.com/
 https://www.thoughtworks.com/insights 
 https://www.thoughtworks.com/radar
+https://dzone.com/
 https://www.oreilly.com/radar/ 
 https://www.highscalability.com/
 https://www.leanarchitecture.co/ 

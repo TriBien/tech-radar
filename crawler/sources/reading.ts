@@ -28,24 +28,24 @@ const FEED_SUFFIXES = ["/feed.atom", "/feed", "/feed.xml", "/rss", "/rss.xml", "
 
 const FEED_HOST_OVERRIDES: Record<string, string> = {
   "www.infoq.com": "https://feed.infoq.com/",
+  "www.thoughtworks.com": "https://www.thoughtworks.com/rss/insights.xml",
+  "dzone.com": "https://feeds.dzone.com/home",
 };
 
-function feedBase(url: string): string {
+function feedOverride(url: string): string | undefined {
   try {
-    const parsed = new URL(url);
-    const override = Object.entries(FEED_HOST_OVERRIDES).find(
-      ([host]) => host === parsed.hostname.toLowerCase(),
-    );
-    const base = override?.[1] ?? url;
-    return base.replace(/\/+$/, "");
+    const host = new URL(url).hostname.toLowerCase();
+    return FEED_HOST_OVERRIDES[host];
   } catch {
-    return url.replace(/\/+$/, "");
+    return undefined;
   }
 }
 
 function feedCandidates(url: string): string[] {
-  const base = feedBase(url);
-  return FEED_SUFFIXES.map((suffix) => (suffix ? `${base}${suffix}` : base));
+  const override = feedOverride(url);
+  if (override) return [override];
+  const base = url.replace(/\/+$/, "");
+  return FEED_SUFFIXES.map((suffix) => `${base}${suffix}`);
 }
 
 async function resolveFeedUrl(url: string): Promise<string | undefined> {
