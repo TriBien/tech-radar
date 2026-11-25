@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T15:55:09.890Z",
+  "generatedAt": "2026-11-25T15:37:50.253Z",
   "periodDays": 60,
   "items": [
     {
@@ -10,7 +10,7 @@
       "description": "As organizations scale their cloud footprint to thousands of autonomous agents and microservices, you can accidentally create an operational bottleneck with strict Identity and Access Management…",
       "articleCount": 1167,
       "recentCount": 7,
-      "previousCount": 7,
+      "previousCount": 6,
       "trend": "steady",
       "firstSeen": "2020-01-02T21:19:39.000Z",
       "lastSeen": "2026-11-20T17:00:00.000Z",
@@ -38,53 +38,53 @@
       "name": "AI agents",
       "quadrant": "Techniques",
       "ring": "Assess",
-      "description": "New research from the Cloud Native Computing Foundation (CNCF) and Linux Foundation Research finds that VMs host an average of 53% of production applications, while emerging AI and agentic workloads…",
-      "articleCount": 177,
-      "recentCount": 145,
-      "previousCount": 3,
+      "description": "DoorDash has redesigned its real-time dispatch platform, replacing a monolithic optimization engine with a distributed architecture that separates coordination from computation. The new system…",
+      "articleCount": 187,
+      "recentCount": 148,
+      "previousCount": 9,
       "trend": "up",
       "firstSeen": "2024-01-29T18:28:18.000Z",
-      "lastSeen": "2026-11-24T12:00:00.000Z",
+      "lastSeen": "2026-11-25T14:44:00.000Z",
       "articleIds": [
-        "0b55b93b5af6d255",
-        "1dd6b8938be0e465",
-        "26fd7085fe433f31",
-        "ef3910f6a7af585b",
-        "b326ddf5df202562",
-        "bac24b3022d354a1",
-        "9e93bc8cda8321d2",
-        "0703d1f701e4670d"
+        "6fd1b211790b5693",
+        "170ba12c1bada862",
+        "0a467b8ceadddd0b",
+        "09107771d0ee238f",
+        "070e4b865ac3172b",
+        "539b42e70a3ff8dc",
+        "be0521c6528e8cbe",
+        "53b7c5876e2bcd25"
       ],
       "tags": [
         "reading-list",
         "hackernews",
         "cloud",
-        "archive",
-        "architecture"
+        "architecture",
+        "archive"
       ],
-      "score": 2380.6
+      "score": 2467.6
     },
     {
       "id": "anthropic-claude-cc3f96",
       "name": "Anthropic Claude",
       "quadrant": "Tools",
       "ring": "Trial",
-      "description": "Ladybird is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components - HTML parsing, CSS engine, layout, JavaScript, even WebAssembly. It…",
-      "articleCount": 143,
-      "recentCount": 106,
-      "previousCount": 1,
+      "description": "Watch now (32 mins) | 🎙️ My late-2026 How I AI bench: GPT-6.2 disappointed me, Opus 5.5 is my least annoying daily driver, and Gemini 4 Neon is now my top pick",
+      "articleCount": 150,
+      "recentCount": 110,
+      "previousCount": 4,
       "trend": "up",
       "firstSeen": "2023-08-12T00:08:13.000Z",
-      "lastSeen": "2026-11-24T15:15:50.000Z",
+      "lastSeen": "2026-11-25T13:04:21.000Z",
       "articleIds": [
+        "fa9827167eadcd05",
+        "6ff348e652c905f1",
+        "ff5d47817cfbff41",
+        "45a93b8955dba9cd",
+        "7b37823cc592c46d",
+        "bbef1e94d167ddf6",
         "8085d6f4bfe35a87",
-        "204a3b5c5043e052",
-        "b7fc35d5ccf04588",
-        "51bc17013a38c8b7",
-        "d67fad0acca14a59",
-        "289c8aeddacd50cf",
-        "8cc270b184708c4b",
-        "d596d85922814fc1"
+        "204a3b5c5043e052"
       ],
       "tags": [
         "hackernews",
@@ -93,122 +93,60 @@
         "reading-list",
         "python"
       ],
-      "score": 1831.5
+      "score": 1909.5
     },
     {
       "id": "kubernetes-74afb9",
       "name": "Kubernetes",
       "quadrant": "Platforms",
       "ring": "Adopt",
-      "description": "As we get closer to the release date for Kubernetes v1.38, the project develops and matures, features may be deprecated, removed, or replaced with better ones for the project's overall health. This…",
-      "articleCount": 99,
-      "recentCount": 36,
-      "previousCount": 0,
+      "description": "An open source adventure featuring Kubernetes, agent-substrate, kagent, AI agents, drones, and more! Just 30 seconds before going live for the KubeCon + CloudNativeCon NA 2026 closing keynote, “Cloud…",
+      "articleCount": 101,
+      "recentCount": 37,
+      "previousCount": 1,
       "trend": "up",
       "firstSeen": "2020-01-11T13:41:19.000Z",
-      "lastSeen": "2026-11-23T16:00:00.000Z",
+      "lastSeen": "2026-11-25T12:30:00.000Z",
       "articleIds": [
+        "0a467b8ceadddd0b",
+        "c93d375c0b743342",
         "db193f2836584f6b",
         "21bd1d482ae20679",
         "667b97f6158615df",
         "f04a0a78fd9db686",
         "d5d4a69a615cdf63",
-        "13030d4f70c57c15",
-        "38eb19b09e495e4a",
-        "4e8436e1217aa3a8"
+        "13030d4f70c57c15"
       ],
       "tags": [
         "hackernews",
         "archive",
+        "cloud-native",
         "reading-list",
-        "cloud",
-        "cloud-native"
+        "cloud"
       ],
-      "score": 939.6
-    },
-    {
-      "id": "google-cloud-c47ea8",
-      "name": "Google Cloud",
-      "quadrant": "Platforms",
-      "ring": "Adopt",
-      "description": "Managing massive international messaging traffic brings significant architectural challenges, so Sinch built a distributed, multi-cloud data footprint across AWS and GCP, with separate Snowflake…",
-      "articleCount": 68,
-      "recentCount": 55,
-      "previousCount": 1,
-      "trend": "up",
-      "firstSeen": "2020-02-23T15:07:24.000Z",
-      "lastSeen": "2026-11-23T17:00:00.000Z",
-      "articleIds": [
-        "d1d3915e5322fdb3",
-        "e3eb2d7caf38168c",
-        "6179dfa0a4920dc6",
-        "a7c069141e9e2a8d",
-        "6b472cab2be32dc6",
-        "86db41def98691de",
-        "347053b5b61d6f50",
-        "f1056207286b09b5"
-      ],
-      "tags": [
-        "cloud",
-        "hackernews",
-        "archive",
-        "ai & machine learning",
-        "security & identity"
-      ],
-      "score": 923.5
-    },
-    {
-      "id": "gemini-90e14d",
-      "name": "Gemini",
-      "quadrant": "Tools",
-      "ring": "Trial",
-      "description": "Google DeepMind has open-sourced the Lean 4 framework used to verify quantum algorithms developed by its Gemini 4 agents, including The post Google’s AI agents cut quantum computing costs 290-fold —…",
-      "articleCount": 65,
-      "recentCount": 54,
-      "previousCount": 2,
-      "trend": "up",
-      "firstSeen": "2024-12-05T07:03:29.000Z",
-      "lastSeen": "2026-11-23T20:08:34.000Z",
-      "articleIds": [
-        "b326ddf5df202562",
-        "0703d1f701e4670d",
-        "e3eb2d7caf38168c",
-        "a7c069141e9e2a8d",
-        "de342ea9ec0e41c5",
-        "c83e632654ef06e8",
-        "480c7f59bbc97a69",
-        "ed33061e28b05b70"
-      ],
-      "tags": [
-        "cloud",
-        "hackernews",
-        "ai",
-        "ai & machine learning",
-        "archive"
-      ],
-      "score": 894.8
+      "score": 960.6
     },
     {
       "id": "aws-1a683c",
       "name": "AWS",
       "quadrant": "Platforms",
       "ring": "Adopt",
-      "description": "If you built an agent on AWS in 2024, there's a decent chance you built it on Bedrock Agents.",
-      "articleCount": 84,
-      "recentCount": 40,
-      "previousCount": 1,
+      "description": "AWS has raised the maximum timeout of on-demand Lambda Event Functions from 15 to 30 minutes in all commercial regions, with no opt-in and no new pricing. The limit had stood since 2018. AWS's post…",
+      "articleCount": 88,
+      "recentCount": 43,
+      "previousCount": 2,
       "trend": "up",
       "firstSeen": "2020-01-28T20:05:18.000Z",
-      "lastSeen": "2026-11-24T15:00:01.000Z",
+      "lastSeen": "2026-11-25T07:02:00.000Z",
       "articleIds": [
+        "1a004b15b67c8dbf",
+        "ebaf1c30665d630c",
+        "7b37823cc592c46d",
+        "432a9d3342893c68",
         "3d744c53a5f1d34b",
         "9e93bc8cda8321d2",
         "d1d3915e5322fdb3",
-        "4aa756f501d5a80b",
-        "62598cad61e434bd",
-        "c98bd844250aac2c",
-        "f6bc24b76b401704",
-        "03e9dbed5d4c5185"
+        "4aa756f501d5a80b"
       ],
       "tags": [
         "hackernews",
@@ -217,38 +155,100 @@
         "cloud",
         "architecture"
       ],
-      "score": 886.4
+      "score": 937.4
+    },
+    {
+      "id": "google-cloud-c47ea8",
+      "name": "Google Cloud",
+      "quadrant": "Platforms",
+      "ring": "Adopt",
+      "description": "For over 20 years, we have protected 4 billion users and 13 million organizations in Workspace, and critical enterprise and government systems on Google Cloud. From personal and financial records to…",
+      "articleCount": 69,
+      "recentCount": 54,
+      "previousCount": 3,
+      "trend": "up",
+      "firstSeen": "2020-02-23T15:07:24.000Z",
+      "lastSeen": "2026-11-24T17:00:00.000Z",
+      "articleIds": [
+        "a93033a09017c83d",
+        "d1d3915e5322fdb3",
+        "e3eb2d7caf38168c",
+        "6179dfa0a4920dc6",
+        "a7c069141e9e2a8d",
+        "6b472cab2be32dc6",
+        "86db41def98691de",
+        "347053b5b61d6f50"
+      ],
+      "tags": [
+        "cloud",
+        "hackernews",
+        "archive",
+        "ai & machine learning",
+        "security & identity"
+      ],
+      "score": 920.5
+    },
+    {
+      "id": "gemini-90e14d",
+      "name": "Gemini",
+      "quadrant": "Tools",
+      "ring": "Trial",
+      "description": "Watch now (32 mins) | 🎙️ My late-2026 How I AI bench: GPT-6.2 disappointed me, Opus 5.5 is my least annoying daily driver, and Gemini 4 Neon is now my top pick",
+      "articleCount": 66,
+      "recentCount": 54,
+      "previousCount": 3,
+      "trend": "up",
+      "firstSeen": "2024-12-05T07:03:29.000Z",
+      "lastSeen": "2026-11-25T13:04:21.000Z",
+      "articleIds": [
+        "fa9827167eadcd05",
+        "b326ddf5df202562",
+        "0703d1f701e4670d",
+        "e3eb2d7caf38168c",
+        "a7c069141e9e2a8d",
+        "de342ea9ec0e41c5",
+        "c83e632654ef06e8",
+        "480c7f59bbc97a69"
+      ],
+      "tags": [
+        "cloud",
+        "hackernews",
+        "ai",
+        "ai & machine learning",
+        "archive"
+      ],
+      "score": 900.8
     },
     {
       "id": "rust-1d3fbd",
       "name": "Rust",
       "quadrant": "Languages & Frameworks",
       "ring": "Trial",
-      "description": "Polars is a favorite among data scientists. It’s a high-performance, columnar DataFrame library written in Rust and powered by Apache Arrow. Unlike traditional single-threaded tools, Polars uses full…",
-      "articleCount": 87,
-      "recentCount": 35,
-      "previousCount": 1,
+      "description": "Rust 1.100.0, released 12 November 2026, stabilises the never type (!) after ten years of work and makes Infallible an alias for it. The release also stabilises the core of the allocator API, adds…",
+      "articleCount": 91,
+      "recentCount": 37,
+      "previousCount": 3,
       "trend": "up",
       "firstSeen": "2020-01-15T00:22:16.000Z",
-      "lastSeen": "2026-11-23T12:42:50.000Z",
+      "lastSeen": "2026-11-25T07:29:00.000Z",
       "articleIds": [
+        "679e8182cd84fbfd",
+        "fa8097569f7c363e",
+        "9016cb1b7322bac8",
+        "6f0671a102486938",
         "aa7b42c2331ce3fc",
         "3400785e003329cf",
         "21bd1d482ae20679",
-        "a34f45a76f7c5759",
-        "7af37c2d67a37bc0",
-        "4021143fd68821aa",
-        "4c638f96948b260f",
-        "7421f918d6a1f827"
+        "a34f45a76f7c5759"
       ],
       "tags": [
         "hackernews",
         "archive",
         "rust",
-        "devto",
-        "ai"
+        "architecture",
+        "devto"
       ],
-      "score": 855.4
+      "score": 897.4
     },
     {
       "id": "python-0fceff",
@@ -282,6 +282,37 @@
       "score": 820.5
     },
     {
+      "id": "go-422077",
+      "name": "Go",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Adopt",
+      "description": "What if you could use GoLand’s language intelligence outside the IDE, across multiple development environments? Today, we’re taking the first step toward making this possible by releasing a public…",
+      "articleCount": 109,
+      "recentCount": 11,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-01-02T21:19:39.000Z",
+      "lastSeen": "2026-11-25T12:20:14.000Z",
+      "articleIds": [
+        "3b82626aa8a02a5e",
+        "53b7c5876e2bcd25",
+        "1c83a91ee04f5665",
+        "ecf7e2fdadafc569",
+        "a2b872517bf63b28",
+        "ae3ee0f483ed9177",
+        "564eb3e6002e7dc8",
+        "2cb87251db30d865"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "devtools",
+        "goland",
+        "jetbrains-air"
+      ],
+      "score": 774.8
+    },
+    {
       "id": "event-driven-architecture-e0d623",
       "name": "Event-driven architecture",
       "quadrant": "Techniques",
@@ -313,45 +344,14 @@
       "score": 758.6
     },
     {
-      "id": "go-422077",
-      "name": "Go",
-      "quadrant": "Languages & Frameworks",
-      "ring": "Adopt",
-      "description": "Uber redesigned its Go-based translation cache to reduce its initial memory footprint by more than 90% while maintaining a cache hit rate above 99.9% and p99 disk-backed cache miss latency below 100…",
-      "articleCount": 107,
-      "recentCount": 9,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-01-02T21:19:39.000Z",
-      "lastSeen": "2026-11-21T17:08:04.000Z",
-      "articleIds": [
-        "1c83a91ee04f5665",
-        "ecf7e2fdadafc569",
-        "a2b872517bf63b28",
-        "ae3ee0f483ed9177",
-        "564eb3e6002e7dc8",
-        "2cb87251db30d865",
-        "71aaa2946db119b3",
-        "611eaa424a2ea349"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "devtools",
-        "goland",
-        "jetbrains-air"
-      ],
-      "score": 744.8
-    },
-    {
       "id": "postgresql-2ee91e",
       "name": "PostgreSQL",
       "quadrant": "Platforms",
       "ring": "Adopt",
       "description": "Open models like Gemma 4 from Google DeepMind are a great option to keep your data local. But how can a local AI model integrate with on-premises data? AlloyDB Omni, Google’s 100%…",
       "articleCount": 83,
-      "recentCount": 23,
-      "previousCount": 0,
+      "recentCount": 20,
+      "previousCount": 3,
       "trend": "up",
       "firstSeen": "2020-01-31T06:42:05.000Z",
       "lastSeen": "2026-11-23T17:00:00.000Z",
@@ -372,60 +372,60 @@
         "databases",
         "database"
       ],
-      "score": 726.3
+      "score": 699.3
     },
     {
       "id": "claude-code-dfaa85",
       "name": "Claude Code",
       "quadrant": "Tools",
       "ring": "Assess",
-      "description": "Anthropic's experimental Code Mode lets Claude Code write JavaScript that chains, parallelizes, and filters Bash, Read, and Edit calls, with changes to how auto mode and hooks review those calls. By…",
-      "articleCount": 45,
-      "recentCount": 32,
-      "previousCount": 0,
+      "description": "Claude Code was 9 months old at that point, having been introduced alongside Claude 3.",
+      "articleCount": 48,
+      "recentCount": 33,
+      "previousCount": 2,
       "trend": "up",
       "firstSeen": "2025-12-21T12:57:10.000Z",
-      "lastSeen": "2026-11-23T12:17:00.000Z",
+      "lastSeen": "2026-11-24T23:02:07.000Z",
       "articleIds": [
+        "6ff348e652c905f1",
+        "ff5d47817cfbff41",
+        "7b37823cc592c46d",
         "d67fad0acca14a59",
         "694104882b280795",
         "4506b9f639370308",
         "87ef0774c1e38e16",
-        "14f321c495182c59",
-        "fa1fc755432b0137",
-        "c60558e98558e0e7",
-        "3429c7218e4f7d01"
+        "14f321c495182c59"
       ],
       "tags": [
         "hackernews",
         "archive",
         "ai",
-        "github-trending",
-        "open-source"
+        "python",
+        "reading-list"
       ],
-      "score": 571.8
+      "score": 598.8
     },
     {
       "id": "openai-api-a8a7c5",
       "name": "OpenAI API",
       "quadrant": "Tools",
       "ring": "Trial",
-      "description": "OpenAI has detailed Pando, a new backend that scales Git for concurrent coding-agent workloads without replacing familiar Git workflows. The company reports nearly 80% lower median push latency by…",
-      "articleCount": 51,
-      "recentCount": 24,
-      "previousCount": 2,
+      "description": "At QCon San Francisco 2026, Mouli Mukherjee, Engineering Manager for Data Infrastructure at OpenAI, argued that AI agents are most useful not for rebuilding a data platform, but for the open-ended…",
+      "articleCount": 53,
+      "recentCount": 25,
+      "previousCount": 3,
       "trend": "up",
       "firstSeen": "2023-01-10T11:25:15.000Z",
-      "lastSeen": "2026-11-24T11:55:00.000Z",
+      "lastSeen": "2026-11-25T06:20:00.000Z",
       "articleIds": [
+        "539b42e70a3ff8dc",
+        "acf5eb5c5192ee27",
         "894af7d379c8cf36",
         "e660b1194edef74a",
         "31aaf02b3c96d409",
         "4bd3b99688901542",
         "d596d85922814fc1",
-        "e486efe85b2a356a",
-        "48e0c27112eedb35",
-        "7ca9d8009ca31804"
+        "e486efe85b2a356a"
       ],
       "tags": [
         "hackernews",
@@ -434,7 +434,38 @@
         "ai",
         "ai agents"
       ],
-      "score": 540.3
+      "score": 561.3
+    },
+    {
+      "id": "java-081fb5",
+      "name": "Java",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Adopt",
+      "description": "Confluent spent nearly three months using AI coding agents to translate Apache Kafka’s Java client into Rust.",
+      "articleCount": 51,
+      "recentCount": 17,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-01-13T20:39:08.000Z",
+      "lastSeen": "2026-11-24T19:26:18.000Z",
+      "articleIds": [
+        "9016cb1b7322bac8",
+        "9d616b4312060309",
+        "88235a1b0b18c897",
+        "d16f37079e281934",
+        "32cb4267a7382c38",
+        "a2e5c7c91dc5a062",
+        "3bd5f993bb12333d",
+        "d3baf30612c60a99"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "reading-list",
+        "architecture",
+        "engineering"
+      ],
+      "score": 480.2
     },
     {
       "id": "docker-0be35d",
@@ -466,37 +497,6 @@
         "community"
       ],
       "score": 471.6
-    },
-    {
-      "id": "java-081fb5",
-      "name": "Java",
-      "quadrant": "Languages & Frameworks",
-      "ring": "Adopt",
-      "description": "Enterprise applications have typically stored only the current state of information, such as account balances, order statuses, or inventory quantities. However, monitoring changes to these values…",
-      "articleCount": 49,
-      "recentCount": 15,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-01-13T20:39:08.000Z",
-      "lastSeen": "2026-11-24T13:00:01.000Z",
-      "articleIds": [
-        "88235a1b0b18c897",
-        "d16f37079e281934",
-        "32cb4267a7382c38",
-        "a2e5c7c91dc5a062",
-        "3bd5f993bb12333d",
-        "d3baf30612c60a99",
-        "f2048b74f679becb",
-        "af17318c693b84ad"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "reading-list",
-        "architecture",
-        "engineering"
-      ],
-      "score": 450.2
     },
     {
       "id": "sre-d53ce4",
@@ -623,14 +623,45 @@
       "score": 345.7
     },
     {
+      "id": "apache-kafka-0d516b",
+      "name": "Apache Kafka",
+      "quadrant": "Platforms",
+      "ring": "Trial",
+      "description": "AWS has raised the maximum timeout of on-demand Lambda Event Functions from 15 to 30 minutes in all commercial regions, with no opt-in and no new pricing. The limit had stood since 2018. AWS's post…",
+      "articleCount": 46,
+      "recentCount": 5,
+      "previousCount": 1,
+      "trend": "up",
+      "firstSeen": "2020-01-08T21:09:20.000Z",
+      "lastSeen": "2026-11-25T07:02:00.000Z",
+      "articleIds": [
+        "1a004b15b67c8dbf",
+        "9016cb1b7322bac8",
+        "7f654c7aa94bd52b",
+        "026b56f06d759efd",
+        "f3c17f6b58480eaf",
+        "f39569829c56503d",
+        "c66001362bf3cc7c",
+        "43625a50ac20e50d"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "reading-list",
+        "cloud-native",
+        "data streaming"
+      ],
+      "score": 338.2
+    },
+    {
       "id": "cloudflare-a187f4",
       "name": "Cloudflare",
       "quadrant": "Platforms",
       "ring": "Trial",
       "description": "At Cloudflare we’ve built tools to enable teams to extend our internal testing framework and build test tooling for networking protocols. This is the story of how this was used for DNS.",
       "articleCount": 27,
-      "recentCount": 18,
-      "previousCount": 0,
+      "recentCount": 17,
+      "previousCount": 1,
       "trend": "up",
       "firstSeen": "2020-09-17T13:10:26.000Z",
       "lastSeen": "2026-11-23T14:00:00.000Z",
@@ -651,7 +682,7 @@
         "hackernews",
         "archive"
       ],
-      "score": 342.6
+      "score": 333.6
     },
     {
       "id": "typescript-19862f",
@@ -714,37 +745,6 @@
         "data analytics"
       ],
       "score": 313
-    },
-    {
-      "id": "apache-kafka-0d516b",
-      "name": "Apache Kafka",
-      "quadrant": "Platforms",
-      "ring": "Trial",
-      "description": "Most of the Kafka deployments in the industry plan to survive the loss of a single Kafka broker or an availability zone. But that’s not enough for a critical Tier-0 infrastructure where downtime or…",
-      "articleCount": 44,
-      "recentCount": 3,
-      "previousCount": 1,
-      "trend": "up",
-      "firstSeen": "2020-01-08T21:09:20.000Z",
-      "lastSeen": "2026-11-23T15:00:04.000Z",
-      "articleIds": [
-        "7f654c7aa94bd52b",
-        "026b56f06d759efd",
-        "f3c17f6b58480eaf",
-        "f39569829c56503d",
-        "c66001362bf3cc7c",
-        "43625a50ac20e50d",
-        "a0bcda0457f3506d",
-        "de9e17229820cdc6"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "reading-list",
-        "engineering",
-        "cloud-native"
-      ],
-      "score": 308.2
     },
     {
       "id": "graphql-c19cf2",
@@ -810,62 +810,62 @@
       "name": "Ruby on Rails",
       "quadrant": "Languages & Frameworks",
       "ring": "Trial",
-      "description": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to…",
-      "articleCount": 29,
-      "recentCount": 6,
+      "description": "An AI coding agent can give a product manager a working prototype before the next planning meeting. Which is great! The post Move fast, don’t break 100 apps: Dan Garfield on keeping AI-powered coding…",
+      "articleCount": 30,
+      "recentCount": 7,
       "previousCount": 0,
       "trend": "up",
       "firstSeen": "2020-03-27T15:28:09.000Z",
-      "lastSeen": "2026-11-20T20:24:38.000Z",
+      "lastSeen": "2026-11-24T19:48:46.000Z",
       "articleIds": [
+        "d89a86ee046d2de4",
         "f93ea93941f60201",
         "f82d195d3e1b5c14",
         "f26787f9c3fd2513",
         "d9c11c6e1d8b98a4",
         "678573bae444375c",
         "da2a962c46f1dd4a",
-        "0571853de0b43b90",
-        "1ea424ac5eb204f6"
+        "0571853de0b43b90"
       ],
       "tags": [
         "hackernews",
         "archive",
         "ai",
         "devto",
-        "security"
+        "reading-list"
       ],
-      "score": 245.8
+      "score": 260.8
     },
     {
-      "id": "grafana-418c13",
-      "name": "Grafana",
+      "id": "cursor-e33632",
+      "name": "Cursor",
       "quadrant": "Tools",
-      "ring": "Adopt",
-      "description": "Grafana 13.3 introduces shared variables across dashboards and adds Notebooks to record investigations. Both features are in public preview and require feature toggles for self-managed installations.…",
-      "articleCount": 14,
+      "ring": "Assess",
+      "description": "What if you could use GoLand’s language intelligence outside the IDE, across multiple development environments? Today, we’re taking the first step toward making this possible by releasing a public…",
+      "articleCount": 16,
       "recentCount": 12,
-      "previousCount": 1,
+      "previousCount": 0,
       "trend": "up",
-      "firstSeen": "2020-10-28T14:57:10.000Z",
-      "lastSeen": "2026-11-21T14:30:00.000Z",
+      "firstSeen": "2024-10-29T04:55:39.000Z",
+      "lastSeen": "2026-11-25T12:20:14.000Z",
       "articleIds": [
-        "2b84abcafa79e8a1",
-        "199f1e3927ae3562",
-        "54df28ed909d6766",
-        "f730f407846792af",
-        "45b50aaed42501f7",
-        "1471a03a2b87c99c",
-        "1c4499e0c33136bc",
-        "cea589efa9324ca0"
+        "3b82626aa8a02a5e",
+        "14f321c495182c59",
+        "3429c7218e4f7d01",
+        "1fb256ce62b78d40",
+        "52adf762d4075bfa",
+        "45b453e349d12cc9",
+        "86932b5c72e9eeb7",
+        "2396c16836f4db23"
       ],
       "tags": [
-        "observability",
-        "architecture",
-        "monitoring tools",
-        "monitoring",
-        "devops"
+        "github-trending",
+        "open-source",
+        "hackernews",
+        "archive",
+        "reading-list"
       ],
-      "score": 213.1
+      "score": 217.1
     },
     {
       "id": "webassembly-733ad6",
@@ -899,66 +899,35 @@
       "score": 206.5
     },
     {
-      "id": "continuous-delivery-9bbcb6",
-      "name": "Continuous delivery",
-      "quadrant": "Techniques",
-      "ring": "Adopt",
-      "description": "Moving GenAI into high-stakes production requires treating non-determinism as an engineering problem.",
-      "articleCount": 17,
-      "recentCount": 9,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-01-11T13:41:19.000Z",
-      "lastSeen": "2026-11-24T09:30:00.000Z",
-      "articleIds": [
-        "26fd7085fe433f31",
-        "edd5aaa8e830aea5",
-        "45c588d62f9d478e",
-        "8f3e46c07bed8c82",
-        "a9bca652f0af0729",
-        "32b076595ed25f11",
-        "607d54da354520de",
-        "28c4cffca6ee3859"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "reading-list",
-        "architecture",
-        "devtools"
-      ],
-      "score": 204.4
-    },
-    {
-      "id": "cursor-e33632",
-      "name": "Cursor",
+      "id": "grafana-418c13",
+      "name": "Grafana",
       "quadrant": "Tools",
-      "ring": "Assess",
-      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "articleCount": 15,
+      "ring": "Adopt",
+      "description": "Grafana 13.3 introduces shared variables across dashboards and adds Notebooks to record investigations. Both features are in public preview and require feature toggles for self-managed installations.…",
+      "articleCount": 14,
       "recentCount": 11,
-      "previousCount": 0,
+      "previousCount": 2,
       "trend": "up",
-      "firstSeen": "2024-10-29T04:55:39.000Z",
-      "lastSeen": "2026-11-19T14:27:08.668Z",
+      "firstSeen": "2020-10-28T14:57:10.000Z",
+      "lastSeen": "2026-11-21T14:30:00.000Z",
       "articleIds": [
-        "14f321c495182c59",
-        "3429c7218e4f7d01",
-        "1fb256ce62b78d40",
-        "52adf762d4075bfa",
-        "45b453e349d12cc9",
-        "86932b5c72e9eeb7",
-        "2396c16836f4db23",
-        "649ad2b494211d8d"
+        "2b84abcafa79e8a1",
+        "199f1e3927ae3562",
+        "54df28ed909d6766",
+        "f730f407846792af",
+        "45b50aaed42501f7",
+        "1471a03a2b87c99c",
+        "1c4499e0c33136bc",
+        "cea589efa9324ca0"
       ],
       "tags": [
-        "github-trending",
-        "open-source",
-        "hackernews",
-        "archive",
-        "reading-list"
+        "observability",
+        "architecture",
+        "monitoring tools",
+        "monitoring",
+        "devops"
       ],
-      "score": 201.9
+      "score": 204.1
     },
     {
       "id": "react-58fd63",
@@ -992,14 +961,45 @@
       "score": 200.4
     },
     {
+      "id": "continuous-delivery-9bbcb6",
+      "name": "Continuous delivery",
+      "quadrant": "Techniques",
+      "ring": "Adopt",
+      "description": "Moving GenAI into high-stakes production requires treating non-determinism as an engineering problem.",
+      "articleCount": 17,
+      "recentCount": 8,
+      "previousCount": 1,
+      "trend": "up",
+      "firstSeen": "2020-01-11T13:41:19.000Z",
+      "lastSeen": "2026-11-24T09:30:00.000Z",
+      "articleIds": [
+        "26fd7085fe433f31",
+        "edd5aaa8e830aea5",
+        "45c588d62f9d478e",
+        "8f3e46c07bed8c82",
+        "a9bca652f0af0729",
+        "32b076595ed25f11",
+        "607d54da354520de",
+        "28c4cffca6ee3859"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "reading-list",
+        "architecture",
+        "devtools"
+      ],
+      "score": 195.4
+    },
+    {
       "id": "opentelemetry-31e074",
       "name": "OpenTelemetry",
       "quadrant": "Tools",
       "ring": "Trial",
       "description": "OpenTelemetry conventions evolve, but queries still need to work across old, current, and Datadog-native telemetry. Learn how Datadog uses a knowledge graph and query-time translation to resolve…",
       "articleCount": 21,
-      "recentCount": 6,
-      "previousCount": 2,
+      "recentCount": 5,
+      "previousCount": 3,
       "trend": "up",
       "firstSeen": "2022-02-24T16:43:59.000Z",
       "lastSeen": "2026-11-19T00:00:00.000Z",
@@ -1020,38 +1020,7 @@
         "observability",
         "blog"
       ],
-      "score": 196.9
-    },
-    {
-      "id": "rag-53ff2c",
-      "name": "RAG",
-      "quadrant": "Techniques",
-      "ring": "Trial",
-      "description": "Dio Rettori discusses the operational realities of enterprise AI inference. Moving beyond fast token generation, he explores why inference requires dedicated systems engineering, tackles GPU…",
-      "articleCount": 18,
-      "recentCount": 7,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2024-02-29T22:43:10.000Z",
-      "lastSeen": "2026-11-24T11:00:00.000Z",
-      "articleIds": [
-        "1dd6b8938be0e465",
-        "aabbf376e884767c",
-        "d3baf30612c60a99",
-        "779cc035a7f6f6f3",
-        "7a69c1b89eda0814",
-        "0c28609650f9611f",
-        "c175a20443394115",
-        "5af85f3d00cc1604"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "architecture",
-        "reading-list",
-        "ai"
-      ],
-      "score": 188
+      "score": 187.9
     },
     {
       "id": "github-actions-1c2ae8",
@@ -1116,6 +1085,68 @@
       "score": 185.2
     },
     {
+      "id": "rag-53ff2c",
+      "name": "RAG",
+      "quadrant": "Techniques",
+      "ring": "Trial",
+      "description": "Dio Rettori discusses the operational realities of enterprise AI inference. Moving beyond fast token generation, he explores why inference requires dedicated systems engineering, tackles GPU…",
+      "articleCount": 18,
+      "recentCount": 6,
+      "previousCount": 1,
+      "trend": "up",
+      "firstSeen": "2024-02-29T22:43:10.000Z",
+      "lastSeen": "2026-11-24T11:00:00.000Z",
+      "articleIds": [
+        "1dd6b8938be0e465",
+        "aabbf376e884767c",
+        "d3baf30612c60a99",
+        "779cc035a7f6f6f3",
+        "7a69c1b89eda0814",
+        "0c28609650f9611f",
+        "c175a20443394115",
+        "5af85f3d00cc1604"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "architecture",
+        "reading-list",
+        "ai"
+      ],
+      "score": 179
+    },
+    {
+      "id": "c-9629f5",
+      "name": "C#",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Adopt",
+      "description": "All the code in this series is available on GitHub. Clone it, run it, and try breaking it yourself....",
+      "articleCount": 14,
+      "recentCount": 7,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2020-06-04T07:13:24.000Z",
+      "lastSeen": "2026-11-23T13:24:24.000Z",
+      "articleIds": [
+        "c536cc0b84e89624",
+        "86886f38e570f90f",
+        "112e78025d35209b",
+        "f25b9ef13637c8d3",
+        "e85ad3aaa3e68fb0",
+        "564eb3e6002e7dc8",
+        "a197f131019b1a5d",
+        "20ff783189919795"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "architecture",
+        ".net",
+        "development"
+      ],
+      "score": 167
+    },
+    {
       "id": "grpc-a0713c",
       "name": "gRPC",
       "quadrant": "Languages & Frameworks",
@@ -1142,6 +1173,37 @@
         "archive"
       ],
       "score": 162.7
+    },
+    {
+      "id": "figma-1e4ff5",
+      "name": "Figma",
+      "quadrant": "Tools",
+      "ring": "Adopt",
+      "description": "Whether you’re exploring an idea, preparing for a meeting, or presenting your designs, the Figma agent can help you move work forward.",
+      "articleCount": 10,
+      "recentCount": 9,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2024-06-22T18:28:32.000Z",
+      "lastSeen": "2026-11-23T20:54:00.000Z",
+      "articleIds": [
+        "61603e408519d8af",
+        "c325f11bc00ffc00",
+        "a5b1adbe934421ba",
+        "5aea0d5ef48ff8c0",
+        "af85c795f169cc0c",
+        "bdea120a0c27b6dd",
+        "4ab695861299d0f8",
+        "fa8e611759ccc35e"
+      ],
+      "tags": [
+        "frontend",
+        "architecture",
+        "security",
+        "qcon ai new york 2026",
+        "artificial intelligence"
+      ],
+      "score": 159.1
     },
     {
       "id": "spring-boot-b43dbc",
@@ -1173,37 +1235,6 @@
         "hibernate orm"
       ],
       "score": 155
-    },
-    {
-      "id": "c-9629f5",
-      "name": "C#",
-      "quadrant": "Languages & Frameworks",
-      "ring": "Adopt",
-      "description": "All the code in this series is available on GitHub. Clone it, run it, and try breaking it yourself....",
-      "articleCount": 13,
-      "recentCount": 6,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-06-04T07:13:24.000Z",
-      "lastSeen": "2026-11-23T13:24:24.000Z",
-      "articleIds": [
-        "c536cc0b84e89624",
-        "112e78025d35209b",
-        "f25b9ef13637c8d3",
-        "e85ad3aaa3e68fb0",
-        "564eb3e6002e7dc8",
-        "a197f131019b1a5d",
-        "20ff783189919795",
-        "01806b42a84856fe"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "architecture",
-        ".net",
-        "development"
-      ],
-      "score": 151.6
     },
     {
       "id": "vllm-e33a0a",
@@ -1268,37 +1299,6 @@
       "score": 149.1
     },
     {
-      "id": "figma-1e4ff5",
-      "name": "Figma",
-      "quadrant": "Tools",
-      "ring": "Adopt",
-      "description": "Bringing scattered context onto the canvas helps teams connect the diagrams, designs, and technical decisions they need to build, all in one place. This workflow shows how Specs and the Figma agent…",
-      "articleCount": 9,
-      "recentCount": 8,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2024-06-22T18:28:32.000Z",
-      "lastSeen": "2026-11-20T22:17:00.000Z",
-      "articleIds": [
-        "c325f11bc00ffc00",
-        "a5b1adbe934421ba",
-        "5aea0d5ef48ff8c0",
-        "af85c795f169cc0c",
-        "bdea120a0c27b6dd",
-        "4ab695861299d0f8",
-        "fa8e611759ccc35e",
-        "547f134dd51fb496"
-      ],
-      "tags": [
-        "frontend",
-        "architecture",
-        "security",
-        "qcon ai new york 2026",
-        "artificial intelligence"
-      ],
-      "score": 144.1
-    },
-    {
       "id": "mysql-6a6a63",
       "name": "MySQL",
       "quadrant": "Platforms",
@@ -1328,37 +1328,6 @@
         "customer solutions"
       ],
       "score": 131
-    },
-    {
-      "id": "github-copilot-507317",
-      "name": "GitHub Copilot",
-      "quadrant": "Tools",
-      "ring": "Trial",
-      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "articleCount": 9,
-      "recentCount": 6,
-      "previousCount": 1,
-      "trend": "up",
-      "firstSeen": "2024-10-29T04:55:39.000Z",
-      "lastSeen": "2026-11-19T14:27:08.668Z",
-      "articleIds": [
-        "14f321c495182c59",
-        "6ee10b36182aa094",
-        "a458d7a17ee3094a",
-        "c7433ec470cb8f9b",
-        "5cecc12e376b047e",
-        "0e7b16327df7de13",
-        "2f372b9bf7ce4173",
-        "0c5daae38cdd970e"
-      ],
-      "tags": [
-        "architecture",
-        "devto",
-        "devtools",
-        "github copilot",
-        "hackernews"
-      ],
-      "score": 125.8
     },
     {
       "id": "kotlin-9d8cf0",
@@ -1392,6 +1361,67 @@
       "score": 119.2
     },
     {
+      "id": "github-copilot-507317",
+      "name": "GitHub Copilot",
+      "quadrant": "Tools",
+      "ring": "Trial",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "articleCount": 9,
+      "recentCount": 5,
+      "previousCount": 2,
+      "trend": "up",
+      "firstSeen": "2024-10-29T04:55:39.000Z",
+      "lastSeen": "2026-11-19T14:27:08.668Z",
+      "articleIds": [
+        "14f321c495182c59",
+        "6ee10b36182aa094",
+        "a458d7a17ee3094a",
+        "c7433ec470cb8f9b",
+        "5cecc12e376b047e",
+        "0e7b16327df7de13",
+        "2f372b9bf7ce4173",
+        "0c5daae38cdd970e"
+      ],
+      "tags": [
+        "architecture",
+        "devto",
+        "devtools",
+        "github copilot",
+        "hackernews"
+      ],
+      "score": 117.1
+    },
+    {
+      "id": "vercel-940045",
+      "name": "Vercel",
+      "quadrant": "Platforms",
+      "ring": "Trial",
+      "description": "Vercel's experimental Board is a headless message store where people and coding agents claim leased tasks, declare dependencies, and sync threads with Slack, GitHub, and Linear. By Daniel Dominguez",
+      "articleCount": 7,
+      "recentCount": 6,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2024-02-13T16:51:42.000Z",
+      "lastSeen": "2026-11-25T13:57:00.000Z",
+      "articleIds": [
+        "904cf8129833bc5d",
+        "ce33390feaad5122",
+        "87ef0774c1e38e16",
+        "7925d53e7e824e0d",
+        "1ceb56a3b3745da8",
+        "62fc65e226b5d24c",
+        "589d3e1cdecfd8ce"
+      ],
+      "tags": [
+        "reading-list",
+        "cloud-native",
+        "architecture",
+        "agents",
+        "software development"
+      ],
+      "score": 113.9
+    },
+    {
       "id": "domain-driven-design-da83b7",
       "name": "Domain-driven design",
       "quadrant": "Techniques",
@@ -1418,35 +1448,6 @@
         "archive"
       ],
       "score": 101.7
-    },
-    {
-      "id": "vercel-940045",
-      "name": "Vercel",
-      "quadrant": "Platforms",
-      "ring": "Trial",
-      "description": "Since April, developers using Vercel’s AI Gateway have been able to request provider-level zero data retention (ZDR). Vercel says its The post Vercel will make AI providers prove they don’t keep…",
-      "articleCount": 6,
-      "recentCount": 5,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2024-02-13T16:51:42.000Z",
-      "lastSeen": "2026-11-24T12:00:00.000Z",
-      "articleIds": [
-        "ce33390feaad5122",
-        "87ef0774c1e38e16",
-        "7925d53e7e824e0d",
-        "1ceb56a3b3745da8",
-        "62fc65e226b5d24c",
-        "589d3e1cdecfd8ce"
-      ],
-      "tags": [
-        "cloud-native",
-        "ai infrastructure",
-        "security",
-        "reading-list",
-        "ai agents"
-      ],
-      "score": 98.9
     },
     {
       "id": "rabbitmq-a9b283",
@@ -1629,34 +1630,6 @@
       "score": 81.2
     },
     {
-      "id": "django-b78d25",
-      "name": "Django",
-      "quadrant": "Languages & Frameworks",
-      "ring": "Trial",
-      "description": "Hi HN, I&#x27;m Mohammad Ehsan Ansari, a backend engineer with over 4 years of experience building scalable systems for high-growth startups using Django, FastAPI, AWS, Redis, Celery, and…",
-      "articleCount": 9,
-      "recentCount": 1,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2020-05-19T17:49:26.000Z",
-      "lastSeen": "2026-11-04T00:31:03.000Z",
-      "articleIds": [
-        "4ce8fa7bf12632e1",
-        "b409907c92e8f292",
-        "6697c1e66c9541b0",
-        "7daad5efd55b3eb3",
-        "9bf295e73bad8553",
-        "b90b27cd949fa1e7",
-        "588a12d7eb488472",
-        "c7735a3d29a998f2"
-      ],
-      "tags": [
-        "hackernews",
-        "archive"
-      ],
-      "score": 81
-    },
-    {
       "id": "platform-engineering-6fb52c",
       "name": "Platform engineering",
       "quadrant": "Techniques",
@@ -1740,33 +1713,6 @@
         "cloud"
       ],
       "score": 79.3
-    },
-    {
-      "id": "svelte-65fe64",
-      "name": "Svelte",
-      "quadrant": "Languages & Frameworks",
-      "ring": "Trial",
-      "description": "Vercel has released UI SDK in beta, an Apache 2.0 TypeScript library of more than 50 UI behaviors in @ui-sdk/core, with adapters for React, Vue, Svelte, Solid, and Web Components, so agents can…",
-      "articleCount": 4,
-      "recentCount": 4,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2026-11-04T12:57:01.000Z",
-      "lastSeen": "2026-11-18T10:12:00.000Z",
-      "articleIds": [
-        "7925d53e7e824e0d",
-        "ca4a8dd162908ceb",
-        "0a7574f349c317a9",
-        "45a18bb1eee0e04f"
-      ],
-      "tags": [
-        "architecture",
-        "javascript",
-        "svelte",
-        "ai coding",
-        "software development"
-      ],
-      "score": 77.7
     },
     {
       "id": "pytorch-7527fb",
@@ -1880,6 +1826,62 @@
         "architecture"
       ],
       "score": 71.2
+    },
+    {
+      "id": "flutter-175c54",
+      "name": "Flutter",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Trial",
+      "description": "Qodana 2026.3 release brings Dart and Flutter projects into Qodana, so you can review code analysis findings together with your team. Baseline matching is now more accurate: In targeted validation…",
+      "articleCount": 6,
+      "recentCount": 2,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2021-12-20T13:01:27.000Z",
+      "lastSeen": "2026-11-25T12:02:33.000Z",
+      "articleIds": [
+        "33f3ae7ee28d9f06",
+        "9470477165cf8ee1",
+        "aeaa3247e3033495",
+        "3caa640ef13c56e6",
+        "57f91bf25258c5b4",
+        "cec0eb49acce6b0d"
+      ],
+      "tags": [
+        "hackernews",
+        "archive",
+        "devtools",
+        "news",
+        "release"
+      ],
+      "score": 70.2
+    },
+    {
+      "id": "svelte-65fe64",
+      "name": "Svelte",
+      "quadrant": "Languages & Frameworks",
+      "ring": "Trial",
+      "description": "Vercel has released UI SDK in beta, an Apache 2.0 TypeScript library of more than 50 UI behaviors in @ui-sdk/core, with adapters for React, Vue, Svelte, Solid, and Web Components, so agents can…",
+      "articleCount": 4,
+      "recentCount": 3,
+      "previousCount": 1,
+      "trend": "up",
+      "firstSeen": "2026-11-04T12:57:01.000Z",
+      "lastSeen": "2026-11-18T10:12:00.000Z",
+      "articleIds": [
+        "7925d53e7e824e0d",
+        "ca4a8dd162908ceb",
+        "0a7574f349c317a9",
+        "45a18bb1eee0e04f"
+      ],
+      "tags": [
+        "architecture",
+        "javascript",
+        "svelte",
+        "ai coding",
+        "software development"
+      ],
+      "score": 68.7
     },
     {
       "id": "vue-8d5789",
@@ -2042,6 +2044,33 @@
         "open-source"
       ],
       "score": 58
+    },
+    {
+      "id": "zero-trust-d3f358",
+      "name": "Zero trust",
+      "quadrant": "Techniques",
+      "ring": "Trial",
+      "description": "The challenge of a fragmented browser estate We previously operated a mixed-browser environment, but managing multiple browsers made consistent policy enforcement and visibility challenging.",
+      "articleCount": 4,
+      "recentCount": 2,
+      "previousCount": 0,
+      "trend": "up",
+      "firstSeen": "2022-10-11T18:47:34.000Z",
+      "lastSeen": "2026-11-24T15:02:00.000Z",
+      "articleIds": [
+        "5416011d3855e7ca",
+        "6b472cab2be32dc6",
+        "a492ab4dc54e0d47",
+        "04368f41d2e29c6a"
+      ],
+      "tags": [
+        "cloud",
+        "hackernews",
+        "archive",
+        "chrome enterprise",
+        "security & identity"
+      ],
+      "score": 56.6
     },
     {
       "id": "opensearch-6867f5",
@@ -2224,54 +2253,6 @@
       "score": 45.1
     },
     {
-      "id": "zero-trust-d3f358",
-      "name": "Zero trust",
-      "quadrant": "Techniques",
-      "ring": "Trial",
-      "description": "As organizations scale their cloud footprint to thousands of autonomous agents and microservices, you can accidentally create an operational bottleneck with strict Identity and Access Management…",
-      "articleCount": 3,
-      "recentCount": 1,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2022-10-11T18:47:34.000Z",
-      "lastSeen": "2026-11-20T17:00:00.000Z",
-      "articleIds": [
-        "6b472cab2be32dc6",
-        "a492ab4dc54e0d47",
-        "04368f41d2e29c6a"
-      ],
-      "tags": [
-        "hackernews",
-        "archive",
-        "cloud",
-        "security & identity"
-      ],
-      "score": 41.6
-    },
-    {
-      "id": "firebase-8ccc31",
-      "name": "Firebase",
-      "quadrant": "Platforms",
-      "ring": "Trial",
-      "description": "We now have AuthService for authentication and SignInModalComponent for users to enter their email...",
-      "articleCount": 1,
-      "recentCount": 1,
-      "previousCount": 0,
-      "trend": "up",
-      "firstSeen": "2026-11-04T15:23:31.000Z",
-      "lastSeen": "2026-11-04T15:23:31.000Z",
-      "articleIds": [
-        "a1e620a02a2b4a6c"
-      ],
-      "tags": [
-        "angular",
-        "firebase",
-        "webdev",
-        "devto"
-      ],
-      "score": 29.6
-    },
-    {
       "id": "elasticsearch-6e439c",
       "name": "Elasticsearch",
       "quadrant": "Platforms",
@@ -2292,10 +2273,33 @@
         "archive"
       ],
       "score": 22.2
+    },
+    {
+      "id": "firebase-8ccc31",
+      "name": "Firebase",
+      "quadrant": "Platforms",
+      "ring": "Trial",
+      "description": "We now have AuthService for authentication and SignInModalComponent for users to enter their email...",
+      "articleCount": 1,
+      "recentCount": 0,
+      "previousCount": 1,
+      "trend": "down",
+      "firstSeen": "2026-11-04T15:23:31.000Z",
+      "lastSeen": "2026-11-04T15:23:31.000Z",
+      "articleIds": [
+        "a1e620a02a2b4a6c"
+      ],
+      "tags": [
+        "angular",
+        "firebase",
+        "webdev",
+        "devto"
+      ],
+      "score": 14.6
     }
   ],
   "stats": {
-    "articles": 5432,
+    "articles": 5521,
     "sources": 38,
     "technologies": 78
   }
